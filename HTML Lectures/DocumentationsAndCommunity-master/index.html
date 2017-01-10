@@ -1,0 +1,216 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>Documentation </title>
+
+    <meta name="description" content="Introduction to Documentation">
+    <meta name="author" content="Moorthy">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="revealjs/css/reveal.min.css">
+    <link rel="stylesheet" href="revealjs/css/theme/sky.css" id="theme">
+
+    <!-- For syntax highlighting -->
+    <link rel="stylesheet" href="revealjs/lib/css/zenburn.css">
+
+    <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+    <script>
+      document.write( '<link rel="stylesheet" href="revealjs/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+    </script>
+
+  </head>
+
+  <body>
+
+    <div class="reveal">
+
+      <!-- Any section element inside of this container is displayed as a slide -->
+      <div class="slides">
+        <section>
+          <h3>Documentation</h3>
+
+          <p>
+            <small>Created by <a href="http://www.cs.rpi.edu/~moorthy">Moorthy</a> and <a href=http://twitter.com>@mskmoorthy </a> </small> 
+          </p>
+        </section>
+
+        <section>
+          <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">
+             <img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" />
+          </a>
+          <br />
+          <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" property="dct:title" rel="dct:type">Documentation</span>
+           by Moorthy</span>
+           is licensed under a
+          <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">Creative Commons Attribution 3.0 Unported License</a>.
+        </section>
+        <section>
+        <h3> Documentation has two axies </h3>
+        <ul> 
+        <li> Purpose</li>
+        <li> Tools</li>
+        </ul>
+        	
+        </section>
+        <section>
+        	
+        <h2> Purpose</h2>
+        <ul>
+        	<li>High-level design overview doc. </li>
+        	<li>Documentation at the top of a module.</li>
+        	<li>Documentation for a function/method/class</li>
+        	<li> Embedded Comments</li>
+        </ul>
+        </section>
+       <section>
+       	<h3>Tools Used</h3>
+       	<ul>
+       		<li> Ensure docs are long-lived, and reside as close to the code as possible</li>
+       		<li> no word-processor binary formats for documentation </li>
+       	</ul>
+       </section>
+        <section>
+          <h3>Importance</h3>
+<ul>
+<li> Ease of Maintenance </li>
+<li> Ease of Use of Code </li>
+<li> Encourage Entry Level People </li>
+<li> Importatnt mode of communicating with others </li>
+<li> Code may vanish - documentation remain </li> 
+</ul>
+        </section>
+
+        <section>
+          <h3>Different Types of Documentation</h3>
+          <ul>
+            <li> wiki </li>
+            <li> blog </li>
+	    <li> user manual </li>
+	    <li> program documentation </li>
+	    <li> Readme files </li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>In Class Exercise</h3>
+	  <ul>
+	  <li> Create a repository Doc-ex1 in your github page </li>
+          <li> In the side bar menu, createa wiki page </li>
+	  <li> Add content to the wiki page using mark down</li>
+           <li> Add another wiki page add content in restructured tex </li>
+           <li> Example (mark down)  <a href="https://github.com/mskmoorthy/Doc-ex1/wiki/firstpage"> first page in markdown </a>
+           <li> Example (restructured text) <a href="https://github.com/mskmoorthy/Doc-ex1/wiki/restexample"> restructured example </a>
+           
+          </ul>
+        </section>
+
+        <section>
+          <h3>What we learned so far </h3>
+          
+          <ul>
+            <li>markdown </li>
+            <li> restructured text </li>
+            <li> Assuming you already know about some mark up language such as html (html5), css - If you do
+not know css go through this tutorial <a href=http://www.w3schools.com/css/> W3 School </a> Go through first Five lessons. </li>
+            <li> Other markup languages are xml - similar to html. </li>
+          </ul>
+        </section>
+
+        <section>
+          <h4>CSS Off/On Class exercise</h4>
+	<ul>
+<li><a href="
+http://www.zap.org.au/documents/styles/sinorcaish/example/sinorcaish-screen.css"> sinorcaish css </a>  and edit this document and modify <a href=view-source:http://www.zap.org.au/documents/styles/sinorcaish/example/template.html> Sample </a> </li>
+
+        </section>
+
+        <section>
+          <h3>LaTeX</h3>
+<ul> 
+<li> Commonly used markup language for scientific communications. </li>
+<li> Collaborative and online tool (WYSWYG)
+<li> <a href=http://artofproblemsolving.com/texer> another WYSWYG editor</a> with different output 
+<li> Try typing $e^{i \pi} =-1 $ and see what renders as an image </lI>
+<li> Please read <a href=http://artofproblemsolving.com/wiki/index.php/LaTeX:Basics> Latex basics </a>
+<a href="https://www.overleaf.com"/> ; Overleaf (supports git repo) </a>and
+ In class exercise modify the  <a href=https://www.overleaf.com/3271914dxrfvd#/9183689/> Paper </a> to change the title, author and the introduction.
+        </section>
+
+  <section>
+          <h3>Literate Programming</h3>
+<ul> 
+<li>  Produce a document which contains both code and documentation coexist.
+<a href=https://en.wikipedia.org/wiki/Literate_programming> Literate programming</a> </li>
+<li> Knuth has written books based on his TeX, Metafont software (with interspersed code </li>
+<li><a href=https://en.wikipedia.org/wiki/Knitr> Dynamic Report Generation in R </a> </li>
+<li> ipython notebook is another example for python </li>
+<li> Read this <a href=http://peterwittek.com/reproducible-research-literate-programming-ipython-and-github.html> blog about Ipython Literate Programming </a>
+        </section>
+
+
+
+        <section>
+          <h3>Two Sample Programs </h3>
+          <ul>
+           <li> <a href= http://nbviewer.ipython.org/url/www.cs.rpi.edu/~moorthy/class4.ipynb> Moorthys trivial one </a></li> 
+           <li> <a href=http://nbviewer.ipython.org/url/norvig.com/ipython/TSPv3.ipynb> Peter Norvigs Traveling Salesman Program</a> </li> 
+	   </ul>
+	    
+        </section>
+
+      <section>
+          <h3>Community Participation</h2>
+          <ul>
+          <li>quora </li>
+          <li>reddit </li>
+          <li> stackoverflow</li>
+          <li> online mailing list </li>
+         </ul>
+        </section>
+      <section>
+	<h3> The End </h3>
+	<h5> by Moorthy </h5>
+      </section>
+
+      </div>
+
+    </div>
+
+    <script src="revealjs/lib/js/head.min.js"></script>
+    <script src="revealjs/js/reveal.min.js"></script>
+
+    <script>
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+
+        theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+        transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+          { src: 'revealjs/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'revealjs/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'revealjs/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'revealjs/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: 'revealjs/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: 'revealjs/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+        ]
+      });
+
+    </script>
+
+  </body>
+</html>
