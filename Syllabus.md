@@ -1,13 +1,10 @@
-# CSCI 2961-01 Introduction to Open Source
+# CSCI 2963-01 Introduction to Open Source
 ## Instructor: Mukkai Krishnamoorthy moorthy@cs.rpi.edu
-## Class Place and Time: ** CII 40440 ** T, F  Noon - 1:50 pm
+## Class Place and Time: ** Walker 5113 ** T, F  Noon - 1:50 pm
 ### Office Hours: T, F 2 - 3:30 pm
 
 ### Undergraduate Teaching Assistants:
 
-- Adeet Phanse '18 phansa@rpi.edu
-- Matthew Mawby '18 mawbym@rpi.edu
-- Sean Waclawik '18 waclas@rpi.edu 
 
 
 
@@ -59,20 +56,20 @@ in preparation for jobs in industry or for more advanced courses.
 
 ## Grading Criteria:
 
-- 2 Quizzes (15 points each) - 30%  (**7th October, 18th November**)
+- 2 Quizzes (15 points each) - 30%  (**24th February, 14th April**)
 - 10 Labs (3 points each) - 30%
 - Project - 40%
 
 ## Quiz Dates
 
-- Quiz 1 7th October
-- Quiz 2 18th November
+- Quiz 1 24th February
+- Quiz 2 14th April
 
 93 and above A; 90 and above A-; 85 and above B+; 80 and above B; 75 and above B-; 70 and above C+; 65 and above C; 60 and above C-; 55 and above D+; 50 and above D.
 
 ## Community:
 
-Please join csci2961-01-Fall2016 channel in http://rcos.slack.com 
+Please join csci2963-01-Spring2017 channel in http://rcos.slack.com 
 
 ## Integrity
 
