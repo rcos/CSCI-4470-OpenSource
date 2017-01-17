@@ -5,7 +5,9 @@
 
 ### Undergraduate Teaching Assistants:
 
-
+- Adeet Phanse '18 phansa@rpi.edu
+- Matthew Mawby '18 mawbym@rpi.edu
+- Kevin Zhang '18 zhangk6@rpi.edu
 
 
 
