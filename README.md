@@ -1,5 +1,5 @@
 # CSCI2961-01
-## Open Source Class Spting Semester 2017
+## Open Source Class Spring Semester 2017
 
 ## Instructor: Mukkai Krishnamoorthy
 
