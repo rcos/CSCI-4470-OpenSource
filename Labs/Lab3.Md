@@ -1,4 +1,4 @@
-## This lab (Lab # 3 on 9/16/2016) is about Git (local repository), Github and a few of the simple commands.
+## This lab (Lab # 3 on 2/3/2017) is about Git (local repository), Github and a few of the simple commands.
 
 ## Since most of you have had practice of doing these problems in class, there will be a lecture on Documentation and Community for the first 40 minutes. After that you can do the lab.
 

@@ -1,4 +1,4 @@
-# Lab 4: Documentation (9/23/2016)
+# Lab 4: Documentation (2/10/2017)
 > #### Created by Brian Callahan (Local *BSD Guru)
 https://news.ycombinator.com/item?id=9240533 </br>
 and </br>
