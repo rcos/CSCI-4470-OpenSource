@@ -12,7 +12,7 @@ This is a schedule for this course -
 
 * Friday 2/3/2017 - [Lab 3](Labs/Lab3.md)
 
-* Tuesday 2/7/2017 - Lecture
+* Tuesday 2/7/2017 - Guest Lecture (Bill Hoffman)
 
 * Friday 2/10/2017 - [Lab 4](Labs/Lab4.md)
 
