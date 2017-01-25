@@ -1,4 +1,4 @@
-# Lab 1  Friday September 2nd 2016 (in class lab)
+# Lab 1  Friday January 20th 2017 (in class lab)
 
 ## Github, Linux Command Line Instructions, Regular Expressions and Visual Programming
 
@@ -47,6 +47,7 @@ e. Regex
   3. Go through the tutorials [here] (https://regexcrossword.com/challenges/tutorial/puzzles/1) 
     - Do all the problems and at least four problems on beginner level [here](https://regexcrossword.com/challenges/beginner/puzzles/1 ).
     - Take a screenshot and add to `lab1.md`
+  4. (Optional But Recommended) Do problem 11 in adventofcode 2015 (You may use regular expression) http://adventofcode.com/2015/day/11
 
 
 f. Play with [Snap](http://snap.berkeley.edu/) or [CSDT](https://community.csdt.rpi.edu/) or
