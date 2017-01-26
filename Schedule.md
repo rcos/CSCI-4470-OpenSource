@@ -4,7 +4,7 @@ This is a schedule for this course -
 
 * Friday 1/20/2017 - [Lab 1](Labs/Lab1.md)
 
-* Tuesday 1/24/2017 - Guest Lecture [Patrick Masson]
+* Tuesday 1/24/2017 - Guest Lecture [Patrick Masson](Lectures/Lec2-Patrick_Masson-S2017.pdf)
 
 * Friday 1/27/2017 - [Lab 2](Labs/Lab2.md)
 
