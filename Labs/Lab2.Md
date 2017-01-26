@@ -1,5 +1,5 @@
 ## This Lab (1/27/2017) is on Open Source Licensing.
-> Some good reading materials are [OSI's Licence page](http://opensource.org/licenses) and the [class lecture notes] (https://github.com/rcos/CSCI2963-01/blob/master/Lectures/Lec2-Licensing-S2016-RPIpres-By-Patrick-Masson.pdf)
+> Some good reading materials are [OSI's Licence page](http://opensource.org/licenses) and the [class lecture notes] (https://github.com/rcos/CSCI2963-01-Spring2017/blob/master/Lectures/Lec2-Patrick_Masson-S2017.pdf)
 ###All your lab reports should be in a github file `Lab2.Md`
 > Give a Creative Commons license to your lab report.
 
