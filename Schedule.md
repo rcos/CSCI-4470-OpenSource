@@ -45,3 +45,13 @@ This is a schedule for this course -
 * Tuesday 4/11/2017 - Quiz 2
 
 * Friday 4/14/2017 - Lecture
+
+* Tuesday 4/18/2017
+
+* Friday 4/21/2017
+
+* Tuesday 4/25/2017
+
+* Friday 4/28/2017 - Presentations
+
+* Tuesday 5/2/2017 - Presentations
