@@ -78,8 +78,8 @@ git push origin master
 
 ## Part 3
 
-1. Fork the repository https://github.com/mskmoorthy/Fall2016PullReq
-  * Make a file named &lt;firstName lastName>.Md, add today's date on the first line (9/16/2016), and make a pull request.
+1. Fork the repository https://github.com/mskmoorthy/Spring2017PullReq
+  * Make a file named &lt;firstName lastName>.Md, add today's date on the first line (2/3/2017), and make a pull request.
   * Ask a TA to merge your pull request.
   * You can update your repository to reflect changes in the upstream repository using `git remote add upstream https://github.com/mskmoorthy/Fall2016PullReq.git` and `git pull upstream`
 
@@ -94,7 +94,7 @@ git push origin master
   *  **Please add a link to the repository in your Lab 3 report**
 
 5. As a table: (one person per table)
-  * Fork the repository https://github.com/mskmoorthy/Story-Fall2016
+  * Fork the repository https://github.com/mskmoorthy/Story-Spring2017
   * Create one branch for your table (Table1, Table2,....)
   * you can push the branch the branch by doing  `git checkout -b feature_branch_name` , edit files, `git add` and `git commit` and  `git push -u origin feature_branch_name`
   * Add each member of the table to the repository:
