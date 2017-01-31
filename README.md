@@ -1,7 +1,7 @@
-# CSCI2961-01
+# CSCI2963-01
 ## Open Source Class Spring Semester 2017
 
-## Instructor: Mukkai Krishnamoorthy
+## Instructor: Mukkai Krishnamoorthy 
 
 ## (Open Source has been taught at RPI since Fall of 2007 (taught jointly by Dr. William Shroeder and Dr. Luis Ibanez) as a 4000 level class.)
 
