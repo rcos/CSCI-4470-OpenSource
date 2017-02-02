@@ -10,7 +10,7 @@ Commands used will include `git add`, `git commit`, `git pull`, `git checkout`, 
 > Command line is preferred - your ubuntu usb should help
 
 Useful pages:
-- A cheat sheet for [git commands](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf)
+- A cheat sheet for [git commands]https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdff)
 - A very nice [book about git](https://git-scm.com/book/en/v2)
 - A cheat sheet for [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) and [another one](http://scottboms.com/downloads/documentation/markdown_cheatsheet.pdf)
 
@@ -33,7 +33,7 @@ Useful pages:
       * your project sub-area (the type of project that you are working on)
 
 2. [Create a new repository on github](https://github.com/new) and push the README.md file you created.
-  >*(hint: you should be doing something like this):*
+  >*(hint: you should be doing something like this):* Follow the helpful post by adeet (UTA) in the class slack channel)
 ```
 git init
 git add README.md
