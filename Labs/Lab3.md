@@ -81,7 +81,7 @@ git push origin master
 1. Fork the repository https://github.com/mskmoorthy/Spring2017PullReq
   * Make a file named &lt;firstName lastName>.Md, add today's date on the first line (2/3/2017), and make a pull request.
   * Ask a TA to merge your pull request.
-  * You can update your repository to reflect changes in the upstream repository using `git remote add upstream https://github.com/mskmoorthy/Fall2016PullReq.git` and `git pull upstream`
+  * You can update your repository to reflect changes in the upstream repository using `git remote add upstream https://github.com/mskmoorthy/Spring2017PullReq.git` and `git pull upstream`
 
 2. Make sure you understand the command `git diff` from [this example](https://www.safaribooksonline.com/library/view/version-control-with/9780596158187/ch08s02.html)
   * Examine the content of the diff file from the previous question (your pull request)
@@ -110,6 +110,6 @@ git push origin master
   * Push to your branch and fix any merge conflicts.
   * Then each table merges with the master branch and submits a pull request to the upstream repository.
   * Resolve any merge conflicts that occur along the way.
-    * You can update your repository to reflect changes in the upstream repository using `git remote add upstream https://github.com/mskmoorthy/Story-Fall2016.git` and `git pull upstream`
+    * You can update your repository to reflect changes in the upstream repository using `git remote add upstream https://github.com/mskmoorthy/Story-Spring2017.git` and `git pull upstream`
 
   * [Git Introduction  Part II](https://github.com/rcos/Git-Introduction-Part-II) might be usefull for this (open index.html in the same way as the Introduction Part I slides)
