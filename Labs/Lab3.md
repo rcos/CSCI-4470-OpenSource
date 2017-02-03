@@ -10,7 +10,7 @@ Commands used will include `git add`, `git commit`, `git pull`, `git checkout`, 
 > Command line is preferred - your ubuntu usb should help
 
 Useful pages:
-- A cheat sheet for [git commands](https://training.github.com/kit/downloads/github-git-cheat-sheet.pdf)
+- A cheat sheet for [git commands] (https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
 - A very nice [book about git](https://git-scm.com/book/en/v2)
 - A cheat sheet for [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) and [another one](http://scottboms.com/downloads/documentation/markdown_cheatsheet.pdf)
 
@@ -33,7 +33,7 @@ Useful pages:
       * your project sub-area (the type of project that you are working on)
 
 2. [Create a new repository on github](https://github.com/new) and push the README.md file you created.
-  >*(hint: you should be doing something like this):*
+  >*(hint: you should be doing something like this):* Follow the helpful post by adeet (UTA) in the class slack channel #csci2963-01spring2017 )
 ```
 git init
 git add README.md
@@ -78,8 +78,8 @@ git push origin master
 
 ## Part 3
 
-1. Fork the repository https://github.com/mskmoorthy/Fall2016PullReq
-  * Make a file named &lt;firstName lastName>.Md, add today's date on the first line (9/16/2016), and make a pull request.
+1. Fork the repository https://github.com/mskmoorthy/Spring2017PullReq
+  * Make a file named &lt;firstName lastName>.Md, add today's date on the first line (2/3/2017), and make a pull request.
   * Ask a TA to merge your pull request.
   * You can update your repository to reflect changes in the upstream repository using `git remote add upstream https://github.com/mskmoorthy/Fall2016PullReq.git` and `git pull upstream`
 
@@ -94,7 +94,7 @@ git push origin master
   *  **Please add a link to the repository in your Lab 3 report**
 
 5. As a table: (one person per table)
-  * Fork the repository https://github.com/mskmoorthy/Story-Fall2016
+  * Fork the repository https://github.com/mskmoorthy/Story-Spring2017
   * Create one branch for your table (Table1, Table2,....)
   * you can push the branch the branch by doing  `git checkout -b feature_branch_name` , edit files, `git add` and `git commit` and  `git push -u origin feature_branch_name`
   * Add each member of the table to the repository:
