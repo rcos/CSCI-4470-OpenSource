@@ -1,14 +1,14 @@
-# Lab 6 Community Development and Unit Testing - October 14, 2016
+# Lab 5 Community Development and Unit Testing - February 17, 2017
 
 ## This Lab has two parts - [Community](#part-1) and [Unit Testing](#part-2)
 
-#### *Note: Next Friday, you have to make a pitch slide presentation for your project. You will find the grading rubrics for the project [here](https://docs.google.com/spreadsheets/d/1amSHK84DYBdtH1n_0hi6xqbtTk9kYcD2cDZQdQwS1xw/edit?usp=sharing) *
+#### *Note: On Friday (march 3) , you have to make a pitch slide presentation for your project. You will find the grading rubrics for the project [here](https://docs.google.com/spreadsheets/d/1amSHK84DYBdtH1n_0hi6xqbtTk9kYcD2cDZQdQwS1xw/edit?usp=sharing) *
 
-#### Dr. Marcus Hanwell talked about community and how people cooperate in order to contribute to a project. In this lab, we will explore this further using automatic tools, software and manually.
+#### We talked about community and how people cooperate in order to contribute to a project. In this lab, we will explore this further using automatic tools, software and manually.
 
 > This lab will be done in groups of 3-5. Each will be assigned a table number
 
-> All the results should be documented in a `labreport6.md` and pushed to in your Github account.
+> All the results should be documented in a `labreport5.md` and pushed to in your Github account.
 
 ### Part 1 - Community
 1. Project selection
