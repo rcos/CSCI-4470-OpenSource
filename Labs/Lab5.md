@@ -87,4 +87,4 @@
   > 
 
 4. Write unit tests for the three additional constructs you did.
-5. Add your code to github, add links to your code and testcode, and show the results in lab6.md
+5. Add your code to github, add links to your code and testcode, and show the results in lab5.md
