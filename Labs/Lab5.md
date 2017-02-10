@@ -15,7 +15,7 @@
   1. Take a look at your five assigned projects from https://rcos.io/projects and clone them locally.
       > Table 1 gets project 1-5, table 2 takes 6-10, and so on...
 
-  2. Look up by hand and record in `labreport6.md`:
+  2. Look up by hand and record in `labreport5.md`:
     - the number of contributors
     - number of lines of code
       > To get the lines of a project, try something like `git ls-files -z | xargs -0 wc -l` in the cloned project directory
@@ -87,4 +87,4 @@
   > 
 
 4. Write unit tests for the three additional constructs you did.
-5. Add your code to github, add links to your code and testcode, and show the results in lab6.md
+5. Add your code to github, add links to your code and testcode, and show the results in lab5.md
