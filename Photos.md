@@ -25,3 +25,11 @@ Lab 3 Github - 2/3/2017
 Lab 3 Github - 2/3/2017
 
 ![Lab 3 2](Photos/lab3_2.jpg)
+
+Lab 4 Cmake - 2/10/2017
+
+![Lab 4 1](Photos/lab4_1.jpg)
+
+Lab 4 Cmake - 2/10/2017
+
+![Lab 4 2](Photos/lab4_2.jpg)
