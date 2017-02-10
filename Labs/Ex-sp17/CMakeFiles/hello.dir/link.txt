@@ -1,0 +1,1 @@
+/usr/bin/cc  -fPIC    -shared -Wl,-soname,libhello.so -o libhello.so CMakeFiles/hello.dir/hello1.o CMakeFiles/hello.dir/hello2.o 

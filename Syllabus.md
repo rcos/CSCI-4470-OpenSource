@@ -1,7 +1,7 @@
 # CSCI 2963-01 Introduction to Open Source
 ## Instructor: Mukkai Krishnamoorthy moorthy@cs.rpi.edu
 ## Class Place and Time: ** Walker 5113 ** T, F  Noon - 1:50 pm
-### Office Hours: T, F 2 - 3:30 pm
+### Office Hours: T, F 2 - 3:30 pm, Lally 305
 
 ### Undergraduate Teaching Assistants:
 
