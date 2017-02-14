@@ -2,7 +2,9 @@ Some Links to look through
 
 - https://hacktoberfest.digitalocean.com/  - Digital Ocean Hacktober
 
-- https://rcos.io/  Look under projects
+- https://rcos.io/projects - Current RCOS Projects
+
+- https://rcos.io/projects/past - Past RCOS Projects
 
 - https://cos.io/ and https://github.com/CenterForOpenScience/
 
@@ -16,6 +18,10 @@ Some Links to look through
 
 - https://github.com/osehra  (vista)
 
+-  https://openhatch.org/ and https://openhatch.org/search/ and https://openhatch.org/projects/  
+
+- https://github.com/MunGell/awesome-for-beginners - Helpful list of projects good for beginners
+
 ##Previous Intro to Open Source Projects
 
 - [Fall 2015 Projects](Fall2015Projects.md)
@@ -24,6 +30,3 @@ Some Links to look through
 
 - [Fall 2016 Projects](Fall2016Projects.md)
 
--  https://openhatch.org/ and https://openhatch.org/search/ and https://openhatch.org/projects/  
-
-- https://github.com/MunGell/awesome-for-beginners - Helpful list of projects good for beginners
