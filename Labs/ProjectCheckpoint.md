@@ -16,7 +16,7 @@ neglect this aspect of the project!**
 
 - **Also on (TBD) you should make a one slide presentation containing a progress report on your project so far.**
 
-Make sure you are following everything on the rubric as well - [Rubric](GradingRubric-for-Projects.md)
+Make sure you are following everything on the rubric as well - [Rubric](/master/GradingRubric-for-Projects.md)
 
 - **Check this file to make sure everything is up to date with your projects** 
-[Spring 2017 Projects](Spring2017Projects.md)
+[Spring 2017 Projects](/master/Spring2017Projects.md)
