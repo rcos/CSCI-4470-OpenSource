@@ -1,0 +1,1 @@
+/usr/bin/cc      CMakeFiles/hi2.dir/hi2.o  -o hi2 -rdynamic libhello.so -Wl,-rpath,/home/moorthy/Ex-sp17 

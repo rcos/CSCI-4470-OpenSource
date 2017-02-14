@@ -1,0 +1,1 @@
+/usr/bin/cc      CMakeFiles/hi1.dir/source/hi1.o  -o hi1 -rdynamic libhello.so -Wl,-rpath,/home/moorthy/Ex-sp17/build 
