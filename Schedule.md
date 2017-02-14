@@ -1,22 +1,22 @@
 This is a schedule for this course -
 
-* Tuesday 1/17/2017 - Lecture
+* Tuesday 1/17/2017 - Lecture - [Introduction to Open Source](Lecture-1-1.pdf)
 
 * Friday 1/20/2017 - [Lab 1](Labs/Lab1.md)
 
-* Tuesday 1/24/2017 - Guest Lecture [Patrick Masson](Lectures/Lec2-Patrick_Masson-S2017.pdf)
+* Tuesday 1/24/2017 - Guest Lecture (Patrick Masson) - [Understanding Open Source](Lectures/Lec2-Patrick_Masson-S2017.pdf)
 
 * Friday 1/27/2017 - [Lab 2](Labs/Lab2.md)
 
-* Tuesday 1/31/2017 - Lecture
+* Tuesday 1/31/2017 - Lecture - [Git Introduction](Lectures/Lecture-3.Md)
 
 * Friday 2/3/2017 - [Lab 3](Labs/Lab3.md)
 
-* Tuesday 2/7/2017 - Guest Lecture [Bill Hoffman]
+* Tuesday 2/7/2017 - Guest Lecture (Bill Hoffman) - [Build Systems](http://rcos.github.io/CSCI2963-01/Lectures/Lecture-Build-Systems/index.html#1)
 
 * Friday 2/10/2017 - [Lab 4](Labs/Lab4.md)
 
-* Tuesday 2/14/2017 - Lecture
+* Tuesday 2/14/2017 - Lecture 
 
 * Friday 2/17/2017 - [Lab 5](Labs/Lab5.md)
 
