@@ -16,7 +16,12 @@ Some Links to look through
 
 - https://github.com/osehra  (vista)
 
-- https://github.com/rcos/CSCI2961-01/blob/master/Fall2015Projects.md (Fall 2015 Projects)
+- [Fall 2015 Projects](Fall2015Projects.md)
 
+- [Spring 2016 Projects](Spring2016Projects.md)
+
+- [Fall 2016 Projects](Fall2016Projects.md)
 
 -  https://openhatch.org/ and https://openhatch.org/search/ and https://openhatch.org/projects/  
+
+- https://github.com/MunGell/awesome-for-beginners - Helpful list of projects good for beginners
