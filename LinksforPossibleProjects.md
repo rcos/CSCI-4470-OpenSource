@@ -16,11 +16,11 @@ Some Links to look through
 
 - https://github.com/osehra  (vista)
 
-- [Fall 2015 Projects](Fall2015Projects.md)
+- [Fall 2015 Projects](Fall2015Projects.md) - Previous Intro to Open Source Projects
 
-- [Spring 2016 Projects](Spring2016Projects.md)
+- [Spring 2016 Projects](Spring2016Projects.md) - Previous Intro to Open Source Projects
 
-- [Fall 2016 Projects](Fall2016Projects.md)
+- [Fall 2016 Projects](Fall2016Projects.md) - - Previous Intro to Open Source Projects
 
 -  https://openhatch.org/ and https://openhatch.org/search/ and https://openhatch.org/projects/  
 
