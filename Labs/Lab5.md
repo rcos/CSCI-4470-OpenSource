@@ -10,6 +10,14 @@
 
 > All the results should be documented in a `labreport5.md` and pushed to in your Github account.
 
+### Part 0 - Documentation
+1. Write a wiki page (using a marked up or restructured text) a brief description of your project - It should include a) Problem that your software is solving b) Existing Software (and yours is better than others) c) Technology you are using and d) the end product (One or two paragraphs)
+
+2. Use latex http://www.artofproblemsolving.com/texer  to write formulae depicted in http://www.cs.rpi.edu/~moorthy/lab5.png
+
+3. Use latex to display Hadamard Matrix of size 4
+
+
 ### Part 1 - Community
 1. Project selection
   1. Take a look at your five assigned projects from https://rcos.io/projects and clone them locally.
