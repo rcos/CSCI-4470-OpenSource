@@ -4,6 +4,8 @@ Browser Friendly:
 
 - http://rcos.github.io/CSCI2963-01/Lectures/Lecture-Build-Systems/index.html
 
+[RST file](../HTML Lectures/Lecture-Build-Systems/source/index.rst)
+
 [HTML file](../HTML Lectures/Lecture-Build-Systems/source/index.html)
 
 ###Source:
