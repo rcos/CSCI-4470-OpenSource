@@ -2,4 +2,51 @@
 
 #Quiz 1
 
-Quiz one will cover all of the lectures and labs we have done up to and including Lab 5
+Quiz one will cover all of the lectures and labs we have done so far up to and including Lab 5
+(See [Spring2017Schedule.md](Spring2017Schedule.md) for more info).
+Format will be some multiple choice questions and some free response (see previous example test posted
+in the slack channel). Review all lecture/guest lecture notes and all labs. Make sure
+you have a solid understanding of how Github works.
+
+For this quiz I would recommend having the following software installed beforehand
+
+[Python](https://www.python.org/downloads/)
+[Latex](https://www.latex-project.org/get/)
+
+Additionally since this quiz is open notes (but closed internet), I would recommend bringing whatever notes you have
+taken to the quiz as well as cloning the class repository(https://github.com/rcos/CSCI2963-01-Spring2017.git).
+You can then access all the lecture notes from the HTML Lectures folder. You can go to the HTML Lectures/index.html
+and open all of the lecture notes from there.
+
+Make sure all of your lab code is on your local computer as you are allowed to refer to it during the quiz/may
+find it helpful to do so.
+	
+Topics that I would review for the quiz are:
+
+* Principles of Open Source (What is the definition of Open Source? What are the Four Freedoms of Open Source?)
+
+* Know CMake and what is going on when you use it (Review [CMake Lecture](http://rcos.github.io/CSCI2963-01/Lectures/Lecture-Build-Systems/index.html#1))
+
+* Why is it important to have community? 
+
+* Why is documentation important?
+
+* Why is testing important? 
+
+* Given a program, implement a new feature or add unit tests (know how to do both)
+
+* Know how to analyze a program
+
+* Know the basic flow of github/git from the command line (Review [GitHub Tutorial](https://try.github.io/levels/1/challenges/1))
+	* Basic Flow is add->commit->push
+	* Know how branching works and what checkout command does
+	* Know how pull request works
+
+* Know what is a merge conflict, how it can arise and how to resolve it.
+
+* How to solve and write Regular Expressions (RegEx) (Review [RegEx Tutorial](https://regexone.com/))
+
+* Why is it important to choose a liscene? What are some liscences and what advantages or disadvantages do they have
+	compared to others?
+
+* Given a mathematical expression or equation know how to write it in Latex
