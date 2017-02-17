@@ -1,6 +1,6 @@
 ##Study Guide for Quizzes
 
-#Quiz 1
+#Quiz 1 - Friday 2/24/17
 
 Quiz one will cover all of the lectures and labs we have done so far up to and including Lab 5
 (See [Spring2017Schedule.md](Spring2017Schedule.md) for more info).
@@ -9,11 +9,12 @@ in the slack channel). Review all lecture/guest lecture notes and all labs. Make
 you have a solid understanding of how Github works.
 
 For this quiz I would recommend having the following software installed beforehand.
-For the Lecture Bill Hoffman present on CMake, use the [OFFLINE](Lectures/Lecture-Build-Systems/source/index.html) version of it.
 
 [Python](https://www.python.org/downloads/)
 
 [Latex](https://www.latex-project.org/get/)
+
+For the Lecture Bill Hoffman present on CMake, use the [OFFLINE](HTML Lectures/Lecture-Build-Systems/source/index.html) version of it.
 
 Additionally since this quiz is open notes (but closed internet), I would recommend bringing whatever notes you have
 taken to the quiz as well as cloning the class repository(https://github.com/rcos/CSCI2963-01-Spring2017.git).
@@ -27,7 +28,7 @@ Topics that I would review for the quiz are:
 
 * Principles of Open Source (What is the definition of Open Source? What are the Four Freedoms of Open Source?)
 
-* Know CMake and what is going on when you use it (Review [CMake Lecture](http://rcos.github.io/CSCI2963-01/Lectures/Lecture-Build-Systems/index.html#1))
+* Know CMake and what is going on when you use it (Review [Build Systems Lecture](HTML Lectures/Lecture-Build-Systems/source/index.html))
 
 * Why is it important to have community? 
 
@@ -37,22 +38,21 @@ Topics that I would review for the quiz are:
 
 * Given a program, implement a new feature or add unit tests (know how to do both)
 
-* Know how to analyze a program
+* Know how to analyze a program (describe what is going on in a program)
 
 * Know the basic flow of github/git from the command line (Review [GitHub Tutorial](https://try.github.io/levels/1/challenges/1))
-	* Basic Flow is add->commit->push
+	* Basic flow is add->commit->push
 	* Know how branching works and what checkout command does
-	* Know how pull request works
+	* Know how pull requests works
 
 * Know what is a merge conflict, how it can arise and how to resolve it.
 
-* How to solve and write Regular Expressions (RegEx) (Review [RegEx Tutorial](https://regexone.com/))
+* Know how to solve and write Regular Expressions (RegEx) (Review [RegEx Tutorial](https://regexone.com/))
 
 * Why is it important to choose a liscene? What are some liscenses and what advantages or disadvantages do they have
 	compared to others?
 
 * Given a mathematical expression or equation know how to write it in Latex
 
-
-If you have anymore questions feel free to contact of the Undergraduate Programming Mentors
+If you have anymore questions feel free to contact the Undergraduate Programming Mentors
 or Professor Moorthy (preferably on the slack channel) before the quiz! Good luck everyone!
