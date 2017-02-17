@@ -8,7 +8,8 @@ Format will be some multiple choice questions and some free response (see previo
 in the slack channel). Review all lecture/guest lecture notes and all labs. Make sure
 you have a solid understanding of how Github works.
 
-For this quiz I would recommend having the following software installed beforehand
+For this quiz I would recommend having the following software installed beforehand.
+For the Lecture Bill Hoffman present on CMake, use the [OFFLINE](Lectures/Lecture-Build-Systems/source/index.rst) version of it.
 
 [Python](https://www.python.org/downloads/)
 [Latex](https://www.latex-project.org/get/)
@@ -50,3 +51,7 @@ Topics that I would review for the quiz are:
 	compared to others?
 
 * Given a mathematical expression or equation know how to write it in Latex
+
+
+If you have anymore questions feel free to contact of the Undergraduate Programming Mentors
+or Professor Moorthy (preferably on the slack channel) before the quiz! Good luck everyone!
