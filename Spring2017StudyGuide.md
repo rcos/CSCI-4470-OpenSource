@@ -14,10 +14,10 @@ For this quiz I would recommend having the following software installed beforeha
 
 [Latex](https://www.latex-project.org/get/)
 
-For the Lecture Bill Hoffman present on CMake, use the [OFFLINE](HTML Lectures/Lecture-Build-Systems/source/index.html) version of it.
+For the lecture Bill Hoffman presented on CMake, use the [OFFLINE](HTML Lectures/Lecture-Build-Systems/source/index.html) version of it.
 
 Additionally since this quiz is open notes (but closed internet), I would recommend bringing whatever notes you have
-taken to the quiz as well as cloning the class repository(https://github.com/rcos/CSCI2963-01-Spring2017.git).
+taken to the quiz as well as cloning the class repository(git clone https://github.com/rcos/CSCI2963-01-Spring2017.git).
 You can then access all the lecture notes from the HTML Lectures folder. You can go to the HTML Lectures/index.html
 and open all of the lecture notes from there.
 
