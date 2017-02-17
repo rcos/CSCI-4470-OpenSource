@@ -33,3 +33,11 @@ Lab 4 Cmake - 2/10/2017
 Lab 4 Cmake - 2/10/2017
 
 ![Lab 4 2](Photos/lab4_2.jpg)
+
+Lab 5 Documentation, Community and Testing - 2/17/2017
+
+![Lab 5 1](Photos/lab5_1.jpg)
+
+Lab 5 Documentation, Community and Testing - 2/17/2017
+
+![Lab 5 2](Photos/lab5_2.jpg)
