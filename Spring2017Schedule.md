@@ -16,7 +16,11 @@ This is a schedule for this course -
 
 * Friday 2/10/2017 - [Lab 4](Labs/Lab4.md)
 
-* Tuesday 2/14/2017 - Lecture 
+* Tuesday 2/14/2017 - Lecture Documentation and Community - 
+
+	[Documentation](HTML Lectures/DocumentationsAndCommunity-master/index.html)
+	
+	[Community Involvement](HTML Lectures/DocumentationsAndCommunity-master/index.html)
 
 * Friday 2/17/2017 - [Lab 5](Labs/Lab5.md)
 
