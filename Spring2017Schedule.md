@@ -1,6 +1,6 @@
 This is a schedule for this course -
 
-* Tuesday 1/17/2017 - Lecture - [Introduction to Open Source](Lecture-1-1.pdf)
+* Tuesday 1/17/2017 - Lecture - [Introduction to Open Source](Lectures/Lecture-1-1.pdf)
 
 * Friday 1/20/2017 - [Lab 1](Labs/Lab1.md)
 
@@ -19,7 +19,7 @@ This is a schedule for this course -
 * Tuesday 2/14/2017 - Lecture Documentation and Community - 
 
 	[Documentation](HTML Lectures/DocumentationsAndCommunity-master/index.html)
-	
+
 	[Community Involvement](HTML Lectures/DocumentationsAndCommunity-master/index.html)
 
 * Friday 2/17/2017 - [Lab 5](Labs/Lab5.md)
