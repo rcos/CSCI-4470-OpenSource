@@ -49,10 +49,10 @@ Topics that I would review for the quiz are:
 
 * Know how to solve and write Regular Expressions (RegEx) (Review [RegEx Tutorial](https://regexone.com/))
 
-* Why is it important to choose a liscene? What are some liscenses and what advantages or disadvantages do they have
+* Why is it important to choose a license? What are some licenses and what advantages or disadvantages do they have
 	compared to others?
 
 * Given a mathematical expression or equation know how to write it in Latex
 
-If you have anymore questions feel free to contact the Undergraduate Programming Mentors
+If you have any more questions feel free to contact the Undergraduate Programming Mentors
 or Professor Moorthy (preferably on the slack channel) before the quiz! Good luck everyone!
