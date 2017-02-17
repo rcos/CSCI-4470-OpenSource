@@ -9,9 +9,10 @@ in the slack channel). Review all lecture/guest lecture notes and all labs. Make
 you have a solid understanding of how Github works.
 
 For this quiz I would recommend having the following software installed beforehand.
-For the Lecture Bill Hoffman present on CMake, use the [OFFLINE](Lectures/Lecture-Build-Systems/source/index.rst) version of it.
+For the Lecture Bill Hoffman present on CMake, use the [OFFLINE](Lectures/Lecture-Build-Systems/source/index.html) version of it.
 
 [Python](https://www.python.org/downloads/)
+
 [Latex](https://www.latex-project.org/get/)
 
 Additionally since this quiz is open notes (but closed internet), I would recommend bringing whatever notes you have
@@ -47,7 +48,7 @@ Topics that I would review for the quiz are:
 
 * How to solve and write Regular Expressions (RegEx) (Review [RegEx Tutorial](https://regexone.com/))
 
-* Why is it important to choose a liscene? What are some liscences and what advantages or disadvantages do they have
+* Why is it important to choose a liscene? What are some liscenses and what advantages or disadvantages do they have
 	compared to others?
 
 * Given a mathematical expression or equation know how to write it in Latex
