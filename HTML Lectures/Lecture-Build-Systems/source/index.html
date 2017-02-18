@@ -1,0 +1,977 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="Docutils 0.12: http://docutils.sourceforge.net/" />
+<title>Build Systems</title>
+<style type="text/css">
+
+/*
+:Author: David Goodger (goodger@python.org)
+:Id: $Id: html4css1.css 7614 2013-02-21 15:55:51Z milde $
+:Copyright: This stylesheet has been placed in the public domain.
+
+Default cascading style sheet for the HTML output of Docutils.
+
+See http://docutils.sf.net/docs/howto/html-stylesheets.html for how to
+customize this style sheet.
+*/
+
+/* used to remove borders from tables and images */
+.borderless, table.borderless td, table.borderless th {
+  border: 0 }
+
+table.borderless td, table.borderless th {
+  /* Override padding for "table.docutils td" with "! important".
+     The right padding separates the table cells. */
+  padding: 0 0.5em 0 0 ! important }
+
+.first {
+  /* Override more specific margin styles with "! important". */
+  margin-top: 0 ! important }
+
+.last, .with-subtitle {
+  margin-bottom: 0 ! important }
+
+.hidden {
+  display: none }
+
+a.toc-backref {
+  text-decoration: none ;
+  color: black }
+
+blockquote.epigraph {
+  margin: 2em 5em ; }
+
+dl.docutils dd {
+  margin-bottom: 0.5em }
+
+object[type="image/svg+xml"], object[type="application/x-shockwave-flash"] {
+  overflow: hidden;
+}
+
+/* Uncomment (and remove this text!) to get bold-faced definition list terms
+dl.docutils dt {
+  font-weight: bold }
+*/
+
+div.abstract {
+  margin: 2em 5em }
+
+div.abstract p.topic-title {
+  font-weight: bold ;
+  text-align: center }
+
+div.admonition, div.attention, div.caution, div.danger, div.error,
+div.hint, div.important, div.note, div.tip, div.warning {
+  margin: 2em ;
+  border: medium outset ;
+  padding: 1em }
+
+div.admonition p.admonition-title, div.hint p.admonition-title,
+div.important p.admonition-title, div.note p.admonition-title,
+div.tip p.admonition-title {
+  font-weight: bold ;
+  font-family: sans-serif }
+
+div.attention p.admonition-title, div.caution p.admonition-title,
+div.danger p.admonition-title, div.error p.admonition-title,
+div.warning p.admonition-title, .code .error {
+  color: red ;
+  font-weight: bold ;
+  font-family: sans-serif }
+
+/* Uncomment (and remove this text!) to get reduced vertical space in
+   compound paragraphs.
+div.compound .compound-first, div.compound .compound-middle {
+  margin-bottom: 0.5em }
+
+div.compound .compound-last, div.compound .compound-middle {
+  margin-top: 0.5em }
+*/
+
+div.dedication {
+  margin: 2em 5em ;
+  text-align: center ;
+  font-style: italic }
+
+div.dedication p.topic-title {
+  font-weight: bold ;
+  font-style: normal }
+
+div.figure {
+  margin-left: 2em ;
+  margin-right: 2em }
+
+div.footer, div.header {
+  clear: both;
+  font-size: smaller }
+
+div.line-block {
+  display: block ;
+  margin-top: 1em ;
+  margin-bottom: 1em }
+
+div.line-block div.line-block {
+  margin-top: 0 ;
+  margin-bottom: 0 ;
+  margin-left: 1.5em }
+
+div.sidebar {
+  margin: 0 0 0.5em 1em ;
+  border: medium outset ;
+  padding: 1em ;
+  background-color: #ffffee ;
+  width: 40% ;
+  float: right ;
+  clear: right }
+
+div.sidebar p.rubric {
+  font-family: sans-serif ;
+  font-size: medium }
+
+div.system-messages {
+  margin: 5em }
+
+div.system-messages h1 {
+  color: red }
+
+div.system-message {
+  border: medium outset ;
+  padding: 1em }
+
+div.system-message p.system-message-title {
+  color: red ;
+  font-weight: bold }
+
+div.topic {
+  margin: 2em }
+
+h1.section-subtitle, h2.section-subtitle, h3.section-subtitle,
+h4.section-subtitle, h5.section-subtitle, h6.section-subtitle {
+  margin-top: 0.4em }
+
+h1.title {
+  text-align: center }
+
+h2.subtitle {
+  text-align: center }
+
+hr.docutils {
+  width: 75% }
+
+img.align-left, .figure.align-left, object.align-left {
+  clear: left ;
+  float: left ;
+  margin-right: 1em }
+
+img.align-right, .figure.align-right, object.align-right {
+  clear: right ;
+  float: right ;
+  margin-left: 1em }
+
+img.align-center, .figure.align-center, object.align-center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.align-left {
+  text-align: left }
+
+.align-center {
+  clear: both ;
+  text-align: center }
+
+.align-right {
+  text-align: right }
+
+/* reset inner alignment in figures */
+div.align-right {
+  text-align: inherit }
+
+/* div.align-center * { */
+/*   text-align: left } */
+
+ol.simple, ul.simple {
+  margin-bottom: 1em }
+
+ol.arabic {
+  list-style: decimal }
+
+ol.loweralpha {
+  list-style: lower-alpha }
+
+ol.upperalpha {
+  list-style: upper-alpha }
+
+ol.lowerroman {
+  list-style: lower-roman }
+
+ol.upperroman {
+  list-style: upper-roman }
+
+p.attribution {
+  text-align: right ;
+  margin-left: 50% }
+
+p.caption {
+  font-style: italic }
+
+p.credits {
+  font-style: italic ;
+  font-size: smaller }
+
+p.label {
+  white-space: nowrap }
+
+p.rubric {
+  font-weight: bold ;
+  font-size: larger ;
+  color: maroon ;
+  text-align: center }
+
+p.sidebar-title {
+  font-family: sans-serif ;
+  font-weight: bold ;
+  font-size: larger }
+
+p.sidebar-subtitle {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+p.topic-title {
+  font-weight: bold }
+
+pre.address {
+  margin-bottom: 0 ;
+  margin-top: 0 ;
+  font: inherit }
+
+pre.literal-block, pre.doctest-block, pre.math, pre.code {
+  margin-left: 2em ;
+  margin-right: 2em }
+
+pre.code .ln { color: grey; } /* line numbers */
+pre.code, code { background-color: #eeeeee }
+pre.code .comment, code .comment { color: #5C6576 }
+pre.code .keyword, code .keyword { color: #3B0D06; font-weight: bold }
+pre.code .literal.string, code .literal.string { color: #0C5404 }
+pre.code .name.builtin, code .name.builtin { color: #352B84 }
+pre.code .deleted, code .deleted { background-color: #DEB0A1}
+pre.code .inserted, code .inserted { background-color: #A3D289}
+
+span.classifier {
+  font-family: sans-serif ;
+  font-style: oblique }
+
+span.classifier-delimiter {
+  font-family: sans-serif ;
+  font-weight: bold }
+
+span.interpreted {
+  font-family: sans-serif }
+
+span.option {
+  white-space: nowrap }
+
+span.pre {
+  white-space: pre }
+
+span.problematic {
+  color: red }
+
+span.section-subtitle {
+  /* font-size relative to parent (h1..h6 element) */
+  font-size: 80% }
+
+table.citation {
+  border-left: solid 1px gray;
+  margin-left: 1px }
+
+table.docinfo {
+  margin: 2em 4em }
+
+table.docutils {
+  margin-top: 0.5em ;
+  margin-bottom: 0.5em }
+
+table.footnote {
+  border-left: solid 1px black;
+  margin-left: 1px }
+
+table.docutils td, table.docutils th,
+table.docinfo td, table.docinfo th {
+  padding-left: 0.5em ;
+  padding-right: 0.5em ;
+  vertical-align: top }
+
+table.docutils th.field-name, table.docinfo th.docinfo-name {
+  font-weight: bold ;
+  text-align: left ;
+  white-space: nowrap ;
+  padding-left: 0 }
+
+/* "booktabs" style (no vertical lines) */
+table.docutils.booktabs {
+  border: 0px;
+  border-top: 2px solid;
+  border-bottom: 2px solid;
+  border-collapse: collapse;
+}
+table.docutils.booktabs * {
+  border: 0px;
+}
+table.docutils.booktabs th {
+  border-bottom: thin solid;
+  text-align: left;
+}
+
+h1 tt.docutils, h2 tt.docutils, h3 tt.docutils,
+h4 tt.docutils, h5 tt.docutils, h6 tt.docutils {
+  font-size: 100% }
+
+ul.auto-toc {
+  list-style-type: none }
+
+</style>
+</head>
+<body>
+<div class="document" id="build-systems">
+<h1 class="title">Build Systems</h1>
+
+<p>RPI Open Source Software - Spring 2016</p>
+<p>Brad King, Kitware, Inc.</p>
+<ul class="simple">
+<li>Maintainer of CMake</li>
+<li>RPI '00 BS, '08 PhD</li>
+</ul>
+<div class="section" id="introduction">
+<h1>Introduction</h1>
+<div class="section" id="what-is-a-build-system">
+<h2>What is a Build System?</h2>
+<ul class="simple">
+<li>Specifies how to turn source files into useful programs.</li>
+<li>Organizes code to share among programs.</li>
+<li>Requirements vary by language, tools, and platform;
+here we focus on <tt class="docutils literal">C</tt> and <tt class="docutils literal">C++</tt> languages.</li>
+</ul>
+</div>
+</div>
+<div class="section" id="motivation">
+<h1>Motivation</h1>
+<div class="section" id="one-source-file">
+<h2>One Source File</h2>
+<p>Consider a source file <tt class="docutils literal">hi.c</tt>:</p>
+<pre class="code c literal-block">
+<span class="comment preproc">#include &lt;stdio.h&gt;
+</span><span class="keyword type">int</span> <span class="name function">main</span><span class="punctuation">()</span> <span class="punctuation">{</span>
+  <span class="name">printf</span><span class="punctuation">(</span><span class="literal string">&quot;hello</span><span class="literal string escape">\n</span><span class="literal string">&quot;</span><span class="punctuation">);</span>
+  <span class="keyword">return</span> <span class="literal number integer">0</span><span class="punctuation">;</span>
+<span class="punctuation">}</span>
+</pre>
+<p>Compile and run the program:</p>
+<pre class="code console literal-block">
+<span class="generic prompt">$</span> cc hi.c -o hi
+<span class="generic prompt">$</span> ./hi
+<span class="generic output">hello</span>
+</pre>
+</div>
+<div class="section" id="build-system-compiler-driver">
+<h2>Build System: Compiler Driver</h2>
+<p>The compiler driver is a simple build system.</p>
+<p>It runs the compiler and linker internally:</p>
+<pre class="code console literal-block">
+<span class="generic prompt">$</span> gcc hi.c -o hi -###
+<span class="generic output">cc1 hi.c -o /tmp/tmp1.o
+collect2 -o hi /tmp/tmp1.o -lgcc ...</span>
+</pre>
+</div>
+<div class="section" id="reusable-source-file">
+<h2>Reusable Source File</h2>
+<p>Declare a <tt class="docutils literal">hello()</tt> function in a <tt class="docutils literal">hello.h</tt> header:</p>
+<pre class="code c literal-block">
+<span class="keyword type">void</span> <span class="name function">hello</span><span class="punctuation">(</span><span class="keyword type">void</span><span class="punctuation">);</span>
+</pre>
+<p>Implement the function in a <tt class="docutils literal">hello.c</tt> source:</p>
+<pre class="code c literal-block">
+<span class="comment preproc">#include &quot;hello.h&quot;
+#include &lt;stdio.h&gt;
+</span><span class="keyword type">void</span> <span class="name function">hello</span><span class="punctuation">(</span><span class="keyword type">void</span><span class="punctuation">)</span> <span class="punctuation">{</span>
+  <span class="name">printf</span><span class="punctuation">(</span><span class="literal string">&quot;hello</span><span class="literal string escape">\n</span><span class="literal string">&quot;</span><span class="punctuation">);</span>
+<span class="punctuation">}</span>
+</pre>
+<p>Update main program in the <tt class="docutils literal">hi.c</tt> source:</p>
+<pre class="code c literal-block">
+<span class="comment preproc">#include &quot;hello.h&quot;
+</span><span class="keyword type">int</span> <span class="name function">main</span><span class="punctuation">(</span><span class="keyword type">void</span><span class="punctuation">)</span> <span class="punctuation">{</span>
+  <span class="name">hello</span><span class="punctuation">();</span>
+  <span class="keyword">return</span> <span class="literal number integer">0</span><span class="punctuation">;</span>
+<span class="punctuation">}</span>
+</pre>
+<p>Give both source files to the compiler driver:</p>
+<pre class="code console literal-block">
+<span class="generic prompt">$</span> cc hi.c hello.c -o hi
+<span class="generic prompt">$</span> ./hi
+<span class="generic output">hello</span>
+</pre>
+<p>The compiler driver runs the compiler and linker internally:</p>
+<pre class="code console literal-block">
+<span class="generic prompt">$</span> gcc hi.c hello.c -o hi -###
+<span class="generic output">cc1 hi.c -o /tmp/tmp1.o
+cc1 hello.c -o /tmp/tmp2.o
+collect2 -o hi /tmp/tmp1.o /tmp/tmp2.o -lgcc ...</span>
+</pre>
+</div>
+<div class="section" id="sharing-source-files">
+<h2>Sharing Source Files</h2>
+<p>Rename original <tt class="docutils literal">hi.c</tt> to <tt class="docutils literal">hi1.c</tt>:</p>
+<pre class="code console literal-block">
+<span class="generic prompt">$</span> mv hi.c hi1.c
+</pre>
+<p>Add a <tt class="docutils literal">hi2.c</tt> executable sharing the <tt class="docutils literal">hello()</tt> function:</p>
+<pre class="code c literal-block">
+<span class="comment preproc">#include &quot;hello.h&quot;
+</span><span class="keyword type">int</span> <span class="name function">main</span><span class="punctuation">(</span><span class="keyword type">void</span><span class="punctuation">)</span> <span class="punctuation">{</span>
+  <span class="name">hello</span><span class="punctuation">();</span>
+  <span class="name">hello</span><span class="punctuation">();</span>
+  <span class="keyword">return</span> <span class="literal number integer">0</span><span class="punctuation">;</span>
+<span class="punctuation">}</span>
+</pre>
+<p>Use <tt class="docutils literal">hello.c</tt> source file for both programs:</p>
+<pre class="code console literal-block">
+<span class="generic prompt">$</span> cc hi1.c hello.c -o hi1
+<span class="generic prompt">$</span> cc hi2.c hello.c -o hi2
+<span class="generic prompt">$</span> ./hi1
+<span class="generic output">hello
+</span><span class="generic prompt">$</span> ./hi2
+<span class="generic output">hello
+hello</span>
+</pre>
+</div>
+<div class="section" id="build-system-shell-script">
+<h2>Build System: Shell Script</h2>
+<p>List commands in a shell script, e.g. <tt class="docutils literal">build.sh</tt>:</p>
+<pre class="code bash literal-block">
+cc hi1.c hello.c -o hi1
+cc hi2.c hello.c -o hi2
+</pre>
+<p>Run the script to drive the build:</p>
+<pre class="code console literal-block">
+<span class="generic prompt">$</span> sh -x build.sh
+<span class="generic output">+ cc hi1.c hello.c -o hi1
++ cc hi2.c hello.c -o hi2</span>
+</pre>
+</div>
+<div class="section" id="id1">
+<h2>Sharing Source Files</h2>
+<p>The compiler driver runs the compiler and linker internally:</p>
+<pre class="code console literal-block">
+<span class="generic prompt">$</span> gcc hi1.c hello.c -o hi1 -###
+<span class="generic output">cc1 hi1.c -o /tmp/tmp1.o
+cc1 hello.c -o /tmp/tmp2.o
+collect2 -o hi1 /tmp/tmp1.o /tmp/tmp2.o -lgcc ...
+</span><span class="generic prompt">$</span> gcc hi2.c hello.c -o hi2 -###
+<span class="generic output">cc1 hi2.c -o /tmp/tmp1.o
+cc1 hello.c -o /tmp/tmp2.o
+collect2 -o hi2 /tmp/tmp1.o /tmp/tmp2.o -lgcc ...</span>
+</pre>
+<ul class="simple">
+<li>Compiles <tt class="docutils literal">hello.c</tt> twice.</li>
+<li>Re-uses source file but not compiler output.</li>
+</ul>
+</div>
+<div class="section" id="sharing-object-files">
+<h2>Sharing Object Files</h2>
+<ul class="simple">
+<li>Compile <tt class="docutils literal">hello.c</tt> to an <em>object file</em>.</li>
+<li>Use the object file to link each executable.</li>
+<li>Called &quot;separate compilation&quot;.</li>
+</ul>
+<pre class="code console literal-block">
+<span class="generic prompt">$</span> sh -x build.sh
+<span class="generic output">+ cc -c hello.c -o hello.o
++ cc hi1.c hello.o -o hi1
++ cc hi2.c hello.o -o hi2
+</span><span class="generic prompt">$</span> ./hi1
+<span class="generic output">hello
+</span><span class="generic prompt">$</span> ./hi2
+<span class="generic output">hello
+hello</span>
+</pre>
+<p>The compiler driver runs the compiler and linker internally:</p>
+<pre class="code console literal-block">
+<span class="generic prompt">$</span> gcc hello.c -o hello.o -###
+<span class="generic output">cc1 hello.c -o hello.o
+</span><span class="generic prompt">$</span> gcc hi1.c hello.o -o hi1 -###
+<span class="generic output">cc1 hi1.c -o /tmp/tmp1.o
+collect2 -o hi1 /tmp/tmp1.o hello.o -lgcc ...
+</span><span class="generic prompt">$</span> gcc hi2.c hello.o -o hi2 -###
+<span class="generic output">cc1 hi2.c -o /tmp/tmp1.o
+collect2 -o hi2 /tmp/tmp1.o hello.o -lgcc ...</span>
+</pre>
+<ul class="simple">
+<li>Compiles <tt class="docutils literal">hello.c</tt> only once.</li>
+</ul>
+</div>
+<div class="section" id="sharing-multiple-sources">
+<h2>Sharing Multiple Sources</h2>
+<p>Split <tt class="docutils literal">hello.c</tt> into <tt class="docutils literal">hello1.c</tt>:</p>
+<pre class="code c literal-block">
+<span class="comment preproc">#include &quot;hello.h&quot;
+</span><span class="keyword">extern</span> <span class="keyword type">void</span> <span class="name function">print_hello</span><span class="punctuation">(</span><span class="keyword">const</span> <span class="keyword type">char</span> <span class="operator">*</span><span class="name">s</span><span class="punctuation">);</span>
+<span class="keyword type">void</span> <span class="name function">hello</span><span class="punctuation">(</span><span class="keyword type">void</span><span class="punctuation">)</span> <span class="punctuation">{</span>
+  <span class="name">print_hello</span><span class="punctuation">(</span><span class="literal string">&quot;world&quot;</span><span class="punctuation">);</span>
+<span class="punctuation">}</span>
+</pre>
+<p>and <tt class="docutils literal">hello2.c</tt>:</p>
+<pre class="code c literal-block">
+<span class="comment preproc">#include &lt;stdio.h&gt;
+</span><span class="keyword type">void</span> <span class="name function">print_hello</span><span class="punctuation">(</span><span class="keyword">const</span> <span class="keyword type">char</span> <span class="operator">*</span><span class="name">s</span><span class="punctuation">)</span> <span class="punctuation">{</span>
+  <span class="name">printf</span><span class="punctuation">(</span><span class="literal string">&quot;hello: %s</span><span class="literal string escape">\n</span><span class="literal string">&quot;</span><span class="punctuation">,</span> <span class="name">s</span><span class="punctuation">);</span>
+<span class="punctuation">}</span>
+</pre>
+<pre class="code console literal-block">
+<span class="generic prompt">$</span> sh -x build.sh
+<span class="generic output">+ cc -c hello1.c -o hello1.o
++ cc -c hello2.c -o hello2.o
++ cc -c hi1.c -o hi1.o
++ cc -c hi2.c -o hi2.o
++ cc hi1.o hello1.o hello2.o -o hi1
++ cc hi2.o hello1.o hello2.o -o hi2
+</span><span class="generic prompt">$</span> ./hi1
+<span class="generic output">hello: world
+</span><span class="generic prompt">$</span> ./hi2
+<span class="generic output">hello: world
+hello: world</span>
+</pre>
+<p>Callers of <tt class="docutils literal">hello()</tt> function must use both
+<tt class="docutils literal">hello1.o</tt> and <tt class="docutils literal">hello2.o</tt> together, but
+should not have to know that.</p>
+</div>
+<div class="section" id="static-libraries">
+<h2>Static Libraries</h2>
+<p>Create an archive of object files; use to link executables:</p>
+<pre class="code console literal-block">
+<span class="generic prompt">$</span> sh -x build.sh
+<span class="generic output">+ cc -c hello1.c -o hello1.o
++ cc -c hello2.c -o hello2.o
++ ar qc libhello.a hello1.o hello2.o
++ cc -c hi1.c -o hi1.o
++ cc -c hi2.c -o hi2.o
++ cc hi1.o libhello.a -o hi1
++ cc hi2.o libhello.a -o hi2
+</span><span class="generic prompt">$</span> ./hi1
+<span class="generic output">hello: world
+</span><span class="generic prompt">$</span> ./hi2
+<span class="generic output">hello: world
+hello: world</span>
+</pre>
+<p>List the object files in the archive:</p>
+<pre class="code console literal-block">
+<span class="generic prompt">$</span> ar t libhello.a
+<span class="generic output">hello1.o
+hello2.o</span>
+</pre>
+</div>
+<div class="section" id="shared-libraries">
+<h2>Shared Libraries</h2>
+<p>Link object files into a shared library; link executables to it:</p>
+<pre class="code console literal-block">
+<span class="generic prompt">$</span> sh -x build.sh
+<span class="generic output">+ cc -fPIC -c hello1.c -o hello1.o
++ cc -fPIC -c hello2.c -o hello2.o
++ cc -shared -o libhello.so hello1.o hello2.o
++ cc -c hi1.c -o hi1.o
++ cc -c hi2.c -o hi2.o
++ cc hi1.o libhello.so -o hi1 -Wl,-rpath='$ORIGIN'
++ cc hi2.o libhello.so -o hi2 -Wl,-rpath='$ORIGIN'
+</span><span class="generic prompt">$</span> ./hi1
+<span class="generic output">hello: world
+</span><span class="generic prompt">$</span> ./hi2
+<span class="generic output">hello: world
+hello: world</span>
+</pre>
+<p>View dependency of executable on shared library:</p>
+<pre class="code console literal-block">
+<span class="generic prompt">$</span> readelf -d hi1 <span class="punctuation">|</span> grep NEEDED
+<span class="generic output"> 0x0000000000000001 (NEEDED) Shared library: [libhello.so]
+ 0x0000000000000001 (NEEDED) Shared library: [libc.so.6]
+</span><span class="generic prompt">$</span> readelf -d hi1 <span class="punctuation">|</span> grep RPATH
+<span class="generic output"> 0x000000000000000f (RPATH) Library rpath: [$ORIGIN]</span>
+</pre>
+</div>
+<div class="section" id="review-of-file-types">
+<h2>Review of File Types</h2>
+<dl class="docutils">
+<dt><strong>Source files</strong> (<tt class="docutils literal">*.c</tt>, <tt class="docutils literal">*.cpp</tt>)</dt>
+<dd>Define &quot;symbols&quot; implementing functions and storage of global data.</dd>
+<dt><strong>Header files</strong> (<tt class="docutils literal">*.h</tt>, <tt class="docutils literal">*.hpp</tt>)</dt>
+<dd>Define interfaces shared among source files
+(e.g. function prototypes).</dd>
+<dt><strong>Object files</strong> (<tt class="docutils literal">*.o</tt>, <tt class="docutils literal">*.obj</tt> on Windows)</dt>
+<dd>Compiler output from source files.</dd>
+<dt><strong>Executables</strong> (no extension, <tt class="docutils literal">*.exe</tt> on Windows)</dt>
+<dd>Object files linked together into programs with <tt class="docutils literal">main</tt>.</dd>
+</dl>
+<dl class="docutils">
+<dt><strong>Static libraries</strong> (<tt class="docutils literal">*.a</tt>, <tt class="docutils literal">*.lib</tt> with MS tools)</dt>
+<dd><ul class="first last simple">
+<li>Archives of object files.</li>
+<li>Searched by linker for objects implementing needed symbols.</li>
+<li>All symbols with &quot;extern linkage&quot; exposed publicly.</li>
+</ul>
+</dd>
+<dt><strong>Shared libraries</strong> (<tt class="docutils literal">*.so</tt>, <tt class="docutils literal">*.dll</tt> on Windows)</dt>
+<dd><ul class="first last simple">
+<li>Objects linked together into libraries loaded by programs at runtime.</li>
+<li>A subset of symbols with &quot;extern linkage&quot; exposed publicly
+via explicit markup.</li>
+<li>On Windows, associated &quot;import library&quot; (<tt class="docutils literal">.lib</tt>).</li>
+</ul>
+</dd>
+</dl>
+</div>
+<div class="section" id="id2">
+<h2>Build System: Shell Script</h2>
+<ul class="simple">
+<li><tt class="docutils literal">build.sh</tt> always runs all commands.</li>
+<li>No concurrency.</li>
+<li>No partial builds.</li>
+<li>No incremental rebuilds.</li>
+<li>Does not scale.</li>
+<li>Rarely used in practice.</li>
+</ul>
+</div>
+</div>
+<div class="section" id="build-system-make">
+<h1>Build System: Make</h1>
+<div class="section" id="build-dependencies">
+<h2>Build Dependencies</h2>
+</div>
+<div class="section" id="makefile">
+<h2>Makefile</h2>
+<p>A <tt class="docutils literal">Makefile</tt> expresses build dependencies:</p>
+<pre class="code makefile literal-block">
+<span class="name function">all</span><span class="operator">:</span> <span class="name">hi</span>1 <span class="name">hi</span>2
+<span class="name function">hi1</span><span class="operator">:</span> <span class="name">hi</span>1.<span class="name">o</span> <span class="name">libhello</span>.<span class="name">so</span>
+<span class="name function">hi2</span><span class="operator">:</span> <span class="name">hi</span>2.<span class="name">o</span> <span class="name">libhello</span>.<span class="name">so</span>
+<span class="name function">hi1.o</span><span class="operator">:</span> <span class="name">hi</span>1.<span class="name">c</span>
+<span class="name function">hi2.o</span><span class="operator">:</span> <span class="name">hi</span>2.<span class="name">c</span>
+<span class="name function">libhello.so</span><span class="operator">:</span> <span class="name">hello</span>1.<span class="name">o</span> <span class="name">hello</span>2.<span class="name">o</span>
+<span class="name function">hello1.o</span><span class="operator">:</span> <span class="name">hello</span>1.<span class="name">c</span>
+<span class="name function">hello2.o</span><span class="operator">:</span> <span class="name">hello</span>2.<span class="name">c</span>
+</pre>
+<p>A <tt class="docutils literal">Makefile</tt> also specifies build commands:</p>
+<pre class="code makefile literal-block">
+<span class="name function">all</span><span class="operator">:</span> <span class="name">hi</span>1 <span class="name">hi</span>2
+<span class="name function">hi1</span><span class="operator">:</span> <span class="name">hi</span>1.<span class="name">o</span> <span class="name">libhello</span>.<span class="name">so</span>
+        cc hi1.o libhello.so -o hi1 -Wl,-rpath<span class="operator">=</span><span class="literal string single">'$$ORIGIN'</span>
+<span class="name function">hi2</span><span class="operator">:</span> <span class="name">hi</span>2.<span class="name">o</span> <span class="name">libhello</span>.<span class="name">so</span>
+        cc hi2.o libhello.so -o hi2 -Wl,-rpath<span class="operator">=</span><span class="literal string single">'$$ORIGIN'</span>
+<span class="name function">hi1.o</span><span class="operator">:</span> <span class="name">hi</span>1.<span class="name">c</span>
+        cc -c hi1.c -o hi1.o
+<span class="name function">hi2.o</span><span class="operator">:</span> <span class="name">hi</span>2.<span class="name">c</span>
+        cc -c hi2.c -o hi2.o
+<span class="name function">libhello.so</span><span class="operator">:</span> <span class="name">hello</span>1.<span class="name">o</span> <span class="name">hello</span>2.<span class="name">o</span>
+        cc -shared -o libhello.so hello1.o hello2.o
+<span class="name function">hello1.o</span><span class="operator">:</span> <span class="name">hello</span>1.<span class="name">c</span>
+        cc -fPIC -c hello1.c -o hello1.o
+<span class="name function">hello2.o</span><span class="operator">:</span> <span class="name">hello</span>2.<span class="name">c</span>
+        cc -fPIC -c hello2.c -o hello2.o
+</pre>
+</div>
+<div class="section" id="run-make-tool">
+<h2>Run Make Tool</h2>
+<p>Run <tt class="docutils literal">make</tt> tool to drive build process:</p>
+<pre class="code console literal-block">
+<span class="generic prompt">$</span> make
+<span class="generic output">cc -c hi1.c -o hi1.o
+cc -fPIC -c hello1.c -o hello1.o
+cc -fPIC -c hello2.c -o hello2.o
+cc -shared -o libhello.so hello1.o hello2.o
+cc hi1.o libhello.so -o hi1 -Wl,-rpath='$ORIGIN'
+cc -c hi2.c -o hi2.o
+cc hi2.o libhello.so -o hi2 -Wl,-rpath='$ORIGIN'
+</span><span class="generic prompt">$</span> ./hi1
+<span class="generic output">hello: world
+</span><span class="generic prompt">$</span> ./hi2
+<span class="generic output">hello: world
+hello: world</span>
+</pre>
+<p>The <tt class="docutils literal">make</tt> tool checks timestamps, follows dependencies:</p>
+<pre class="code console literal-block">
+<span class="generic prompt">$</span> make
+<span class="generic output">make: Nothing to be done for 'all'.
+</span><span class="generic prompt">$</span> touch hello2.c
+<span class="generic prompt">$</span> make
+<span class="generic output">cc -fPIC -c hello2.c -o hello2.o
+cc -shared -o libhello.so hello1.o hello2.o
+cc hi1.o libhello.so -o hi1 -Wl,-rpath='$ORIGIN'
+cc hi2.o libhello.so -o hi2 -Wl,-rpath='$ORIGIN'
+</span><span class="generic prompt">$</span> make
+<span class="generic output">make: Nothing to be done for 'all'.</span>
+</pre>
+</div>
+<div class="section" id="implicit-dependencies">
+<h2>Implicit Dependencies</h2>
+<p>Header files (<tt class="docutils literal">*.h</tt>) are <em>implicit</em> dependencies of compilation:</p>
+<pre class="code console literal-block">
+<span class="generic prompt">$</span> grep hello.h *.c
+<span class="generic output">hello1.c:#include &quot;hello.h&quot;
+hi2.c:#include &quot;hello.h&quot;
+hi1.c:#include &quot;hello.h&quot;</span>
+</pre>
+<p>The compiler can tell us about dependencies:</p>
+<pre class="code console literal-block">
+<span class="generic prompt">$</span> gcc -MM hello1.c -MT hello1.o
+<span class="generic output">hello1.o: hello1.c hello.h</span>
+</pre>
+<p>Implicit dependencies not yet expressed in our <tt class="docutils literal">Makefile</tt>:</p>
+<pre class="code console literal-block">
+<span class="generic prompt">$</span> touch hello.h
+<span class="generic prompt">$</span> make
+<span class="generic output">make: Nothing to be done for 'all'.</span>
+</pre>
+<div class="section" id="makefile-implicit-dependencies">
+<h2>Makefile: Implicit Dependencies</h2>
+<p>Extend our <tt class="docutils literal">Makefile</tt> with implicit dependencies:</p>
+<pre class="code makefile literal-block">
+<span class="name function">hi1.o</span><span class="operator">:</span> <span class="name">hello</span>.<span class="name">h</span>
+<span class="name function">hi2.o</span><span class="operator">:</span> <span class="name">hello</span>.<span class="name">h</span>
+<span class="name function">hello1.o</span><span class="operator">:</span> <span class="name">hello</span>.<span class="name">h</span>
+</pre>
+<pre class="code console literal-block">
+<span class="generic prompt">$</span> make
+<span class="generic output">cc -c hi1.c -o hi1.o
+cc -fPIC -c hello1.c -o hello1.o
+cc -shared -o libhello.so hello1.o hello2.o
+cc hi1.o libhello.so -o hi1 -Wl,-rpath='$ORIGIN'
+cc -c hi2.c -o hi2.o
+cc hi2.o libhello.so -o hi2 -Wl,-rpath='$ORIGIN'</span>
+</pre>
+<p>Everything but <tt class="docutils literal">hello2.o</tt> rebuilds when <tt class="docutils literal">hello.h</tt> changes.</p>
+</div>
+<div class="section" id="id3">
+<h2>Build System: Make</h2>
+<ul class="simple">
+<li>Features:<ul>
+<li>Dependencies enable efficient, concurrent (re-)builds.</li>
+</ul>
+</li>
+<li>Limitations:<ul>
+<li>Tricky to maintain implicit dependencies.</li>
+<li>Platform- and tool-specific tables of commands.</li>
+<li>Build rules do not re-run when commands change.</li>
+<li>Need manual rules for &quot;install&quot; and &quot;clean&quot; operations.</li>
+<li>Not reusable with IDEs like Visual Studio and Xcode.</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="build-system-msbuild">
+<h2>Build System: MSBuild</h2>
+<p>Underlies Visual Studio 2010+ builds.</p>
+<pre class="code xml literal-block">
+<span class="name tag">&lt;Project</span> <span class="name attribute">DefaultTargets=</span><span class="literal string">&quot;Build&quot;</span> <span class="name attribute">ToolsVersion=</span><span class="literal string">&quot;12.0&quot;</span> <span class="error">...</span><span class="name tag">&gt;</span>
+  ...
+  <span class="name tag">&lt;ItemGroup&gt;</span>
+    <span class="name tag">&lt;ClCompile</span> <span class="name attribute">Include=</span><span class="literal string">&quot;hi1.c&quot;</span> <span class="name tag">/&gt;</span>
+  <span class="name tag">&lt;/ItemGroup&gt;</span>
+  <span class="name tag">&lt;ItemGroup&gt;</span>
+    <span class="name tag">&lt;ProjectReference</span> <span class="name attribute">Include=</span><span class="literal string">&quot;hello.vcxproj&quot;</span><span class="name tag">&gt;</span>
+      <span class="name tag">&lt;Project&gt;</span>158CE2ED-F99F-4D09-A981-CF4C46D9A63B<span class="name tag">&lt;/Project&gt;</span>
+    <span class="name tag">&lt;/ProjectReference&gt;</span>
+  <span class="name tag">&lt;/ItemGroup&gt;</span>
+  ...
+<span class="name tag">&lt;/Project&gt;</span>
+</pre>
+<ul class="simple">
+<li>Features:<ul>
+<li>Create and update through Visual Studio IDE.</li>
+<li>Handles implicit dependencies automatically.</li>
+<li>Built-in &quot;clean&quot; operations.</li>
+</ul>
+</li>
+<li>Limitations:<ul>
+<li>Platform- and tool-specific.  Not portable.</li>
+<li>Need manual rules for &quot;install&quot; operations.</li>
+<li>Difficult to merge version control branches.</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="section" id="example-build-systems">
+<h2>Example Build Systems</h2>
+<ul class="simple">
+<li><a class="reference external" href="https://en.wikipedia.org/wiki/Make_%28software%29">Make</a>:
+Canonical dependency-based build system.</li>
+<li><a class="reference external" href="https://martine.github.io/ninja/">Ninja</a>:
+An &quot;assembly language for build systems&quot;.  Designed to be generated.</li>
+<li><a class="reference external" href="https://msdn.microsoft.com/en-us/library/0k6kkbsd.aspx">MSBuild</a>:
+Underlies Visual Studio 2010+ builds.</li>
+<li><a class="reference external" href="https://github.com/waf-project/waf">Waf</a>,
+<a class="reference external" href="http://www.scons.org/">Scons</a>:
+Python-based build system frameworks.</li>
+</ul>
+</div>
+</div>
+<div class="section" id="generating-build-systems">
+<h1>Generating Build Systems</h1>
+<div class="section" id="build-system-generators">
+<h2>Build System Generators</h2>
+<p>Transform a common input specification into platform- and
+tool-specific build files.  Examples:</p>
+<ul class="simple">
+<li><a class="reference external" href="http://www.gnu.org/software/automake/manual/html_node/GNU-Build-System.html">GNU Build System (autotools)</a>:
+Generates <tt class="docutils literal">configure</tt> script for distribution with source code
+to generate <a class="reference external" href="https://www.gnu.org/software/make/">GNU make</a>
+build files for local system.</li>
+<li><a class="reference external" href="https://cmake.org">CMake</a>:
+Generates for Make, Ninja, Visual Studio, or Xcode build files
+for local system.</li>
+<li><a class="reference external" href="https://premake.github.io/">Premake</a>,
+<a class="reference external" href="https://chromium.googlesource.com/external/gyp">GYP</a>:
+Generate re-distributable GNU Make, Visual Studio, and Xcode build files.</li>
+</ul>
+</div>
+<div class="section" id="cmake">
+<h2>CMake</h2>
+<ul class="simple">
+<li>Created by <a class="reference external" href="http://kitware.com">Kitware</a> in 2000 to support
+cross-platform builds for the <a class="reference external" href="http://itk.org">Insight Toolkit</a>.
+Sponsored originally by the <a class="reference external" href="https://www.nlm.nih.gov/">US NLM</a>.</li>
+<li>Generalized incrementally over time.</li>
+<li><a class="reference external" href="https://www.kde.org">KDE</a> (K Desktop Environment)
+switched to CMake in 2006; kicked off widespread adoption.</li>
+<li>Now de-facto standard for cross-platform <tt class="docutils literal">C</tt>, <tt class="docutils literal">C++</tt>, and
+<tt class="docutils literal">Fortran</tt> projects.</li>
+<li>Homepage: <a class="reference external" href="https://cmake.org">https://cmake.org</a></li>
+<li>Documentation: <a class="reference external" href="https://cmake.org/documentation">https://cmake.org/documentation</a></li>
+</ul>
+</div>
+<div class="section" id="cmake-example-code">
+<h2>CMake Example Code</h2>
+<p>Create a <tt class="docutils literal">CMakeLists.txt</tt> file for our example:</p>
+<pre class="code cmake literal-block">
+<span class="name builtin">cmake_minimum_required</span><span class="punctuation">(</span><span class="literal string">VERSION</span> <span class="literal string">3.0</span><span class="punctuation">)</span>
+<span class="name builtin">project</span><span class="punctuation">(</span><span class="literal string">Hello</span> <span class="literal string">C</span><span class="punctuation">)</span>
+
+<span class="name builtin">add_library</span><span class="punctuation">(</span><span class="literal string">hello</span> <span class="literal string">SHARED</span> <span class="literal string">hello1.c</span> <span class="literal string">hello2.c</span> <span class="literal string">hello.h</span><span class="punctuation">)</span>
+
+<span class="name builtin">add_executable</span><span class="punctuation">(</span><span class="literal string">hi1</span> <span class="literal string">hi1.c</span><span class="punctuation">)</span>
+<span class="name builtin">target_link_libraries</span><span class="punctuation">(</span><span class="literal string">hi1</span> <span class="literal string">hello</span><span class="punctuation">)</span>
+
+<span class="name builtin">add_executable</span><span class="punctuation">(</span><span class="literal string">hi2</span> <span class="literal string">hi2.c</span><span class="punctuation">)</span>
+<span class="name builtin">target_link_libraries</span><span class="punctuation">(</span><span class="literal string">hi2</span> <span class="literal string">hello</span><span class="punctuation">)</span>
+</pre>
+</div>
+<div class="section" id="running-cmake">
+<h2>Running CMake</h2>
+<p>Make an <em>out-of-source</em> build directory and run <tt class="docutils literal">cmake</tt> tool:</p>
+<pre class="code console literal-block">
+<span class="generic prompt">$</span> mkdir build <span class="operator">&amp;&amp;</span> <span class="name builtin">cd </span>build
+<span class="generic prompt">$</span> cmake ..
+<span class="generic output">...
+-- Build files have been written to: /.../build
+</span><span class="generic prompt">$</span> ls
+<span class="generic output">CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile</span>
+</pre>
+<p>Run <tt class="docutils literal">make</tt> tool to drive the actual build:</p>
+<pre class="code console literal-block">
+<span class="generic prompt">$</span> make
+<span class="generic output">Scanning dependencies of target hello
+[ 14%] Building C object CMakeFiles/hello.dir/hello1.c.o
+[ 28%] Building C object CMakeFiles/hello.dir/hello2.c.o
+[ 42%] Linking C shared library libhello.so
+[ 42%] Built target hello
+Scanning dependencies of target hi1
+[ 57%] Building C object CMakeFiles/hi1.dir/hi1.c.o
+[ 71%] Linking C executable hi1
+[ 71%] Built target hi1
+Scanning dependencies of target hi2
+[ 85%] Building C object CMakeFiles/hi2.dir/hi2.c.o
+[100%] Linking C executable hi2
+[100%] Built target hi2</span>
+</pre>
+<p>Inspect results:</p>
+<pre class="code console literal-block">
+<span class="generic prompt">$</span> ls
+<span class="generic output">CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+hi1
+hi2
+libhello.so
+Makefile
+</span><span class="generic prompt">$</span> ./hi1
+<span class="generic output">hello: world
+</span><span class="generic prompt">$</span> ./hi2
+<span class="generic output">hello: world
+hello: world</span>
+</pre>
+</div>
+<div class="section" id="cmake-generated-makefiles">
+<h2>CMake-generated Makefiles</h2>
+<ul class="simple">
+<li>Use platform- and tool-specific commands.</li>
+<li>Handle implicit dependencies automatically.</li>
+<li>Provide rules for &quot;install&quot; and &quot;clean&quot; operations.</li>
+<li>Display description of each step with progress percentage.</li>
+<li>Maintain pristine source with <em>out-of-source</em> builds.</li>
+</ul>
+</div>
+<div class="section" id="cmake-gui">
+<h2>CMake GUI</h2>
+<p>Optionally use a GUI instead of a command prompt:</p>
+<img alt="static/cmake-gui.png" src="static/cmake-gui.png" />
+</div>
+<div class="section" id="cmake-generated-vs-project">
+<h2>CMake-generated VS Project</h2>
+<p>Generated Visual Studio IDE project:</p>
+<img alt="static/vs-sln.png" src="static/vs-sln.png" />
+</div>
+<div class="section" id="cmake-syntax-primer">
+<h2>CMake Syntax Primer</h2>
+<ul class="simple">
+<li>See the <a class="reference external" href="https://cmake.org/cmake/help/v3.3/manual/cmake-language.7.html">cmake-language(7)</a> manual.</li>
+<li><tt class="docutils literal">CMakeLists.txt</tt> files denote source directories.</li>
+<li><tt class="docutils literal">*.cmake</tt> files implement modules and scripts.</li>
+</ul>
+<pre class="code cmake literal-block">
+<span class="comment"># line comment
+#[[bracket comment]]
+</span><span class="name builtin">set</span><span class="punctuation">(</span><span class="literal string">VAR1</span> <span class="literal string">a</span><span class="punctuation">)</span> <span class="comment"># &quot;a&quot;
+</span><span class="name builtin">set</span><span class="punctuation">(</span><span class="literal string">VAR2</span> <span class="literal string">a</span> <span class="literal string">b</span> <span class="literal string">c</span><span class="punctuation">)</span> <span class="comment"># &quot;a;b;c&quot;
+</span><span class="name builtin">message</span><span class="punctuation">(</span><span class="operator">${</span><span class="name variable">VAR2</span><span class="operator">}</span> <span class="literal string double">&quot;\n&quot;</span> <span class="comment"># &quot;abc&quot; (unquoted)
+</span>        <span class="literal string double">&quot;${VAR2}&quot;</span> <span class="literal string double">&quot;\n&quot;</span> <span class="comment"># &quot;a;b;c&quot; (quoted)
+</span>        <span class="literal string">[[</span><span class="operator">${</span><span class="name variable">VAR2</span><span class="operator">}</span><span class="literal string">]]</span> <span class="literal string double">&quot;\n&quot;</span> <span class="comment"># &quot;${VAR2}&quot; (bracket)
+</span>        <span class="punctuation">)</span>
+</pre>
+</div>
+</div>
+<div class="section" id="conclusion">
+<h1>Conclusion</h1>
+<div class="section" id="build-systems-summary">
+<h2>Build Systems Summary</h2>
+<ul class="simple">
+<li>Turn sources into programs.</li>
+<li>Organize code to share among programs.</li>
+<li>Encode build dependencies.</li>
+<li>Generated for portability and scale.</li>
+<li>CMake used widely for <tt class="docutils literal">C</tt>, <tt class="docutils literal">C++</tt>, and <tt class="docutils literal">Fortran</tt>.</li>
+</ul>
+<hr class="docutils" />
+<ul class="simple">
+<li>Your next lab session will focus on CMake.</li>
+<li>Thank You</li>
+</ul>
+</div>
+</div>
+</div>
+</body>
+</html>
