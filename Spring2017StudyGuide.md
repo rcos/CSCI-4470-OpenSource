@@ -56,3 +56,43 @@ Topics that I would review for the quiz are:
 
 If you have any more questions feel free to contact the Undergraduate Programming Mentors
 or Professor Moorthy (preferably on the slack channel) before the quiz! Good luck everyone!
+
+Sample Questions - 
+
+Find the bugs in the [testing](testing.cpp) program. If you want to
+run this, compile using with the -std=c++11 flag (g++ -std=c++11 testing.cpp -o main.exe). How could you write
+unit tests to easily identify these bugs? Write a prev and next function and
+write unit tests for them. Prev/Next should choose the previous and next
+heroes from the starting vector based on the current hero
+selected (Be careful about edge cases!). For example if I have "GENJI" currently selected prev 
+should give me "DVA" and next should give me "PHARAH". If I have "SOMBRA" selected
+nest should give me "DVA" and if I have "DVA" selected prev should give me "SOMBRA". Write unit tests for
+prev/next/randomize functions (think about what the program is changing
+and how to check it).
+
+Write the following formulas in Latex (optional integrate the integral and write the formula for it as well 
+using c for the constant)
+
+![Formulas](http://www.techulator.com/attachments/Resources/4132-211923-Maths-equation.jpg)
+
+Write a regex expression to check if a string contains only AlphaNumerical (A-Z, a-z, 0-9) characters
+
+How would you resolve the following merge conflict (pick whichever one you feel is correct)-
+
+<blockquote>
+	<p> 
+		<<<<<<< HEAD
+		<br />
+		To whom'st'd've'ed it may concern, 
+		<br />
+		=======
+		<br />
+		To whom it may concern, 
+		<br />
+		>>>>>>> da18a796d6f3715b9bb0c58b8ef63a96aebf8511
+		<br />
+		 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hello from the other side I must have called a thousand times
+	</p>
+ </blockquote>
+ What git commands would you run after resolving this conflict (Let's assume this file is called
+ Adele.md)?
