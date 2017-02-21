@@ -71,7 +71,7 @@ prev/next/randomize functions (think about what the program is changing
 and how to check it).
 
 Write the following formulas in Latex (optional integrate the integral and write the formula for it as well 
-using c for the constant)
+using c for the constant) [ $$u=\frac{-b~\pm~\sqrt{b^2-4ac}}{2a}$$ ] and [$$\int_{y=0}^{y=5} {3 y^2-4y+8~ dy} $$]
 
 ![Formulas](http://www.techulator.com/attachments/Resources/4132-211923-Maths-equation.jpg)
 
