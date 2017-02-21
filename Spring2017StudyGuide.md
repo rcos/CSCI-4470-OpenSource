@@ -73,7 +73,7 @@ and how to check it).
 Write the following formulas in Latex (optional integrate the integral and write the formula for it as well 
 using c for the constant) [ $$u=\frac{-b~\pm~\sqrt{b^2-4ac}}{2a}$$ ] and [$$\int_{y=0}^{y=5} {3 y^2-4y+8~ dy} $$]
 
-![Formulas](photos/Equations/png)
+![Formulas](Photos/equations.png)
 
 Write a regex expression to check if a string contains only AlphaNumerical (A-Z, a-z, 0-9) characters
 
