@@ -73,7 +73,7 @@ and how to check it).
 Write the following formulas in Latex (optional integrate the integral and write the formula for it as well 
 using c for the constant)
 
-![Formulas](http://www.techulator.com/attachments/Resources/4132-211923-Maths-equation.jpg)
+![Formulas](photos/Equations/png)
 
 Write a regex expression to check if a string contains only AlphaNumerical (A-Z, a-z, 0-9) characters
 
