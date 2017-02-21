@@ -78,20 +78,20 @@ Write a regex expression to check if a string contains only AlphaNumerical (A-Z,
 
 How would you resolve the following merge conflict (pick whichever one you feel is correct)-
 
-<p> 
-<<<<<<< HEAD
-<br />
-To whom'st'd've'ed it may concern, 
-<br />
-=======
-<br />
-To whom it may concern, 
-<br />
->>>>>>> da18a796d6f3715b9bb0c58b8ef63a96aebf8511
-<br />
-  <br />
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hello from the other side I must have called a thousand times
-</p>
- 
+<blockquote>
+	<p> 
+		<<<<<<< HEAD
+		<br />
+		To whom'st'd've'ed it may concern, 
+		<br />
+		=======
+		<br />
+		To whom it may concern, 
+		<br />
+		>>>>>>> da18a796d6f3715b9bb0c58b8ef63a96aebf8511
+		<br />
+		 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Hello from the other side I must have called a thousand times
+	</p>
+ </blockquote>
  What git commands would you run after resolving this conflict (Let's assume this file is called
  Adele.md)?
