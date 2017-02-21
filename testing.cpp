@@ -4,7 +4,8 @@
 #include <random>
 #include <iostream>
 
-//Picks a new random hero from the list
+//Picks a new random hero from the list. This function shouldn't pick the same hero
+//that we start with.
 void randomize(const std::vector<std::string> &overwatch, int & selected_hero_index)
 {
 	int prev_hero = selected_hero_index;
@@ -16,21 +17,19 @@ void randomize(const std::vector<std::string> &overwatch, int & selected_hero_in
 }
 
 //Write tests here
-
 void test()
 {
 
 }
 
 //Implement next function
-
-void next()
+void next(const std::vector<std::string> &overwatch, int & selected_hero_index)
 {
 
 }
 
 //Implement prev function
-void prev()
+void prev(const std::vector<std::string> &overwatch, int & selected_hero_index)
 {
 
 }
