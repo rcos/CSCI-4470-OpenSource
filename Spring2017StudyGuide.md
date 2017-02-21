@@ -66,7 +66,7 @@ write unit tests for them. Prev/Next should choose the previous and next
 heroes from the starting vector based on the current hero
 selected (Be careful about edge cases!). For example if I have "GENJI" currently selected prev 
 should give me "DVA" and next should give me "PHARAH". If I have "SOMBRA" selected
-nest should give me "DVA" and if I have "DVA" selected prev should give me "SOMBRA". Write unit tests for
+next should give me "DVA" and if I have "DVA" selected prev should give me "SOMBRA". Write unit tests for
 prev/next/randomize functions (think about what the program is changing
 and how to check it).
 
