@@ -89,11 +89,11 @@ int main()
 
 /*Solutions to all problems -
 
-
 Latex - [ $$u=\frac{-b~\pm~\sqrt{b^2-4ac}}{2a}$$ ] and [$$\int_{y=0}^{y=5} {3 y^2-4y+8~ dy} $$]
-REGEX - ^[A-Za-z0-9_]+$
+REGEX - ^[A-Za-z0-9]+$
 
 MERGE CONFLICT - 
-	To whom it may concern, 
-		Hello from the other side I must have called a thousand times
+To whom it may concern, 
+	Hello from the other side I must have called a thousand times
+	
 */
