@@ -63,17 +63,21 @@ Find the bugs in the [testing](testing.cpp) program. If you want to
 run this, compile using with the -std=c++11 flag (g++ -std=c++11 testing.cpp -o main.exe). How could you write
 unit tests to easily identify these bugs? Write a prev and next function and
 write unit tests for them. Prev/Next should choose the previous and next
-heroes from the starting vector based on the current hero
-selected (Be careful about edge cases!). For example if I have "GENJI" currently selected prev 
-should give me "DVA" and next should give me "PHARAH". If I have "SOMBRA" selected
-next should give me "DVA" and if I have "DVA" selected prev should give me "SOMBRA". Write unit tests for
+days from the starting vector based on the current day
+selected (Be careful about edge cases!). For example if I have "WEDNESDAY" currently selected prev()
+should give me "TUESDAY" and next() should give me "THURSDAY". If I have "SUNDAY" selected
+next() should give me "MONDAY" and if I have "MONDAY" selected prev() should give me "SUNDAY". Write unit tests for
 prev/next/randomize functions (think about what the program is changing
-and how to check it).
+and how to check it). 
+Specifically write tests to show -
+* 1 day from a SUNDAY will be a MONDAY
+* 2 days before a TUESDAY will be a SUNDAY
+* 40 days from a FRIDAY will be a WEDNESDAY
+* 87 day before a WEDNESDAY will be a SUNDAY
 
-Write the following formulas in Latex (optional integrate the integral and write the formula for it as well 
-using c for the constant) [ $$u=\frac{-b~\pm~\sqrt{b^2-4ac}}{2a}$$ ] and [$$\int_{y=0}^{y=5} {3 y^2-4y+8~ dy} $$]
-
-![Formulas](http://www.techulator.com/attachments/Resources/4132-211923-Maths-equation.jpg)
+Write the following formulas in Latex (optional integrate the integral ignoring the y = 0 and y = 5 limits and write the formula for it 
+using c for the constant) 
+![Formulas](Photos/equations.png)
 
 Write a regex expression to check if a string contains only AlphaNumerical (A-Z, a-z, 0-9) characters
 
@@ -96,3 +100,5 @@ How would you resolve the following merge conflict (pick whichever one you feel 
  </blockquote>
  What git commands would you run after resolving this conflict (Let's assume this file is called
  Adele.md)?
+
+Solutions are [here](testing_solution.cpp) - Look at comments at the bottom of the file.

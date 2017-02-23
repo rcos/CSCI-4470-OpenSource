@@ -9,34 +9,68 @@
 void randomize(const std::vector<std::string> &days, int & current_day)
 {
 	int prev_day = current_day;
-	current_day = rand() % (days.size() + 1);
-	while(current_day != prev_day)
+	current_day = rand() % (days.size());
+	while(current_day == prev_day)
 	{
-		current_day = rand() % (days.size() + 1);
+		current_day = rand() % (days.size());
 	}
 }
 //Implement prev function
 void prev(const std::vector<std::string> &days, int & current_day)
 {
-
+	if(current_day == 0)
+	{
+		current_day = days.size() - 1;
+	}
+	else
+	{
+		--current_day;
+	}
 }
 //Implement next function
 void next(const std::vector<std::string> &days, int & current_day)
 {
-
+	if(current_day == days.size() - 1)
+	{
+		current_day = 0;
+	}
+	else
+	{
+		current_day +=1;
+	}
 }
 //Write tests here
 void test(const std::vector<std::string> &days, int & current_day)
 {
 
-	// Sunday Test
-	//assert(days[current_day] == "MONDAY");
-	// Tuesday test
-	//assert(days[current_day] == "SUNDAY");
+	//Sunday Test
+	current_day = 6;
+	for(int i = 0; i < 1; ++i)
+	{
+		next(days, current_day);
+	}
+	assert(days[current_day] == "MONDAY");
+	//Tuesday test
+	current_day = 1;
+	for(int i = 0; i < 2; ++i)
+	{
+		prev(days, current_day);
+	}
+	assert(days[current_day] == "SUNDAY");
 	//Friday Test
-	//assert (days[current_day] =="WEDNESDAY");
+	current_day = 4;
+	for(int i = 0; i < 40; ++i)
+	{
+		next(days, current_day);
+	}
+	assert (days[current_day] =="WEDNESDAY");
 	//Wednesday Test
-	//assert (days[current_day] =="SUNDAY");
+	current_day = 2;
+	for(int i = 0; i < 87; ++i)
+	{
+		prev(days, current_day);
+	}
+	assert (days[current_day] =="SUNDAY");
 }
 
 //Compile using -std=c++11
@@ -52,3 +86,14 @@ int main()
 	test(days, current_day);
 	return 0;
 }
+
+/*Solutions to all problems -
+
+
+Latex - [ $$u=\frac{-b~\pm~\sqrt{b^2-4ac}}{2a}$$ ] and [$$\int_{y=0}^{y=5} {3 y^2-4y+8~ dy} $$]
+REGEX - ^[A-Za-z0-9_]+$
+
+MERGE CONFLICT - 
+	To whom it may concern, 
+		Hello from the other side I must have called a thousand times
+*/
