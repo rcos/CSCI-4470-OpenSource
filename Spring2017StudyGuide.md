@@ -75,11 +75,8 @@ Specifically write tests to show -
 * 40 days from a FRIDAY will be a WEDNESDAY
 * 87 day before a WEDNESDAY will be a SUNDAY
 
-Solution is [here](testing_solution.cpp)
-
-Write the following formulas in Latex (optional integrate the integral and write the formula for it as well 
-using c for the constant) [ $$u=\frac{-b~\pm~\sqrt{b^2-4ac}}{2a}$$ ] and [$$\int_{y=0}^{y=5} {3 y^2-4y+8~ dy} $$]
-
+Write the following formulas in Latex (optional integrate the integral ignoring the y = 0 and y = 5 limits and write the formula for it 
+using c for the constant) 
 ![Formulas](Photos/equations.png)
 
 Write a regex expression to check if a string contains only AlphaNumerical (A-Z, a-z, 0-9) characters
@@ -103,3 +100,5 @@ How would you resolve the following merge conflict (pick whichever one you feel 
  </blockquote>
  What git commands would you run after resolving this conflict (Let's assume this file is called
  Adele.md)?
+
+Solutions are [here](testing_solution.cpp) - Look at comments at the bottom of the file.
