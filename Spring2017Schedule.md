@@ -30,7 +30,7 @@ This is a schedule for this course -
 
 * Friday 3/3/2017 - [Lab 6](Labs/Lab6.md)
 
-		 			Project Pitch Slide presentations
+	Project Pitch Slide presentations
 
 * Tuesday 3/7/2017 - Lecture
 
