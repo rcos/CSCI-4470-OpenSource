@@ -77,6 +77,7 @@ Specifically write tests to show -
 
 Write the following formulas in Latex (optional integrate the integral ignoring the y = 0 and y = 5 limits and write the formula for it 
 using c for the constant) 
+
 ![Formulas](Photos/equations.png)
 
 Write a regex expression to check if a string contains only AlphaNumerical (A-Z, a-z, 0-9) characters
