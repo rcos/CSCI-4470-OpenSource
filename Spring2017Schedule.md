@@ -12,7 +12,7 @@ This is a schedule for this course -
 
 * Friday 2/3/2017 - [Lab 3](Labs/Lab3.md)
 
-* Tuesday 2/7/2017 - Guest Lecture (Bill Hoffman) - [Build Systems](HTML Lectures/Lecture-Build-Systems/index.html)
+* Tuesday 2/7/2017 - Guest Lecture (Bill Hoffman) - [Build Systems](HTML Lectures/Lecture-Build-Systems/source/index.html)
 
 * Friday 2/10/2017 - [Lab 4](Labs/Lab4.md)
 
@@ -26,7 +26,7 @@ This is a schedule for this course -
 
 * Friday 2/24/2017 - Quiz 1
 
-* Tuesday 2/28/2017 - Lecture [Open Source and Scientific Computation](HTML Lectures/Sci-Computing-master/index.html)
+* Tuesday 2/28/2017 - Lecture - [Open Source and Scientific Computation](HTML Lectures/Sci-Computing-master/index.html)
 
 * Friday 3/3/2017 - [Lab 6](Labs/Lab6.md)
 
