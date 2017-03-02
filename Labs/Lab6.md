@@ -1,4 +1,4 @@
-## Lab 7 - Scientific Computation 10/21/2016
+## Lab 7 - Scientific Computation 3/3/2017
 
 - One/Two page slide presentation of your project and post your slide in RCOS class channel #csci2963-01 
 - Graphs and Networks are ubiquitous in Scientific Computations. Networkx is an open source python package located here https://networkx.github.io/
@@ -48,5 +48,7 @@ chore
 coder
 order
 ```
+
+- An interesting variation on word ladder is suggested in http://rexwordpuzzle.blogspot.com/2017/02/actress-form-mixed-martial-arts.html - Your task is to find words that precede SLID, DOTE, HERD and OMEN and the words that follow (immediately) NINE, SELL, STAT and WHAT.
 
 - Create/fork a github repository for your project and work on your first commit
