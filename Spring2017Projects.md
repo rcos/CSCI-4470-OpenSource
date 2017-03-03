@@ -10,7 +10,7 @@
 	- **Repository** 
 	- **Blog** 
 	- **Mentor** 
-- **QuoteR:** - Samad Farooqui, Jarod George
+- **QuoteR:** - Samad Farooqui, Jarod George, Stephen Beale
 	- **Pitch Slides** https://docs.google.com/presentation/d/1VY6ao-4NyIbcnSChYz_MY33b1JHt4xXKvYHy5Hnzt58/edit#slide=id.g1b28be9598_0_630
 	- **Progress Update Presentation Slides**
 	- **Presentation Slides** 
@@ -20,12 +20,7 @@
 	- **Blog** 
 	- **Mentor** 
 - **MailPile:** - Grace Roller
-	- **Pitch Slides** 
-		https://docs.google.com/presentation/d/18px-nOrDfaoC-zxJ7RQMQm9k6eb8PhIIFPSGFBMLORQ/edit#slide=id.p
-	- **Date for Presentation**
-	- **Presentation Slides** 
-	- **Repository** 
-	- **Blog** 
+	- **Pitch Slides** https://docs.google.com/presentation/d/18px-nOrDfaoC-zxJ7RQMQm9k6eb8PhIIFPSGFBMLORQ/edit#slide=id.p
 	- **Progress Update Presentation Slides**
 	- **Presentation Slides** 
 	- **Date for Presentation**
@@ -34,7 +29,7 @@
 	- **Blog** 
 	- **Mentor** 
 - **CampusMap:** - Samantha Katcher, Aaron Taylor
-	- **Pitch Slides** 
+	- **Pitch Slides** https://drive.google.com/open?id=0B3lSNL7ZnyK-UGNqQlVnQVFGU0U
 	- **Progress Update Presentation Slides**
 	- **Presentation Slides** 
 	- **Date for Presentation**
@@ -51,7 +46,7 @@
 	- **Repository** 
 	- **Blog** 
 	- **Mentor** 
-- **Surviving Open Source** - Griffin Melnick
+- **Surviving Open Source** - Griffin Melnick, Benjamin Hu, Ethan Stakoff
 	- **Pitch Slides** https://docs.google.com/presentation/d/1aFAcT__dELlvQTXO7h8z3_ukmHxeQODJ5hb2VcLgsXA/edit#slide=id.p
 	- **Progress Update Presentation Slides**
 	- **Presentation Slides** 
@@ -61,7 +56,7 @@
 	- **Blog** 
 	- **Mentor** 
 - **RRP – R2A03 Recompiler Project:** - Jacob Farnsworth
-	- **Pitch Slides**
+	- **Pitch Slides** https://drive.google.com/open?id=0B3lSNL7ZnyK-TWRTVzB4MDZ5Tk0
 	- **Progress Update Presentation Slides**
 	- **Presentation Slides** 
 	- **Date for Presentation**
@@ -151,7 +146,7 @@
 	- **Blog** 
 	- **Mentor** 
 - **Logic Helper (Name TBD):** - Joel Bassett
-	- **Pitch Slides** 
+	- **Pitch Slides** https://drive.google.com/file/d/0B3lSNL7ZnyK-RlhrcGpNdEsyWm8/view?usp=sharing
 	- **Progress Update Presentation Slides**
 	- **Presentation Slides** 
 	- **Date for Presentation**
