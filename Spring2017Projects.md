@@ -86,7 +86,7 @@
 	- **Repository** 
 	- **Blog** 
 	- **Mentor** 	
-- **Did it:** - Tyler Pelaez, Stephen Dzialo, Matthew Chuang
+- **Did It:** - Tyler Pelaez, Stephen Dzialo, Matthew Chuang
 	- **Pitch Slides** https://docs.google.com/presentation/d/1lYfeGrSUPIR5bu-gemBbTFyKb_WCwa52OaOSwH5wF8c/edit#slide=id.p
 	- **Progress Update Presentation Slides**
 	- **Presentation Slides** 
@@ -95,7 +95,7 @@
 	- **Repository** 
 	- **Blog** 
 	- **Mentor** 	
-- **Borilliant FB** - Yuze Bob Ma, Meher Dusi, Ziniu Yu, Ian Rios
+- **Borilliant FB** - Yuze Ma, Meher Dusi, Ziniu Yu, Ian Rios
 	- **Pitch Slides** https://docs.google.com/presentation/d/1Dp7xpwkq3scFJ9e8pcZ2_RB_J3yjvLPWrcoTyZJ0Eic/edit#slide=id.g1d0d8aa516_2_58
 	- **Progress Update Presentation Slides**
 	- **Presentation Slides** 
@@ -149,7 +149,7 @@
 	- **Repository** 
 	- **Blog** 
 	- **Mentor** 
-- **Logic Helper (Name TBD):** - Joel Basset
+- **Logic Helper (Name TBD):** - Joel Bassett
 	- **Pitch Slides** 
 	- **Progress Update Presentation Slides**
 	- **Presentation Slides** 
@@ -187,6 +187,15 @@
 	- **Mentor** 
 - **EGG:** - Casey Conway
 	- **Pitch Slides** https://docs.google.com/presentation/d/1Mt7HQPOdKtKePa19v2O5OBrdfAQQ72sCubmUG3qvix8/edit#slide=id.p
+	- **Progress Update Presentation Slides**
+	- **Presentation Slides** 
+	- **Date for Presentation **
+	- **Dashboard**
+	- **Repository** 
+	- **Blog** 
+	- **Mentor** 
+- **Mahjong:** - Hao Xu
+	- **Pitch Slides** https://docs.google.com/presentation/d/1ySSdl2WIFvdMJrAencC9pOZwh2aCFEsk2XhYnLg21r0/edit#slide=id.g1b2b0c0cd3_0_58
 	- **Progress Update Presentation Slides**
 	- **Presentation Slides** 
 	- **Date for Presentation **
