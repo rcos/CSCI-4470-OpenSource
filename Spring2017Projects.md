@@ -5,7 +5,7 @@
 	- **Pitch Slides** https://docs.google.com/presentation/d/1H1oyOFab7-zSqBPSlqAFs6RlwRsqsOke2tH0QuEIF3s/edit
 	- **Progress Update Presentation Slides**
 	- **Presentation Slides** 
-	- **Date for Presentation **
+	- **Date for Presentation**
 	- **Dashboard**
 	- **Repository** 
 	- **Blog** 
@@ -14,20 +14,21 @@
 	- **Pitch Slides** https://docs.google.com/presentation/d/1VY6ao-4NyIbcnSChYz_MY33b1JHt4xXKvYHy5Hnzt58/edit#slide=id.g1b28be9598_0_630
 	- **Progress Update Presentation Slides**
 	- **Presentation Slides** 
-	- **Date for Presentation **
+	- **Date for Presentation**
 	- **Dashboard**
 	- **Repository** 
 	- **Blog** 
 	- **Mentor** 
 - **MailPile:** - Grace Roller
-	- **Pitch Slides** https://docs.google.com/presentation/d/18px-nOrDfaoC-zxJ7RQMQm9k6eb8PhIIFPSGFBMLORQ/edit#slide=id.p
-	- **Date for Presentation **
+	- **Pitch Slides** 
+		https://docs.google.com/presentation/d/18px-nOrDfaoC-zxJ7RQMQm9k6eb8PhIIFPSGFBMLORQ/edit#slide=id.p
+	- **Date for Presentation**
 	- **Presentation Slides** 
 	- **Repository** 
 	- **Blog** 
 	- **Progress Update Presentation Slides**
 	- **Presentation Slides** 
-	- **Date for Presentation **
+	- **Date for Presentation**
 	- **Dashboard**
 	- **Repository** 
 	- **Blog** 
@@ -36,7 +37,7 @@
 	- **Pitch Slides** 
 	- **Progress Update Presentation Slides**
 	- **Presentation Slides** 
-	- **Date for Presentation **
+	- **Date for Presentation**
 	- **Dashboard**
 	- **Repository** 
 	- **Blog** 
@@ -45,7 +46,7 @@
 	- **Pitch Slides** https://docs.google.com/presentation/d/15WJfIJPEHeasmUNSUggjKruqyIimRA8sjuCqlRmfe3A/edit#slide=id.p
 	- **Progress Update Presentation Slides**
 	- **Presentation Slides** 
-	- **Date for Presentation **
+	- **Date for Presentation**
 	- **Dashboard**
 	- **Repository** 
 	- **Blog** 
@@ -54,7 +55,7 @@
 	- **Pitch Slides** https://docs.google.com/presentation/d/1aFAcT__dELlvQTXO7h8z3_ukmHxeQODJ5hb2VcLgsXA/edit#slide=id.p
 	- **Progress Update Presentation Slides**
 	- **Presentation Slides** 
-	- **Date for Presentation **
+	- **Date for Presentation**
 	- **Dashboard**
 	- **Repository** 
 	- **Blog** 
@@ -63,7 +64,7 @@
 	- **Pitch Slides**
 	- **Progress Update Presentation Slides**
 	- **Presentation Slides** 
-	- **Date for Presentation **
+	- **Date for Presentation**
 	- **Dashboard**
 	- **Repository** 
 	- **Blog** 
@@ -72,7 +73,7 @@
 	- **Pitch Slides** https://docs.google.com/presentation/d/1u3rAypcAZIA0oR9vXnhGYTRUOfJ7hhYp1KNwolCnSSQ/edit#slide=id.p
 	- **Progress Update Presentation Slides**
 	- **Presentation Slides** 
-	- **Date for Presentation **
+	- **Date for Presentation**
 	- **Dashboard**
 	- **Repository** 
 	- **Blog** 
@@ -81,7 +82,7 @@
 	- **Pitch Slides** https://docs.google.com/presentation/d/1QTC7FzkPm4BMx1JL_Mufe4vjRWFC2iFgutErg7ji2gw/edit#slide=id.p
 	- **Progress Update Presentation Slides**
 	- **Presentation Slides** 
-	- **Date for Presentation **
+	- **Date for Presentation**
 	- **Dashboard**
 	- **Repository** 
 	- **Blog** 
@@ -90,7 +91,7 @@
 	- **Pitch Slides** https://docs.google.com/presentation/d/1lYfeGrSUPIR5bu-gemBbTFyKb_WCwa52OaOSwH5wF8c/edit#slide=id.p
 	- **Progress Update Presentation Slides**
 	- **Presentation Slides** 
-	- **Date for Presentation **
+	- **Date for Presentation**
 	- **Dashboard**
 	- **Repository** 
 	- **Blog** 
@@ -99,7 +100,7 @@
 	- **Pitch Slides** https://docs.google.com/presentation/d/1Dp7xpwkq3scFJ9e8pcZ2_RB_J3yjvLPWrcoTyZJ0Eic/edit#slide=id.g1d0d8aa516_2_58
 	- **Progress Update Presentation Slides**
 	- **Presentation Slides** 
-	- **Date for Presentation **
+	- **Date for Presentation**
 	- **Dashboard**
 	- **Repository** 
 	- **Blog** 
@@ -108,7 +109,7 @@
 	- **Pitch Slides** https://docs.google.com/presentation/d/1KUmqFLDUiKbKh7eQn9Rs4NRK5FMQbD8TQK4E9_eQAcA/edit#slide=id.p
 	- **Progress Update Presentation Slides**
 	- **Presentation Slides** 
-	- **Date for Presentation **
+	- **Date for Presentation**
 	- **Dashboard**
 	- **Repository** 
 	- **Blog** 
@@ -117,7 +118,7 @@
 	- **Pitch Slides** https://docs.google.com/presentation/d/1vtqiBc39wMvCEi-ML-bQyYi2a0hLVA4hj_5-Hh-gvfs/edit#slide=id.p
 	- **Progress Update Presentation Slides**
 	- **Presentation Slides** 
-	- **Date for Presentation **
+	- **Date for Presentation**
 	- **Dashboard**
 	- **Repository** 
 	- **Blog** 
@@ -126,7 +127,7 @@
 	- **Pitch Slides** https://docs.google.com/presentation/d/1qWPLWSLGTKl_vSuhdkGReqWBrk8s5K1msouqZb_9HeY/edit#slide=id.p
 	- **Progress Update Presentation Slides**
 	- **Presentation Slides** 
-	- **Date for Presentation **
+	- **Date for Presentation**
 	- **Dashboard**
 	- **Repository** 
 	- **Blog** 
@@ -135,7 +136,7 @@
 	- **Pitch Slides** https://docs.google.com/presentation/d/10CtqbeXj2L5pmjkxtAF_Fyiz_RJKHfNuNkOndBBrxxQ/edit#slide=id.p
 	- **Progress Update Presentation Slides**
 	- **Presentation Slides** 
-	- **Date for Presentation **
+	- **Date for Presentation**
 	- **Dashboard**
 	- **Repository** 
 	- **Blog** 
@@ -144,7 +145,7 @@
 	- **Pitch Slides** https://docs.google.com/presentation/d/1FOKcvrTp4qzJqxnZntX7czulpzUnlaSp1Cqk5hWt85g/edit#slide=id.p
 	- **Progress Update Presentation Slides**
 	- **Presentation Slides** 
-	- **Date for Presentation **
+	- **Date for Presentation**
 	- **Dashboard**
 	- **Repository** 
 	- **Blog** 
@@ -153,7 +154,7 @@
 	- **Pitch Slides** 
 	- **Progress Update Presentation Slides**
 	- **Presentation Slides** 
-	- **Date for Presentation **
+	- **Date for Presentation**
 	- **Dashboard**
 	- **Repository** 
 	- **Blog** 
@@ -162,7 +163,7 @@
 	- **Pitch Slides** https://docs.google.com/presentation/d/1UrBfk8wlcQO0ibj4-gxEwNhIBgm-fx5IzimO1sx9r4A/edit#slide=id.p
 	- **Progress Update Presentation Slides**
 	- **Presentation Slides** 
-	- **Date for Presentation **
+	- **Date for Presentation**
 	- **Dashboard**
 	- **Repository** 
 	- **Blog** 
@@ -171,7 +172,7 @@
 	- **Pitch Slides** https://docs.google.com/presentation/d/1geaukl6OeqjF2PeNvzzRQDOx4cdGoLV6XeCOazstRTk/edit#slide=id.p
 	- **Progress Update Presentation Slides**
 	- **Presentation Slides** 
-	- **Date for Presentation **
+	- **Date for Presentation**
 	- **Dashboard**
 	- **Repository** 
 	- **Blog** 
@@ -180,7 +181,7 @@
 	- **Pitch Slides** https://docs.google.com/presentation/d/1zcylmfu6xRNgXAFH36xXQiyRcZnmQAB86de1W3E-DBM/edit#slide=id.p4
 	- **Progress Update Presentation Slides**
 	- **Presentation Slides** 
-	- **Date for Presentation **
+	- **Date for Presentation**
 	- **Dashboard**
 	- **Repository** 
 	- **Blog** 
@@ -189,7 +190,7 @@
 	- **Pitch Slides** https://docs.google.com/presentation/d/1Mt7HQPOdKtKePa19v2O5OBrdfAQQ72sCubmUG3qvix8/edit#slide=id.p
 	- **Progress Update Presentation Slides**
 	- **Presentation Slides** 
-	- **Date for Presentation **
+	- **Date for Presentation**
 	- **Dashboard**
 	- **Repository** 
 	- **Blog** 
@@ -198,7 +199,7 @@
 	- **Pitch Slides** https://docs.google.com/presentation/d/1ySSdl2WIFvdMJrAencC9pOZwh2aCFEsk2XhYnLg21r0/edit#slide=id.g1b2b0c0cd3_0_58
 	- **Progress Update Presentation Slides**
 	- **Presentation Slides** 
-	- **Date for Presentation **
+	- **Date for Presentation**
 	- **Dashboard**
 	- **Repository** 
 	- **Blog** 
