@@ -1,7 +1,7 @@
 # Spring 2017 Projects 
 ### Pitch Slides were presented for Introduction to Open Source Software (3/3/2017) 
 
-- **Gro Bot:** Daniel Petti
+- **Gro Bot:** Daniel Petti - existing RCOS Project
 	- **Pitch Slides** https://docs.google.com/presentation/d/1H1oyOFab7-zSqBPSlqAFs6RlwRsqsOke2tH0QuEIF3s/edit
 	- **Progress Update Presentation Slides**
 	- **Presentation Slides** 
@@ -19,7 +19,7 @@
 	- **Repository** 
 	- **Blog** 
 	- **Mentor** 
-- **MailPile:** - Grace Roller
+- **MailPile:** - Grace Roller - Existing Open Source Project
 	- **Pitch Slides** https://docs.google.com/presentation/d/18px-nOrDfaoC-zxJ7RQMQm9k6eb8PhIIFPSGFBMLORQ/edit#slide=id.p
 	- **Progress Update Presentation Slides**
 	- **Presentation Slides** 
@@ -28,7 +28,7 @@
 	- **Repository** 
 	- **Blog** 
 	- **Mentor** 
-- **CampusMap:** - Samantha Katcher, Aaron Taylor
+- **CampusMap:** - Samantha Katcher, Aaron Taylor Existing RCOS Project
 	- **Pitch Slides** https://drive.google.com/open?id=0B3lSNL7ZnyK-UGNqQlVnQVFGU0U
 	- **Progress Update Presentation Slides**
 	- **Presentation Slides** 
@@ -55,7 +55,7 @@
 	- **Repository** 
 	- **Blog** 
 	- **Mentor** 
-- **RRP – R2A03 Recompiler Project:** - Jacob Farnsworth
+- **RRP – R2A03 Recompiler Project:** - Jacob Farnsworth  - 
 	- **Pitch Slides** https://drive.google.com/open?id=0B3lSNL7ZnyK-TWRTVzB4MDZ5Tk0
 	- **Progress Update Presentation Slides**
 	- **Presentation Slides** 
@@ -64,7 +64,7 @@
 	- **Repository** 
 	- **Blog** 
 	- **Mentor** 
-- **CTFd:** - Nick Burnett
+- **CTFd:** - Nick Burnett  - Existing Open Source Project
 	- **Pitch Slides** https://docs.google.com/presentation/d/1u3rAypcAZIA0oR9vXnhGYTRUOfJ7hhYp1KNwolCnSSQ/edit#slide=id.p
 	- **Progress Update Presentation Slides**
 	- **Presentation Slides** 
@@ -100,7 +100,7 @@
 	- **Repository** 
 	- **Blog** 
 	- **Mentor** 
-- **Reliquary:** - Samuel Breese
+- **Reliquary:** - Samuel Breese - extending his Open SOurce Project
 	- **Pitch Slides** https://docs.google.com/presentation/d/1KUmqFLDUiKbKh7eQn9Rs4NRK5FMQbD8TQK4E9_eQAcA/edit#slide=id.p
 	- **Progress Update Presentation Slides**
 	- **Presentation Slides** 
@@ -118,7 +118,7 @@
 	- **Repository** 
 	- **Blog** 
 	- **Mentor** 	
-- **Rock Raider Neural Net:** - Nicholas Curtis
+- **Rock Raider Neural Net:** - Nicholas Curtis  - Exsiting RPI Open Source Project
 	- **Pitch Slides** https://docs.google.com/presentation/d/1qWPLWSLGTKl_vSuhdkGReqWBrk8s5K1msouqZb_9HeY/edit#slide=id.p
 	- **Progress Update Presentation Slides**
 	- **Presentation Slides** 
@@ -136,7 +136,7 @@
 	- **Repository** 
 	- **Blog** 
 	- **Mentor** 
-- **Animate.css:** - Cole Gregory
+- **Animate.css:** - Cole Gregory - Existing Open Source Project
 	- **Pitch Slides** https://docs.google.com/presentation/d/1FOKcvrTp4qzJqxnZntX7czulpzUnlaSp1Cqk5hWt85g/edit#slide=id.p
 	- **Progress Update Presentation Slides**
 	- **Presentation Slides** 
@@ -145,7 +145,7 @@
 	- **Repository** 
 	- **Blog** 
 	- **Mentor** 
-- **Logic Helper (Name TBD):** - Joel Bassett
+- **Logic Helper (Name TBD):** - Joel Bassett - Existing RPI Open SOurce Project
 	- **Pitch Slides** https://drive.google.com/file/d/0B3lSNL7ZnyK-RlhrcGpNdEsyWm8/view?usp=sharing
 	- **Progress Update Presentation Slides**
 	- **Presentation Slides** 
