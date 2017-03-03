@@ -1,2 +1,201 @@
 # Spring 2017 Projects 
 ### Pitch Slides were presented for Introduction to Open Source Software (3/3/2017) 
+
+- **Gro Bot:** Daniel Petti
+	- **Pitch Slides** https://docs.google.com/presentation/d/1H1oyOFab7-zSqBPSlqAFs6RlwRsqsOke2tH0QuEIF3s/edit
+	- **Progress Update Presentation Slides**
+	- **Presentation Slides** 
+	- **Date for Presentation**
+	- **Dashboard**
+	- **Repository** 
+	- **Blog** 
+	- **Mentor** 
+- **QuoteR:** - Samad Farooqui, Jarod George, Stephen Beale
+	- **Pitch Slides** https://docs.google.com/presentation/d/1VY6ao-4NyIbcnSChYz_MY33b1JHt4xXKvYHy5Hnzt58/edit#slide=id.g1b28be9598_0_630
+	- **Progress Update Presentation Slides**
+	- **Presentation Slides** 
+	- **Date for Presentation**
+	- **Dashboard**
+	- **Repository** 
+	- **Blog** 
+	- **Mentor** 
+- **MailPile:** - Grace Roller
+	- **Pitch Slides** https://docs.google.com/presentation/d/18px-nOrDfaoC-zxJ7RQMQm9k6eb8PhIIFPSGFBMLORQ/edit#slide=id.p
+	- **Progress Update Presentation Slides**
+	- **Presentation Slides** 
+	- **Date for Presentation**
+	- **Dashboard**
+	- **Repository** 
+	- **Blog** 
+	- **Mentor** 
+- **CampusMap:** - Samantha Katcher, Aaron Taylor
+	- **Pitch Slides** https://drive.google.com/open?id=0B3lSNL7ZnyK-UGNqQlVnQVFGU0U
+	- **Progress Update Presentation Slides**
+	- **Presentation Slides** 
+	- **Date for Presentation**
+	- **Dashboard**
+	- **Repository** 
+	- **Blog** 
+	- **Mentor** 
+- **Rating System (Name TBD):** - Stephen Wood
+	- **Pitch Slides** https://docs.google.com/presentation/d/15WJfIJPEHeasmUNSUggjKruqyIimRA8sjuCqlRmfe3A/edit#slide=id.p
+	- **Progress Update Presentation Slides**
+	- **Presentation Slides** 
+	- **Date for Presentation**
+	- **Dashboard**
+	- **Repository** 
+	- **Blog** 
+	- **Mentor** 
+- **Surviving Open Source** - Griffin Melnick, Benjamin Hu, Ethan Stakoff
+	- **Pitch Slides** https://docs.google.com/presentation/d/1aFAcT__dELlvQTXO7h8z3_ukmHxeQODJ5hb2VcLgsXA/edit#slide=id.p
+	- **Progress Update Presentation Slides**
+	- **Presentation Slides** 
+	- **Date for Presentation**
+	- **Dashboard**
+	- **Repository** 
+	- **Blog** 
+	- **Mentor** 
+- **RRP – R2A03 Recompiler Project:** - Jacob Farnsworth
+	- **Pitch Slides** https://drive.google.com/open?id=0B3lSNL7ZnyK-TWRTVzB4MDZ5Tk0
+	- **Progress Update Presentation Slides**
+	- **Presentation Slides** 
+	- **Date for Presentation**
+	- **Dashboard**
+	- **Repository** 
+	- **Blog** 
+	- **Mentor** 
+- **CTFd:** - Nick Burnett
+	- **Pitch Slides** https://docs.google.com/presentation/d/1u3rAypcAZIA0oR9vXnhGYTRUOfJ7hhYp1KNwolCnSSQ/edit#slide=id.p
+	- **Progress Update Presentation Slides**
+	- **Presentation Slides** 
+	- **Date for Presentation**
+	- **Dashboard**
+	- **Repository** 
+	- **Blog** 
+	- **Mentor** 	
+- **Deep Reader:** - Eric Lawson, Madison Wheeler, Shoshana Malfatto, Birchell Eversole
+	- **Pitch Slides** https://docs.google.com/presentation/d/1QTC7FzkPm4BMx1JL_Mufe4vjRWFC2iFgutErg7ji2gw/edit#slide=id.p
+	- **Progress Update Presentation Slides**
+	- **Presentation Slides** 
+	- **Date for Presentation**
+	- **Dashboard**
+	- **Repository** 
+	- **Blog** 
+	- **Mentor** 	
+- **Did It:** - Tyler Pelaez, Stephen Dzialo, Matthew Chuang
+	- **Pitch Slides** https://docs.google.com/presentation/d/1lYfeGrSUPIR5bu-gemBbTFyKb_WCwa52OaOSwH5wF8c/edit#slide=id.p
+	- **Progress Update Presentation Slides**
+	- **Presentation Slides** 
+	- **Date for Presentation**
+	- **Dashboard**
+	- **Repository** 
+	- **Blog** 
+	- **Mentor** 	
+- **Borilliant FB** - Yuze Ma, Meher Dusi, Ziniu Yu, Ian Rios
+	- **Pitch Slides** https://docs.google.com/presentation/d/1Dp7xpwkq3scFJ9e8pcZ2_RB_J3yjvLPWrcoTyZJ0Eic/edit#slide=id.g1d0d8aa516_2_58
+	- **Progress Update Presentation Slides**
+	- **Presentation Slides** 
+	- **Date for Presentation**
+	- **Dashboard**
+	- **Repository** 
+	- **Blog** 
+	- **Mentor** 
+- **Reliquary:** - Samuel Breese
+	- **Pitch Slides** https://docs.google.com/presentation/d/1KUmqFLDUiKbKh7eQn9Rs4NRK5FMQbD8TQK4E9_eQAcA/edit#slide=id.p
+	- **Progress Update Presentation Slides**
+	- **Presentation Slides** 
+	- **Date for Presentation**
+	- **Dashboard**
+	- **Repository** 
+	- **Blog** 
+	- **Mentor** 	
+- **MTG Deck Storage:** - Zachary Maurer
+	- **Pitch Slides** https://docs.google.com/presentation/d/1vtqiBc39wMvCEi-ML-bQyYi2a0hLVA4hj_5-Hh-gvfs/edit#slide=id.p
+	- **Progress Update Presentation Slides**
+	- **Presentation Slides** 
+	- **Date for Presentation**
+	- **Dashboard**
+	- **Repository** 
+	- **Blog** 
+	- **Mentor** 	
+- **Rock Raider Neural Net:** - Nicholas Curtis
+	- **Pitch Slides** https://docs.google.com/presentation/d/1qWPLWSLGTKl_vSuhdkGReqWBrk8s5K1msouqZb_9HeY/edit#slide=id.p
+	- **Progress Update Presentation Slides**
+	- **Presentation Slides** 
+	- **Date for Presentation**
+	- **Dashboard**
+	- **Repository** 
+	- **Blog** 
+	- **Mentor** 
+- **Pigeon:** - Carlos Calero, Kevin Phoenix
+	- **Pitch Slides** https://docs.google.com/presentation/d/10CtqbeXj2L5pmjkxtAF_Fyiz_RJKHfNuNkOndBBrxxQ/edit#slide=id.p
+	- **Progress Update Presentation Slides**
+	- **Presentation Slides** 
+	- **Date for Presentation**
+	- **Dashboard**
+	- **Repository** 
+	- **Blog** 
+	- **Mentor** 
+- **Animate.css:** - Cole Gregory
+	- **Pitch Slides** https://docs.google.com/presentation/d/1FOKcvrTp4qzJqxnZntX7czulpzUnlaSp1Cqk5hWt85g/edit#slide=id.p
+	- **Progress Update Presentation Slides**
+	- **Presentation Slides** 
+	- **Date for Presentation**
+	- **Dashboard**
+	- **Repository** 
+	- **Blog** 
+	- **Mentor** 
+- **Logic Helper (Name TBD):** - Joel Bassett
+	- **Pitch Slides** https://drive.google.com/file/d/0B3lSNL7ZnyK-RlhrcGpNdEsyWm8/view?usp=sharing
+	- **Progress Update Presentation Slides**
+	- **Presentation Slides** 
+	- **Date for Presentation**
+	- **Dashboard**
+	- **Repository** 
+	- **Blog** 
+	- **Mentor** 
+- **Morse Keyboard:** - Elijah Abney, Brendan Forbes
+	- **Pitch Slides** https://docs.google.com/presentation/d/1UrBfk8wlcQO0ibj4-gxEwNhIBgm-fx5IzimO1sx9r4A/edit#slide=id.p
+	- **Progress Update Presentation Slides**
+	- **Presentation Slides** 
+	- **Date for Presentation**
+	- **Dashboard**
+	- **Repository** 
+	- **Blog** 
+	- **Mentor** 
+- **VR Development Acceleration Toolkit (Named TBD):** - Philip Cioni
+	- **Pitch Slides** https://docs.google.com/presentation/d/1geaukl6OeqjF2PeNvzzRQDOx4cdGoLV6XeCOazstRTk/edit#slide=id.p
+	- **Progress Update Presentation Slides**
+	- **Presentation Slides** 
+	- **Date for Presentation**
+	- **Dashboard**
+	- **Repository** 
+	- **Blog** 
+	- **Mentor** 
+- **Alvitr:** - Zifeng Su, Kaijian Zhong, Zhengyi Shi
+	- **Pitch Slides** https://docs.google.com/presentation/d/1zcylmfu6xRNgXAFH36xXQiyRcZnmQAB86de1W3E-DBM/edit#slide=id.p4
+	- **Progress Update Presentation Slides**
+	- **Presentation Slides** 
+	- **Date for Presentation**
+	- **Dashboard**
+	- **Repository** 
+	- **Blog** 
+	- **Mentor** 
+- **EGG:** - Casey Conway
+	- **Pitch Slides** https://docs.google.com/presentation/d/1Mt7HQPOdKtKePa19v2O5OBrdfAQQ72sCubmUG3qvix8/edit#slide=id.p
+	- **Progress Update Presentation Slides**
+	- **Presentation Slides** 
+	- **Date for Presentation**
+	- **Dashboard**
+	- **Repository** 
+	- **Blog** 
+	- **Mentor** 
+- **Mahjong:** - Hao Xu
+	- **Pitch Slides** https://docs.google.com/presentation/d/1ySSdl2WIFvdMJrAencC9pOZwh2aCFEsk2XhYnLg21r0/edit#slide=id.g1b2b0c0cd3_0_58
+	- **Progress Update Presentation Slides**
+	- **Presentation Slides** 
+	- **Date for Presentation**
+	- **Dashboard**
+	- **Repository** 
+	- **Blog** 
+	- **Mentor** 
