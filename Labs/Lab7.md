@@ -28,7 +28,7 @@ For this lab, please do the following - Lab report should be in your github page
 4. Try different visulaizations as done in chapter 9 of the text book. (Things have changed with R too - To load RGraphviz  go to a new Rscript window and type  `source("http://bioconductor.org/biocLite.R")`   Next, type in `biocLite("Rgraphviz")` After this you will be able to plot the graph of rules.)
 
 5. Please explore the two data set elect (election Bush vs. Kerry in 2004) and topmovies (top 1000 movies) 
-[These two data sets are located in http://github.com/mskmoorthy/elect.txt and http://github.com/topmovies.txt - These
+[These two data sets are located in https://github.com/mskmoorthy/datalab7 - These
 are public domain data - I modified one of them to get into easier format]- 
 similar to how the data is explored in http://www.rdatamining.com/docs/data-exploration-and-visualization-with-r
 Pease try to repeat what has been done with iris data. You may also want to find which states Bush won and the number of states he won.
