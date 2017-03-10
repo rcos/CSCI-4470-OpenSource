@@ -46,7 +46,7 @@
 	- **Repository** 
 	- **Blog** 
 	- **Mentor** 
-- **Surviving Open Source** - Griffin Melnick, Benjamin Hu, Ethan Stakoff
+- **Surviving Open Source** - Griffin Melnick, Benjamin Hu, Ethan Stakoff, Ryan Stillings
 	- **Pitch Slides** https://docs.google.com/presentation/d/1aFAcT__dELlvQTXO7h8z3_ukmHxeQODJ5hb2VcLgsXA/edit#slide=id.p
 	- **Progress Update Presentation Slides**
 	- **Presentation Slides** 
