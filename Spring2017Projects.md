@@ -46,7 +46,7 @@
 	- **Repository** 
 	- **Blog** 
 	- **Mentor** 
-- **Surviving Open Source** - Griffin Melnick, Benjamin Hu, Ethan Stakoff
+- **Surviving Open Source** - Griffin Melnick, Benjamin Hu, Ethan Stakoff, Ryan Stillings
 	- **Pitch Slides** https://docs.google.com/presentation/d/1aFAcT__dELlvQTXO7h8z3_ukmHxeQODJ5hb2VcLgsXA/edit#slide=id.p
 	- **Progress Update Presentation Slides**
 	- **Presentation Slides** 
@@ -100,7 +100,7 @@
 	- **Repository** 
 	- **Blog** 
 	- **Mentor** 
-- **Reliquary:** - Samuel Breese - extending his Open SOurce Project
+- **Reliquary:** - Samuel Breese - extending his Open Source Project
 	- **Pitch Slides** https://docs.google.com/presentation/d/1KUmqFLDUiKbKh7eQn9Rs4NRK5FMQbD8TQK4E9_eQAcA/edit#slide=id.p
 	- **Progress Update Presentation Slides**
 	- **Presentation Slides** 
@@ -145,7 +145,7 @@
 	- **Repository** 
 	- **Blog** 
 	- **Mentor** 
-- **Logic Helper (Name TBD):** - Joel Bassett - Existing RPI Open SOurce Project
+- **Logic Helper (Name TBD):** - Joel Bassett - Existing RPI Open Source Project
 	- **Pitch Slides** https://drive.google.com/file/d/0B3lSNL7ZnyK-RlhrcGpNdEsyWm8/view?usp=sharing
 	- **Progress Update Presentation Slides**
 	- **Presentation Slides** 

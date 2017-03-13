@@ -49,6 +49,6 @@ coder
 order
 ```
 
-- An interesting variation on word ladder is suggested in http://rexwordpuzzle.blogspot.com/2017/02/actress-form-mixed-martial-arts.html - Your task is to find words that precede SLID, DOTE, HERD and OMEN and the words that follow (immediately) NINE, SELL, STAT and WHAT.
+- An interesting variation on word ladder is suggested in http://rexwordpuzzle.blogspot.com/2017/02/actress-form-mixed-martial-arts.html - Your task is to find words that precede SLID, DOTE, HERD and OMEN and the words that follow (immediately) NINE, SELL, STAT and WHAT. To do this, create a function so that given the word SLID you print out all of the words that are 1 letter away from it (ie SLIT, SAID etc.). Do this for all all 8 of these words.
 
 - Create/fork a github repository for your project and work on your first commit
