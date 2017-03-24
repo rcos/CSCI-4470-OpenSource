@@ -83,7 +83,7 @@ You will need a cvs client. Most Linuxes and FreeBSD have cvs in their package r
 
 * Once you have found your file, you can check out its directory by issuing the following command:
 ```
-    $ cvs -danoncvs@openbsd.nycbug.org:/cvs checkout -P www/faq
+    $ cvs -danoncvs@ftp4.usa.openbsd.org:/cvs checkout -P www/faq
 ```
 This example will checkout the OpenBSD FAQ web pages to a directory on your computer named www/faq. You are responsible for editing only the last part of the command (“www/faq”) to identify which directory of the tree you want to check out.
 
