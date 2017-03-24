@@ -10,6 +10,8 @@ Now back to the Graduate Admissions data:
 
 Graduate Admssions dataset is [available in R](http://www.ats.ucla.edu/stat/data/binary.csv) If you issue a R Command str(admissions) tells you what the columns of this data set contain (namely admit (0 or 1), GRE score, GPA and Rank). There are 400 data points. First you have to convert the numerical entries into class variables) - These two command of R will do that
 
+In R Studio select import dataset, import as CSV then rename the dataset from binary to admissions.
+
 col_names <- names(admissions)
 
 admissions[,col_names] <- lapply(admissions[,col_names] , factor)
@@ -34,6 +36,8 @@ similar to how the data is explored in http://www.rdatamining.com/docs/data-expl
 Pease try to repeat what has been done with iris data. You may also want to find which states Bush won and the number of states he won.
 For topmovies, find how many of the movies are sequels, how many movies have the name "man"  and how many star wars movies are
 in them. Find as many interesting things about both the data as possible.
+
+Import both of these files as CSV.
 
 5. (optional) Read the kaggle [R tutorial on Machine Learning](https://www.datacamp.com/courses/kaggle-tutorial-on-machine-learing-the-sinking-of-the-titanic) (Random forest is also discussed in chapter 4 of the Zhao's book)
 (you can login with your facebook or google plus account or register)
