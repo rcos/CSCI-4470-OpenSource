@@ -163,7 +163,7 @@
 	- **Repository** https://github.com/abneye/morsekeyboard
 	- **Blog** https://rcos.io/projects/abneye/morsekeyboard/blog
 	- **Mentor** Matthew Mawby
-- **VR Development Acceleration Toolkit (Named TBD):** - Philip Cioni
+- **VR Development Acceleration Toolkit (Named TBD):** - Philip Cioni , David Cohen
 	- **Pitch Slides** https://docs.google.com/presentation/d/1geaukl6OeqjF2PeNvzzRQDOx4cdGoLV6XeCOazstRTk/edit#slide=id.p
 	- **Progress Update Presentation Slides**
 	- **Presentation Slides** 
