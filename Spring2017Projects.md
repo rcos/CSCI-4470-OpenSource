@@ -9,7 +9,7 @@
 	- **Dashboard** https://rcos.io/projects/djpetti/grobot/profile
 	- **Repository**  https://github.com/djpetti/grobot
 	- **Blog** https://rcos.io/projects/djpetti/grobot/blog
-	- **Mentor** 
+	- **Mentor** Professor Moorthy
 - **QuoteR:** - Samad Farooqui, Jarod George, Stephen Beale
 	- **Pitch Slides** https://docs.google.com/presentation/d/1VY6ao-4NyIbcnSChYz_MY33b1JHt4xXKvYHy5Hnzt58/edit#slide=id.g1b28be9598_0_630
 	- **Progress Update Presentation Slides**
@@ -27,7 +27,7 @@
 	- **Dashboard**
 	- **Repository** 
 	- **Blog** 
-	- **Mentor** 
+	- **Mentor** Adeet Phanse
 - **CampusMap:** - Samantha Katcher, Aaron Taylor Existing RCOS Project
 	- **Pitch Slides** https://drive.google.com/open?id=0B3lSNL7ZnyK-UGNqQlVnQVFGU0U
 	- **Progress Update Presentation Slides**
@@ -36,7 +36,7 @@
 	- **Dashboard** https://rcos.io/projects/katchs2/campusmap/profile
 	- **Repository** https://github.com/katchs2/campusmap
 	- **Blog** https://rcos.io/projects/katchs2/campusmap/blog
-	- **Mentor** 
+	- **Mentor** Adeet Phanse
 - **Tinkerrr:** - Stephen Wood
 	- **Pitch Slides** https://docs.google.com/presentation/d/15WJfIJPEHeasmUNSUggjKruqyIimRA8sjuCqlRmfe3A/edit#slide=id.p
 	- **Progress Update Presentation Slides**
@@ -45,7 +45,7 @@
 	- **Dashboard** https://rcos.io/projects/swood456/tinkerr/profile
 	- **Repository** https://github.com/swood456/tinkerr
 	- **Blog** https://rcos.io/projects/swood456/tinkerr/blog
-	- **Mentor** 
+	- **Mentor** Professor Moorthy
 - **Surviving Open Source** - Griffin Melnick, Benjamin Hu, Ethan Stakoff, Ryan Stillings
 	- **Pitch Slides** https://docs.google.com/presentation/d/1aFAcT__dELlvQTXO7h8z3_ukmHxeQODJ5hb2VcLgsXA/edit#slide=id.p
 	- **Progress Update Presentation Slides**
@@ -63,7 +63,7 @@
 	- **Dashboard** https://rcos.io/projects/sakura57/rrp/profile
 	- **Repository** https://github.com/sakura57/rrp
 	- **Blog** https://rcos.io/projects/sakura57/rrp/blog
-	- **Mentor** 
+	- **Mentor** Professor Moorthy
 - **CTFd:** - Nick Burnett  - Existing Open Source Project
 	- **Pitch Slides** https://docs.google.com/presentation/d/1u3rAypcAZIA0oR9vXnhGYTRUOfJ7hhYp1KNwolCnSSQ/edit#slide=id.p
 	- **Progress Update Presentation Slides**
@@ -72,7 +72,7 @@
 	- **Dashboard** https://rcos.io/projects/itszn/ctfd/profile
 	- **Repository** https://github.com/itszn/ctfd
 	- **Blog** https://rcos.io/projects/itszn/ctfd/blog
-	- **Mentor** 	
+	- **Mentor** Professor Moorthy
 - **Deep Reader:** - Eric Lawson, Madison Wheeler, Shoshana Malfatto, Birchell Eversole
 	- **Pitch Slides** https://docs.google.com/presentation/d/1QTC7FzkPm4BMx1JL_Mufe4vjRWFC2iFgutErg7ji2gw/edit#slide=id.p
 	- **Progress Update Presentation Slides**
@@ -81,7 +81,7 @@
 	- **Dashboard** https://rcos.io/projects/shanalily/deepreader/profile
 	- **Repository** https://github.com/shanalily/deepreader
 	- **Blog** https://rcos.io/projects/shanalily/deepreader/blog
-	- **Mentor** 	
+	- **Mentor** Adeet Phanse
 - **Did It:** - Tyler Pelaez, Stephen Dzialo, Matthew Chuang
 	- **Pitch Slides** https://docs.google.com/presentation/d/1lYfeGrSUPIR5bu-gemBbTFyKb_WCwa52OaOSwH5wF8c/edit#slide=id.p
 	- **Progress Update Presentation Slides**
@@ -99,7 +99,7 @@
 	- **Dashboard** https://rcos.io/projects/bobmayuze/borilliant_feedback/profile
 	- **Repository** https://github.com/bobmayuze/borilliant_feedback
 	- **Blog** https://rcos.io/projects/bobmayuze/borilliant_feedback/blog
-	- **Mentor** 
+	- **Mentor** Matthew Mawby
 - **Reliquary:** - Samuel Breese - extending his Open Source Project
 	- **Pitch Slides** https://docs.google.com/presentation/d/1KUmqFLDUiKbKh7eQn9Rs4NRK5FMQbD8TQK4E9_eQAcA/edit#slide=id.p
 	- **Progress Update Presentation Slides**
@@ -108,7 +108,7 @@
 	- **Dashboard** https://rcos.io/projects/chameco/reliquary/profile
 	- **Repository** https://github.com/chameco/reliquary
 	- **Blog** https://rcos.io/projects/chameco/reliquary/blog
-	- **Mentor** 	
+	- **Mentor** Professor Moorthy
 - **MTG Deck Storage:** - Zachary Maurer
 	- **Pitch Slides** https://docs.google.com/presentation/d/1vtqiBc39wMvCEi-ML-bQyYi2a0hLVA4hj_5-Hh-gvfs/edit#slide=id.p
 	- **Progress Update Presentation Slides**
@@ -117,7 +117,7 @@
 	- **Dashboard**
 	- **Repository** 
 	- **Blog** 
-	- **Mentor** 	
+	- **Mentor** Matthew Mawby
 - **Rock Raider Neural Net:** - Nicholas Curtis  - Exsiting RPI Open Source Project
 	- **Pitch Slides** https://docs.google.com/presentation/d/1qWPLWSLGTKl_vSuhdkGReqWBrk8s5K1msouqZb_9HeY/edit#slide=id.p
 	- **Progress Update Presentation Slides**
@@ -126,7 +126,7 @@
 	- **Dashboard** https://rcos.io/projects/nicksquared/rockraiderneuralnet/profile
 	- **Repository** https://github.com/nicksquared/rockraiderneuralnet
 	- **Blog** https://rcos.io/projects/nicksquared/rockraiderneuralnet/blog
-	- **Mentor** 
+	- **Mentor** Professor Moorthy
 - **Pigeon:** - Carlos Calero, Kevin Phoenix
 	- **Pitch Slides** https://docs.google.com/presentation/d/10CtqbeXj2L5pmjkxtAF_Fyiz_RJKHfNuNkOndBBrxxQ/edit#slide=id.p
 	- **Progress Update Presentation Slides**
@@ -135,7 +135,7 @@
 	- **Dashboard** https://rcos.io/projects/twizmwazin/pigeon/profile
 	- **Repository** https://github.com/twizmwazin/pigeon
 	- **Blog** https://rcos.io/projects/twizmwazin/pigeon/blog
-	- **Mentor** 
+	- **Mentor** Matthew Mawby
 - **Animate.css:** - Cole Gregory - Existing Open Source Project
 	- **Pitch Slides** https://docs.google.com/presentation/d/1FOKcvrTp4qzJqxnZntX7czulpzUnlaSp1Cqk5hWt85g/edit#slide=id.p
 	- **Progress Update Presentation Slides**
@@ -144,7 +144,7 @@
 	- **Dashboard** https://rcos.io/projects/colegregory/animate.css/profile
 	- **Repository** https://github.com/colegregory/animate.css
 	- **Blog** https://rcos.io/projects/colegregory/animate.css/blog
-	- **Mentor** 
+	- **Mentor** Professor Moorthy
 - **Logic Helper (Name TBD):** - Joel Bassett - Existing RPI Open Source Project
 	- **Pitch Slides** https://drive.google.com/file/d/0B3lSNL7ZnyK-RlhrcGpNdEsyWm8/view?usp=sharing
 	- **Progress Update Presentation Slides**
@@ -153,7 +153,7 @@
 	- **Dashboard**
 	- **Repository** 
 	- **Blog** 
-	- **Mentor** 
+	- **Mentor** Professor Moorthy
 - **Morse Keyboard:** - Elijah Abney, Brendan Forbes
 	- **Pitch Slides** https://docs.google.com/presentation/d/1UrBfk8wlcQO0ibj4-gxEwNhIBgm-fx5IzimO1sx9r4A/edit#slide=id.p
 	- **Progress Update Presentation Slides**
@@ -162,7 +162,7 @@
 	- **Dashboard** https://rcos.io/projects/abneye/morsekeyboard/profile
 	- **Repository** https://github.com/abneye/morsekeyboard
 	- **Blog** https://rcos.io/projects/abneye/morsekeyboard/blog
-	- **Mentor** 
+	- **Mentor** Matthew Mawby
 - **VR Development Acceleration Toolkit (Named TBD):** - Philip Cioni
 	- **Pitch Slides** https://docs.google.com/presentation/d/1geaukl6OeqjF2PeNvzzRQDOx4cdGoLV6XeCOazstRTk/edit#slide=id.p
 	- **Progress Update Presentation Slides**
@@ -171,7 +171,7 @@
 	- **Dashboard** https://rcos.io/projects/pcioni/vrdat/profile
 	- **Repository** https://github.com/pcioni/vrdat
 	- **Blog** https://rcos.io/projects/pcioni/vrdat/blog
-	- **Mentor** 
+	- **Mentor** Professor Moorthy
 - **Alvitr:** - Zifeng Su, Kaijian Zhong, Zhengyi Shi
 	- **Pitch Slides** https://docs.google.com/presentation/d/1zcylmfu6xRNgXAFH36xXQiyRcZnmQAB86de1W3E-DBM/edit#slide=id.p4
 	- **Progress Update Presentation Slides**
@@ -180,7 +180,7 @@
 	- **Dashboard** https://rcos.io/projects/kaijianz/alvitr/profile
 	- **Repository** https://github.com/kaijianz/alvitr
 	- **Blog** https://rcos.io/projects/kaijianz/alvitr/blog
-	- **Mentor** 
+	- **Mentor** Adeet Phanse
 - **EGG:** - Casey Conway
 	- **Pitch Slides** https://docs.google.com/presentation/d/1Mt7HQPOdKtKePa19v2O5OBrdfAQQ72sCubmUG3qvix8/edit#slide=id.p
 	- **Progress Update Presentation Slides**
@@ -189,7 +189,7 @@
 	- **Dashboard** https://rcos.io/projects/casey-c/egg/profile
 	- **Repository** https://github.com/casey-c/egg
 	- **Blog** https://rcos.io/projects/casey-c/egg/blog
-	- **Mentor** 
+	- **Mentor** Professor Moorthy
 - **Mahjong:** - Hao Xu
 	- **Pitch Slides** https://docs.google.com/presentation/d/1ySSdl2WIFvdMJrAencC9pOZwh2aCFEsk2XhYnLg21r0/edit#slide=id.g1b2b0c0cd3_0_58
 	- **Progress Update Presentation Slides**
@@ -198,4 +198,4 @@
 	- **Dashboard** https://rcos.io/projects/tomatosoldier/mahjong/profile
 	- **Repository** https://github.com/tomatosoldier/mahjong
 	- **Blog** https://rcos.io/projects/tomatosoldier/mahjong/blog
-	- **Mentor** 
+	- **Mentor** Professor Moorthy
