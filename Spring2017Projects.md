@@ -24,9 +24,9 @@
 	- **Progress Update Presentation Slides**
 	- **Presentation Slides** 
 	- **Date for Presentation**
-	- **Dashboard**
-	- **Repository** 
-	- **Blog** 
+	- **Dashboard** https://rcos.io/projects/garoller/mailpile/profile
+	- **Repository** https://github.com/garoller/mailpile
+	- **Blog** https://rcos.io/projects/garoller/mailpile/blog
 	- **Mentor** Adeet Phanse
 - **CampusMap:** - Samantha Katcher, Aaron Taylor Existing RCOS Project
 	- **Pitch Slides** https://drive.google.com/open?id=0B3lSNL7ZnyK-UGNqQlVnQVFGU0U
@@ -114,9 +114,9 @@
 	- **Progress Update Presentation Slides**
 	- **Presentation Slides** 
 	- **Date for Presentation**
-	- **Dashboard**
-	- **Repository** 
-	- **Blog** 
+	- **Dashboard** https://rcos.io/projects/zrmaurer/mtg-deck-storage/profile
+	- **Repository** https://github.com/zrmaurer/mtg-deck-storage
+	- **Blog** https://rcos.io/projects/zrmaurer/mtg-deck-storage/blog
 	- **Mentor** Matthew Mawby
 - **Rock Raider Neural Net:** - Nicholas Curtis  - Exsiting RPI Open Source Project
 	- **Pitch Slides** https://docs.google.com/presentation/d/1qWPLWSLGTKl_vSuhdkGReqWBrk8s5K1msouqZb_9HeY/edit#slide=id.p
