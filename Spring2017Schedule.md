@@ -36,11 +36,13 @@ This is a schedule for this course -
 
 * Friday 3/10/2017 - [Lab 7](Labs/Lab7.md)
 
-* Tuesday 3/21/2017 - Lecture
+* Tuesday 3/21/2017 - Lecture - [Community and Sustainability](Lectures/CommunityandSustainability-3-1-2016.pdf)
+			
+	[Community](HTML Lectures/DocumentationsAndCommunity-master/index2.html)
 
 * Friday 3/24/2017 - [Lab 8](Labs/Lab8.md)
 
-* Tuesday 3/28/2017 Lecture
+* Tuesday 3/28/2017 Lecture - [Mongo DB](Lectures/MongoDB.pdf)
 
 * Friday 3/31/2017 - [Lab 9](Labs/Lab9.md)
 
@@ -52,7 +54,7 @@ This is a schedule for this course -
 
 * Friday 4/14/2017 - Lecture
 
-* Tuesday 4/18/2017
+* Tuesday 4/18/2017 
 
 * Friday 4/21/2017
 
