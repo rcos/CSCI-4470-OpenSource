@@ -1,4 +1,4 @@
-## This is an extra credit Lab . Please do this lab before the 5/1/2016
+## This is an extra credit Lab . Please do this lab before the 5/1/2017
 
 You can do this at home. Please create a github page (lab report) for this lab and send a github link in the slack chnnel.
 
