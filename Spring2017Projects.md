@@ -145,15 +145,15 @@
 	- **Repository** https://github.com/colegregory/animate.css
 	- **Blog** https://rcos.io/projects/colegregory/animate.css/blog
 	- **Mentor** Professor Moorthy
-- **Logic Helper (Name TBD):** - Joel Bassett - Existing RPI Open Source Project
+- **TFTrees:** - Joel Bassett - Existing RPI Open Source Project
 	- **Pitch Slides** https://drive.google.com/file/d/0B3lSNL7ZnyK-RlhrcGpNdEsyWm8/view?usp=sharing
 	- **Progress Update Presentation Slides**
 	- **Presentation Slides** 
 	- **Date for Presentation**
-	- **Dashboard**
-	- **Repository** 
-	- **Blog** 
-	- **Mentor** Professor Moorthy
+	- **Dashboard** https://rcos.io/projects/jebwizard/tftrees/profile
+	- **Repository** https://github.com/jebwizard/tftrees
+	- **Blog** https://rcos.io/projects/jebwizard/tftrees/blog
+	- **Mentor** Professor Bram van Heuveln and Professor Moorthy
 - **Morse Keyboard:** - Elijah Abney, Brendan Forbes
 	- **Pitch Slides** https://docs.google.com/presentation/d/1UrBfk8wlcQO0ibj4-gxEwNhIBgm-fx5IzimO1sx9r4A/edit#slide=id.p
 	- **Progress Update Presentation Slides**
