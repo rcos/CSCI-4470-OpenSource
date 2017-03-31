@@ -14,7 +14,7 @@ We all want you to succeed and do well so do not hesitate to ask your assigned m
 is important as it will help us to track your progress as well as keep you on track towards achieving all the goals you have set out for yourself, so not
 neglect this aspect of the project!**
 
-- **Also on (TBD) you should make a one slide presentation containing a progress report on your project so far.**
+- **Also on April11th you should make a one slide presentation containing a progress report on your project so far.**
 
 Make sure you are following everything on the [rubric](../GradingRubric-for-Projects.md).
 
