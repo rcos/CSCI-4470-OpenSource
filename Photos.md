@@ -42,11 +42,11 @@ Lab 5 Documentation, Community and Testing - 2/17/2017
 
 ![Lab 5 2](Photos/lab5_2.jpg)
 
-Lab 9 BSD/ Free BSD Documentation Lab 3/24/2017
-![Lab 9 1](Photos/lab9-1.jpg)
+Lab 8 BSD/ Free BSD Documentation Lab 3/24/2017
+![Lab 8 1](Photos/lab8-1.jpg)
 
-Lab 9 BSD/ Free BSD Documentation Lab 3/24/2017
-![Lab 9 2](Photos/lab9-2.jpg)
+Lab 8 BSD/ Free BSD Documentation Lab 3/24/2017
+![Lab 8 2](Photos/lab8-2.jpg)
 
-Lab 9 BSD/ Free BSD Documentation Lab 3/24/2017
-![Lab 9 3](Photos/lab9-3.jpg)
+Lab 8 BSD/ Free BSD Documentation Lab 3/24/2017
+![Lab 8 3](Photos/lab8-3.jpg)
