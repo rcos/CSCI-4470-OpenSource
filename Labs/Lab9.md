@@ -151,4 +151,5 @@ Hint: Look at MongoDB documentation for $push
 
 ## Checkpoint 6: Project Updates
 Please complete the steps in the following file - 
-https://github.com/rcos/CSCI2961-01-Fall2016/blob/master/Labs/ProjectCheckpoint.md
+https://github.com/rcos/CSCI2963-01-Spring2017/blob/master/Labs/ProjectCheckpoint.md
+
