@@ -83,6 +83,9 @@ Where query is something like what you provided to `db.definitions.find` and new
 
 After you are satisfied with your changes, let's dump the database back to json and make a pull request.
 
+Specifically for this lab, {query} should be an existing word in the database and { new document } is a new definition that you want
+to make for that word. When you run the update command you overwrite the previous definition with the one you specify.
+
 ```
 >>> mongoexport --host=127.0.0.1 --db csci2963 --collection definitions --out definitions.json
 ```
