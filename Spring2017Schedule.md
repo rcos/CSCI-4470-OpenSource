@@ -50,9 +50,9 @@ This is a schedule for this course -
 
 * Friday 4/7/2017 - [Lab 10](Labs/Lab10.md)
 
-* Tuesday 4/11/2017 - Quiz 2
+* Tuesday 4/11/2017 - Project Update Presentation 
 
-* Friday 4/14/2017 - Lecture
+* Friday 4/14/2017 - Quiz 2
 
 * Tuesday 4/18/2017 
 
