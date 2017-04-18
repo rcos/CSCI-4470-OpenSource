@@ -70,7 +70,7 @@
 	- **Pitch Slides** https://docs.google.com/presentation/d/1u3rAypcAZIA0oR9vXnhGYTRUOfJ7hhYp1KNwolCnSSQ/edit#slide=id.p
 	- **Progress Update Presentation Slides** https://docs.google.com/presentation/d/1r0GigAF-pD2kl9iA8gn9VK4X5XFmE-ZClQ0XzWrwHGI/edit#slide=id.p
 	- **Presentation Slides** 
-	- **Date for Presentation**
+	- **Date for Presentation** 4/28/2017
 	- **Dashboard** https://rcos.io/projects/itszn/ctfd/profile
 	- **Repository** https://github.com/itszn/ctfd
 	- **Blog** https://rcos.io/projects/itszn/ctfd/blog
@@ -106,7 +106,7 @@
 	- **Pitch Slides** https://docs.google.com/presentation/d/1KUmqFLDUiKbKh7eQn9Rs4NRK5FMQbD8TQK4E9_eQAcA/edit#slide=id.p
 	- **Progress Update Presentation Slides** https://docs.google.com/presentation/d/182sxWBbT8tDXZiVk6e_PltZgbJWWtY1kF8tAAQ2r7n0/edit#slide=id.p
 	- **Presentation Slides** 
-	- **Date for Presentation**
+	- **Date for Presentation** 4/28/2017
 	- **Dashboard** https://rcos.io/projects/chameco/reliquary/profile
 	- **Repository** https://github.com/chameco/reliquary
 	- **Blog** https://rcos.io/projects/chameco/reliquary/blog
@@ -133,7 +133,7 @@
 	- **Pitch Slides** https://docs.google.com/presentation/d/10CtqbeXj2L5pmjkxtAF_Fyiz_RJKHfNuNkOndBBrxxQ/edit#slide=id.p
 	- **Progress Update Presentation Slides** https://docs.google.com/presentation/d/1_blxuMhVTJTEzBgwsPIKqxYUCONvveAok-OZqYe5tdM/edit#slide=id.p
 	- **Presentation Slides** 
-	- **Date for Presentation**
+	- **Date for Presentation** 4/28/2017
 	- **Dashboard** https://rcos.io/projects/twizmwazin/pigeon/profile
 	- **Repository** https://github.com/twizmwazin/pigeon
 	- **Blog** https://rcos.io/projects/twizmwazin/pigeon/blog
@@ -142,7 +142,7 @@
 	- **Pitch Slides** https://docs.google.com/presentation/d/1FOKcvrTp4qzJqxnZntX7czulpzUnlaSp1Cqk5hWt85g/edit#slide=id.p
 	- **Progress Update Presentation Slides** https://docs.google.com/presentation/d/189FU0hwj6LA4f-PgyKASDn3kFC-sdmnbsl7EMvHhepU/edit#slide=id.p
 	- **Presentation Slides** 
-	- **Date for Presentation**
+	- **Date for Presentation** 4/28/2017
 	- **Dashboard** https://rcos.io/projects/colegregory/animate.css/profile
 	- **Repository** https://github.com/colegregory/animate.css
 	- **Blog** https://rcos.io/projects/colegregory/animate.css/blog
@@ -187,7 +187,7 @@
 	- **Pitch Slides** https://docs.google.com/presentation/d/1Mt7HQPOdKtKePa19v2O5OBrdfAQQ72sCubmUG3qvix8/edit#slide=id.p
 	- **Progress Update Presentation Slides** https://docs.google.com/presentation/d/1RNZ83imhQww_w-6Yb79XMgaBOV_SNDLpLq2oCYMgn4o/edit#slide=id.p
 	- **Presentation Slides** 
-	- **Date for Presentation**
+	- **Date for Presentation** 4/28/2017
 	- **Dashboard** https://rcos.io/projects/casey-c/egg/profile
 	- **Repository** https://github.com/casey-c/egg
 	- **Blog** https://rcos.io/projects/casey-c/egg/blog
