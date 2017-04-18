@@ -15,7 +15,7 @@
 	- **Pitch Slides** https://docs.google.com/presentation/d/1VY6ao-4NyIbcnSChYz_MY33b1JHt4xXKvYHy5Hnzt58/edit#slide=id.g1b28be9598_0_630
 	- **Progress Update Presentation Slides** https://docs.google.com/presentation/d/1BXuaLc4piB9V2SLXCieGXTl9O5KOqlXN4UNt9zwaji4/edit#slide=id.g1b28be9598_0_630
 	- **Presentation Slides** 
-	- **Date for Presentation**
+	- **Date for Presentation** 5/2/2017
 	- **Dashboard** https://rcos.io/projects/faroos3/quoter/profile
 	- **Repository** https://github.com/faroos3/quoters
 	- **Blog** https://rcos.io/projects/faroos3/quoter/blog
@@ -24,7 +24,7 @@
 	- **Pitch Slides** https://docs.google.com/presentation/d/18px-nOrDfaoC-zxJ7RQMQm9k6eb8PhIIFPSGFBMLORQ/edit#slide=id.p
 	- **Progress Update Presentation Slides** https://docs.google.com/presentation/d/1fREg_BXYkvQsamNvu9codTRFovhWk35nTOSYrNcoqs4/edit#slide=id.g1d6b48c3dd_2_50
 	- **Presentation Slides** 
-	- **Date for Presentation**
+	- **Date for Presentation** 5/2/2017
 	- **Dashboard** https://rcos.io/projects/garoller/mailpile/profile
 	- **Repository** https://github.com/garoller/mailpile
 	- **Blog** https://rcos.io/projects/garoller/mailpile/blog
@@ -33,7 +33,7 @@
 	- **Pitch Slides** https://drive.google.com/open?id=0B3lSNL7ZnyK-UGNqQlVnQVFGU0U
 	- **Progress Update Presentation Slides** https://docs.google.com/presentation/d/1lTJUpCI_GtJ1KXxhJBXVQv_GN8Om5BWeScyu_5DRmMk/edit
 	- **Presentation Slides** 
-	- **Date for Presentation**
+	- **Date for Presentation** 5/2/2017
 	- **Dashboard** https://rcos.io/projects/katchs2/campusmap/profile
 	- **Repository** https://github.com/katchs2/campusmap
 	- **Blog** https://rcos.io/projects/katchs2/campusmap/blog
@@ -51,7 +51,7 @@
 	- **Pitch Slides** https://docs.google.com/presentation/d/1aFAcT__dELlvQTXO7h8z3_ukmHxeQODJ5hb2VcLgsXA/edit#slide=id.p
 	- **Progress Update Presentation Slides** https://docs.google.com/presentation/d/1Th441Ry3sq2BFguEad-xR390N4AORA_j44o5kUua2CU/edit?usp=sharing
 	- **Presentation Slides** 
-	- **Date for Presentation**
+	- **Date for Presentation** 5/5/2017
 	- **Dashboard** https://rcos.io/projects/melnig/sos/profile
 	- **Repository** https://github.com/melnig/sos
 	- **Blog** https://rcos.io/projects/melnig/sos/blog
@@ -79,7 +79,7 @@
 	- **Pitch Slides** https://docs.google.com/presentation/d/1QTC7FzkPm4BMx1JL_Mufe4vjRWFC2iFgutErg7ji2gw/edit#slide=id.p
 	- **Progress Update Presentation Slides** https://docs.google.com/presentation/d/1XdPmlXZJm29NHOZ2HFw_12ObdxfS9Sk3No7TPhHjQVo/edit#slide=id.p
 	- **Presentation Slides** 
-	- **Date for Presentation**
+	- **Date for Presentation** 5/5/2017
 	- **Dashboard** https://rcos.io/projects/shanalily/deepreader/profile
 	- **Repository** https://github.com/shanalily/deepreader
 	- **Blog** https://rcos.io/projects/shanalily/deepreader/blog
@@ -88,7 +88,7 @@
 	- **Pitch Slides** https://docs.google.com/presentation/d/1lYfeGrSUPIR5bu-gemBbTFyKb_WCwa52OaOSwH5wF8c/edit#slide=id.p
 	- **Progress Update Presentation Slides**https://docs.google.com/presentation/d/1n09Gxs7RM7Krmod2qV6n-59dmZaBs0lsYXLFwpW7LdY/edit#slide=id.p
 	- **Presentation Slides** 
-	- **Date for Presentation**
+	- **Date for Presentation** 5/2/2017
 	- **Dashboard** https://rcos.io/projects/defectiveman/didit/profile
 	- **Repository** https://github.com/defectiveman/didit
 	- **Blog** https://rcos.io/projects/defectiveman/didit/blog
@@ -97,7 +97,7 @@
 	- **Pitch Slides** https://docs.google.com/presentation/d/1Dp7xpwkq3scFJ9e8pcZ2_RB_J3yjvLPWrcoTyZJ0Eic/edit#slide=id.g1d0d8aa516_2_58
 	- **Progress Update Presentation Slides** https://docs.google.com/presentation/d/1Dp7xpwkq3scFJ9e8pcZ2_RB_J3yjvLPWrcoTyZJ0Eic/edit#slide=id.g1d69c1e5ba_0_12
 	- **Presentation Slides** 
-	- **Date for Presentation**
+	- **Date for Presentation** 5/5/2017
 	- **Dashboard** https://rcos.io/projects/bobmayuze/borilliant_feedback/profile
 	- **Repository** https://github.com/bobmayuze/borilliant_feedback
 	- **Blog** https://rcos.io/projects/bobmayuze/borilliant_feedback/blog
@@ -115,7 +115,7 @@
 	- **Pitch Slides** https://docs.google.com/presentation/d/1vtqiBc39wMvCEi-ML-bQyYi2a0hLVA4hj_5-Hh-gvfs/edit#slide=id.p
 	- **Progress Update Presentation Slides** https://docs.google.com/presentation/d/1Lj_Hh_NvstifJWpmR4xp3D5Fs0c_nQBKG2ovlExHUBg/edit#slide=id.p
 	- **Presentation Slides** 
-	- **Date for Presentation**
+	- **Date for Presentation** 5/5/2017
 	- **Dashboard** https://rcos.io/projects/zrmaurer/mtg-deck-storage/profile
 	- **Repository** https://github.com/zrmaurer/mtg-deck-storage
 	- **Blog** https://rcos.io/projects/zrmaurer/mtg-deck-storage/blog
@@ -124,7 +124,7 @@
 	- **Pitch Slides** https://docs.google.com/presentation/d/1qWPLWSLGTKl_vSuhdkGReqWBrk8s5K1msouqZb_9HeY/edit#slide=id.p
 	- **Progress Update Presentation Slides** https://docs.google.com/presentation/d/1ZeXN5cFtTast8O54OAD1QDl5nt58xPa4c6H0lgLV4_A/edit#slide=id.p
 	- **Presentation Slides** 
-	- **Date for Presentation**
+	- **Date for Presentation** 5/5/2017
 	- **Dashboard** https://rcos.io/projects/nicksquared/rockraiderneuralnet/profile
 	- **Repository** https://github.com/nicksquared/rockraiderneuralnet
 	- **Blog** https://rcos.io/projects/nicksquared/rockraiderneuralnet/blog
@@ -151,7 +151,7 @@
 	- **Pitch Slides** https://drive.google.com/file/d/0B3lSNL7ZnyK-RlhrcGpNdEsyWm8/view?usp=sharing
 	- **Progress Update Presentation Slides** https://docs.google.com/presentation/d/1nqCHnUeGETjo6nO7cev1TfL0vgwQ2w6A7kAduxgquQ8/edit#slide=id.p
 	- **Presentation Slides** 
-	- **Date for Presentation**
+	- **Date for Presentation** 5/2/2017
 	- **Dashboard** https://rcos.io/projects/jebwizard/tftrees/profile
 	- **Repository** https://github.com/jebwizard/tftrees
 	- **Blog** https://rcos.io/projects/jebwizard/tftrees/blog
@@ -160,7 +160,7 @@
 	- **Pitch Slides** https://docs.google.com/presentation/d/1UrBfk8wlcQO0ibj4-gxEwNhIBgm-fx5IzimO1sx9r4A/edit#slide=id.p
 	- **Progress Update Presentation Slides** https://docs.google.com/presentation/d/1WAX-93tA3iQsLr_ruXnyQtqLK_HMbhLSDj8MqkwmDnk/edit#slide=id.p
 	- **Presentation Slides** 
-	- **Date for Presentation**
+	- **Date for Presentation** 5/2/2017
 	- **Dashboard** https://rcos.io/projects/abneye/morsekeyboard/profile
 	- **Repository** https://github.com/abneye/morsekeyboard
 	- **Blog** https://rcos.io/projects/abneye/morsekeyboard/blog
@@ -178,7 +178,7 @@
 	- **Pitch Slides** https://docs.google.com/presentation/d/1zcylmfu6xRNgXAFH36xXQiyRcZnmQAB86de1W3E-DBM/edit#slide=id.p4
 	- **Progress Update Presentation Slides** https://docs.google.com/presentation/d/1zcylmfu6xRNgXAFH36xXQiyRcZnmQAB86de1W3E-DBM/edit#slide=id.p4
 	- **Presentation Slides** 
-	- **Date for Presentation**
+	- **Date for Presentation** 5/5/2017
 	- **Dashboard** https://rcos.io/projects/kaijianz/alvitr/profile
 	- **Repository** https://github.com/kaijianz/alvitr
 	- **Blog** https://rcos.io/projects/kaijianz/alvitr/blog
@@ -196,7 +196,7 @@
 	- **Pitch Slides** https://docs.google.com/presentation/d/1ySSdl2WIFvdMJrAencC9pOZwh2aCFEsk2XhYnLg21r0/edit#slide=id.g1b2b0c0cd3_0_58
 	- **Progress Update Presentation Slides** https://docs.google.com/presentation/d/1FdYdvQ6hcOJff9g9DM1bG6HTgptPg_CswkLRlJVkE8s/edit#slide=id.p
 	- **Presentation Slides** 
-	- **Date for Presentation**
+	- **Date for Presentation** 5/5/2017
 	- **Dashboard** https://rcos.io/projects/tomatosoldier/mahjong/profile
 	- **Repository** https://github.com/tomatosoldier/mahjong
 	- **Blog** https://rcos.io/projects/tomatosoldier/mahjong/blog
