@@ -6,7 +6,7 @@
 	- **Progress Update Presentation Slides** https://docs.google.com/presentation/d/1WGCLLfp7TlL1F9nE8rSvofvLO3FVRReThUzW6MP-aW0/edit#slide=id.p
 	
 	- **Presentation Slides** 
-	- **Date for Presentation**
+	- **Date for Presentation** 5/2/2017
 	- **Dashboard** https://rcos.io/projects/djpetti/grobot/profile
 	- **Repository**  https://github.com/djpetti/grobot
 	- **Blog** https://rcos.io/projects/djpetti/grobot/blog
