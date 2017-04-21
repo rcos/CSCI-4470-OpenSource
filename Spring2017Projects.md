@@ -61,7 +61,7 @@
 	- **Progress Update Presentation Slides**
 	https://docs.google.com/presentation/d/1IMJGIeqrE4jKXK3jdX9asolv780sZS0gRvrWzHB0egA/edit#slide=id.p3
 	- **Presentation Slides** 
-	- **Date for Presentation**
+	- **Date for Presentation** 5/5/2017
 	- **Dashboard** https://rcos.io/projects/sakura57/rrp/profile
 	- **Repository** https://github.com/sakura57/rrp
 	- **Blog** https://rcos.io/projects/sakura57/rrp/blog
