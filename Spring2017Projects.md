@@ -42,7 +42,7 @@
 	- **Pitch Slides** https://docs.google.com/presentation/d/15WJfIJPEHeasmUNSUggjKruqyIimRA8sjuCqlRmfe3A/edit#slide=id.p
 	- **Progress Update Presentation Slides** https://docs.google.com/presentation/d/1otZqWP57dUU89nbmoXP2zGZAyj38SLGe-ROVer9nYvo/edit#slide=id.p
 	- **Presentation Slides** 
-	- **Date for Presentation**
+	- **Date for Presentation** 5/2/2017
 	- **Dashboard** https://rcos.io/projects/swood456/tinkerr/profile
 	- **Repository** https://github.com/swood456/tinkerr
 	- **Blog** https://rcos.io/projects/swood456/tinkerr/blog
