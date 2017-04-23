@@ -169,7 +169,7 @@
 	- **Pitch Slides** https://docs.google.com/presentation/d/1geaukl6OeqjF2PeNvzzRQDOx4cdGoLV6XeCOazstRTk/edit#slide=id.p
 	- **Progress Update Presentation Slides** https://docs.google.com/presentation/d/1aO90ocWq4lcvlmfJ5UO1_NUakWJDmDVOTIbESyS2CCA/edit#slide=id.p
 	- **Presentation Slides** 
-	- **Date for Presentation**
+	- **Date for Presentation** 5/2/2017
 	- **Dashboard** https://rcos.io/projects/pcioni/vrdat/profile
 	- **Repository** https://github.com/pcioni/vrdat
 	- **Blog** https://rcos.io/projects/pcioni/vrdat/blog
