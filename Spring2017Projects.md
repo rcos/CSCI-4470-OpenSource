@@ -105,7 +105,7 @@
 - **Reliquary:** - Samuel Breese - extending his Open Source Project
 	- **Pitch Slides** https://docs.google.com/presentation/d/1KUmqFLDUiKbKh7eQn9Rs4NRK5FMQbD8TQK4E9_eQAcA/edit#slide=id.p
 	- **Progress Update Presentation Slides** https://docs.google.com/presentation/d/182sxWBbT8tDXZiVk6e_PltZgbJWWtY1kF8tAAQ2r7n0/edit#slide=id.p
-	- **Presentation Slides** 
+	- **Presentation Slides** https://docs.google.com/presentation/d/1bUPeahTqvDpsY5hhanEaank6m8QmImocH_ql9pJ8v3k/edit?usp=sharing
 	- **Date for Presentation** 4/28/2017
 	- **Dashboard** https://rcos.io/projects/chameco/reliquary/profile
 	- **Repository** https://github.com/chameco/reliquary
@@ -141,7 +141,7 @@
 - **Animate.css:** - Cole Gregory - Existing Open Source Project
 	- **Pitch Slides** https://docs.google.com/presentation/d/1FOKcvrTp4qzJqxnZntX7czulpzUnlaSp1Cqk5hWt85g/edit#slide=id.p
 	- **Progress Update Presentation Slides** https://docs.google.com/presentation/d/189FU0hwj6LA4f-PgyKASDn3kFC-sdmnbsl7EMvHhepU/edit#slide=id.p
-	- **Presentation Slides** 
+	- **Presentation Slides** https://docs.google.com/presentation/d/189FU0hwj6LA4f-PgyKASDn3kFC-sdmnbsl7EMvHhepU/edit#slide=id.p
 	- **Date for Presentation** 4/28/2017
 	- **Dashboard** https://rcos.io/projects/colegregory/animate.css/profile
 	- **Repository** https://github.com/colegregory/animate.css
@@ -177,8 +177,8 @@
 - **Alvitr:** - Zifeng Su, Kaijian Zhong, Zhengyi Shi
 	- **Pitch Slides** https://docs.google.com/presentation/d/1zcylmfu6xRNgXAFH36xXQiyRcZnmQAB86de1W3E-DBM/edit#slide=id.p4
 	- **Progress Update Presentation Slides** https://docs.google.com/presentation/d/1zcylmfu6xRNgXAFH36xXQiyRcZnmQAB86de1W3E-DBM/edit#slide=id.p4
-	- **Presentation Slides** 
-	- **Date for Presentation** 5/5/2017
+	- **Presentation Slides** https://docs.google.com/presentation/d/17IBw2S-9Inl1mvb6Lfk3Li_WzwlFjisAWwWGWZqhJxQ/edit?usp=sharing
+	- **Date for Presentation** 4/28/2017
 	- **Dashboard** https://rcos.io/projects/kaijianz/alvitr/profile
 	- **Repository** https://github.com/kaijianz/alvitr
 	- **Blog** https://rcos.io/projects/kaijianz/alvitr/blog
