@@ -186,7 +186,7 @@
 - **EGG:** - Casey Conway
 	- **Pitch Slides** https://docs.google.com/presentation/d/1Mt7HQPOdKtKePa19v2O5OBrdfAQQ72sCubmUG3qvix8/edit#slide=id.p
 	- **Progress Update Presentation Slides** https://docs.google.com/presentation/d/1RNZ83imhQww_w-6Yb79XMgaBOV_SNDLpLq2oCYMgn4o/edit#slide=id.p
-	- **Presentation Slides** 
+	- **Presentation Slides** https://docs.google.com/presentation/d/1C3Zuylo7w7BTZx05FLmlnVjZfPvQvext1zMPa1hspH4/edit#slide=id.p
 	- **Date for Presentation** 4/28/2017
 	- **Dashboard** https://rcos.io/projects/casey-c/egg/profile
 	- **Repository** https://github.com/casey-c/egg
