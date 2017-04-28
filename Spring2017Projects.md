@@ -69,7 +69,7 @@
 - **CTFd:** - Nick Burnett  - Existing Open Source Project
 	- **Pitch Slides** https://docs.google.com/presentation/d/1u3rAypcAZIA0oR9vXnhGYTRUOfJ7hhYp1KNwolCnSSQ/edit#slide=id.p
 	- **Progress Update Presentation Slides** https://docs.google.com/presentation/d/1r0GigAF-pD2kl9iA8gn9VK4X5XFmE-ZClQ0XzWrwHGI/edit#slide=id.p
-	- **Presentation Slides** 
+	- **Presentation Slides** https://docs.google.com/presentation/d/1x33KP02NjYYj7AKtUoEn__2jifb1GsNWs5RapB7jv5I/edit#slide=id.p
 	- **Date for Presentation** 4/28/2017
 	- **Dashboard** https://rcos.io/projects/itszn/ctfd/profile
 	- **Repository** https://github.com/itszn/ctfd
@@ -132,7 +132,7 @@
 - **Pigeon:** - Carlos Calero, Kevin Phoenix
 	- **Pitch Slides** https://docs.google.com/presentation/d/10CtqbeXj2L5pmjkxtAF_Fyiz_RJKHfNuNkOndBBrxxQ/edit#slide=id.p
 	- **Progress Update Presentation Slides** https://docs.google.com/presentation/d/1_blxuMhVTJTEzBgwsPIKqxYUCONvveAok-OZqYe5tdM/edit#slide=id.p
-	- **Presentation Slides** 
+	- **Presentation Slides** https://docs.google.com/presentation/d/1KIvq_S6T7VQqhby63GK0Eeq0BP_fX3KuwrUVZGBhtvk/edit#slide=id.p
 	- **Date for Presentation** 4/28/2017
 	- **Dashboard** https://rcos.io/projects/twizmwazin/pigeon/profile
 	- **Repository** https://github.com/twizmwazin/pigeon
