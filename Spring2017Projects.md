@@ -32,7 +32,7 @@
 - **CampusMap:** - Samantha Katcher, Aaron Taylor Existing RCOS Project
 	- **Pitch Slides** https://drive.google.com/open?id=0B3lSNL7ZnyK-UGNqQlVnQVFGU0U
 	- **Progress Update Presentation Slides** https://docs.google.com/presentation/d/1lTJUpCI_GtJ1KXxhJBXVQv_GN8Om5BWeScyu_5DRmMk/edit
-	- **Presentation Slides** 
+	- **Presentation Slides** https://docs.google.com/presentation/d/10yVyonetCbgj44-9yWrM1UU2MhauacWRf19MTbaPi0I/edit#slide=id.p3
 	- **Date for Presentation** 5/2/2017
 	- **Dashboard** https://rcos.io/projects/katchs2/campusmap/profile
 	- **Repository** https://github.com/katchs2/campusmap
