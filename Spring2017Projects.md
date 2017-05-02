@@ -5,7 +5,7 @@
 	- **Pitch Slides** https://docs.google.com/presentation/d/1H1oyOFab7-zSqBPSlqAFs6RlwRsqsOke2tH0QuEIF3s/edit
 	- **Progress Update Presentation Slides** https://docs.google.com/presentation/d/1WGCLLfp7TlL1F9nE8rSvofvLO3FVRReThUzW6MP-aW0/edit#slide=id.p
 	
-	- **Presentation Slides** 
+	- **Presentation Slides** https://docs.google.com/presentation/d/1WqnRP2fAwC6t7NCDhvBBiJTl5d-fWbtC1YxCzwR9QsI/edit?usp=sharing
 	- **Date for Presentation** 5/2/2017
 	- **Dashboard** https://rcos.io/projects/djpetti/grobot/profile
 	- **Repository**  https://github.com/djpetti/grobot
@@ -14,7 +14,7 @@
 - **QuoteR:** - Samad Farooqui, Jarod George, Stephen Beale
 	- **Pitch Slides** https://docs.google.com/presentation/d/1VY6ao-4NyIbcnSChYz_MY33b1JHt4xXKvYHy5Hnzt58/edit#slide=id.g1b28be9598_0_630
 	- **Progress Update Presentation Slides** https://docs.google.com/presentation/d/1BXuaLc4piB9V2SLXCieGXTl9O5KOqlXN4UNt9zwaji4/edit#slide=id.g1b28be9598_0_630
-	- **Presentation Slides** 
+	- **Presentation Slides** https://docs.google.com/presentation/d/1YBz6n5keSu8BjxN7XZ8-n5Bn0kkablTWfMm0kEhLq94/edit?usp=sharing
 	- **Date for Presentation** 5/2/2017
 	- **Dashboard** https://rcos.io/projects/faroos3/quoter/profile
 	- **Repository** https://github.com/faroos3/quoters
@@ -23,7 +23,7 @@
 - **MailPile:** - Grace Roller - Existing Open Source Project
 	- **Pitch Slides** https://docs.google.com/presentation/d/18px-nOrDfaoC-zxJ7RQMQm9k6eb8PhIIFPSGFBMLORQ/edit#slide=id.p
 	- **Progress Update Presentation Slides** https://docs.google.com/presentation/d/1fREg_BXYkvQsamNvu9codTRFovhWk35nTOSYrNcoqs4/edit#slide=id.g1d6b48c3dd_2_50
-	- **Presentation Slides** 
+	- **Presentation Slides** https://docs.google.com/presentation/d/1k9wERvzSWDzgUlr2kuZJgvDQMbsfZ9WXAhLDfB20TEk/edit?usp=sharing
 	- **Date for Presentation** 5/2/2017
 	- **Dashboard** https://rcos.io/projects/garoller/mailpile/profile
 	- **Repository** https://github.com/garoller/mailpile
@@ -32,7 +32,7 @@
 - **CampusMap:** - Samantha Katcher, Aaron Taylor Existing RCOS Project
 	- **Pitch Slides** https://drive.google.com/open?id=0B3lSNL7ZnyK-UGNqQlVnQVFGU0U
 	- **Progress Update Presentation Slides** https://docs.google.com/presentation/d/1lTJUpCI_GtJ1KXxhJBXVQv_GN8Om5BWeScyu_5DRmMk/edit
-	- **Presentation Slides** https://docs.google.com/presentation/d/10yVyonetCbgj44-9yWrM1UU2MhauacWRf19MTbaPi0I/edit#slide=id.p3
+	- **Presentation Slides** https://docs.google.com/presentation/d/10yVyonetCbgj44-9yWrM1UU2MhauacWRf19MTbaPi0I/edit?usp=sharing
 	- **Date for Presentation** 5/2/2017
 	- **Dashboard** https://rcos.io/projects/katchs2/campusmap/profile
 	- **Repository** https://github.com/katchs2/campusmap
@@ -41,7 +41,7 @@
 - **Tinkerrr:** - Stephen Wood
 	- **Pitch Slides** https://docs.google.com/presentation/d/15WJfIJPEHeasmUNSUggjKruqyIimRA8sjuCqlRmfe3A/edit#slide=id.p
 	- **Progress Update Presentation Slides** https://docs.google.com/presentation/d/1otZqWP57dUU89nbmoXP2zGZAyj38SLGe-ROVer9nYvo/edit#slide=id.p
-	- **Presentation Slides** 
+	- **Presentation Slides** https://docs.google.com/presentation/d/117hm5LRUQ2VZ7c23D6zhWjKwJ2UUFc2RNf4P7XmbeDc/edit?usp=sharing
 	- **Date for Presentation** 5/2/2017
 	- **Dashboard** https://rcos.io/projects/swood456/tinkerr/profile
 	- **Repository** https://github.com/swood456/tinkerr
@@ -78,7 +78,7 @@
 - **Deep Reader:** - Eric Lawson, Madison Wheeler, Shoshana Malfatto, Birchell Eversole
 	- **Pitch Slides** https://docs.google.com/presentation/d/1QTC7FzkPm4BMx1JL_Mufe4vjRWFC2iFgutErg7ji2gw/edit#slide=id.p
 	- **Progress Update Presentation Slides** https://docs.google.com/presentation/d/1XdPmlXZJm29NHOZ2HFw_12ObdxfS9Sk3No7TPhHjQVo/edit#slide=id.p
-	- **Presentation Slides** 
+	- **Presentation Slides** https://docs.google.com/presentation/d/1oK6VSYPkYmTS1XJMV-tlGocmMVjRn0VeJFHAAlrd_GI/edit?usp=sharing
 	- **Date for Presentation** 5/5/2017
 	- **Dashboard** https://rcos.io/projects/shanalily/deepreader/profile
 	- **Repository** https://github.com/shanalily/deepreader
@@ -87,7 +87,7 @@
 - **Did It:** - Tyler Pelaez, Stephen Dzialo, Matthew Chuang
 	- **Pitch Slides** https://docs.google.com/presentation/d/1lYfeGrSUPIR5bu-gemBbTFyKb_WCwa52OaOSwH5wF8c/edit#slide=id.p
 	- **Progress Update Presentation Slides**https://docs.google.com/presentation/d/1n09Gxs7RM7Krmod2qV6n-59dmZaBs0lsYXLFwpW7LdY/edit#slide=id.p
-	- **Presentation Slides** 
+	- **Presentation Slides** https://docs.google.com/presentation/d/1hkK3DLaP2ROA5Q_Sd3bvNCoTwY9sCdq8i0TX_EjhXuA/edit?usp=sharing
 	- **Date for Presentation** 5/2/2017
 	- **Dashboard** https://rcos.io/projects/defectiveman/didit/profile
 	- **Repository** https://github.com/defectiveman/didit
@@ -150,7 +150,7 @@
 - **TFTrees:** - Joel Bassett - Existing RPI Open Source Project
 	- **Pitch Slides** https://drive.google.com/file/d/0B3lSNL7ZnyK-RlhrcGpNdEsyWm8/view?usp=sharing
 	- **Progress Update Presentation Slides** https://docs.google.com/presentation/d/1nqCHnUeGETjo6nO7cev1TfL0vgwQ2w6A7kAduxgquQ8/edit#slide=id.p
-	- **Presentation Slides** 
+	- **Presentation Slides** https://docs.google.com/presentation/d/1kpSxCl_IsVIrERW0daVmFI2eLIevMNHogOJaL8mhLFQ/edit#slide=id.p
 	- **Date for Presentation** 5/2/2017
 	- **Dashboard** https://rcos.io/projects/jebwizard/tftrees/profile
 	- **Repository** https://github.com/jebwizard/tftrees
@@ -159,7 +159,7 @@
 - **Morse Keyboard:** - Elijah Abney, Brendan Forbes
 	- **Pitch Slides** https://docs.google.com/presentation/d/1UrBfk8wlcQO0ibj4-gxEwNhIBgm-fx5IzimO1sx9r4A/edit#slide=id.p
 	- **Progress Update Presentation Slides** https://docs.google.com/presentation/d/1WAX-93tA3iQsLr_ruXnyQtqLK_HMbhLSDj8MqkwmDnk/edit#slide=id.p
-	- **Presentation Slides** 
+	- **Presentation Slides** https://docs.google.com/presentation/d/10wwg8RTY9fv-v1LTUqECqIWe6ZvB6HIOCm_jsqGAatw/edit?usp=sharing
 	- **Date for Presentation** 5/2/2017
 	- **Dashboard** https://rcos.io/projects/abneye/morsekeyboard/profile
 	- **Repository** https://github.com/abneye/morsekeyboard
@@ -168,7 +168,7 @@
 - **VR Development Acceleration Toolkit (Named TBD):** - Philip Cioni , David Cohen
 	- **Pitch Slides** https://docs.google.com/presentation/d/1geaukl6OeqjF2PeNvzzRQDOx4cdGoLV6XeCOazstRTk/edit#slide=id.p
 	- **Progress Update Presentation Slides** https://docs.google.com/presentation/d/1aO90ocWq4lcvlmfJ5UO1_NUakWJDmDVOTIbESyS2CCA/edit#slide=id.p
-	- **Presentation Slides** 
+	- **Presentation Slides** https://docs.google.com/presentation/d/15pj18nM5arIV_XAjbkoaSnk0D0uOZbanlE_golwOLu4/edit?usp=sharing
 	- **Date for Presentation** 5/2/2017
 	- **Dashboard** https://rcos.io/projects/pcioni/vrdat/profile
 	- **Repository** https://github.com/pcioni/vrdat
