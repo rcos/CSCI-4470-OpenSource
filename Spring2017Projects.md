@@ -79,7 +79,7 @@
 	- **Pitch Slides** https://docs.google.com/presentation/d/1QTC7FzkPm4BMx1JL_Mufe4vjRWFC2iFgutErg7ji2gw/edit#slide=id.p
 	- **Progress Update Presentation Slides** https://docs.google.com/presentation/d/1XdPmlXZJm29NHOZ2HFw_12ObdxfS9Sk3No7TPhHjQVo/edit#slide=id.p
 	- **Presentation Slides** https://docs.google.com/presentation/d/1oK6VSYPkYmTS1XJMV-tlGocmMVjRn0VeJFHAAlrd_GI/edit?usp=sharing
-	- **Date for Presentation** 5/5/2017
+	- **Date for Presentation** 5/2/2017
 	- **Dashboard** https://rcos.io/projects/shanalily/deepreader/profile
 	- **Repository** https://github.com/shanalily/deepreader
 	- **Blog** https://rcos.io/projects/shanalily/deepreader/blog
