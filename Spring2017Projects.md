@@ -50,7 +50,7 @@
 - **Surviving Open Source** - Griffin Melnick, Benjamin Hu, Ethan Stakoff, Ryan Stillings
 	- **Pitch Slides** https://docs.google.com/presentation/d/1aFAcT__dELlvQTXO7h8z3_ukmHxeQODJ5hb2VcLgsXA/edit#slide=id.p
 	- **Progress Update Presentation Slides** https://docs.google.com/presentation/d/1Th441Ry3sq2BFguEad-xR390N4AORA_j44o5kUua2CU/edit?usp=sharing
-	- **Presentation Slides** 
+	- **Presentation Slides** https://docs.google.com/presentation/d/14IJbWUTdzGaneBd2jDsTkm9LKhG4iihacuHWq6O-Yk4/edit
 	- **Date for Presentation** 5/5/2017
 	- **Dashboard** https://rcos.io/projects/melnig/sos/profile
 	- **Repository** https://github.com/melnig/sos
@@ -60,7 +60,7 @@
 	- **Pitch Slides** https://drive.google.com/open?id=0B3lSNL7ZnyK-TWRTVzB4MDZ5Tk0
 	- **Progress Update Presentation Slides**
 	https://docs.google.com/presentation/d/1IMJGIeqrE4jKXK3jdX9asolv780sZS0gRvrWzHB0egA/edit#slide=id.p3
-	- **Presentation Slides** 
+	- **Presentation Slides** https://docs.google.com/presentation/d/1a8_6nzVKrPPj-D1RCNYOoDDCsliajFIQhg7_WD4TJek/edit?usp=sharing
 	- **Date for Presentation** 5/5/2017
 	- **Dashboard** https://rcos.io/projects/sakura57/rrp/profile
 	- **Repository** https://github.com/sakura57/rrp
@@ -96,7 +96,7 @@
 - **Borilliant FB** - Yuze Ma, Meher Dusi, Ziniu Yu, Ian Rios
 	- **Pitch Slides** https://docs.google.com/presentation/d/1Dp7xpwkq3scFJ9e8pcZ2_RB_J3yjvLPWrcoTyZJ0Eic/edit#slide=id.g1d0d8aa516_2_58
 	- **Progress Update Presentation Slides** https://docs.google.com/presentation/d/1Dp7xpwkq3scFJ9e8pcZ2_RB_J3yjvLPWrcoTyZJ0Eic/edit#slide=id.g1d69c1e5ba_0_12
-	- **Presentation Slides** 
+	- **Presentation Slides** https://docs.google.com/presentation/d/1tc7xMxvwlYj8FpJCZgXWHLrokS3E32TOPkPre-zhf5g/edit#slide=id.p
 	- **Date for Presentation** 5/5/2017
 	- **Dashboard** https://rcos.io/projects/bobmayuze/borilliant_feedback/profile
 	- **Repository** https://github.com/bobmayuze/borilliant_feedback
@@ -114,7 +114,7 @@
 - **MTG Deck Storage:** - Zachary Maurer
 	- **Pitch Slides** https://docs.google.com/presentation/d/1vtqiBc39wMvCEi-ML-bQyYi2a0hLVA4hj_5-Hh-gvfs/edit#slide=id.p
 	- **Progress Update Presentation Slides** https://docs.google.com/presentation/d/1Lj_Hh_NvstifJWpmR4xp3D5Fs0c_nQBKG2ovlExHUBg/edit#slide=id.p
-	- **Presentation Slides** 
+	- **Presentation Slides** https://docs.google.com/presentation/d/1ffeUrlF5emTv1Gd8v5J0Lq_0bbdtZVHqQ2hIRVphBBg/edit#slide=id.p
 	- **Date for Presentation** 5/5/2017
 	- **Dashboard** https://rcos.io/projects/zrmaurer/mtg-deck-storage/profile
 	- **Repository** https://github.com/zrmaurer/mtg-deck-storage
@@ -123,8 +123,8 @@
 - **Rock Raider Neural Net:** - Nicholas Curtis  - Exsiting RPI Open Source Project
 	- **Pitch Slides** https://docs.google.com/presentation/d/1qWPLWSLGTKl_vSuhdkGReqWBrk8s5K1msouqZb_9HeY/edit#slide=id.p
 	- **Progress Update Presentation Slides** https://docs.google.com/presentation/d/1ZeXN5cFtTast8O54OAD1QDl5nt58xPa4c6H0lgLV4_A/edit#slide=id.p
-	- **Presentation Slides** 
-	- **Date for Presentation** 5/5/2017
+	- **Presentation Slides** https://docs.google.com/presentation/d/1pYzgh2MvNffpvD3T9Moxq-kEMiM5Z3Jm8oyYS-yujjQ/edit#slide=id.p
+	- **Date for Presentation** 5/2/2017
 	- **Dashboard** https://rcos.io/projects/nicksquared/rockraiderneuralnet/profile
 	- **Repository** https://github.com/nicksquared/rockraiderneuralnet
 	- **Blog** https://rcos.io/projects/nicksquared/rockraiderneuralnet/blog
@@ -195,7 +195,7 @@
 - **Mahjong:** - Hao Xu
 	- **Pitch Slides** https://docs.google.com/presentation/d/1ySSdl2WIFvdMJrAencC9pOZwh2aCFEsk2XhYnLg21r0/edit#slide=id.g1b2b0c0cd3_0_58
 	- **Progress Update Presentation Slides** https://docs.google.com/presentation/d/1FdYdvQ6hcOJff9g9DM1bG6HTgptPg_CswkLRlJVkE8s/edit#slide=id.p
-	- **Presentation Slides** 
+	- **Presentation Slides** https://docs.google.com/presentation/d/1yB8VqFx9HaMGIu0Pnnnk9O0oDvaHDVAa_2VXVWo84mM/edit
 	- **Date for Presentation** 5/5/2017
 	- **Dashboard** https://rcos.io/projects/tomatosoldier/mahjong/profile
 	- **Repository** https://github.com/tomatosoldier/mahjong
