@@ -1,6 +1,6 @@
 This is a draft schedule for this course -
 
-* Monday 5/21/2018 - Lecture - [Introduction to Open Source](Lectures/Lecture-1-1.pdf)
+* Monday 5/21/2018 - Lecture - [Introduction to Open Source](Lectures/Lecture-1-1.pdf)(Lectures/Lecture-1-11.pdf)
 
 * Thursday 5/24/2018 - [Lab 1](Labs/Lab1.md)
 

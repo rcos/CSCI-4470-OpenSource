@@ -75,7 +75,7 @@ in preparation for jobs in industry or for more advanced courses.
 - Quiz 2 16th August
 
 ## Opensource Paper Due
-- Quiz 2 14th June
+- 14th June
 
 93 and above A; 90 and above A-; 87 and above B+; 83 and above B; 80 and above B-; 77 and above C+; 73 and above C; 70 and above C-; 67 and above D+; 60 and above D.
 
