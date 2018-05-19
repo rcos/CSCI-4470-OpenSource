@@ -1,17 +1,23 @@
-# CSCI 2963-01 Introduction to Open Source
-## Instructor: Mukkai Krishnamoorthy moorthy@cs.rpi.edu
-## Class Place and Time: ** Walker 5113 ** T, F  Noon - 1:50 pm
-### Office Hours: T, F 2 - 3:30 pm, Lally 305
+
+# CSCI-4961-01
+## Introduction to Open Source Summer Semester 2018
+
+## Instructor: Wesley D. Turner
 
 ### Undergraduate Teaching Assistants:
 
-- Adeet Phanse '18 phansa@rpi.edu
-- Matthew Mawby '18 mawbym@rpi.edu
-- Kevin Zhang '18 zhangk6@rpi.edu
+- Adrian Collado collaa@rpi.edu
+- Alexander Schwartzberg schwaa6@rpi.edu
 
+## (Open Source has been taught at RPI since Fall of 2007 (taught jointly by Dr. William Shroeder and Dr. Luis Ibanez) as a 4000 level class, and then by Mukkai Krishnamoorthy as a 2000 level class.)
 
+### Meets in DCC 337 on Mondays,Thursdays from 10:30am - 12:35pm
 
-##  Lectures are on Tuesdays and Labs are on Fridays
+### Office Hours: M, Th 4 - 5:30 pm, Amos Eaton 207
+
+### We are extremely thankful to RedHat for their generous support. Thanks to Mr. Tom Callaway and Ms. Gina Likins for their valuable advice and suggestions.
+
+##  Lectures are on Mondays and Labs are on Thursdays
 
 ## Goal of this Class:
 
@@ -24,7 +30,7 @@ Patch an existing open source project. Work on a team collaborative project. Bec
 The goal of this course is to provide a strong foundation in open source software development
 in preparation for jobs in industry or for more advanced courses.
 
-- Understanding of Open Source Software Tools and community
+- Understanding of Open Source Software Tools and Community
 - Understanding of Open Source Licensing.
 - Understanding of Testing, Version Control.
 - Understanding of Open Source Software Stack.
@@ -58,20 +64,24 @@ in preparation for jobs in industry or for more advanced courses.
 
 ## Grading Criteria:
 
-- 2 Quizzes (15 points each) - 30%  (**24th February, 14th April**)
+- 2 Quizzes (10 points each) - 20%
+- Open Source Project Analysis - 10%
 - 10 Labs (3 points each) - 30%
 - Project - 40%
 
 ## Quiz Dates
 
-- Quiz 1 24th February
-- Quiz 2 14th April
+- Quiz 1 28th June
+- Quiz 2 16th August
 
-93 and above A; 90 and above A-; 85 and above B+; 80 and above B; 75 and above B-; 70 and above C+; 65 and above C; 60 and above C-; 55 and above D+; 50 and above D.
+## Opensource Paper Due
+- Quiz 2 14th June
+
+93 and above A; 90 and above A-; 87 and above B+; 83 and above B; 80 and above B-; 77 and above C+; 73 and above C; 70 and above C-; 67 and above D+; 60 and above D.
 
 ## Community:
 
-Please join csci2963-01spring2017 channel in http://rcos.slack.com 
+Please join csci-4961-01-Summer2018 channel in http://rcos.slack.com 
 
 ## Integrity
 

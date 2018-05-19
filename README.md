@@ -1,18 +1,17 @@
-# CSCI2963-01
-## Open Source Class Spring Semester 2017
+# CSCI-4961-01
+## Introduction to Open Source Summer Semester 2018
 
-## Instructor: Mukkai Krishnamoorthy moorthy@cs.rpi.edu
+## Instructor: Wesley D. Turner
 
 ### Undergraduate Teaching Assistants:
 
-- Adeet Phanse '18 phansa@rpi.edu
-- Matthew Mawby '18 mawbym@rpi.edu
-- Kevin Zhang '18 zhangk6@rpi.edu
+- Adrian Collado collaa@rpi.edu
+- Alexander Schwartzberg schwaa6@rpi.edu
 
 ## (Open Source has been taught at RPI since Fall of 2007 (taught jointly by Dr. William Shroeder and Dr. Luis Ibanez) as a 4000 level class.)
 
-### Meets in Walker 5113 on Tuesdays, Fridays from Noon to 1:40 pm
+### Meets in DCC 337 on Mondays,Thursdays from 10:30am - 12:35pm
 
-### Office Hours: T, F 2 - 3:30 pm, Lally 305
+### Office Hours: M, Th 4 - 5:30 pm, Amos Eaton 207
 
 ### We are extremely thankful to RedHat for their generous support. Thanks to Mr. Tom Callaway and Ms. Gina Likins for their valuable advice and suggestions.

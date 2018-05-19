@@ -57,6 +57,7 @@ f. Play with [Snap](http://snap.berkeley.edu/) or [CSDT](https://community.csdt.
 
 
 g. Reflection
+ 1. Pick an Open Source Project that might be interesting to evaluate
  1. Start thinking/finding a problem/project that interests you 
  2. Write a paragraph how you are doing this activity.
  3. Add to `lab1.md`
