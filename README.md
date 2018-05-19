@@ -8,7 +8,7 @@
 - Adrian Collado collaa@rpi.edu
 - Alexander Schwartzberg schwaa6@rpi.edu
 
-## (Open Source has been taught at RPI since Fall of 2007 (taught jointly by Dr. William Shroeder and Dr. Luis Ibanez) as a 4000 level class.)
+## Open Source has been taught at RPI since Fall of 2007 (taught jointly by Dr. William Shroeder and Dr. Luis Ibanez) as a 4000 level class and by Prof. Mukkai Krishnamoorthy as a 2000 level class.)
 
 ### Meets in DCC 337 on Mondays,Thursdays from 10:30am - 12:35pm
 

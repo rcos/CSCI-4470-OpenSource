@@ -11,5 +11,5 @@ Friday Lab:
 - merge the branches
  - github forke a repostory
    - make changes - merge the requests
-- Team of 3 people collabaratively write a story. One person writes Introduction (in a file). The other person wries a story (a picture file) 
+- Team of 3 people collaboratively write a story. One person writes Introduction (in a file). The other person wries a story (a picture file) 
 and the third person writes the conclusion. Everything has to be merged.
