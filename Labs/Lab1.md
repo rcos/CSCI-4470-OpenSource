@@ -45,7 +45,7 @@ e. Regex
   2. Please do all the practice problems given [here](http://regexone.com/) (moving over Interactive Tutorial in the top right corner will get this). 
     - To get full credit, do at least 7 problems.
     - Take a screenshot and add to `lab1.md`
-  3. Go through the tutorials [here] (https://regexcrossword.com/challenges/tutorial/puzzles/1) 
+  3. Go through the tutorials [here](https://regexcrossword.com/challenges/tutorial/puzzles/1) 
     - Do all the problems and at least four problems on beginner level [here](https://regexcrossword.com/challenges/beginner/puzzles/1 ).
     - Take a screenshot and add to `lab1.md`
   4. (Optional But Recommended) Do problem 11 in [adventofcode 2015](http://adventofcode.com/2015/day/11) (You may use regular expression) 
