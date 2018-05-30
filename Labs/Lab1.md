@@ -2,8 +2,8 @@
 
 ## Github, Linux Command Line Instructions, Regular Expressions and Visual Programming
 
-## Maintain a repository on github for all your lab work. Inside, you should create a markdown page for this lab's work. You will be graded at the end of the lab or at the latest by beginning of the next lab.###
-> markdown syntax is [here](https://help.github.com/articles/basic-writing-and-formatting-syntax/) and [here](https://guides.github.com/features/mastering-markdown/) 
+### Maintain a repository on github for all your lab work. Inside, you should create a markdown page for this lab's work. You will be graded at the end of the lab or at the latest by beginning of the next lab.
+> Markdown syntax is [here](https://help.github.com/articles/basic-writing-and-formatting-syntax/) and [here](https://guides.github.com/features/mastering-markdown/) 
 
 a. Create and setup a Github account (You can skip this part if you already have one)
 
