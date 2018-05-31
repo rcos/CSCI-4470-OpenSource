@@ -11,7 +11,7 @@
 
 ## Open Source has been taught at RPI since Fall of 2007 (taught jointly by Dr. William Shroeder and Dr. Luis Ibanez) as a 4000 level class, and then by Mukkai Krishnamoorthy as a 2000 level class.
 
-### Meets in DCC 337 on Mondays,Thursdays from 10:30am - 12:35pm
+### Meets in Amos Eaton 217 on Mondays,Thursdays from 10:30am - 12:35pm
 
 ### Office Hours: M, Th 4 - 5:30 pm, Amos Eaton 207
 
