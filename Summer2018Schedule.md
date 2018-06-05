@@ -12,7 +12,7 @@ This is a draft schedule for this course -
 
 * Thursday 6/7/2018 - [Lab 3](Labs/Lab3.md)
 
-* Monday 6/11/2018 - [Build Systems](HTML Lectures/Lecture-Build-Systems/source/index.html)
+* Monday 6/11/2018 - [Build Systems](HTML\ Lectures/Lecture-Build-Systems/source/index.html)
 
 * Thursday 6/14/2018 - [Lab 4](Labs/Lab4.md)
 
