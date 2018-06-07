@@ -1,18 +1,18 @@
-## This lab (Lab # 3 on 2/3/2017) is about Git (local repository), Github and a few of the simple commands.
+## This lab (Lab # 3 on 5/7/2018) is about Git (local repository), Github and a few of the simple commands.
 
-## Since most of you have had practice of doing these problems in class, there will be a lecture on Documentation and Community for the first 40 minutes. After that you can do the lab.
+## Since we are already practicing git in class as part of our git lecture, you should not need the whole period. Accordingly, we will take the first 40 minutes or so to finish our discussion of git first.
 
 ## Your Lab report will be Lab3.Md
 
 Commands used will include `git add`, `git commit`, `git pull`, `git checkout`, `git branch`, `git push`, `git log`, `git status`, `git diff` , `git tag`,  `git rebase` and `git merge`
 
 - Use the command line (or git shell) for this lab
-> Command line is preferred - your ubuntu usb should help
+> Command line is preferred - your ubuntu installation will help if you decide to experiment with the command line
 
 Useful pages:
 - A cheat sheet for [git commands] (https://services.github.com/on-demand/downloads/github-git-cheat-sheet.pdf)
 - A very nice [book about git](https://git-scm.com/book/en/v2)
-- A cheat sheet for [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) and [another one](http://scottboms.com/downloads/documentation/markdown_cheatsheet.pdf)
+- A cheat sheet for [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) and [another cheat sheet for markdown](http://scottboms.com/downloads/documentation/markdown_cheatsheet.pdf)
 
 
 ## Part 1
@@ -30,19 +30,19 @@ Useful pages:
       * your name
       * your photograph (Add it to your repository and use markdown to display it)
       * your graduating year
-      * your project sub-area (the type of project that you are working on)
+      * your project sub-area (the type of project that you plan to work on)
 
 2. [Create a new repository on github](https://github.com/new) and push the README.md file you created.
-  >*(hint: you should be doing something like this):* Follow the helpful post by adeet (UTA) in the class slack channel #csci2963-01spring2017 )
-```
-git init
-git add README.md
-git commit
-git remote add origin <repo url>
-git push origin master
-```
+  >*(hint: you should be doing something like this):* 
 
-  ***Provide a link to this repository in your Lab3.Md .***
+    ```
+    git init
+    git add README.md
+    git commit
+    git remote add origin <repo url>
+    git push origin master
+    ```
+    ***Provide a link to this repository in your Lab3.Md .***
 
 3. Create a file `first.py` that prints "Hello World!".
   * Add, commit, and push the file to your github repository on the master branch with `git push origin master`.
@@ -56,8 +56,8 @@ git push origin master
 
 6. Install gitk with `sudo apt-get install gitk`.
   * Visualize the branching diagram.
-  * Use `gitk` and `gitk --all`
-  * Compare it with this command `git log --graph --oneline --decorate`.
+      * Use `gitk` and `gitk --all`
+      * Compare it with this command `git log --graph --oneline --decorate`.
   *   **Include a screenshot in your lab report.**
 
 
@@ -81,7 +81,12 @@ git push origin master
 1. Fork the repository https://github.com/mskmoorthy/Spring2017PullReq
   * Make a file named &lt;firstName lastName>.Md, add today's date on the first line (2/3/2017), and make a pull request.
   * Ask a TA to merge your pull request.
-  * You can update your repository to reflect changes in the upstream repository using `git remote add upstream https://github.com/mskmoorthy/Spring2017PullReq.git` and `git pull upstream`
+  * You can update your repository to reflect changes in the upstream repository using:
+    
+    ```
+    git remote add upstream https://github.com/wdturner/Summer2018PullReq.git
+    git pull upstream
+    ```
 
 2. Make sure you understand the command `git diff` from [this example](https://www.safaribooksonline.com/library/view/version-control-with/9780596158187/ch08s02.html)
   * Examine the content of the diff file from the previous question (your pull request)
@@ -94,14 +99,14 @@ git push origin master
   *  **Please add a link to the repository in your Lab 3 report**
 
 5. As a table: (one person per table)
-  * Fork the repository https://github.com/mskmoorthy/Story-Spring2017
+  * Fork the repository https://github.com/git@github.com:wdturner/Story-Summer2018
   * Create one branch for your table (Table1, Table2,....)
   * you can push the branch the branch by doing  `git checkout -b feature_branch_name` , edit files, `git add` and `git commit` and  `git push -u origin feature_branch_name`
   * Add each member of the table to the repository:
-    * Click 'Settings' on the repository page
-    * Click 'Collaborators'
-    * Add the username of each person
-    *   **Please add a link to the repository in your Lab 3 report**
+     * Click 'Settings' on the repository page
+     * Click 'Collaborators'
+     * Add the username of each person
+     *   **Please add a link to the repository in your Lab 3 report**
 
 
 6. Each member should clone the table's repository and checkout your table's branch
