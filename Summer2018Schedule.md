@@ -16,8 +16,6 @@ This is a draft schedule for this course -
 
 * Thursday 6/14/2018 - [Lab 4](Labs/Lab4.md)
 
-	Analysis of an Open Source Project Due
-
 * Monday 6/18/2018 - Lecture Documentation and Community - 
 
 	[Documentation](HTML Lectures/DocumentationsAndCommunity-master/index.html)
@@ -25,6 +23,8 @@ This is a draft schedule for this course -
 	[Community Involvement](HTML Lectures/DocumentationsAndCommunity-master/index.html)
 
 * Thursday 6/21/2018 - [Lab 5](Labs/Lab5.md)
+
+	* Analysis of an Open Source Project Due
 
 * Monday 6/25/2018 - Lecture - [Open Source and Scientific Computation](HTML Lectures/Sci-Computing-master/index.html)
 
