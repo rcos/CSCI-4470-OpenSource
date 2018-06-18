@@ -8,6 +8,10 @@ Brad King, Kitware, Inc.
 * Maintainer of CMake
 * RPI '00 BS, '08 PhD
 
+Licensed under: CC-BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/
+
+Modifications by Wes Turner
+
 Introduction
 ============
 
@@ -322,6 +326,13 @@ Link object files into a shared library; link executables to it:
   hello: world
   hello: world
 
+For OSX, we need to use:
+
+.. code-block:: console
+
+  + cc hi1.o libhello.so -o hi1 -Wl,-rpath .
+  + cc hi2.o libhello.so -o hi2 -Wl,-rpath .
+
 .. nextslide::
 
 View dependency of executable on shared library:
@@ -333,6 +344,12 @@ View dependency of executable on shared library:
    0x0000000000000001 (NEEDED) Shared library: [libc.so.6]
   $ readelf -d hi1 | grep RPATH
    0x000000000000000f (RPATH) Library rpath: [$ORIGIN]
+
+For OSX, we need to use:
+
+.. code-block:: console
+
+  $ otool -l hi1
 
 
 Review of File Types
