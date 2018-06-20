@@ -1,12 +1,14 @@
 Build Systems
 #############
 
-RPI Open Source Software - Spring 2016
+RPI Open Source Software - Summer 2018
 
 Brad King, Kitware, Inc.
 
 * Maintainer of CMake
 * RPI '00 BS, '08 PhD
+
+.. nextslide::
 
 Licensed under: CC-BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/
 
@@ -95,7 +97,8 @@ Implement the function in a ``hello.c`` source:
 
 .. nextslide::
 
-Update main program in the ``hi.c`` source:
+Copy ``hi.c`` to ``hi1.c`` and update the main program in 
+the ``hi1.c`` source:
 
 .. code-block:: c
 
@@ -109,8 +112,8 @@ Give both source files to the compiler driver:
 
 .. code-block:: console
 
-  $ cc hi.c hello.c -o hi
-  $ ./hi
+  $ cc hi1.c hello.c -o hi1
+  $ ./hi1
   hello
 
 .. nextslide::
@@ -119,21 +122,15 @@ The compiler driver runs the compiler and linker internally:
 
 .. code-block:: console
 
-  $ gcc hi.c hello.c -o hi -###
-  cc1 hi.c -o /tmp/tmp1.o
+  $ gcc hi1.c hello.c -o hi1 -###
+  cc1 hi1.c -o /tmp/tmp1.o
   cc1 hello.c -o /tmp/tmp2.o
-  collect2 -o hi /tmp/tmp1.o /tmp/tmp2.o -lgcc ...
+  collect2 -o hi1 /tmp/tmp1.o /tmp/tmp2.o -lgcc ...
 
 Sharing Source Files
 --------------------
 
-Rename original ``hi.c`` to ``hi1.c``:
-
-.. code-block:: console
-
-  $ mv hi.c hi1.c
-
-Add a ``hi2.c`` executable sharing the ``hello()`` function:
+Now add a ``hi2.c`` executable sharing the ``hello()`` function:
 
 .. code-block:: c
 
@@ -287,6 +284,8 @@ Create an archive of object files; use to link executables:
   + ar qc libhello.a hello1.o hello2.o
   + cc -c hi1.c -o hi1.o
   + cc -c hi2.c -o hi2.o
+
+  .. nextslide::
   + cc hi1.o libhello.a -o hi1
   + cc hi2.o libhello.a -o hi2
   $ ./hi1
@@ -325,6 +324,8 @@ Link object files into a shared library; link executables to it:
   $ ./hi2
   hello: world
   hello: world
+
+.. nextslide::
 
 For OSX, we need to use:
 
@@ -371,7 +372,7 @@ Review of File Types
   * Archives of object files.
   * Searched by linker for objects implementing needed symbols.
   * All symbols with "extern linkage" exposed publicly.
-**Shared libraries** (``*.so``, ``*.dll`` on Windows)
+**Shared libraries** (``*.so``, ``.dylib`` on OSX, ``*.dll`` on Windows)
   * Objects linked together into libraries loaded by programs at runtime.
   * A subset of symbols with "extern linkage" exposed publicly
     via explicit markup.
@@ -576,7 +577,7 @@ Build System: MSBuild
 
 Underlies Visual Studio 2010+ builds.
 
-.. code-block:: xml
+.. code-block:: guess
 
   <Project DefaultTargets="Build" ToolsVersion="12.0" ...>
     ...

@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.0)
+cmake_minimum_required(VERSION 3.0)
 project(Hello C)
 
 add_library(hello SHARED hello1.c hello2.c hello.h)
