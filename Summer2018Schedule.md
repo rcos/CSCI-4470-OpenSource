@@ -1,6 +1,6 @@
 This is a draft schedule for this course -
 
-* Monday 5/21/2018 - Lecture - [Introduction to Open Source](Lectures/Lecture-1-1.pdf)(Lectures/Lecture-1-11.pdf)
+* Monday 5/21/2018 - Lecture - [Introduction to Open Source](Lectures/Lecture-1-1.pdf) [Additional](Lectures/Lecture-1-11.pdf)
 
 * Thursday 5/24/2018 - [Lab 1](Labs/Lab1.md)
 
@@ -16,7 +16,7 @@ This is a draft schedule for this course -
 
 	[Documentation](HTML Lectures/DocumentationsAndCommunity-master/index.html)
 
-	[Community Involvement](HTML Lectures/DocumentationsAndCommunity-master/index.html)
+	[Community Involvement](HTML Lectures/DocumentationsAndCommunity-master/index2.html)
 
 * Thursday 6/14/2018 - [Lab 4](Labs/Lab4.md)
 
@@ -36,9 +36,7 @@ This is a draft schedule for this course -
 
 	Project Pitch Slide presentations
 
-* Monday 7/16/2018 - Lecture - [Community and Sustainability](Lectures/CommunityandSustainability-3-1-2016.pdf)
-			
-	[Community](HTML Lectures/DocumentationsAndCommunity-master/index2.html)
+* Monday 7/16/2018 - Lecture - [Testing and Continuous Integration](Lectures/TestingAndCI.md)
 
 * Thursday 7/19/2018 - [Lab 7](Labs/Lab7.md)
 
@@ -46,7 +44,9 @@ This is a draft schedule for this course -
 
 * Thursday 7/26/2018 - [Lab 8](Labs/Lab8.md)
 
-* Monday 7/30/2018 - Project Update Presentation 
+* Monday 7/30/2018 - [Community and Sustainability](Lectures/CommunityandSustainability-3-1-2016.pdf)
+
+     Project Update Presentation 
 
 * Thursday 8/2/2018 - [Lab 9](Labs/Lab9.md)
 
@@ -54,7 +54,7 @@ This is a draft schedule for this course -
 
 * Thursday 8/9/2018 - [Lab 10](Labs/Lab10.md)
 
-* Monday 8/14/2018 - Presentations
+* Monday 8/14/2018 - Final Presentations
 
 * Thursday 8/16/2018 - Quiz 2
 

@@ -37,7 +37,7 @@
           <h3>Open Source in Scientific Computation</h3>
 
           <p>
-            <small>Created by <a href="http://www.cs.rpi.edu/~moorthy">Moorthy</a> and <a href=http://twitter.com>@mskmoorthy </a> </small> 
+            <small>Created by <a href="http://www.cs.rpi.edu/~moorthy">Moorthy</a> / <a href=http://twitter.com>@mskmoorthy </a> and modified by  <a href="https://science.rpi.edu/computer-science/faculty/wes-turner"> Wesley Turner </a> / <a href="http://twitter.com/wdturner">@wdturner</a> </small> 
           </p>
         </section>
 
@@ -74,7 +74,7 @@
        	<ul>
        		<li> May test the algorithms in matlab, mathematica, python, before full fledged implementation</li>
        		<li> Arrays (multidimensional) are used extensively </li>
-		<li> Double precision Computations are used extensively. </li>
+		<li> Double precision computations are used extensively. </li>
        	</ul>
        </section>
         <section>
@@ -84,7 +84,7 @@
 <li> Fluid Mechanics - Aerodynamics - Aircraft Design </li>
 <li> Circuit Simulation </li>
 <li> Genomics and Drug Simulation </li>
-<li> Image Processing Applications </li> 
+<li> <a rel="applicaition" href="http://www.dartmouth.edu/~nir/nirfast/"> Image Processing Applications </a> </li> 
 <li> Airline Scheduling, Linear and Nonlinear Programming Application </li>
 <li>Astronomy and Space Computations </li>
 </ul>
@@ -101,6 +101,7 @@
 	    <li> Protein Folding </li>
 	    <li> SETI, Milkyway@Home</li>
 	    <li> Physics Engines for Game Playing </li>
+	    <li> <a href="https://avogadro.cc/">Chemistry</a> </li>
           </ul>
         </section>
 
@@ -109,10 +110,10 @@
           <h3>Commonly Used Tools </h3>
           
           <ul>
-            <li> matlab(simulink), maple, Sage(pure math),  mathematica </li>
-            <li> cuda, mpi libraries for parallel  computation </li>
-            <li> LINPACK, EISPACK Libraries to do Matrix computations (netlib) </li>
-	    <li> cplex (for linear programming) and other mathematical programming packages </li>
+            <li> Matlab (simulink), Maple, Sage (pure math),  Mathematica </li>
+            <li> CUDA, MPI libraries for parallel  computation </li>
+            <li> LINPACK, EISPACK Libraries to do matrix computations (netlib) </li>
+	    <li> <a href="https://www.gnu.org/software/glpk/">glpk</a> (for linear programming) and other mathematical programming packages </li>
 	    <li> ACM Collected Algorithms </li>
           </ul>
         </section>
@@ -124,10 +125,10 @@
             
 	    <li> Finite Element Packages
             <li> boinc for distributed/volunteer computation - factoring large numbers, Milkyway@Home </li>
-	    <li> Visualization toolkit vtk </li>
-	    <li> Image Processing toolkit itk, opencv </li>
-	    <li> Graphics rendering openGL </li>
-	    <li> Spice (VLSI design) </li>
+	    <li> <a href="http://vtk.org">Visualization Toolkit (VTK)</a> </li>
+	    <li> Image Processing toolkit: <a href="http://itk.org">Insight Toolkit (ITK)</a>, <a href="https://opencv.org">opencv</a></li>
+	    <li> Graphics rendering: openGL </li>
+	    <li> VLSI design : Spice</li>
           </ul>
         </section>
 
@@ -145,13 +146,13 @@
 	 <ul> 
 	   <li> Julia - high performance numerical and scientific computing </li>
 	   <li>  R - Statistical Computing Data Science (next week) </li>
-	   <li> Java - Special Package like cytoscape </li>
+	   <li> Java - Special Package like Cytoscape </li>
 	   </ul>
         </section>
  <section>
           <h3> Warm Up Exercise 0</h3>
 	  <ul>
-	  <li> Logon to https://cloud.sagemath.com/
+	  <li> Navigate to <a href="https://cloud.sagemath.com/">https://cloud.sagemath.com/</a>
            and create an account </li>
           <li> Create a new project  </li>
           <li> Make that a Sage worksheet </li>
@@ -162,16 +163,18 @@
  <h3> Warm Up Exercise 0 (contd)</h3>
 	  <ul>
 	  <li> Try a few more commands 
-	  <li> Evaluate the 12th root of (3987^12+4365^12) and look at this website http://goo.gl/eImelv </li>
-          <li> See my sample output in https://github.com/rcos/Sci-Computing/blob/master/output-console.pdf
+	  <li> Evaluate the 12th root of (3987^12+4365^12)</li> 
+	  <ul> 
+		  <li>Then look at: website <a href=http://goo.gl/eImelv">http://goo.gl/eImelv</a> </li>
+		  <li>  Moorthy has sample output in <a href="https://github.com/rcos/Sci-Computing/blob/master/output-console.pdf">https://github.com/rcos/Sci-Computing/blob/master/output-console.pdf</a> </li>
+	  </ul>
           </ul>
         </section>
 
         <section>
           <h3> Warm Up Exercise 1</h3>
 	  <ul>
-	  <li> Download pygame and go through the tutorials 
-           http://www.nerdparadise.com/tech/python/pygame/basics/part1/ </li>
+          <li> Install pygame and go through the tutorials <a href="https://nerdparadise.com/programming/pygame/part1">https://nerdparadise.com/programming/pygame/part1</a></li>
           <li> At the end, you should make a simple game  </li>
           </ul>
         </section>
@@ -179,14 +182,21 @@
   <section>
           <h3>Warm up exercise 2</h3>
 	  <ul> 
-	    <li>  Download angrybirds for python https://github.com/estevaofon/angry-birds-python and install pygame(in ubuntu sudo apt-get install pygame) 
-before running it </li>
+	    <li>  Download angrybirds for python:
+		    <ul>
+			    <li> <a href="https://github.com/estevaofon/angry-birds-python">https://github.com/estevaofon/angry-birds-python</a></li>
+			    <li> Install pygame and pymunk using pip (pip install pygame pymunk) </li> 
+			    <li> Run by going to the ``src`` directory and running ``python main.py`` </li>
+		    </ul>
 	    <li> Study the source code </li>
-	    <li> Play the game </li>
+	    <li> Play the game: </li>
+	    <ul>
 	    <li>  Understand where the physics occurs </li>
-	    <li> How will the angry birds game will play in Moon </li>
-	    <li> How will the angry birds game will game in vacuum </li>
-	    <li> Read the Wired article http://www.wired.com/2010/10/physics-of-angry-birds/ </li>
+	    <li> How will the angry birds game will play on the moon? </li>
+	    <li> How will the angry birds game will game in a vacuum? </li>
+	    <li> Read the Wired article <a href="http://www.wired.com/2010/10/physics-of-angry-birds/">http://www.wired.com/2010/10/physics-of-angry-birds/</a></li>
+	    </ul>
+	  </ul>
         </section>
 
       <section>
