@@ -37,7 +37,7 @@
           <h3>Testing</h3>
 
           <p>
-            <small>Created by <a href="http://www.cs.rpi.edu/~moorthy">Moorthy</a> and <a href=http://twitter.com>@mskmoorthy </a> </small> 
+	  <small>Created by <a href="http://www.cs.rpi.edu/~moorthy"> Moorthy </a>/<a href="http://twitter.com/mskmoorthy">@mskmoorthy</a> and modified by <a href="https://science.rpi.edu/computer-science/faculty/wes-turner"> Wesley Turner </a> / <a href="http://twitter.com/wdturner">@wdturner</a> </small>
           </p>
         </section>
 
@@ -73,7 +73,7 @@
        	<h3>Debugging vs Testing</h3>
        	<ul>
        		<li> Debugging is a cyclic activity - code execution and correction
-       		<li> Aim of Debugging is to locate errors </li>
+       		<li> Aim of Debugging is to locate and correct errors </li>
 		<li> Testing is to demonstrate "correctness"
        	</ul>
        </section>
@@ -81,17 +81,38 @@
   <h3> Testing of Code </h3>
   <ul>
     <li> Black Box - Treat the system as black box and try test cases based on input/output specification </li>
+    <ul>
+	    <li> Often used for  <font color="#ff0000">"Acceptance"</font> or  <font color="#ff0000">"User"</font> testing</li>
+    </ul>
     <li> Gray Box - Has limited knowledge of the system and try test cases based on it. Correctly cleaning up itself </li>
+    <ul>
+	    <li> Often used for  <<font color="#ff0000">"Integration"</font> or <font color="#ff0000">"System"</font> testing</li>
+    </ul>
     <li> White Box - Code details are known. Tests are based on the code.
+    <ul>
+	    <li> Often used for <font color="#ff0000">"Unit"</font> testing</li>
+    </ul>
 </ul>
 </section> 
 <section>
   <h3> Types of Tests </h3>
     <ul>
-      <li> Smoke Tests - most common kind of test - non extensive - most cruicial functions of a program work </li>
+      <li> Smoke Tests - most common kind of test - non extensive - most crucial functions of a program work </li>
+      <ul>
+            <li><font color="#ff0000">"Acceptance"</font> or  <font color="#ff0000">"User"</font> testing / Black Box</li>
+      </ul>
       <li> Functional Tests - Done by QA to test functionality according to a test plan based on requirements and design specs.</li>
+    <ul>
+	    <li> <font color="#ff0000">"Integration"</font> or <font color="#ff0000">"System"</font> testing / Gray Box</li>
+    </ul>
       <li> Unit Tests -  Done by developers to test specific code.</li>
+    <ul>
+	    <li> Well, <font color="#ff0000">"Unit"</font> testing / White Box</li>
+    </ul>
       <li> Regressions Tests - Change in code does not affect other parts </.li>
+    <ul>
+	    <li> Any or all ... Often automated</li>
+    </ul>
 </ul>
 </section>
 <section>
@@ -99,39 +120,45 @@
 <ul> 
   <li> Increase Developers Confidence  </li>
   <li> Avoid regression - If unit test is run frequently, one knows when new code breaks old code. </li>
-  <li> if you write test first, you know when you are done. </li>
+  <li> if you write the test first, you know when you are done. </li>
   <li> Encourage maximal modularity and minimal interface </li>
 </ul>
 </section>
 <section> 
   <h3> When to Write Unit Tests </h3>
   <ul>
-    <li> Always write tests. </li>
-    <li> Before you check the code into repository, you know your code works.</li>
-    <li> Before and after refactoring - redesign/reimplementation does not break </li>
-    <li> Before Debugging, to ease the process and help you know when you have finished debugging. </li>
+    <li> Always </li>
+    <li> Before you check the code into repository to know and demonstrate your code works.</li>
+    <li> Before and after refactoring - redesign/reimplementation does not break the code</li>
+    <li> Before Debugging, to ease the process and let you know when you have finished debugging. </li>
     </ul>
   </section>
+  <section>
+	  <h3> Foundational Quote </h3>
+	  <q> If it ain't tested, it's broken!</q>
+	  <q> -- Bill Lorensen, GE Global Research Center</q>
+  </section>
         <section>
-          <h3>Terminoilogy</h3>
+          <h3>Terminology</h3>
 <ul>
 <li> An error is made by an Engineer/Algorithm Designer/Implementor  </li>
 <li> A fault is manifestation of that error in the code </li>
 <li> A failure is an incorrect output behavior that is caused by executing a fault </li>
 <li>Testing attempts to discover failures in software systems </li>
 <ul>
-<li> Debugging associates failures with faults and removing faults. </li>
+<li> Debugging associates failures with faults and corrects them. </li>
 </ul>
-<li> If a system passes all of its tests, is the system free of faults? - No </li> 
+<li> If a system passes all of its tests, is the system free of faults? - <font size=24 color="#ff0000">No</font> </li> 
 </ul>
         </section>
 
         <section>
           <h3>Why No</h3>
           <ul>
-            <li> Faults may be hiding in portions of code that rarely get executed.  </li>
+            <li> Faults may be hiding in portions of code that rarely get executed and may not be tested.  </li>
             <li> Sometimes faults mask each other</li>
-	    <li> Create a test that covers all code paths and all functional units </li>
+            <li> Sometimes faults are only exhibited with specific inputs or sequences</li>
+	    <li> It is not possible to create a test that covers all code paths and all functional units </li>
 	    <li> Having all tests pass increases our confidence that our system has high quality</li>
 	    
           </ul>
@@ -152,7 +179,7 @@
           <h3>Example </h3>
           
           <ul>
-            <li>GCD Program takes two numbers and compute the GCD </li>
+            <li>The GCD program takes two numbers and computes the GCD </li>
             </ul>
 <pre><code>
 def gcd(a,b):
@@ -183,9 +210,13 @@ def gcd(a,b):
   <ul>
     <li> Covers all the paths </li>
     <li> Covers all the loops and conditionals </li>
-    <li> Statement Coverage - All statements have been executed. </li>
+    <li> Statement Coverage - all statements have been executed. </li>
     <li> Branch Coverage - all edges in the control graph have been executed at least once . </li>
-    <li> Condition Coverage -all combination of conditions have been covered. </li>
+    <li> Condition Coverage - all combination of conditions have been covered. </li>
+     <ul>
+	     <li> Or have they:</li>
+     <li> a = 18,  b =-9 gcd=?</li>
+     </ul>
 </li>
 </section>
 <section>
@@ -195,30 +226,31 @@ def gcd(a,b):
 <section>
 <h3> In Class Exercise </h3>
 <ul>
-  <li> Write a Binary Search Code with input Output Specifications </li>
+  <li> Write a Binary Search Code with Input / Output Specifications </li>
 </ul>
 </section>
 <section>
-<h3> Language Support for Testing <h3>
+<h3> Language Support for Testing </h3>
 <ul>
-<li> ctest - covered last class </li>
-<li> PyUnit,unittest </li>
+<li> ctest </li>
+<li> doctest </li>
+<li> unittest (PyUnit)</li>
 <li> JUnit </li>
 </ul>
 </section>
 <section>
-<h3> unittest in python </h3>
+<h3> doctest in python </h3>
 <uL>
 <li> <a href=http://pythontesting.net/framework/unittest/unittest-introduction/> Unit Test Introduction </a></li>
 
 <ul>
-<li> copy the file test_un_unittest.py </li>
-<li> From <a href=http://pythontesting.net/framework/doctest/doctest-introduction/#example> copy unnecessary_math.py</a> </li>
+<li> Copy the files test_un_unittest.txt and unnecessary_math.py</li>
+<li> From <a href=http://pythontesting.net/framework/doctest/doctest-introduction/#example>http://pythontesting.net/framework/doctest/doctest-introduction/#example</a> </li>
 </ul>
 </ul>
 </section>
 <section>
-<pre>Unnecessar_math.py<code>
+<pre>Unnecessary_math.py<code>
 '''
 Module showing how doctests can be included with source code
 Each '&gt&gt&gt' line is run as if in a python shell, and counts as a test.
@@ -238,6 +270,7 @@ def multiply(a, b):
 </code></pre>
 </section>
 <section>
+	<h3>Unittest</h3>
 <pre> test_um_unittest.py <code>
 import unittest
 from unnecessary_math import multiply
