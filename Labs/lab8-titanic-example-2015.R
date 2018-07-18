@@ -9,9 +9,8 @@ titanic.raw <- as.data.frame(titanic.raw)
 names(titanic.raw) <- names(df)[1:4]
 dim(titanic.raw)
 summary(titanic.raw)
-library(arules)
 install.packages("arules")
-library()
+library(arules)
 rules.all <- apriori(titanic.raw)
 inspect(rules.all)
 rules <- apriori(titanic.raw, control = list(verbose=F),
@@ -25,5 +24,6 @@ library(arulesViz)
 plot(rules.all)
 plot(rules.all, method="grouped")
 plot(rules.all, method="graph")
-net.bg <- barabasi.game(80)
 plot(rules.all, method="paracoord", control=list(reorder=TRUE))
+
+
