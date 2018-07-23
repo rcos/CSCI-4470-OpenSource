@@ -1,0 +1,305 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>Quick Tutorial on MongoDB</title>
+
+    <meta name="description" content="Open Source in Scientific Computation">
+    <meta name="author" content="Moorthy">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="revealjs/css/reveal.min.css">
+    <link rel="stylesheet" href="revealjs/css/theme/sky.css" id="theme">
+
+    <!-- For syntax highlighting -->
+    <link rel="stylesheet" href="revealjs/lib/css/zenburn.css">
+
+    <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+    <script>
+      document.write( '<link rel="stylesheet" href="revealjs/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+    </script>
+
+  </head>
+
+  <body>
+
+    <div class="reveal">
+
+      <!-- Any section element inside of this container is displayed as a slide -->
+      <div class="slides">
+        <section>
+          <h3>Quick Tutorial on MongoDB</h3>
+
+          <p>
+            <small>Created by <a href="https://science.rpi.edu/computer-science/faculty/wes-turner"> Wesley Turner </a> / <a href="http://twitter.com/wdturner">@wdturner</a> </small> 
+          </p>
+        </section>
+
+        <section>
+          <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">
+             <img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" />
+          </a>
+          <br />
+          <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" property="dct:title" rel="dct:type">Documentation</span>
+           by W. D. Turner</span>
+           is licensed under a
+          <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">Creative Commons Attribution 3.0 Unported License</a>.
+        </section>
+        <section>
+        <h3> Slides are Derived From the Tutorial on</h3>
+        <ul> 
+		<li> <a href="https://www.tutorialspoint.com/mongodb"> https://www.tutorialspoint.com/mongodb</a></li>
+        </ul>
+        	
+        </section>
+	      <section>
+        <h2>White Papaer on Pluggable Storsage</h2>
+	<ul>
+		<li><a href='https://www.mongodb.com/collateral/storage-engine-white-paper'>https://www.mongodb.com/collateral/storage-engine-white-pape</a>
+	</ul>
+        </section>
+
+        <section>
+        	
+        <h2>Install MongoDB</h2>
+	 <pre><code data-trim contenteditable>
+> sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
+> sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 --recv 7F0CEB10
+> echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart dist 10gen' \
+    | sudo tee /etc/apt/sources.list.d/mongodb.list
+> sudo apt-get update
+> sudo apt-get install mongodb-10gen
+          </code></pre>
+        </section>
+	      <section>
+        <h2>Start the Database and Connect to It</h2>
+	 <pre><code data-trim contenteditable>
+> mkdir database
+> sudo mongod --dbpath database &
+> mongo
+          </code></pre>
+        </section>
+
+      <section>
+        <h2>Get Help and Stats</h2>
+	 <pre><code data-trim contenteditable>
+> db.help()
+DB methods:
+	db.addUser(userDocument)
+	db.adminCommand(nameOrDocument) - switches to 'admin' db, and runs command [ just calls db.runCommand(...) ]
+	db.auth(username, password)
+	db.cloneDatabase(fromhost)
+	db.commandHelp(name) returns the help for the command
+	db.copyDatabase(fromdb, todb, fromhost)
+	db.createCollection(name, { size : ..., capped : ..., max : ... } )
+	db.currentOp() displays currently executing operations in the db
+	db.dropDatabase()
+        ...
+> db.stats(
+{
+	"db" : "test",
+	"collections" : 0,
+	"objects" : 0,
+	"avgObjSize" : 0,
+	"dataSize" : 0,
+	"storageSize" : 0,
+	"numExtents" : 0,
+	"indexes" : 0,
+	"indexSize" : 0,
+	"fileSize" : 0,
+	"nsSizeMB" : 0,
+	"dataFileVersion" : {
+		
+	},
+	"ok" : 1
+}
+          </code></pre>
+        </section>
+
+      <section>
+        <h2>Create a New Database and Look At It</h2>
+	 <pre><code data-trim contenteditable>
+> use newdatabase
+switched to db newdatabase
+> db
+newdatabase
+> show dbs
+local	0.078125GB
+test	(empty)
+> db.movie.insert({"name":"tutorials point"})
+Mon Jul 23 03:12:49.382 [conn1] allocating new ns file database/newdatabase.ns, filling with zeroes...
+Mon Jul 23 03:12:49.621 [FileAllocator] allocating new datafile database/newdatabase.0, filling with zeroes...
+...
+> show dbs
+local	0.078125GB
+newdatabase	0.203125GB
+test	(empty)
+         </code></pre>
+      </section>
+
+      <section>
+        <h2>Collections</h2>
+	 <pre><code data-trim contenteditable>
+> show collections
+movie
+system.indexes
+> db.movie.drop()
+Mon Jul 23 03:24:20.458 [conn1] CMD: drop newdatabase.movie
+true
+> show collections
+system.indexes
+          </code></pre>
+      </section>
+
+	      <section>
+        <h2>Add Some Data</h2>
+	 <pre><code data-trim contenteditable>
+	  >db.post.insert([
+   {
+      title: 'MongoDB Overview', 
+      description: 'MongoDB is no sql database',
+      by: 'tutorials point',
+      url: 'http://www.tutorialspoint.com',
+      tags: ['mongodb', 'database', 'NoSQL'],
+      likes: 100
+   },
+	
+   {
+      title: 'NoSQL Database', 
+      description: "NoSQL database doesn't have tables",
+      by: 'tutorials point',
+      url: 'http://www.tutorialspoint.com',
+      tags: ['mongodb', 'database', 'NoSQL'],
+      likes: 20, 
+      comments: [	
+         {
+            user:'user1',
+            message: 'My first comment',
+            dateCreated: new Date(2013,11,10,2,35),
+            like: 0 
+         }
+      ]
+   }
+])
+          </code></pre>
+        </section>
+
+	      <section>
+        <h2>What Happened?</h2>
+	 <pre><code data-trim contenteditable>
+> show collections
+post
+system.indexes
+> db.post.stats()
+{
+	"ns" : "newdatabase.post",
+	"count" : 2,
+	"size" : 608,
+	"avgObjSize" : 304,
+	"storageSize" : 16384,
+	"numExtents" : 1,
+	"nindexes" : 1,
+	"lastExtentSize" : 16384,
+	"paddingFactor" : 1,
+	"systemFlags" : 1,
+	"userFlags" : 0,
+	"totalIndexSize" : 8176,
+	"indexSizes" : {
+		"_id_" : 8176
+	},
+	"ok" : 1
+}	  
+          </code></pre>
+        </section>
+
+	      <section>
+        <h2>Find a Document</h2>
+	 <pre><code data-trim contenteditable>
+> db.post.find({"title": "MongoDB Overview"})
+{ "_id" : ObjectId("5b554f0dc313b2ac9455e6cf"), "title" : "MongoDB Overview", "description" : "MongoDB is no sql database", "by" : "tutorials point", "url" : "http://www.tutorialspoint.com", "tags" : [  "mongodb",  "database",  "NoSQL" ], "likes" : 100 }
+> db.post.find({"title": "MongoDB Overview"}).pretty()
+{
+	"_id" : ObjectId("5b554f0dc313b2ac9455e6cf"),
+	"title" : "MongoDB Overview",
+	"description" : "MongoDB is no sql database",
+	"by" : "tutorials point",
+	"url" : "http://www.tutorialspoint.com",
+	"tags" : [
+		"mongodb",
+		"database",
+		"NoSQL"
+	],
+w:w
+"likes" : 100
+}
+	  
+          </code></pre>
+        </section>
+
+	      <section>
+        <h2>Change a Document</h2>
+	 <pre><code data-trim contenteditable>
+> db.post.update({'title':'MongoDB Overview'}, {$set:{'by':'New Author'}})
+> db.post.find({'title':'MongoDB Overview'}).pretty()
+{
+	"_id" : ObjectId("5b554f0dc313b2ac9455e6cf"),
+	"by" : "New Author",
+	"description" : "MongoDB is no sql database",
+	"likes" : 100,
+	"tags" : [
+		"mongodb",
+		"database",
+		"NoSQL"
+	],
+	"title" : "MongoDB Overview",
+	"url" : "http://www.tutorialspoint.com"
+}	 
+          </code></pre>
+        </section>
+
+      <section>
+	<h3> The End </h3>
+	<h5> by W. D. Turner </h5>
+      </section>
+
+      </div>
+
+    </div>
+
+    <script src="revealjs/lib/js/head.min.js"></script>
+    <script src="revealjs/js/reveal.min.js"></script>
+
+    <script>
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+
+        theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+        transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+          { src: 'revealjs/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'revealjs/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'revealjs/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'revealjs/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: 'revealjs/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: 'revealjs/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+        ]
+      });
+
+    </script>
+
+  </body>
+</html>

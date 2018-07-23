@@ -26,7 +26,7 @@ For this lab, please do the following - your Lab report should be in your github
 
    <!--3. Implement association rules for Graduate Admissions Data set (experiment with different parameters. Look in chapter 9 of the book on page 89 for support and confidence )-->
 
-3. Try different visulaizations as in Chapter 9 of the text book. The book uses all of the rules. If you use just the rules with survival in the RHS, how does that change the analysis? <!--(Things have changed with R too - To load RGraphviz  go to a new Rscript window and type  `source("http://bioconductor.org/biocLite.R")`   Next, type in `biocLite("Rgraphviz")` After this you will be able to plot the graph of rules.)-->
+3. Try different visualizations as in Chapter 9 of the text book. The book uses all of the rules. If you use just the rules with survival in the RHS, how does that change the analysis? <!--(Things have changed with R too - To load RGraphviz  go to a new Rscript window and type  `source("http://bioconductor.org/biocLite.R")`   Next, type in `biocLite("Rgraphviz")` After this you will be able to plot the graph of rules.)-->
 
 5. Now download and explore two data sets: elect (election Bush vs. Kerry in 2004) and topmovies (top 1000 movies) 
 [These two data sets are located in [https://github.com/rcos/datalab7](https://github.com/rcos/datalab7). They can be imported into R as CSV.
@@ -36,7 +36,7 @@ similar to how the data is prepared in the text example. For topmovies you might
 
   Note that this is an exploratory exercise. In your lab notes, define a question you are trying to answer (either the questions above, or questions of your own), state how you are going to try and answer the question from the data, and then show your code and the results of your exploration.
 
-6.  Create an Obervatory page and a repo page for your project. Create a slack channel. Please choose a license for your repo.
+6.  Create an Observatory page and a repo page for your project. Create a slack channel. Please choose a license for your repo.
 Write a paragraph description of the status of your project - What did you do last week on your project? You only have 4 or 5 more weeks to finish your project.
 
 5. (optional) Read the kaggle [R tutorial on Machine Learning](https://www.datacamp.com/courses/kaggle-tutorial-on-machine-learing-the-sinking-of-the-titanic) (Random forest is also discussed in chapter 4 of the Zhao's book)
