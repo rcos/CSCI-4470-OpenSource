@@ -152,7 +152,3 @@ And if we called it again:
 
 Hint: Look at MongoDB documentation for $push
 
-## Checkpoint 6: Project Updates
-Please complete the steps in the following file - 
-https://github.com/rcos/CSCI2963-01-Spring2017/blob/master/Labs/ProjectCheckpoint.md
-

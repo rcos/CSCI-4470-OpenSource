@@ -1,120 +1,66 @@
-# Lab 8: Documentation (3/24/2017)
-> #### Created by Brian Callahan (Local *BSD Guru)
-https://news.ycombinator.com/item?id=9240533 </br>
-and </br>
-https://twitter.com/__briancallahan/status/579115053711958016
+# Lab 8: Testing and Continuous Integration (7/26/2018)
 
-One important, but often overlooked, contribution to Open Source Software is documentation - it spans a wide variety of written words: from manual pages to FAQs to handbooks to websites.
+Testing is the life blood of any large project and a comprehensive 
+suite of unit and regression tests can greatly improve the lives of both developers and users. For developers:
 
-The value of good documentation cannot be understated, and there are always fixes to be made. It allows users and developers alike to get software running correctly and quickly, reduces frustration, gets new users excited for the software, and enhances programming effort.
+1. It allows them to have high confidence that any changes they introduce into the system does not adversly impact other code -- particularly code that may not be frequently executed -- in an unexpected way
+2. It gives developers an established way to track down and correct systemic errors
+3. It provides an easy way to verify correctness when porting to new computer architectures
+4. It provides a baseline target when refactoring the code.
 
-Documentation is one of the hallmarks of the positive feedback loop in Open Source Software.
+For users:
 
-*Good documentation enables good code. Good code enables good documentation.*
+1. It provides a high confidence that the given code works and has been installed correctly on the user's system
+2. It provides examples for how the code can be used correctly 
 
-This lab will result in creating a patch that you can send to an Open Source project for inclusion. You will be fixing a minor documentation bug, such as a typo.
+This final point is further improved when integration tests or examples are included in the testing environment.
 
-We will be using two projects, each known for their high quality and care for good documentation: **FreeBSD** and **OpenBSD**. You may choose which project's documentation to work with for this assignment.
+For this lab, we will revisit the material from our section on build systems. We will use some of the same tools to execute and verify unit tests on an established project, *VTK*, demonstrate how to add a _(non-working)_ test to the system, and then how to iterate on the test until we have it working correctly.
 
-It is highly recommended that if you are using Windows you install Cygwin or install a *BSD or Linux in a virtual machine for this lab.
+*If it ain't tested, it's broken -- Bill Lorensen and the VCV Board, GE Global Research*
 
-## [FreeBSD](https://www.freebsd.org)
-FreeBSD's documentation can be found [here](https://www.freebsd.org/docs.html)
+Record all of your observations and a reasonably comprehensive set of screen shots in your lab report for *lab8*.
 
-The primary documents are the [Handbook](https://www.freebsd.org/doc/en_US.ISO8859-1/books/handbook/) and the [man pages](https://www.freebsd.org/cgi/man.cgi).
+## Checkpoint 1: Getting Started
+1. You should already have *cMake* installed from our unit on build systems. If not, please visit [https://cmake.org/download/](https://cmake.org/download/) to download and install it for your operating system.
+2. Now visit the VTK download page on GitLab [https://gitlab.kitware.com/vtk/vtk](https://gitlab.kitware.com/vtk/vtk) and clone VTK.
+3. Create a build directory and use *cmake-gui* to bring up the configuration options for cmake. Point the source and build directories appropriately for where you installed VTK and the build directory you create. Hit _configure_ to allow cmake to set up the build files for your system. Choose to build _unix makefiles_ as the generator if you are on Linux or OSX. Choose the appropriate version of VS if you are on Windows.
+4. We could configure and build VTK using the default options, but VTK is a big project and it would take an hour or more to build it completely. Instead, we will turn off some options and get a system we can build in around 10 minutes. You may need to hit configure after turning off the VTK flags to get all of the Module options.
+	- Turn off:
+		- VTK_Group_Rendering
+		- VTK_Group_StandAlone 
+	- Turn on:
+		- Module_vtkCommonCore
+		- Module_vtkCommonSystem
+		- Module_vtkCommonTransforms
+		- Module_vtkFiltersProgrammable
+		- Module_vtkFiltersVerdict
+5. Hit *configure* and then *generate* to complete generating the build system
+6. At this point, VTK is ready to test. We could execute the tests from this point, but just as a sanity check, build the system normally and verify everything works correctly. For OSX or Linux, this just means go into the build directory and execute make (*make -j4* will run on up to 4 separate threads to speed up build times). For Windows, open the project and build with the VS IDE.
 
-The Handbook is quite large, and covers every aspect of the system. The manual pages also describe the system, but from a different perspective. There are also smaller handbooks, such as the [Developer's Handbook](https://www.freebsd.org/doc/en_US.ISO8859-1/books/developers-handbook/) and the [Porter's Handbook](https://www.freebsd.org/doc/en_US.ISO8859-1/books/porters-handbook/)
+## Checkpoint 2: Executing the Tests
+1. While the system is building, visit the VTK dashboard at [https://open.cdash.org/index.php?project=VTK](https://open.cdash.org/index.php?project=VTK). Explore the project. 
+	- Find the *Nightly* and *Experimental* sections and look at some of the submissions. How can you see what tests where run for a particular submission? 
+	- Find a submission with errors. Can you see what the error condition was? How does this help you debug the failure?
+	- Find a system that is close to your specific configuration in the *Nightly* sectino. How _clean_ is the dashboard? Are there any errors that you need to be concerned with?
+2. Once the system is done building, it is time to verify the installation. We will be doing an *Experimental* build to differentiate ourselves from *validated* systems. In the Build directory, execute the command _ctest -D Experimental_. Experimental builds start from your current project state, execute a configure command to pull in any changes you may have made to the CMake Files, builds the system to pull in any code changes and then executes a suite of tests and reports back to the dashboard. Since we just did a build, the configure and build phases should be trivial. Most of the time will actually be spent running *VTK tests.
+3. Go back to the dashboard and find your submission. Are there any errors? If so, are they consistent with other projects using your architecture? If not, fix any sugnificant errors in your system and resubmit to the dashboard until your system performs similarly to equivalent architectures.
+ 
+## Checkpoint 3: Adding a Test
+1. Take a look at the file [TestNewArrayInterpolationDense.cxx](TestNewArrayInterpolationDense.cxx). We will add this to the testing for the _common core_ module in VTK. It is a little bit of a cheat because it is a slight variation of a test (_TestArrayInterpolationDense.cxx_) that already exists in the system, but really, it is not much of a cheat. Generally, when you add a test to an existing system, it is because you found a hole in the testing. Starting from an existing test that *comes close* is a good beginning.
+2. Add the file to the appropriate directory in the VTK source and enable it in the build. You will need to find the right place and you will need to modify the *CMakeList.txt* file in the testing directory. Use the clues above (particularly that the new test is derived from _TestArrayInterpolationDense.cxx_) to figure out the changes that need to be made.
+3. Re-execute the Experimental test suite and find your new submission on the Dashboard. Explore and make sure that you can identify the error. What information does the Dashboard provide?
 
-## [OpenBSD](http://www.openbsd.org)
-OpenBSD's primary documentation is the [FAQ](http://www.openbsd.org/faq/index.html)
+## Checkpoint 4: Fixing the Test
+1. Figure out what's wrong with the test and fix it. Now resubmit the Experimental tests and visit the Dashboard. Look at the differences between successful and unsuccessful tests. Note the increase in the number of tests executed.
+	- You may need to try more than once to get a successful fix
+	- You don't need to execute the Experimental Build every time you want to test your solution. Instead you can execute the test directly.
+	-  To find out the proper command to exercise the test outside of the Experimental build, try: *ctest -N -VV -R TestNewArrayInterpolationDense*. In this command, the *-N* flag says not to actually run the test, the *-VV* flag says to give a verbose output, and the *-R* flag gives the name of the test to simulate.
+	-  *[Optional]* This is a pretty simple change and a pretty simple error. You should be able to quickly figure out the error by comparing the new file to the original and by maybe putting in a few print statements to find where the error is occurring. However, cMake does allow you to the code with debug enabled so that you can use your favorite debugger. As an optional step, figure out how to turn on Debug in the VTK build and use a debugger to find the error above.
 
-Additionally, there is the [Porter's Handbook](http://www.openbsd.org/faq/ports/index.html) and the [manual pages](http://www.openbsd.org/cgi-bin/man.cgi).
+## Checkpoint 5: Project Updates
+Please complete the steps in the following file - 
+https://github.com/rcos/CSCI2963-01-Spring2017/blob/master/Labs/ProjectCheckpoint.md
 
-*One important note: OpenBSD prefers British spelling over American spelling (FreeBSD prefers American spelling).*
 
-# Now the Problem
 
-Documentation like code needs to be constantly updated to stay relevant. Additionally, just like code, mistakes are made. Your goal is to read through as much documentation as you need to in order to discover a bug (the BSDs consider all documentation errors bugs as important and serious as code mistakes).
-
-* Any web page for either project that you go to is also fair game for this lab. One thing that can be done for websites besides looking for typos is to click on all the links and make sure they go to the site they say they will (or if they go to a website at all).
-
-* Browsing the manual pages is best if you have a familiarity with Unix. Here is an [incomplete list of Unix commands](https://en.wikipedia.org/wiki/List_of_Unix_commands) to get started.
-
-* Also, here is a description of [how to navigate the manual](https://en.wikipedia.org/wiki/Man_page#Manual_sections). Each numbered section of the manual also has a page named intro, which you can use to start browsing.
-
-Remember, for this assignment you are not necessarily reading for correctness of documentation (unless you know enough about a particular topic to do so), you are reading for spelling and grammar.
-
-## If you choose FreeBSD:
-
-You will need a subversion client. Most Linux distros and all BSDs have subversion in their package repositories. Windows users should use Cygwin or a *BSD or Linux virtual machine.
-
-* The first thing you will want to do is identify the documentation fix first, before you check out any code. Unlike git, subversion allows you to check out only the parts of the tree that you need. You only need to checkout the module that your fix will be in, so there is no need to grab the entire FreeBSD source tree.
-
-* Once you have identified what you will fix, you can then grab it. You do so by looking through [FreeBSD's source tree](https://svnweb.freebsd.org/) and locating the directory the file you want to edit is in.
-    * Manual pages are located in the base/ directory, everything else is located in the doc/ directory.
-
-* Once you have found your file, you can check out the module it is in by issuing the following command:
-```
-    $ svn checkout https://svn0.us-west.FreeBSD.org/base/head localdirectory/
-```
-
-This example will checkout the base source tree to a directory on your computer named `localdirectory`. You are responsible for editing the part of the command from “base” onward, to select which module you want to check out and where you want it to be on your hard drive. Be aware that you may check out the doc module instead of the base module.
-
-> You may need to double check that you are checking out the right part of the repository.
-
-* Next, use your favorite text editor to make the fix.
-
-* You then need to generate a diff that can be checked in by a committer. To do so on Unix, run:
-```
-    $ svn diff filename > myfix.diff
-```
-You can name myfix.diff anything you want, but it is best if it ends in .diff or .patch. You can now look at your diff to make sure it is correct.
-
-* If it is, you are ready to send your fix to FreeBSD.
-    * To report the bug fix, go to their [support website](https://www.freebsd.org/support.html).  (You will need to create an account on their bugzilla, it's free.)
-
-## If you choose OpenBSD:
-
-You will need a cvs client. Most Linuxes and FreeBSD have cvs in their package repositories. OpenBSD and NetBSD have cvs in their base install, so if you are using either of these, you need not install any software. Windows users should use Cygwin or a *BSD or Linux virtual machine.
-
-* The first thing you will want to do is identify the documentation fix first, before you check out any code. Unlike git, cvs permits checking out only the directories you want to do work in, so there is no need to grab the entire OpenBSD source tree.
-
-* Once you have identified what you will fix, you can then grab it. You do so by looking through [OpenBSD's source tree](http://cvsweb.openbsd.org/cgi-bin/cvsweb/) and locating the directory the file you want to edit is in. Manual pages are located in the src/ directory, everything else is located in the www/ directory.
-
-* Once you have found your file, you can check out its directory by issuing the following command:
-```
-    $ cvs -danoncvs@ftp4.usa.openbsd.org:/cvs checkout -P www/faq
-```
-This example will checkout the OpenBSD FAQ web pages to a directory on your computer named www/faq. You are responsible for editing only the last part of the command (“www/faq”) to identify which directory of the tree you want to check out.
-
-* Next, use your favorite text editor to make the fix.
-
-* You then need to generate a diff that can be checked in by a developer. To do so on Unix, run:
-```
-    $ cvs diff -uNp filename > myfix.diff
-```
-You can name myfix.diff anything you want, but it is best if it ends in .diff or .patch. You can now look at your diff to make sure it is correct.
-
-* If it is, you are ready to send your fix to OpenBSD. OpenBSD accepts documentation patches to their <tech@openbsd.org> mailing list. Diffs must be sent inline (that is, the body of the email must itself be your diff). It is also preferable if you add some information about the diff in the email, so you will want put one or two blank lines at the very top, and add that information.
-
-    Here are some examples of documentation diffs sent to OpenBSD to give you a feel for how they should look:
-
-    <http://marc.info/?l=openbsd­tech&m=143650036605323&w=2>
-
-    <http://marc.info/?l=openbsd­tech&m=143654729117170&w=2>
-
-    <http://marc.info/?l=openbsd­tech&m=143676378121176&w=2>
-
-    <http://marc.info/?l=openbsd­tech&m=143551212528638&w=2>
-
-    <http://marc.info/?l=openbsd­tech&m=143690756728432&w=2>
-
-# Wrapping up (both FreeBSD and OpenBSD):
-
-Now that your diff is submitted, you may be asked to provide more information over the coming days. Don't forget to answer any inquiries, this helps make sure your diff is correct and in shape to be committed.
-
-If everything checks out, you should see your name in the FreeBSD or OpenBSD commit logs soon.
-
-*Make sure you write up in a lab report (as  markdown file in your github page)  about what you changed, why it is important to maintain good documentation, and what you have learned from this lab. 
-
-*Also add the diff you submitted and a link to your commit request email in your blog post*
