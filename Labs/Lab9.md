@@ -119,7 +119,7 @@ One of the greatest things about MongoDB is the availability of docs. Use them t
 - Fetch a record by object id
 - Insert a new record
 
-Show a TA the code that you used to do these things and include the script in your lab report.
+Show a TA the code that you used to do these steps and include the script in your lab report.
 
 
 ## Checkpoint 5: Random Word Requester
@@ -159,4 +159,7 @@ And if we called it again:
 ```
 
 Hint: Look at MongoDB documentation for $push
+
+Again, you will need to show a TA the code that you used to do these steps and include the script in your lab report.
+
 
