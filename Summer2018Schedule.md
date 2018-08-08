@@ -50,11 +50,11 @@ This is a draft schedule for this course -
 
 * Thursday 8/2/2018 - [Lab 9](Labs/Lab9.md)
 
-* Monday 8/6/2018 - Lecture
+* Monday 8/6/2018 - [Virtualization and Containers](https://github.com/rcos/CSCI-4961-01-Summer-2018/tree/master/HTML%20Lectures/Virtualization_Lecture)
 
-* Thursday 8/9/2018 - [Lab 10](Labs/Lab10.md)
+* Thursday 8/9/2018 - [Lab 10](Labs/Lab10-Docker.md)
 
-* Monday 8/14/2018 - Final Presentations
+* Monday 8/14/2018 - [TensorFlow]()
 
-* Thursday 8/16/2018 - Quiz 2
+* Thursday 8/16/2018 - Quiz 2 and Final Presentations
 
