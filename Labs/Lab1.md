@@ -64,3 +64,7 @@ g. Reflection
  2. Start thinking/finding a problem/project that interests you 
  3. Write a paragraph how you are doing this activity.
  4. Add to `lab1.md`
+
+#### Revisit e. Replace with TOS activity on evaluating open source ... 
+[foss2serve](http://foss2serve.org/index.php/Intro_to_FOSS_Project_Anatomy_(Activity)), [Evaluation](http://users.dickinson.edu/~braught/courses/cs491f17/projexpl.html)
+[projects](http://foss2serve.org/index.php/HFOSS_Projects), [RCOS](https://rcos.io/projects), others.
