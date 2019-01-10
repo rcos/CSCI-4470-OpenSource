@@ -1,29 +1,33 @@
 
 # CSCI-4961-01
-## Introduction to Open Source Summer Semester 2018
+## Open Source Software Spring Semester 2019
 
 ## Instructor: Wesley D. Turner
 
-### Undergraduate Teaching Assistants:
+### Undergraduate Mentors:
 
-- Adrian Collado collaa@rpi.edu
-- Alexander Schwartzberg schwaa6@rpi.edu
+- Byan Dieudonne dieudb@rpi.edu
+- Dan McCrevan mccred@rpi.edu
 
-## Open Source has been taught at RPI since Fall of 2007 (taught jointly by Dr. William Shroeder and Dr. Luis Ibanez) as a 4000 level class, and then by Mukkai Krishnamoorthy as a 2000 level class.
+## Open Source has been taught at RPI since Fall of 2007 (taught jointly by Dr. William Shroeder and Dr. Luis Ibanez) as a 4000 level class, and then by Mukkai Krishnamoorthy as a 2000 level class. We will continue this tradition by offering it as a 4000 level course this semester and in the Summer.
 
-### Meets in Amos Eaton 217 on Mondays,Thursdays from 10:30am - 12:35pm
+### Meets in Amos Eaton 215 on Tuesdays, Fridays from 12:00pm - 1:50pm
 
-### Office Hours: M, Th 4 - 5:30 pm, Amos Eaton 207
+### Office Hours: Tuesday, Thursday 2 - 3:30 pm, Amos Eaton 207
 
 ### We are extremely thankful to RedHat for their generous support. Thanks to Mr. Tom Callaway and Ms. Gina Likins for their valuable advice and suggestions.
 
-##  Lectures are on Mondays and Labs are on Thursdays
+##  Generally, ectures are on Tuesdays and Labs are on Fridays. This will be flipped for some portion of the class due to the Friday = Tuesday start.
 
 ## Goal of this Class:
 
-Familiarize with open source software development, be familiar and eager to learn new technology stacks,
-Reading and Understanding Good Code.
-Patch an existing open source project. Work on a team collaborative project. Become aware of/conversant in team project and diversity issues. Prepare a new RCOS project for the following semester.
+- Familiarize students with open source software development
+- Have them be familiar with and eager to learn new technology stacks
+- Able to Read and Understand Good Code.
+- Patch an existing open source project. 
+- Work on a team collaborative project. 
+- Become aware of and conversant in team project and diversity issues. 
+- Prepare a new RCOS project for the following semester.
 
 ## Learning Outcome:
 
@@ -33,7 +37,7 @@ in preparation for jobs in industry or for more advanced courses.
 - Understanding of Open Source Software Tools and Community
 - Understanding of Open Source Licensing.
 - Understanding of Testing, Version Control.
-- Understanding of Open Source Software Stack.
+- Understanding of Common Open Source Software Stacks.
 
 ## Syllabus:
 
@@ -48,7 +52,7 @@ in preparation for jobs in industry or for more advanced courses.
   - Specification and Testing
   - Collaborative Development
 
-3. Software Development  Tools
+3. Software Development Tools and Paradigms
   - Scientific Computing
   - Statistical Computing
   - Databases
@@ -58,33 +62,49 @@ in preparation for jobs in industry or for more advanced courses.
   - Cloud Computing Platform
   - Mobile Applications
  
-5. Open Hardware
+5. Topics of interest (Open Hardware, Tensor FLow, etc.)
 
 6. Projects
 
 ## Grading Criteria:
 
-- 2 Quizzes (10 points each) - 20%
+- 2 Tests (10 points each) - 20%
 - Open Source Project Analysis - 10%
-- 10 Labs (3 points each) - 30%
+- 11 Labs (3 points each/drop lowest) - 30%
 - Project - 40%
 
 ## Quiz Dates
 
-- Quiz 1 28th June
-- Quiz 2 16th August
+- Test 1 28th June
+- Test 2 26th April
 
 ## Opensource Paper Due
-- 14th June
+- 12th February
 
-93 and above A; 90 and above A-; 87 and above B+; 83 and above B; 80 and above B-; 77 and above C+; 73 and above C; 70 and above C-; 67 and above D+; 60 and above D.
+## Grade Distribution
+
+- 93 and above A
+- 90 and above A-
+- 87 and above B+
+- 83 and above B
+- 80 and above B-
+- 77 and above C+
+- 73 and above C
+- 70 and above C-
+- 67 and above D+
+- 60 and above D
 
 ## Community:
 
-Please join csci-4961-01-Summer2018 channel in http://rcos.slack.com 
+Please join csci-4966-Spring2019 channel in http://rcos.slack.com 
 
 ## Integrity
 
-Collaboration is allowed (but do not copy blindly - please understand). Labs and Quizzes should be solved and written by individuals alone. 
-Project is a group project (group of 3 or 4).
-If anyone is caught cheating, severe measures will be taken such as lowering the final grade, and the event will be reported to the appropriate authorities in the campus.
+Student-teacher relationships are built on trust. For example, students must trust that teachers have made appropriate decisions about the structure and content of the courses they teach, and teachers must trust that the assignments that students turn in are their own. Acts that violate this trust undermine the educational process.
+
+In this course, collaboration in your project group (3 or 4 students) is allowed, but should not be abused. Do not copy blindly. Labs and Quizzes should be solved and written by individuals alone. If anyone is caught cheating, severe measures will be taken such as lowering the final grade, and the event will be reported to the appropriate authorities in the campus.
+
+The Rensselaer Handbook of Student Rights and Responsibilities and the Graduate Student Supplement (For 6000 level and above courses) define various forms of Academic Dishonesty and you should make yourself familiar with these. All assignments that are turned in for a grade must represent the student’s own work. In cases where help was received, or teamwork was allowed, a notation on the assignment should indicate your collaboration. Submission of any assignment that is in violation of this policy will result in (1) an academic (grade) penalty and (2) reporting to the Dean of Academic Affairs and either the Dean of Students (for Undergraduates) or the Dean of Graduate Education (for Graduate students).
+
+In this course, the academic penalty for a first offense is loss of a letter grade. A second offense will result in failure of the course.
+If you have any questions concerning this policy before submitting an assignment, please ask for clarification.
