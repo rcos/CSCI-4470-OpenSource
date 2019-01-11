@@ -1,6 +1,6 @@
 This is a draft schedule for this course -
 
-* Friday 1/11/2019 - Lecture - [Introduction to Open Source](Lectures/Lecture-1-1.pdf) [Additional](Lectures/Lecture-1-11.pdf)
+* Friday 1/11/2019 - Lecture - [Introduction to Open Source](Lectures/Lecture-1-1.pdf), [History](Lectures/Lecture-1-3.pdf), [Additional Material] (Lectures/Lecture-1-2.pdf)
 
 * Tuesday 1/15/2019 - [Lab 1](Labs/Lab1.md)
 

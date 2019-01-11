@@ -77,8 +77,8 @@ in preparation for jobs in industry or for more advanced courses.
 
 ## Test Dates
 
-- Test 1 28th June
-- Test 2 26th April
+- Test 1 22nd February
+- Test 2 16th April
 
 ## Opensource Paper Due
 - 12th February
