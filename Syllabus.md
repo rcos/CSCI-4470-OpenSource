@@ -8,6 +8,8 @@
 
 - Byan Dieudonne dieudb@rpi.edu
 - Dan McCrevan mccred@rpi.edu
+- Adrian Collado collada@rpi.edu
+- Olivier Poulin poulio@rpi.edu
 
 ## Open Source has been taught at RPI since Fall of 2007 (taught jointly by Dr. William Shroeder and Dr. Luis Ibanez) as a 4000 level class, and then by Mukkai Krishnamoorthy as a 2000 level class. We will continue this tradition by offering it as a 4000 level course this semester and in the Summer.
 
@@ -17,7 +19,7 @@
 
 ### We are extremely thankful to RedHat for their generous support. Thanks to Mr. Tom Callaway and Ms. Gina Likins for their valuable advice and suggestions.
 
-##  Generally, ectures are on Tuesdays and Labs are on Fridays. This will be flipped for some portion of the class due to the Friday = Tuesday start.
+##  Generally, lectures are on Tuesdays and Labs are on Fridays. This will be flipped for some portion of the class due to the Friday = Tuesday start.
 
 ## Goal of this Class:
 
@@ -62,7 +64,7 @@ in preparation for jobs in industry or for more advanced courses.
   - Cloud Computing Platform
   - Mobile Applications
  
-5. Topics of interest (Open Hardware, Tensor FLow, etc.)
+5. Topics of interest (Open Hardware, Tensor Flow, etc.)
 
 6. Projects
 
@@ -73,7 +75,7 @@ in preparation for jobs in industry or for more advanced courses.
 - 11 Labs (3 points each/drop lowest) - 30%
 - Project - 40%
 
-## Quiz Dates
+## Test Dates
 
 - Test 1 28th June
 - Test 2 26th April
