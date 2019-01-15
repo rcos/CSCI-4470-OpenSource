@@ -4,13 +4,13 @@ This is a draft schedule for this course -
 
 * Tuesday 1/15/2019 - [Lab 1](Labs/Lab1.md)
 
-* Friday 1/18/2019 - [Understanding Open Source](Lectures/Lec2-Patrick_Masson-S2017.pdf)
+* Friday 1/18/2019 - Lecture - [Git Introduction](Lectures/Lecture-3.Md)
 
-* Tuesday 1/22/2019 - [Lab 2](Labs/Lab2.md)
+* Tuesday 1/22/2019 - [Lab 2](Labs/Lab3.md)
 
-* Friday 1/25/2019 - Lecture - [Git Introduction](Lectures/Lecture-3.Md)
+* Friday 1/25/2019 - [Understanding Open Source](Lectures/Lec2-Patrick_Masson-S2017.pdf)
 
-* Tuesday 1/29/2019 - [Lab 3](Labs/Lab3.md)
+* Tuesday 1/29/2019 - [Lab 2](Labs/Lab2.md)
 
 * Friday 2/1/2019 - [Lecture Documentation and Community](Lectures/Lecture-4.Md)
 
