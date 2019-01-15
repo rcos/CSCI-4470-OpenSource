@@ -1,17 +1,22 @@
-# CSCI-4961-01
-## Introduction to Open Source Summer Semester 2018
+# CSCI-4966 Open Source Software
+## Introduction to Open Source Spring Semester 2019
 
 ## Instructor: Wesley D. Turner
 
-### Undergraduate Teaching Assistants:
+### Undergraduate Mentors:
 
-- Adrian Collado collaa@rpi.edu
-- Alexander Schwartzberg schwaa6@rpi.edu
+- Byan Dieudonne dieudb@rpi.edu
+- Dan McCrevan mccred@rpi.edu
+- Adrian Collado collada@rpi.edu
+- Olivier Poulin poulio@rpi.edu
 
-## Open Source has been taught at RPI since Fall of 2007 (taught jointly by Dr. William Shroeder and Dr. Luis Ibanez) as a 4000 level class and by Prof. Mukkai Krishnamoorthy as a 2000 level class.
+**We are extremely thankful to RedHat for their generous support. Thanks to Mr. Tom Callaway and Ms. Gina Likins for their valuable advice and suggestions.
+Generally, lectures are on Tuesdays and Labs are on Fridays. This will be flipped for some portion of the class due to the Friday = Tuesday start.**
 
-### Meets in DCC 337 on Mondays,Thursdays from 10:30am - 12:35pm
+## Open Source has been taught at RPI since Fall of 2007 (taught jointly by Dr. William Shroeder and Dr. Luis Ibanez) as a 4000 level class and by Prof. Mukkai Krishnamoorthy as a 2000 level class. It is again a 4000 level class in the 
 
-### Office Hours: M, Th 4 - 5:30 pm, Amos Eaton 207
+### Meets in AE 215 on Tuesdays,Fridays from 12:00pm - 1:50pm
+
+### Office Hours: T, Th 2 - 3:30 pm, Amos Eaton 207
 
 ### We are extremely thankful to RedHat for their generous support. Thanks to Mr. Tom Callaway and Ms. Gina Likins for their valuable advice and suggestions.
