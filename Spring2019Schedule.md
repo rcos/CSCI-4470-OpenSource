@@ -10,7 +10,7 @@ This is a draft schedule for this course -
 
 * Friday 1/25/2019 - [Understanding Open Source](Lectures/Lec2-Patrick_Masson-S2017.pdf)
 
-* Tuesday 1/29/2019 - [Lab 2](Labs/Lab2.md)
+* Tuesday 1/29/2019 - [Lab 3](Labs/Lab2.md)
 
 * Friday 2/1/2019 - [Lecture Documentation and Community](Lectures/Lecture-4.Md)
 
