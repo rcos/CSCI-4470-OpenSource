@@ -2,27 +2,27 @@ This is a draft schedule for this course -
 
 * Friday 1/11/2019 - Lecture - [Introduction to Open Source](Lectures/Lecture-1-1.pdf), [History](Lectures/Lecture-1-3.pdf), [Additional Material](Lectures/Lecture-1-2.pdf)
 
-* Tuesday 1/15/2019 - [Lab 1](Labs/Lab1.md)
+* Tuesday 1/15/2019 - [Lab: Introduction](Labs/Lab1.md)
 
 * Friday 1/18/2019 - Lecture - [Git Introduction](Lectures/Lecture-3.Md)
 
-* Tuesday 1/22/2019 - [Lab 2](Labs/Lab3.md)
+* Tuesday 1/22/2019 - [Lab: Git](Labs/Lab3.md)
 
-* Friday 1/25/2019 - [Understanding Open Source](Lectures/Lec2-Patrick_Masson-S2017.pdf)
-
-* Tuesday 1/29/2019 - [Lab 3](Labs/Lab2.md)
-
-* Friday 2/1/2019 - [Lecture Documentation and Community](Lectures/Lecture-4.Md)
+* Friday 1/25/2019 - [Lecture Documentation and Community](Lectures/Lecture-4.Md)
 
 	[Documentation](HTML Lectures/DocumentationsAndCommunity-master/index.html)
 
 	[Community Involvement](HTML Lectures/DocumentationsAndCommunity-master/index2.html)
 
-* Tuesday 2/5/2019 - [Lab 4](Labs/Lab4.md)
+* Tuesday 1/29/2019 - [Lab: Community](Labs/Lab4.md)
+
+* Friday 2/1/2019 - [Understanding Open Source](Lectures/Lec2-Patrick_Masson-S2017.pdf)
+
+* Tuesday 2/5/2019 - [Lab: Licensing](Labs/Lab2.md)
 
 * Friday 2/8/2019 - [Build Systems](HTML\ Lectures/Lecture-Build-Systems/source/index.html)
 
-* Tuesday 2/12/2019 - [Lab 5](Labs/Lab5.md)
+* Tuesday 2/12/2019 - [Lab: Build Systems](Labs/Lab5.md)
 
 	**Analysis of an Open Source Project Due**
 
