@@ -54,6 +54,16 @@
           <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">Creative Commons Attribution 3.0 Unported License</a>.
         </section>
 
+
+	<section>
+		<h1>Reading Material</h1>
+		<h3><a rel="Pro Git" 
+		       href="https://git-scm.com/book/en/v2"><img alt="Pro Git book" src="https://git-scm.com/images/progit2.png" 
+		       style="width:84px;border:0;"/><p>Pro Git</a></h2>
+		<h4>by Scott Chacon and Ben Straub </h3>
+		Chapters 3.6 and 5.1
+	</section>
+
         <section>
           <h3>Complete First</h3>
           <h2> Git-Introduction-Part-I Exercises</h2>
@@ -62,18 +72,18 @@
         <section>
           <h3>Clone Repository</h3>
           <pre><code data-trim contenteditable>
-git clone git@github.com:wdturner/Story-Summer2018.git
+git clone git@github.com:wdturner/StorySpring2019.git
           </code></pre>
           <ul>
             <li>github username = "wdturner"
-            <li>repository name = "Story-Summer2018"
+            <li>repository name = "StorySpring2019"
           </ul>
         </section>
 
         <section>
           <h3>Go Inside the Directory</h3>
           <pre><code data-trim contenteditable>
-cd Story
+cd StorySpring2019
           </code></pre>
         </section>
 
@@ -122,7 +132,7 @@ git remote -v
         </section>
 
         <section>
-          <h2><a href="http://git-scm.com/book/en/Distributed-Git-Distributed-Workflows#Integration-Manager-Workflow">Let's do this ! </a></h2>
+          <h2><a href="http://git-scm.com/book/en/Distributed-Git-Distributed-Workflows#Integration-Manager-Workflow">Let's create a workflow! </a></h2>
         </section>
 
         <section>
@@ -168,7 +178,7 @@ git remote -v
         <section>
           <h3>Add the Remote repository</h3>
           <pre><code data-trim contenteditable>
-git remote add rcosgithub git@github.com:rcos/Story.git
+git remote add rcosgithub "your clone address"
           </code></pre>
           <ul>
             <li>rcosgithub = local name for remote repository
@@ -212,6 +222,10 @@ git remote -v
         </section>
 
         <section>
+          <h2><a href="http://git-scm.com/book/en/Distributed-Git-Distributed-Workflows#Integration-Manager-Workflow">What does our workflow look like?</a></h2>
+        </section>
+
+        <section>
           <h3>Now let's create</h3>
           <h3>a team directory</h3>
           <h3>to work together</h3>
@@ -221,13 +235,15 @@ git remote -v
           <h3>One Team Member</h3>
           <h3>Creates a Branch</h3>
           <pre><code data-trim contenteditable>
-git branch Table &lt; i &gt;
+git branch Table&lt;i&gt;
 
-git checkout Table &lt; i &gt;
+git checkout Table&lt;i&gt;
 
-cd Table  &lt; i &gt;
+mkdir Table&lt;i&gt;
 
-nano table&lt; i &gt;.Md
+cd Table&lt;i&gt;
+
+nano table&lt;i&gt;.Md #Or your editor of choice
 
 cd ..
           </code></pre>
@@ -237,11 +253,11 @@ cd ..
           <h3>One Team Member</h3>
           <h3>Commits Team Directory</h3>
           <pre><code data-trim contenteditable>
-git add table&lt i &gt;.Md
+git add table&lti&gt;.Md
 
 git commit -m "Started team directory"
           </code></pre>
-          <h4>and push it upstream</h4>
+          <h4>and push it to origin</h4>
           <pre><code data-trim contenteditable>
 git push origin master
           </code></pre>
@@ -409,7 +425,7 @@ git show 5d7d137
           <ul>
             <li>Git add the file
             <li>Git commit
-            <li>Git push upstream
+            <li>Git push to origin
           </ul>
         </section>
 
@@ -494,9 +510,9 @@ git commit
           <h2>Each Team Member</h2>
           <ul>
             <li>Git move to master branch
-            <li>Git update master from upstream
+            <li>Git update master from origin
             <li>Git merge branch into master
-            <li>Git push master upstream
+            <li>Git push master to origin
           </ul>
         </section>
 

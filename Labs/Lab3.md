@@ -1,8 +1,8 @@
-## This lab (Lab # 3 on 5/7/2018) is about Git (local repository), Github and a few of the simple commands.
+## This lab (Lab #2 on 5/7/2018) is about Git (local repository), Github and a few of the simple commands.
 
 ## Since we are already practicing git in class as part of our git lecture, you should not need the whole period. Accordingly, we will take the first 40 minutes or so to finish our discussion of git first.
 
-## Your Lab report will be Lab3.Md
+## Your Lab report will be Lab2.Md
 
 Commands used will include `git add`, `git commit`, `git pull`, `git checkout`, `git branch`, `git push`, `git log`, `git status`, `git diff` , `git tag`,  `git rebase` and `git merge`
 

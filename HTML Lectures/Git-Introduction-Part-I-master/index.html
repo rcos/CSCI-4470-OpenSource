@@ -57,6 +57,14 @@
           <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">Creative Commons Attribution 3.0 Unported License</a>. 
         </section>
 
+	<section>
+		<h1>Reading Material</h1>
+		<h3><a rel="Pro Git" 
+		       href="https://git-scm.com/book/en/v2"><img alt="Pro Git book" src="https://git-scm.com/images/progit2.png" 
+		       style="width:84px;border:0;"/><p>Pro Git</a></h2>
+		<h4>by Scott Chacon and Ben Straub </h3>
+		Chapters 1 - 3.3 and 4.3
+	</section>
         <section>
           <h1>Install Git</h1>
           <h3><a href="http://git-scm.com/book/en/Getting-Started-Installing-Git">Instructions Here</a></h3>
@@ -97,7 +105,7 @@ git config --global --list
        
 	<section>
           <h2>Generating a new SSH key</h2>
-          <a href=https://help.github.com/articles/generating-a-new-ssh-key/> Ssh-key</a>
+          <a href=https://help.github.com/articles/generating-a-new-ssh-key/> ssh-key</a>
           <pre><code data-trim contenteditable>
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 # Creates a new ssh key, using the provided email as a label
@@ -106,7 +114,7 @@ Generating public/private rsa key pair.
         </section>
 	<section>
           <h2>Generating a new SSH key (contd) </h2>
-          <a href=https://help.github.com/articles/generating-a-new-ssh-key/> Ssh-key</a>
+          <a href=https://help.github.com/articles/generating-a-new-ssh-key/> ssh-key</a>
           <pre><code data-trim contenteditable>
 Enter a file in which to save the key (/Users/you/.ssh/id_rsa): [Press enter]
 Enter passphrase (empty for no passphrase): [Type a passphrase]
@@ -116,7 +124,7 @@ Enter same passphrase again: [Type passphrase again]
 
 	<section>
           <h2>Generating a new SSH key (contd) </h2>
-          <a href=https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/> Ssh-key addition to your github account</a>
+          <a href=https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/> ssh-key addition to your github account</a>
           <pre><code data-trim contenteditable>
     cd .ssh
  </code></pre>
@@ -298,7 +306,7 @@ git log
         <section>
           <h2>File Status Lifecycle</h2>
           <a href="#" class="image">
-            <img src="http://git-scm.com/figures/18333fig0201-tn.png" alt="File lifecycle">
+            <img src="https://git-scm.com/book/en/v2/images/lifecycle.png" alt="File lifecycle">
           </a>
 					<p>Courtesy of <a href="http://git-scm.com/book/en/Git-Basics-Recording-Changes-to-the-Repository">git-scm Book</a>.</p>
         </section>
@@ -475,7 +483,7 @@ gitk
           <ul>
             <li>Create new branch
             <li>Move into new branch
-            <li>Edit and commit file
+            <li>Edit and a commit file
             <li>Move to master branch
             <li>Merge new branch into master
           </ul>
