@@ -1,4 +1,4 @@
-## This lab (Lab #2 on 5/7/2018) is about Git (local repository), Github and a few of the simple commands.
+## This lab (Lab #2 on 1/22/2018) is about Git (local repository), Github and a few of the commands you need to know to effectively manage an open source project.
 
 ## Since we are already practicing git in class as part of our git lecture, you should not need the whole period. Accordingly, we will take the first 40 minutes or so to finish our discussion of git first.
 
@@ -14,6 +14,9 @@ Useful pages:
 - A very nice [book about git](https://git-scm.com/book/en/v2)
 - A cheat sheet for [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) and [another cheat sheet for markdown](http://scottboms.com/downloads/documentation/markdown_cheatsheet.pdf)
 
+## Learning Objectives
+
+In this lab you will practice the git commands we introduced. At the end of the lab you will be able to view and contribute to git repositories both from the command line and from the GitHub website. You will know about branching and will be able to work within a group to do joint development and to resolve conflicts within repository files.
 
 ## Part 1
 
@@ -26,14 +29,14 @@ Useful pages:
   * Follow the instructions from slides 7 - 27 of https://github.com/rcos/Git-Introduction-Part-I by cloning the repository and opening index.html.
     * Create a local repository `lab3part1` using the command line
   * Create a README.md file.
-    * This file should include, as a bullet-ed list:
+    * This file should include, as a bulleted list:
       * your name
       * your photograph (Add it to your repository and use markdown to display it)
       * your graduating year
       * your project sub-area (the type of project that you plan to work on)
 
 2. [Create a new repository on github](https://github.com/new) and push the README.md file you created.
-  >*(hint: you should be doing something like this):* 
+  > *(hint: you should be doing something like this):* 
 
     ```
     git init
@@ -42,7 +45,7 @@ Useful pages:
     git remote add origin <repo url>
     git push origin master
     ```
-    ***Provide a link to this repository in your Lab3.Md .***
+    ***Provide a link to this repository in your Lab3.md file.***
 
 3. Create a file `first.py` that prints "Hello World!".
   * Add, commit, and push the file to your github repository on the master branch with `git push origin master`.
@@ -54,10 +57,9 @@ Useful pages:
 
 5. Repeat with a branch called `jupiter`.
 
-6. Install gitk with `sudo apt-get install gitk`.
-  * Visualize the branching diagram.
+6. Visualize the branching diagram.
       * Use `gitk` and `gitk --all`
-      * Compare it with this command `git log --graph --oneline --decorate`.
+      * Compare it with to `git log --graph --oneline --decorate`.
   *   **Include a screenshot in your lab report.**
 
 
@@ -65,12 +67,12 @@ Useful pages:
 
 1. You can create a derivative of a repository by forking.
   * Read about forking [here](https://guides.github.com/activities/forking/index.html)
-  * Fork the https://github.com/octocat/Spoon-Knife repository by pressing the Fork button in the top right corner of the repository page.
+  * Fork [https://github.com/octocat/Spoon-Knife](https://github.com/octocat/Spoon-Knife) repository by pressing the Fork button in the top right corner of the repository page.
 
 2. Clone the fork you made using `git clone <fork url>`
 
 3. Add a file `myprojectprogress.md`
-  * Write about your progress with your project selection
+  * Write about your thoughts on possible projects of interest and how you would like to organize it. Common repository? Blessed repository? Other?
   * Push it back to your forked Github repository.
 
 4. Do the first four levels (Introduction Sequence) of [Learn Git Branching](http://pcottle.github.io/learnGitBranching/).
@@ -78,13 +80,13 @@ Useful pages:
 
 ## Part 3
 
-1. Fork the repository https://github.com/wdturner/Summer2018PullReq
-  * Make a file named &lt;firstName lastName>.Md, add today's date on the first line (2/3/2017), and make a pull request.
+1. Fork the repository https://github.com/wdturner/PullReq
+  * In the Spring2019 directory, make a file named &lt;firstName lastName>.Md, add today's date on the first line (1/22/2019), and make a pull request.
   * Ask a TA to merge your pull request.
   * You can update your repository to reflect changes in the upstream repository using:
     
     ```
-    git remote add upstream https://github.com/wdturner/Summer2018PullReq.git
+    git remote add upstream https://github.com/wdturner/PullReq.git
     git pull upstream
     ```
 
@@ -99,7 +101,7 @@ Useful pages:
   *  **Please add a link to the repository in your Lab 3 report**
 
 5. As a table: (one person per table)
-  * Fork the repository https://github.com/git@github.com:wdturner/Story-Summer2018
+  * Fork the repository [https://github.com/wdturnerProjectIdeas2019.git](https://github.com/wdturner/ProjectIdeas2019.git)
   * Create one branch for your table (Table1, Table2,....)
   * you can push the branch the branch by doing  `git checkout -b feature_branch_name` , edit files, `git add` and `git commit` and  `git push -u origin feature_branch_name`
   * Add each member of the table to the repository:
@@ -110,11 +112,11 @@ Useful pages:
 
 
 6. Each member should clone the table's repository and checkout your table's branch
-  * Locally, each member should create a file called `table_<number>.Md`
+  * Locally, each member should create a file called `ProjectIdeas<number>.Md`
     * Write your project ideas inside.
   * Push to your branch and fix any merge conflicts.
   * Then each table merges with the master branch and submits a pull request to the upstream repository.
   * Resolve any merge conflicts that occur along the way.
-    * You can update your repository to reflect changes in the upstream repository using `git remote add upstream https://github.com/wdturner/Story-Summer2018.git` and `git pull upstream`
+    * You can update your repository to reflect changes in the upstream repository using `git remote add upstream https://github.com/wdturner/ProjectIdeas2019.git` and `git pull upstream`
 
   * [Git Introduction  Part II](https://github.com/rcos/Git-Introduction-Part-II) might be usefull for this (open index.html in the same way as the Introduction Part I slides)
