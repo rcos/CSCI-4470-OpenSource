@@ -27,7 +27,7 @@ In this lab you will practice the git commands we introduced. At the end of the 
 
 1. Setup git
   * Follow the instructions from slides 7 - 27 of https://github.com/rcos/Git-Introduction-Part-I by cloning the repository and opening index.html.
-    * Create a local repository `lab3part1` using the command line
+    * Create a local repository `lab2part1` using the command line
   * Create a README.md file.
     * This file should include, as a bulleted list:
       * your name
@@ -45,7 +45,7 @@ In this lab you will practice the git commands we introduced. At the end of the 
     git remote add origin <repo url>
     git push origin master
     ```
-    ***Provide a link to this repository in your Lab3.md file.***
+    ***Provide a link to this repository in your Lab2.md file.***
 
 3. Create a file `first.py` that prints "Hello World!".
   * Add, commit, and push the file to your github repository on the master branch with `git push origin master`.
@@ -69,6 +69,8 @@ In this lab you will practice the git commands we introduced. At the end of the 
   * Read about forking [here](https://guides.github.com/activities/forking/index.html)
   * Fork [https://github.com/octocat/Spoon-Knife](https://github.com/octocat/Spoon-Knife) repository by pressing the Fork button in the top right corner of the repository page.
 
+    ***Provide a link to this repository in your Lab2.md file.***
+
 2. Clone the fork you made using `git clone <fork url>`
 
 3. Add a file `myprojectprogress.md`
@@ -89,6 +91,7 @@ In this lab you will practice the git commands we introduced. At the end of the 
     git remote add upstream https://github.com/wdturner/PullReq.git
     git pull upstream
     ```
+  ***Provide a link to this repository in your Lab2.md file.***
 
 2. Make sure you understand the command `git diff` from [this example](https://www.safaribooksonline.com/library/view/version-control-with/9780596158187/ch08s02.html)
   * Examine the content of the diff file from the previous question (your pull request)
@@ -98,7 +101,8 @@ In this lab you will practice the git commands we introduced. At the end of the 
 4. Create a Github repository called `courseproject`.
   * Create a file `References.md`
   * Add any projects or websites that have interested you so far
-  *  **Please add a link to the repository in your Lab 3 report**
+ 
+  **Please add a link to the repository in your Lab2.md report**
 
 5. As a table: (one person per table)
   * Fork the repository [https://github.com/wdturnerProjectIdeas2019.git](https://github.com/wdturner/ProjectIdeas2019.git)
@@ -108,7 +112,8 @@ In this lab you will practice the git commands we introduced. At the end of the 
      * Click 'Settings' on the repository page
      * Click 'Collaborators'
      * Add the username of each person
-     *   **Please add a link to the repository in your Lab 3 report**
+  
+   **Please add a link to the repository in your Lab2.md report**
 
 
 6. Each member should clone the table's repository and checkout your table's branch
@@ -119,4 +124,6 @@ In this lab you will practice the git commands we introduced. At the end of the 
   * Resolve any merge conflicts that occur along the way.
     * You can update your repository to reflect changes in the upstream repository using `git remote add upstream https://github.com/wdturner/ProjectIdeas2019.git` and `git pull upstream`
 
-  * [Git Introduction  Part II](https://github.com/rcos/Git-Introduction-Part-II) might be usefull for this (open index.html in the same way as the Introduction Part I slides)
+  * [Git Introduction  Part II](https://github.com/rcos/Git-Introduction-Part-II) might be useful for this (open index.html in the same way as the Introduction Part I slides)
+
+When you have completed the lab, submit a text file with a link to your lab3.md file via Submitty.
