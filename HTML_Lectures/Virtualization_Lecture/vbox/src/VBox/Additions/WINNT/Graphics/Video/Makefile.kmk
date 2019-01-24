@@ -1,0 +1,228 @@
+# $Id: Makefile.kmk 71323 2018-03-14 14:05:32Z vboxsync $
+## @file
+# Makefile for the Windows guest video driver.
+#
+
+#
+# Copyright (C) 2011-2018 Oracle Corporation
+#
+# This file is part of VirtualBox Open Source Edition (OSE), as
+# available from http://www.virtualbox.org. This file is free software;
+# you can redistribute it and/or modify it under the terms of the GNU
+# General Public License (GPL) as published by the Free Software
+# Foundation, in version 2 as it comes in the "COPYING" file of the
+# VirtualBox OSE distribution. VirtualBox OSE is distributed in the
+# hope that it will be useful, but WITHOUT ANY WARRANTY of any kind.
+#
+
+SUB_DEPTH = ../../../../../..
+include $(KBUILD_PATH)/subheader.kmk
+
+# Include sub-makefiles.
+include $(PATH_SUB_CURRENT)/mp/Makefile.kmk
+include $(PATH_SUB_CURRENT)/disp/Makefile.kmk
+
+#
+# Install the inf & cat.
+# This has to be done here since it depends on both the
+# miniport driver and the display dll.
+#
+INSTALLS += VBoxVideo-inf
+VBoxVideo-inf_INST = $(INST_ADDITIONS)
+VBoxVideo-inf_MODE = a+r,u+w
+VBoxVideo-inf_SOURCES = \
+	$(PATH_TARGET)/VBoxVideoCat.dir/VBoxVideo.inf
+ifdef VBOX_SIGN_ADDITIONS
+ VBoxVideo-inf_SOURCES += \
+ 	$(PATH_TARGET)/VBoxVideoCat.dir/VBoxVideo.sys \
+ 	$(PATH_TARGET)/VBoxVideoCat.dir/VBoxDisp.dll \
+ 	$(PATH_TARGET)/VBoxVideoCat.dir/VBoxVideo.cat
+endif
+VBoxVideo-inf_CLEAN = $(VBoxVideo-inf_SOURCES)
+VBoxVideo-inf_BLDDIRS = \
+	$(PATH_TARGET)/VBoxVideoCat.dir
+
+$(PATH_TARGET)/VBoxVideoCat.dir/VBoxVideo.inf: $(PATH_SUB_CURRENT)/mp/xpdm/VBoxVideo.inf $(MAKEFILE_CURRENT) | $$(dir $$@)
+	$(call MSG_GENERATE,VBoxVideo-inf,$@,$<)
+	$(call VBOX_EDIT_INF_FN,$<,$@)
+
+$(PATH_TARGET)/VBoxVideoCat.dir/VBoxVideo.sys: $$(VBoxVideo_1_TARGET) | $$(dir $$@)
+	$(INSTALL) -m 644 $< $(@D)
+
+$(PATH_TARGET)/VBoxVideoCat.dir/VBoxDisp.dll: $$(VBoxDisp_1_TARGET) | $$(dir $$@)
+	$(INSTALL) -m 644 $< $(@D)
+
+$(PATH_TARGET)/VBoxVideoCat.dir/VBoxVideo.cat: \
+		$(PATH_TARGET)/VBoxVideoCat.dir/VBoxVideo.inf \
+		$(PATH_TARGET)/VBoxVideoCat.dir/VBoxVideo.sys \
+		$(PATH_TARGET)/VBoxVideoCat.dir/VBoxDisp.dll
+	$(call MSG_TOOL,Inf2Cat,VBoxVideo-inf,$@,$<)
+	$(call VBOX_MAKE_CAT_FN, $(@D),$@)
+
+ifdef VBOX_WITH_WDDM
+ VBOXWDDM_WITH_DISPD3D = 1
+ ifdef VBOX_WITH_CROGL
+  VBOXWDDM_WITH_GL = 1
+ endif
+
+ #
+ # Install the inf & cat.
+ # This has to be done here since it depends on both the
+ # miniport driver and the display dll.
+ #
+ INSTALLS += VBoxWddm-inf
+ VBoxWddm-inf_INST = $(INST_ADDITIONS)
+ VBoxWddm-inf_MODE = a+r,u+w
+ VBoxWddm-inf_SOURCES = \
+ 	$(PATH_TARGET)/VBoxWddmCat.dir/VBoxWddm.inf
+ ifdef VBOX_SIGN_ADDITIONS
+  VBoxWddm-inf_SOURCES += \
+  	$(PATH_TARGET)/VBoxWddmCat.dir/VBoxWddm.sys \
+  	$(PATH_TARGET)/VBoxWddmCat.dir/VBoxWddm.cat
+
+  ifdef VBOXWDDM_WITH_DISPD3D
+   VBoxWddm-inf_SOURCES += \
+   	$(PATH_TARGET)/VBoxWddmCat.dir/VBoxDispD3D.dll
+   VBoxWddm-inf_SOURCES.amd64 += \
+   	$(PATH_TARGET)/VBoxWddmCat.dir/VBoxDispD3D-x86.dll
+  endif # VBOXWDDM_WITH_DISPD3D
+
+  ifdef VBOXWDDM_WITH_GL
+   VBoxWddm-inf_SOURCES += \
+   	$(PATH_TARGET)/VBoxWddmCat.dir/VBoxOGL.dll \
+   	$(PATH_TARGET)/VBoxWddmCat.dir/VBoxD3D9wddm.dll \
+   	$(PATH_TARGET)/VBoxWddmCat.dir/wined3dwddm.dll \
+   	$(PATH_TARGET)/VBoxWddmCat.dir/VBoxOGLarrayspu.dll \
+   	$(PATH_TARGET)/VBoxWddmCat.dir/VBoxOGLcrutil.dll \
+   	$(PATH_TARGET)/VBoxWddmCat.dir/VBoxOGLerrorspu.dll \
+   	$(PATH_TARGET)/VBoxWddmCat.dir/VBoxOGLfeedbackspu.dll \
+   	$(PATH_TARGET)/VBoxWddmCat.dir/VBoxOGLpackspu.dll \
+   	$(PATH_TARGET)/VBoxWddmCat.dir/VBoxOGLpassthroughspu.dll
+   VBoxWddm-inf_SOURCES.amd64 += \
+   	$(PATH_TARGET)/VBoxWddmCat.dir/VBoxOGL-x86.dll \
+   	$(PATH_TARGET)/VBoxWddmCat.dir/VBoxD3D9wddm-x86.dll \
+   	$(PATH_TARGET)/VBoxWddmCat.dir/wined3dwddm-x86.dll \
+   	$(PATH_TARGET)/VBoxWddmCat.dir/VBoxOGLarrayspu-x86.dll \
+   	$(PATH_TARGET)/VBoxWddmCat.dir/VBoxOGLcrutil-x86.dll \
+   	$(PATH_TARGET)/VBoxWddmCat.dir/VBoxOGLerrorspu-x86.dll \
+   	$(PATH_TARGET)/VBoxWddmCat.dir/VBoxOGLfeedbackspu-x86.dll \
+   	$(PATH_TARGET)/VBoxWddmCat.dir/VBoxOGLpackspu-x86.dll \
+   	$(PATH_TARGET)/VBoxWddmCat.dir/VBoxOGLpassthroughspu-x86.dll
+  endif # VBOXWDDM_WITH_GL
+ endif # VBOX_SIGN_ADDITIONS
+
+ VBoxWddm-inf_CLEAN = $(VBoxWddm-inf_SOURCES)
+ VBoxWddm-inf_BLDDIRS = \
+ 	$(PATH_TARGET)/VBoxWddmCat.dir
+
+ VBOXWDDM_EDIT_INF_DISPD3D_FN_ARG = $(if $(VBOXWDDM_WITH_DISPD3D),-e 's/^;dispd3d  *//', -e '/^;dispd3d /d')
+ VBOXWDDM_EDIT_INF_GL_FN_ARG      = $(if $(VBOXWDDM_WITH_GL),-e 's/^;gl  *//', -e '/^;gl /d')
+ # Depends on VBOXWDDM_WITH_GL. ";icd" prefix is used for telling which lines are for OpenGL ICD
+ VBOXWDDM_EDIT_INF_ICD_FN_ARG     = $(if $(VBOXWDDM_WITH_GL),-e 's/^;icd  *//', -e '/^;icd /d')
+
+ $(PATH_TARGET)/VBoxWddmCat.dir/VBoxWddm.inf: \
+		$(PATH_SUB_CURRENT)/mp/wddm/VBoxWddm.inf $(MAKEFILE_CURRENT) | $$(dir $$@)
+	$(call MSG_GENERATE,VBoxWddm-inf,$@,$<)
+	$(call VBOX_EDIT_INF_FN,$<,$@ $(VBOXWDDM_EDIT_INF_DISPD3D_FN_ARG) $(VBOXWDDM_EDIT_INF_GL_FN_ARG) $(VBOXWDDM_EDIT_INF_ICD_FN_ARG))
+
+ $(PATH_TARGET)/VBoxWddmCat.dir/VBoxWddm.sys: $$(VBoxWddm_1_TARGET) | $$(dir $$@)
+	$(INSTALL) -m 644 $< $(@D)
+
+ ifdef VBOXWDDM_WITH_DISPD3D
+  $(PATH_TARGET)/VBoxWddmCat.dir/VBoxDispD3D.dll: $$(VBoxDispD3D_1_TARGET) | $$(dir $$@)
+	$(INSTALL) -m 644 $< $(@D)
+
+  ifeq ($(KBUILD_TARGET_ARCH),amd64)
+   $(PATH_TARGET)/VBoxWddmCat.dir/VBoxDispD3D-x86.dll: $$(VBoxDispD3D-x86_1_TARGET) | $$(dir $$@)
+	$(INSTALL) -m 644 $< $(@D)
+  endif
+ endif # VBOXWDDM_WITH_DISPD3D
+
+ ifdef VBOXWDDM_WITH_GL
+  $(PATH_TARGET)/VBoxWddmCat.dir/VBoxOGL.dll: $(PATH_OBJ)/VBoxOGL/VBoxOGL.dll | $$(dir $$@)
+	$(INSTALL) -m 644 $< $(@D)
+
+  $(PATH_TARGET)/VBoxWddmCat.dir/VBoxD3D9wddm.dll: $(PATH_OBJ)/VBoxD3D9wddm/VBoxD3D9wddm.dll | $$(dir $$@)
+	$(INSTALL) -m 644 $< $(@D)
+
+  $(PATH_TARGET)/VBoxWddmCat.dir/wined3dwddm.dll: $(PATH_OBJ)/wined3dwddm/wined3dwddm.dll | $$(dir $$@)
+	$(INSTALL) -m 644 $< $(@D)
+
+  $(PATH_TARGET)/VBoxWddmCat.dir/VBoxOGLarrayspu.dll: $(PATH_OBJ)/VBoxOGLarrayspu/VBoxOGLarrayspu.dll | $$(dir $$@)
+	$(INSTALL) -m 644 $< $(@D)
+
+  $(PATH_TARGET)/VBoxWddmCat.dir/VBoxOGLcrutil.dll: $(PATH_OBJ)/VBoxOGLcrutil/VBoxOGLcrutil.dll | $$(dir $$@)
+	$(INSTALL) -m 644 $< $(@D)
+
+  $(PATH_TARGET)/VBoxWddmCat.dir/VBoxOGLerrorspu.dll: $(PATH_OBJ)/VBoxOGLerrorspu/VBoxOGLerrorspu.dll | $$(dir $$@)
+	$(INSTALL) -m 644 $< $(@D)
+
+  $(PATH_TARGET)/VBoxWddmCat.dir/VBoxOGLfeedbackspu.dll: $(PATH_OBJ)/VBoxOGLfeedbackspu/VBoxOGLfeedbackspu.dll | $$(dir $$@)
+	$(INSTALL) -m 644 $< $(@D)
+
+  $(PATH_TARGET)/VBoxWddmCat.dir/VBoxOGLpackspu.dll: $(PATH_OBJ)/VBoxOGLpackspu/VBoxOGLpackspu.dll | $$(dir $$@)
+	$(INSTALL) -m 644 $< $(@D)
+
+  $(PATH_TARGET)/VBoxWddmCat.dir/VBoxOGLpassthroughspu.dll: $(PATH_OBJ)/VBoxOGLpassthroughspu/VBoxOGLpassthroughspu.dll | $$(dir $$@)
+	$(INSTALL) -m 644 $< $(@D)
+
+  ifeq ($(KBUILD_TARGET_ARCH),amd64)
+   $(PATH_TARGET)/VBoxWddmCat.dir/VBoxOGL-x86.dll: $(PATH_OBJ)/VBoxOGL-x86/VBoxOGL-x86.dll | $$(dir $$@)
+	$(INSTALL) -m 644 $< $(@D)
+
+   $(PATH_TARGET)/VBoxWddmCat.dir/VBoxD3D9wddm-x86.dll: $(PATH_OBJ)/VBoxD3D9wddm-x86/VBoxD3D9wddm-x86.dll | $$(dir $$@)
+	$(INSTALL) -m 644 $< $(@D)
+
+   $(PATH_TARGET)/VBoxWddmCat.dir/wined3dwddm-x86.dll: $(PATH_OBJ)/wined3dwddm-x86/wined3dwddm-x86.dll | $$(dir $$@)
+	$(INSTALL) -m 644 $< $(@D)
+
+   $(PATH_TARGET)/VBoxWddmCat.dir/VBoxOGLarrayspu-x86.dll: $(PATH_OBJ)/VBoxOGLarrayspu-x86/VBoxOGLarrayspu-x86.dll | $$(dir $$@)
+	$(INSTALL) -m 644 $< $(@D)
+
+   $(PATH_TARGET)/VBoxWddmCat.dir/VBoxOGLcrutil-x86.dll: $(PATH_OBJ)/VBoxOGLcrutil-x86/VBoxOGLcrutil-x86.dll | $$(dir $$@)
+	$(INSTALL) -m 644 $< $(@D)
+
+   $(PATH_TARGET)/VBoxWddmCat.dir/VBoxOGLerrorspu-x86.dll: $(PATH_OBJ)/VBoxOGLerrorspu-x86/VBoxOGLerrorspu-x86.dll | $$(dir $$@)
+	$(INSTALL) -m 644 $< $(@D)
+
+   $(PATH_TARGET)/VBoxWddmCat.dir/VBoxOGLfeedbackspu-x86.dll: $(PATH_OBJ)/VBoxOGLfeedbackspu-x86/VBoxOGLfeedbackspu-x86.dll | $$(dir $$@)
+	$(INSTALL) -m 644 $< $(@D)
+
+   $(PATH_TARGET)/VBoxWddmCat.dir/VBoxOGLpackspu-x86.dll: $(PATH_OBJ)/VBoxOGLpackspu-x86/VBoxOGLpackspu-x86.dll | $$(dir $$@)
+	$(INSTALL) -m 644 $< $(@D)
+
+   $(PATH_TARGET)/VBoxWddmCat.dir/VBoxOGLpassthroughspu-x86.dll: $(PATH_OBJ)/VBoxOGLpassthroughspu-x86/VBoxOGLpassthroughspu-x86.dll | $$(dir $$@)
+	$(INSTALL) -m 644 $< $(@D)
+  endif # ($(KBUILD_TARGET_ARCH), amd64)
+ endif # VBOXWDDM_WITH_GL
+
+ $(PATH_TARGET)/VBoxWddmCat.dir/VBoxWddm.cat: \
+		$(PATH_TARGET)/VBoxWddmCat.dir/VBoxWddm.inf \
+		$(PATH_TARGET)/VBoxWddmCat.dir/VBoxWddm.sys \
+		$(if $(VBOXWDDM_WITH_DISPD3D), $(PATH_TARGET)/VBoxWddmCat.dir/VBoxDispD3D.dll, ) \
+		$(if $(VBOXWDDM_WITH_DISPD3D), $(if-expr "$(KBUILD_TARGET_ARCH)" == "amd64", $(PATH_TARGET)/VBoxWddmCat.dir/VBoxDispD3D-x86.dll, ), ) \
+		$(if $(VBOXWDDM_WITH_GL),  $(PATH_TARGET)/VBoxWddmCat.dir/VBoxOGL.dll \
+					   $(PATH_TARGET)/VBoxWddmCat.dir/VBoxD3D9wddm.dll \
+					   $(PATH_TARGET)/VBoxWddmCat.dir/wined3dwddm.dll \
+					   $(PATH_TARGET)/VBoxWddmCat.dir/VBoxOGLarrayspu.dll \
+					   $(PATH_TARGET)/VBoxWddmCat.dir/VBoxOGLcrutil.dll \
+					   $(PATH_TARGET)/VBoxWddmCat.dir/VBoxOGLerrorspu.dll \
+					   $(PATH_TARGET)/VBoxWddmCat.dir/VBoxOGLfeedbackspu.dll \
+					   $(PATH_TARGET)/VBoxWddmCat.dir/VBoxOGLpackspu.dll \
+					   $(PATH_TARGET)/VBoxWddmCat.dir/VBoxOGLpassthroughspu.dll, ) \
+		$(if $(VBOXWDDM_WITH_GL), $(if-expr "$(KBUILD_TARGET_ARCH)" == "amd64", \
+					   $(PATH_TARGET)/VBoxWddmCat.dir/VBoxOGL-x86.dll \
+					   $(PATH_TARGET)/VBoxWddmCat.dir/VBoxD3D9wddm-x86.dll \
+					   $(PATH_TARGET)/VBoxWddmCat.dir/wined3dwddm-x86.dll \
+					   $(PATH_TARGET)/VBoxWddmCat.dir/VBoxOGLarrayspu-x86.dll \
+					   $(PATH_TARGET)/VBoxWddmCat.dir/VBoxOGLcrutil-x86.dll \
+					   $(PATH_TARGET)/VBoxWddmCat.dir/VBoxOGLerrorspu-x86.dll \
+					   $(PATH_TARGET)/VBoxWddmCat.dir/VBoxOGLfeedbackspu-x86.dll \
+					   $(PATH_TARGET)/VBoxWddmCat.dir/VBoxOGLpackspu-x86.dll \
+					   $(PATH_TARGET)/VBoxWddmCat.dir/VBoxOGLpassthroughspu-x86.dll, ), )
+	$(call MSG_TOOL,Inf2Cat,VBoxWddm-inf,$@,$<)
+	$(call VBOX_MAKE_CAT_FN, $(@D),$@)
+
+endif # VBOX_WITH_WDDM
+
+include $(FILE_KBUILD_SUB_FOOTER)

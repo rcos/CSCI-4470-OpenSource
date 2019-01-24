@@ -1,0 +1,4 @@
+/* $Id$ */
+void vboxCKeyDst(void)
+{
+}
