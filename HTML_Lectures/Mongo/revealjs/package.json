@@ -23,11 +23,7 @@
   "dependencies": {
     "underscore": "~1.5.1",
     "express": "~2.5.9",
-<<<<<<< HEAD
     "mustache": "~>2.2.1
-=======
-    "mustache": "~0.7.2",
->>>>>>> d0e71b3a48afdcd7718b071739150cdc5b6618b3
     "socket.io": "~0.9.13"
   },
   "devDependencies": {
