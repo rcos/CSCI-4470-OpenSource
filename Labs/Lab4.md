@@ -1,4 +1,4 @@
-# Lab 4 Community Development and Unit Testing - January 29, 2019
+# Lab 3 Community Development and Unit Testing - January 29, 2019
 
 ## This Lab has two parts - [Community](#part-1) and [Unit Testing](#part-2)
 
@@ -107,6 +107,6 @@ You will need Python 2 for this lab. I cannot find a viable version of `gitstats
   > 
 
 4. Write unit tests for the three additional constructs you did.
-5. Add your code to github, add links to your code and testcode, and show the results in lab5.md
+5. Add your code to github, add links to your code and testcode, and show the results in lab3.md
 
 When you have completed the lab, submit a text file with a link to your lab3.md file via Submitty.
