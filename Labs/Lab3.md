@@ -126,4 +126,4 @@ In this lab you will practice the git commands we introduced. At the end of the 
 
   * [Git Introduction  Part II](https://github.com/rcos/Git-Introduction-Part-II) might be useful for this (open index.html in the same way as the Introduction Part I slides)
 
-When you have completed the lab, submit a text file with a link to your lab3.md file via Submitty.
+When you have completed the lab, submit a text file with a link to your lab2.md file via Submitty.
