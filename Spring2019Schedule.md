@@ -16,9 +16,9 @@ This is a draft schedule for this course -
 
 * Tuesday 1/29/2019 - [Lab: Community](Labs/Lab4.md)
 
-* Friday 2/1/2019 - [Understanding Open Source](Lectures/Lec2-Patrick_Masson-S2017.pdf)
+* Friday 2/1/2019 - [Understanding Open Source](Modules/Licensing/Licensing-S2017-RPI-PatrickMasson.pdf)
 
-* Tuesday 2/5/2019 - [Lab: Licensing](Labs/Lab2.md)
+* Tuesday 2/5/2019 - [Lab: Licensing](Modules/Licensing/Lab-Licensing.md)
 
 * Friday 2/8/2019 - [Build Systems](HTML_Lectures/Lecture-Build-Systems/source/index.html)
 
