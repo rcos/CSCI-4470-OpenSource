@@ -17,6 +17,13 @@ Modifications by Wes Turner
 Introduction
 ============
 
+Learning Objectives
+-------------------
+
+#. Learn the relationship between project complexity and build systems
+#. Become familiar with and use the open source build utility ''make''
+#. Become familiar with and use the open source meta-build utility ''cmake'' for multiplatform development
+
 Reading and Reference Material
 ------------------------------
 
@@ -299,6 +306,8 @@ Create an archive of object files; use to link executables:
   + ar qc libhello.a hello1.o hello2.o
   + cc -c hi1.c -o hi1.o
   + cc -c hi2.c -o hi2.o
+
+  .. nextslide::
   + cc hi1.o libhello.a -o hi1
   + cc hi2.o libhello.a -o hi2
   $ ./hi1
