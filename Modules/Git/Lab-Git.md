@@ -1,4 +1,4 @@
-## This lab (Lab #2 on 1/22/2018) is about Git (local repository), Github and a few of the commands you need to know to effectively manage an open source project.
+## This lab (Lab #2 on 1/22/2019) is about Git (local repository), Github and a few of the commands you need to know to effectively manage an open source project.
 
 ## Since we are already practicing git in class as part of our git lecture, you should not need the whole period. Accordingly, we will take the first 40 minutes or so to finish our discussion of git first.
 

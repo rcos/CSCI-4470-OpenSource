@@ -4,9 +4,9 @@ This is a draft schedule for this course -
 
 * Tuesday 1/15/2019 - [Lab: Introduction](Modules/Introduction/Lab-Introduction.md)
 
-* Friday 1/18/2019 - Lecture - [Git Introduction](Lectures/Lecture-3.Md)
+* Friday 1/18/2019 - Lecture - [Git Introduction](Modules/Git/README.Md)
 
-* Tuesday 1/22/2019 - [Lab: Git](Labs/Lab3.md)
+* Tuesday 1/22/2019 - [Lab: Git](Modules/Git/Lab-Git.md)
 
 * Friday 1/25/2019 - [Lecture Documentation and Community](Lectures/Lecture-4.Md)
 
@@ -20,9 +20,9 @@ This is a draft schedule for this course -
 
 * Tuesday 2/5/2019 - [Lab: Licensing](Modules/Licensing/Lab-Licensing.md)
 
-* Friday 2/8/2019 - [Build Systems](HTML_Lectures/Lecture-Build-Systems/source/index.html)
+* Friday 2/8/2019 - [Build Systems](Modules/BuildSystems/BuildSystems.pdf)
 
-* Tuesday 2/12/2019 - [Lab: Build Systems](Labs/Lab5.md)
+* Tuesday 2/12/2019 - [Lab: Build Systems](Modules/BuildSystems/Lab-BuildSystems.md)
 
 	**Analysis of an Open Source Project Due**
 
@@ -76,3 +76,4 @@ This is a draft schedule for this course -
 
 	**Project Final Presentations**
 
+ 
