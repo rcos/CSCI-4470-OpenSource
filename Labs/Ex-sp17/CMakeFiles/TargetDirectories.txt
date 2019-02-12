@@ -1,3 +1,0 @@
-/home/moorthy/Ex-sp17/CMakeFiles/hello.dir
-/home/moorthy/Ex-sp17/CMakeFiles/hi1.dir
-/home/moorthy/Ex-sp17/CMakeFiles/hi2.dir
