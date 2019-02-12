@@ -17,13 +17,6 @@ Modifications by Wes Turner
 Introduction
 ============
 
-Learning Objectives
--------------------
-
-#. Learn the relationship between project complexity and build systems
-#. Become familiar with and use the open source build utility ''make''
-#. Become familiar with and use the open source meta-build utility ''cmake'' for multiplatform development
-
 Reading and Reference Material
 ------------------------------
 
@@ -633,7 +626,7 @@ Example Build Systems
 
 * `Make <https://en.wikipedia.org/wiki/Make_%28software%29>`__:
   Canonical dependency-based build system.
-* `Ninja <https://martine.github.io/ninja/>`__:
+* `Ninja <https://ninja-build.org>`__:
   An "assembly language for build systems".  Designed to be generated.
 * `MSBuild <https://msdn.microsoft.com/en-us/library/0k6kkbsd.aspx>`__:
   Underlies Visual Studio 2010+ builds.
