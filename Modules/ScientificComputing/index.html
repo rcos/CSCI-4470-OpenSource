@@ -51,6 +51,21 @@
            is licensed under a
           <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">Creative Commons Attribution 3.0 Unported License</a>.
         </section>
+	<section>
+		<h3>Learning Objectives</h3>
+		<ol>
+			<li> Become familiar with the breadth of Open Source Code used in Scientific Computation </li>
+			<li> Gain some practical experience with Open Source alternatives to closed source code </li>
+			<li> Learn how Scientific Computing principles are used to provide realism even in simple games </li> 
+		</ol>
+	</section>
+	<section>
+		<h3>Reading List</h3>
+		<ol>
+			<li><a href="http://doc.sagemath.org/html/en/a_tour_of_sage/">http://doc.sagemath.org/html/en/a_tour_of_sage/</a></li>
+			<li><a href="http://www.pymunk.org/en/latest/">http://www.pymunk.org/en/latest/</a></li>
+			<ul> <li>Read the first page and familiarize yourself with the API Reference. </li></ul>
+	</section>
         <section>
         <h3> Open Source in Scientific Computation  has two axes </h3>
         <ul> 
@@ -72,7 +87,7 @@
        <section>
        	<h3>Backend Computations (contd)</h3>
        	<ul>
-       		<li> May test the algorithms in matlab, mathematica, python, before full fledged implementation</li>
+       		<li> May test the algorithms in Matlab, Mathematica, Python, etc. before full fledged implementation</li>
        		<li> Arrays (multidimensional) are used extensively </li>
 		<li> Double precision computations are used extensively. </li>
        	</ul>
@@ -83,7 +98,7 @@
 <li> Finite Element Modeling - Structural Safety</li>
 <li> Fluid Mechanics - Aerodynamics - Aircraft Design </li>
 <li> Circuit Simulation </li>
-<li> Genomics and Drug Simulation </li>
+<li> <a rel="genomics" href="http://genometools.org/"> Genomics and Drug Simulation</a> </li>
 <li> <a rel="applicaition" href="http://www.dartmouth.edu/~nir/nirfast/"> Image Processing Applications </a> </li> 
 <li> Airline Scheduling, Linear and Nonlinear Programming Application </li>
 <li>Astronomy and Space Computations </li>
@@ -99,19 +114,18 @@
 	    <li> Weapon Simulation/Modeling </li>
 	    <li> Solving NP-hard/complete Problems </li>
 	    <li> Protein Folding </li>
-	    <li> SETI, Milkyway@Home</li>
+	    <li> <a rel="Seti" href="https://setiathome.berkeley.edu/">SETI, Milkyway@Home</a></li>
 	    <li> Physics Engines for Game Playing </li>
-	    <li> <a href="https://avogadro.cc/">Chemistry</a> </li>
+	    <li> <a href="https://github.com/OpenChemistry/">Chemistry</a> </li>
           </ul>
         </section>
 
 
         <section>
-          <h3>Commonly Used Tools </h3>
-          
+		<h3>Commonly Used Tools</h3.><h3><b>(Not All Open Source)</b></h3>
           <ul>
-            <li> Matlab (simulink), Maple, Sage (pure math),  Mathematica </li>
-            <li> CUDA, MPI libraries for parallel  computation </li>
+		  <li> <a href="https://www.mathworks.com/matlabcentral/?s_tid=gn_mlc#get-and-share-code">Matlab (simulink)</a>, Maple, Sage (pure math),  Mathematica </li>
+            <li> CUDA, MPI libraries for parallel computation </li>
             <li> LINPACK, EISPACK Libraries to do matrix computations (netlib) </li>
 	    <li> <a href="https://www.gnu.org/software/glpk/">glpk</a> (for linear programming) and other mathematical programming packages </li>
 	    <li> ACM Collected Algorithms </li>
@@ -142,20 +156,19 @@
         </section>
 
         <section>
-         <h3>Other Languages Support</h3>
+         <h3>Other Language Support</h3>
 	 <ul> 
 	   <li> Julia - high performance numerical and scientific computing </li>
-	   <li>  R - Statistical Computing Data Science (next week) </li>
-	   <li> Java - Special Package like Cytoscape </li>
+	   <li>  R - Statistical Computing Data Science (we have a module...) </li>
+	   <li> Java - Special Packages like <a href="https://cytoscape.org/">Cytoscape</a></li>
 	   </ul>
         </section>
  <section>
           <h3> Warm Up Exercise 0</h3>
 	  <ul>
-	  <li> Navigate to <a href="https://cloud.sagemath.com/">https://cloud.sagemath.com/</a>
-           and create an account </li>
-          <li> Create a new project  </li>
-          <li> Make that a Sage worksheet </li>
+	  <li> Navigate to <a href="http://www.sagemath.org/">http://www.sagemath.org/</a></li>
+          <li> Sagemath is an open source alternative to Maple and Mathematica</li>
+	  <li> Now go to <a href="https://sagecell.sagemath.org/">SageMathCell</a> </li>
           <li> Compute 450th Fibonacci Number </li>
           </ul>
         </section>
@@ -165,17 +178,18 @@
 	  <li> Try a few more commands 
 	  <li> Evaluate the 12th root of (3987^12+4365^12)</li> 
 	  <ul> 
-		  <li>Then look at: website <a href=http://goo.gl/eImelv">http://goo.gl/eImelv</a> </li>
+		  <li>Then look at: website <a href=https://n.pr/2TRyZjc">https://n.pr/2TRyZjc</a> </li>
 		  <li>  Moorthy has sample output in <a href="https://github.com/rcos/Sci-Computing/blob/master/output-console.pdf">https://github.com/rcos/Sci-Computing/blob/master/output-console.pdf</a> </li>
 	  </ul>
+	  <li>Now check out <a href="https://cocalc.com/policies/index.html">CoCalc</a> for a business model</li>
           </ul>
         </section>
 
         <section>
           <h3> Warm Up Exercise 1</h3>
 	  <ul>
-          <li> Install pygame and go through the tutorials <a href="https://nerdparadise.com/programming/pygame/part1">https://nerdparadise.com/programming/pygame/part1</a></li>
-          <li> At the end, you should make a simple game  </li>
+          <li> Install pygame and go through the first page of the tutorial at <a href="https://nerdparadise.com/programming/pygame/part1">https://nerdparadise.com/programming/pygame/part1</a></li>
+          <li> At the end, you will have a simple "game"  </li>
           </ul>
         </section>
 
@@ -187,6 +201,7 @@
 			    <li> <a href="https://github.com/estevaofon/angry-birds-python">https://github.com/estevaofon/angry-birds-python</a></li>
 			    <li> Install pygame and pymunk using pip (pip install pygame pymunk) </li> 
 			    <li> Run by going to the ``src`` directory and running ``python main.py`` </li>
+			    <ul> <li>(Or ``pythonw main.py`` on a Mac.)</li></ul>
 		    </ul>
 	    <li> Study the source code </li>
 	    <li> Play the game: </li>

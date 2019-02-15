@@ -7,9 +7,8 @@
 ### Steps
 - Download CMake from this website [https://cmake.org/download/](https://cmake.org/download/)
 - You can see the last example in the lecture slide [here](https://github.com/rcos/CSCI-4961-01-Summer-2018/tree/master/Modules/BuildSystems/Ex-sp17) (first go to the `build` directory and execute `cmake ../source/` followed by `make`)
-- Follow steps 1-3 of the CMake tutorial: [http://www.cmake.org/cmake-tutorial/](http://www.cmake.org/cmake-tutorial/)
-    - Note that the tutorial code can be found in the CMake Repository on GitLabs. You do not need to type in all of the steps. Just clone the repository using `git clone https://gitlab.kitware.com/cmake/cmake.git` and `cd cmake/Tests/Tutorial/` to get to the steps. The material in the tutorial corresponds to directories Step1 through Step5.
-    - Please read and understand the Tutorial
+- Follow steps 1-5 of the CMake tutorial. To get to the tutorial, clone the CMake repository from GitLab using `git clone https://gitlab.kitware.com/cmake/cmake.git` and `cd cmake/Tests/Tutorial/` to get to the steps.
+    - Please read and understand the Tutorial. Note that you do not need to type in anything. 
     - In your lab report (Lab5.md) put the code and the results for each of the five steps of the tutorial.
 - When you are finished, get a copy of the code at [https://github.com/rcos/CSCI-4961-01-Summer-2018/tree/master/Modules/BuildSystems/Lab-Example](https://github.com/rcos/CSCI-4961-01-Summer-2018/tree/master/Modules/BuildSystems/Lab-Example) 
     - Write a Makefile for the code in that directory. Your solutions should:
