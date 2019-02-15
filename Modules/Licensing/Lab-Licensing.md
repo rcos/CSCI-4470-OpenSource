@@ -1,5 +1,5 @@
 ## This Lab (2/5/2019) is on Open Source Licensing.
-Some good reading materials are [OSI's Licence page](http://opensource.org/licenses) and the [class lecture notes] (https://github.com/rcos/CSCI-4961-01-Summer-2018/blob/master/Lectures/Lec2-Patrick_Masson-S2017.pdf)
+Some good reading materials are [OSI's License page](http://opensource.org/licenses) and the [class lecture notes] (https://github.com/rcos/CSCI-4961-01-Summer-2018/blob/master/Lectures/Lec2-Patrick_Masson-S2017.pdf)
 
 ### All of the steps below should be recorded in a github file `Lab4.Md` in your Labs directory
  
