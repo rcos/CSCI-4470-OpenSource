@@ -1,12 +1,12 @@
 This is a draft schedule for this course -
 
-* Friday 1/11/2019 - Lecture - [Introduction to Open Source](Modules/Introduction/Syllabus.pdf), [History](Modules/Introduction/History.pdf), [Additional Material](Modules/Introduction/Linux.pdf)
+* Friday 1/11/2019 - Lecture - [Introduction to Open Source](../Modules/Introduction/Syllabus.pdf), [History](../Modules/Introduction/History.pdf), [Additional Material](../Modules/Introduction/Linux.pdf)
 
-* Tuesday 1/15/2019 - [Lab: Introduction](Modules/Introduction/Lab-Introduction.md)
+* Tuesday 1/15/2019 - [Lab: Introduction](../Modules/Introduction/Lab-Introduction.md)
 
-* Friday 1/18/2019 - Lecture - [Git Introduction](Modules/Git/README.Md)
+* Friday 1/18/2019 - Lecture - [Git Introduction](../Modules/Git/README.Md)
 
-* Tuesday 1/22/2019 - [Lab: Git](Modules/Git/Lab-Git.md)
+* Tuesday 1/22/2019 - [Lab: Git](../Modules/Git/Lab-Git.md)
 
 * Friday 1/25/2019 - [Lecture Documentation and Community](Lectures/Lecture-4.Md)
 
@@ -16,17 +16,17 @@ This is a draft schedule for this course -
 
 * Tuesday 1/29/2019 - [Lab: Community](Labs/Lab4.md)
 
-* Friday 2/1/2019 - [Understanding Open Source](Modules/Licensing/Licensing-S2017-RPI-PatrickMasson.pdf)
+* Friday 2/1/2019 - [Understanding Open Source](../Modules/Licensing/Licensing-S2017-RPI-PatrickMasson.pdf)
 
-* Tuesday 2/5/2019 - [Lab: Licensing](Modules/Licensing/Lab-Licensing.md)
+* Tuesday 2/5/2019 - [Lab: Licensing](../Modules/Licensing/Lab-Licensing.md)
 
-* Friday 2/8/2019 - [Build Systems](Modules/BuildSystems/BuildSystems.pdf)
+* Friday 2/8/2019 - [Build Systems](../Modules/BuildSystems/BuildSystems.pdf)
 
-* Tuesday 2/12/2019 - [Lab: Build Systems](Modules/BuildSystems/Lab-BuildSystems.md)
+* Tuesday 2/12/2019 - [Lab: Build Systems](../Modules/BuildSystems/Lab-BuildSystems.md)
 
 	**Analysis of an Open Source Project Due**
 
-* Friday 2/15/2019 - Lecture - [Open Source and Scientific Computation](HTML_Lectures/Sci-Computing-master/index.html)
+* Friday 2/15/2019 - Lecture - [Open Source and Scientific Computation](../Modules/ScientificComputing/index.html)
 
 * Friday 2/22/2019 - Test 1
 
@@ -34,7 +34,7 @@ This is a draft schedule for this course -
 
 	**Project Pitch Slide Presentations**
 
-* Friday 3/1/2019 - [Lab 6](Labs/Lab6.md)
+* Friday 3/1/2019 - [Lab 6](../Modules/ScientificComputing/Lab-ScientificComputing.md)
 
 	**Project Pitch Slide Presentations**
 
