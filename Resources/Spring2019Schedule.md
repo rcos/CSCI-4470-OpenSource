@@ -8,11 +8,11 @@ This is a draft schedule for this course -
 
 * Tuesday 1/22/2019 - [Lab: Git](../Modules/Git/Lab-Git.md)
 
-* Friday 1/25/2019 - [Lecture Documentation and Community](Lectures/Lecture-4.Md)
+* Friday 1/25/2019 - [Lecture Documentation and Community](../Modules/DocumentationAndCommunity/Lecture-DocumentationAndCommunity.Md)
 
-	[Community Involvement](HTML_Lectures/DocumentationsAndCommunity-master/index2.html)
+	[Community Involvement](../Modules/DocumentationAndCommunity/Community.html)
 
-	[Documentation](HTML_Lectures/DocumentationsAndCommunity-master/index.html)
+	[Documentation](../Modules/DocumentationAndCommunity/Documentation.html)
 
 * Tuesday 1/29/2019 - [Lab: Community](Labs/Lab4.md)
 
@@ -30,17 +30,17 @@ This is a draft schedule for this course -
 
 * Friday 2/22/2019 - Test 1
 
-* Tuesday 2/26/2019 - Lecture - [Open Source and Statistical Computation](HTML_Lectures/StatComputing-master/index.html)
+* Tuesday 2/26/2019 - Lecture - [Open Source and Statistical Computation](../Modules/StatisticalComputing/index.html)
 
-	**Project Pitch Slide Presentations**
-
-* Friday 3/1/2019 - [Lab 6](../Modules/ScientificComputing/Lab-ScientificComputing.md)
-
-	**Project Pitch Slide Presentations**
+* Friday 3/1/2019 - Guest Lecture by Prof. Krishnamoorthy on Networks  afterward please work on the next lab [Lab: Scientific Computing](../Modules/ScientificComputing/Lab-ScientificComputing.md). It will be due on 3/12 after Spring Break
 
 * Tuesday 3/12/2019 - Lecture - [Testing and Continuous Integration](Lectures/TestingAndCI.md)
 
-* Friday 3/15/2019 - [Lab 7](Labs/Lab7.md)
+    **Project Pitch Slide Presentations**
+
+    **[Lab: Scientific Computing](../Modules/ScientificComputing/Lab-ScientificComputing.md) due by 11:59:59**
+
+* Friday 3/15/2019 - [Lab: Statistical Computing](../Modules/StatisticalComputing/Lab-StatisticalComputing.md)
 
 * Tuesday 3/19/2019 Lecture - [Mongo DB](Lectures/MongoDB.pdf)
 
