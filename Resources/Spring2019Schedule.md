@@ -34,7 +34,7 @@ This is a draft schedule for this course -
 
 * Friday 3/1/2019 - Guest Lecture by Prof. Krishnamoorthy on Networks  afterward please work on the next lab [Lab: Scientific Computing](../Modules/ScientificComputing/Lab-ScientificComputing.md). It will be due on 3/12 after Spring Break
 
-* Tuesday 3/12/2019 - Lecture - [Testing and Continuous Integration](Lectures/TestingAndCI.md)
+* Tuesday 3/12/2019
 
     **Project Pitch Slide Presentations**
 
@@ -42,11 +42,11 @@ This is a draft schedule for this course -
 
 * Friday 3/15/2019 - [Lab: Statistical Computing](../Modules/StatisticalComputing/Lab-StatisticalComputing.md)
 
-* Tuesday 3/19/2019 Lecture - [Mongo DB](Lectures/MongoDB.pdf)
+* Tuesday 3/19/2019 Lecture - [Testing and Continuous Integration](../Modules/TestingAndCI/TestingAndCI.md)
 
-* Friday 3/22/2019 - [Lab 8](Labs/Lab8.md)
+* Friday 3/22/2019 - [Lab 8](../Modules/TestingAndCI/Lab-TestingAndCI.md)
 
-* Tuesday 3/26/2019 - [Community and Sustainability](Lectures/CommunityandSustainability-3-1-2016.pdf)
+* Tuesday 3/26/2019 Lecture - [Mongo DB](Lectures/MongoDB.pdf)
 
      **Project Update Presentations** 
 
@@ -57,6 +57,10 @@ This is a draft schedule for this course -
 * Tuesday 4/2/2019 - [Virtualization and Containers](https://github.com/rcos/CSCI-4961-01-Summer-2018/tree/master/HTML_Lectures/Virtualization_Lecture)
 
 * Friday 4/5/2019 - [Lab 10](Labs/Lab10-Docker.md)
+
+* Tuesday 4/9/2019 - [Community and Sustainability](Lectures/CommunityandSustainability-3-1-2016.pdf)
+
+or 
 
 * Tuesday 4/9/2019 - [TensorFlow (TBD)]()
 
