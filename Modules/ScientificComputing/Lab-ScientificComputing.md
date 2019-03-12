@@ -14,7 +14,7 @@
 
 Please do the following problems.
 
-- Download and Install networkx matplotlib (See [http://matplotlib.org/](http://matplotlib.org/) 
+- Download and Install networkx matplotlib (See [http://matplotlib.org/](http://matplotlib.org/))
 
 ```bash
 sudo apt-get install python-networkx python-matplotlib
