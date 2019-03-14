@@ -1,4 +1,4 @@
-## Lab 7 (7/19/2018) on Statistical Computing/Open Data/Data Science/Data Exploration/Data Mining
+## Lab 7 (3/15/2019) on Statistical Computing/Open Data/Data Science/Data Exploration/Data Mining
 
 Data Science, Statistical Modeling, and Machine Learning are important, current topics in Computer Science. There is a lot of open source software and open data available that are helping 
 
@@ -16,29 +16,17 @@ admissions[,col_names] <- lapply(admissions[,col_names] , factor)-->
 
 For this lab, please do the following - your Lab report should be in your github page
 
-1. Read Chapter 9 of the book on [Association Rule Mining](https://cran.r-project.org/doc/contrib/Zhao_R_and_data_mining.pdf)
-(You can also read [these slides](http://www.slideshare.net/rdatamining/association-rule-mining-with-r )). The example uses the Titanic dataset that comes as part of R to develop some rules for estimating if a given person survived or not. Work through the example, keeping in mind that it was written to a previous version of R. Most of the sample commands work, but if you follow it exactly you will find some errors. Pay particular attention to calling the *apriori* function. You need to provide it with a data frame and not a dataset. Also, when you overwrite the lower triangular part of the subset matrix, you need to use *FALSE* instead of *NA*. Most (but not all) of the example is contained in a sample program at [https://github.com/rcos/CSCI-4961-01-Summer-2018/blob/master/Labs/lab8-titanic-example-2015.R](https://github.com/rcos/CSCI-4961-01-Summer-2018/blob/master/Labs/lab8-titanic-example-2015.R). Look at it when you run into issues, but this is your chance to learn a little about R. Make sure you understand what is happening and that you can replicate the analysis. 
-<!--subset.matrix[lower.tri(subset.matrix, diag=T)] <- FALSE-->
-
-    *Hint: to get the apriori code and the associated In RStudio, go to Tools -> Install Packages, then type arules into the "Packages" box, hit ok and do the same thing with arulesViz*
+1. Read Chapters 3 and 5 of [https://cran.r-project.org/doc/contrib/Zhao_R_and_data_mining.pdf](https://cran.r-project.org/doc/contrib/Zhao_R_and_data_mining.pdf) on plotting and regression. The chapters  work through some simple plotting and regression using datasets built into R. You may have problems with the **rgl** library if you are on a Mac. Feel free to ignore that specific plot, or, if you'd like, download XQuartz from [http://xquartz.org](http://xquartz.org). **You do not need to show anything from step 1 in your lab report.** This is just a learning step.
     
-2. Read about the [background on Association Rule mining](https://en.wikipedia.org/wiki/Association_rule_learning)
-
-   <!--3. Implement association rules for Graduate Admissions Data set (experiment with different parameters. Look in chapter 9 of the book on page 89 for support and confidence )-->
-
-3. Try different visualizations as in Chapter 9 of the text book. The book uses all of the rules. If you use just the rules with survival in the RHS, how does that change the analysis? <!--(Things have changed with R too - To load RGraphviz  go to a new Rscript window and type  `source("http://bioconductor.org/biocLite.R")`   Next, type in `biocLite("Rgraphviz")` After this you will be able to plot the graph of rules.)-->
-
-5. Now download and explore two data sets: elect (election Bush vs. Kerry in 2004) and topmovies (top 1000 movies) 
-[These two data sets are located in [https://github.com/rcos/datalab7](https://github.com/rcos/datalab7). They can be imported into R as CSV.
-They
-are public domain data, although, one of them has been modified to get it into a set of transactions -
-similar to how the data is prepared in the text example. For topmovies you might want to explore how many of the movies are sequels, how many movies have the name "man"  or how many star wars movies there are in the list. Find as many interesting things about both datasets as possible. Try to repeat the rule analysis like what was done with the Titanic data. To do this, you may need to manage the data. *discretizeDF* can be used to give histograms for continuous data and *as.factor* can turn string or integer data into factors. Decide what a good RHS is and generate it from the data. For example, are there any rules that distinguish the top 10 grossing movies from the rest? What about sales over $100 million? How would you derive transactions to analyze? You may also want to find which states Bush won and the number of states he won. 
-
-  Note that this is an exploratory exercise. In your lab notes, define a question you are trying to answer (either the questions above, or questions of your own), state how you are going to try and answer the question from the data, and then show your code and the results of your exploration.
-
-6.  Create an Observatory page and a repo page for your project. Create a slack channel. Please choose a license for your repo.
-Write a paragraph description of the status of your project - What did you do last week on your project? You only have 4 or 5 more weeks to finish your project.
-
-5. (optional) Read the kaggle [R tutorial on Machine Learning](https://www.datacamp.com/courses/kaggle-tutorial-on-machine-learing-the-sinking-of-the-titanic) (Random forest is also discussed in chapter 4 of the Zhao's book)
+2. Now go to DataCamp [https://www.datacamp.com/home](https://www.datacamp.com/home) and create an account. I am in the process of getting a class account for Open Source Software that will allow you to do more with R, but for now we will leverage the free lessons that DataCamp provides.
+3. Do the introductory lesson of "Data Visualization with ggplot2 (Part  1)". Take screen shots along and put them in your Lab Notebook for Lab 7.
+4. Now do the introcuctory lesson of "Multiple and Logistic Regression". Again, take screen shots along and put them in your Lab Notebook.
+6.  Create an Observatory [http://rcos.io](http://rcos.io) page and a repo page for your project. Create a slack channel. Please choose a license for your repo.
+Write your first blog as a paragraph description of the status of your project - What did you do last week on your project? You only have 5 or 6 more weeks to finish. Add a pointer to your page on Observatory and make sure we can get to the project page, the repo page and the blog page from it.
+5. Submit a ***text file*** with a link to your Lab 7 notebook on github. Make sure your lab notebook has been pushed to github. Your notebook should have:
+     * Screen shots from the Data Visualization with ggplot2 (Part  1) introduction on DataCamp
+     * Screen shots from the Multiple and Logistic Regression intrduction on DataCamp
+     * A pointer to your open source project on Observatory
+5. (optional) Read the kaggle [R tutorial on Machine Learning](https://www.datacamp.com/courses/kaggle-tutorial-on-machine-learing-the-sinking-of-the-titanic) (Random forest is also discussed in chapter 4 of Zhao's book above.)
 (You can login to Kaggle with your facebook or google plus account or register for a new account.)
 
