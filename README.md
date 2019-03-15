@@ -20,3 +20,8 @@ Generally, lectures are on Tuesdays and Labs are on Fridays. This will be flippe
 ### Office Hours: T, Th 2 - 3:30 pm, Amos Eaton 207
 
 ### We are extremely thankful to RedHat for their generous support. Thanks to Mr. Tom Callaway and Ms. Gina Likins for their valuable advice and suggestions.
+
+Also, we like to leverage open source resources whenever possible, so:
+
+> This class is supported by DataCamp, the most intuitive learning platform for data science. Learn R, Python and SQL the way you learn best through a combination of short expert videos and hands-on-the-keyboard exercises. Take over 100+ courses by expert instructors on topics such as importing data, data visualization or machine learning and learn faster through immediate and personalised feedback on every exercise.”
+
