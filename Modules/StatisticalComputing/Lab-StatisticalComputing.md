@@ -20,7 +20,7 @@ For this lab, please do the following - your Lab report should be in your github
     
 2. Now go to DataCamp [https://www.datacamp.com/home](https://www.datacamp.com/home) and create an account. I am in the process of getting a class account for Open Source Software that will allow you to do more with R, but for now we will leverage the free lessons that DataCamp provides.
 3. Do the introductory lesson of "Data Visualization with ggplot2 (Part  1)". Take screen shots along and put them in your Lab Notebook for Lab 7.
-4. Now do the introductory lesson of "Multiple and Logistic Regression". Again, take screen shots along the way and put them in your Lab Notebook.
+4. Now do the Parallel Slopes lesson of "Multiple and Logistic Regression". Again, take screen shots along the way and put them in your Lab Notebook.
 6.  Create an Observatory [http://rcos.io](http://rcos.io) page and a repo page for your project. Create a slack channel. Please choose a license for your repo. (If you are joining an existing project that has a communication channel, your group can just join that. Be sure to tell me this, and to tellme how to find it.)
 Write your first blog as a paragraph description of the status of your project - What did you do last week on your project? You only have 5 or 6 more weeks to finish. Add a pointer ***in your lab notebook*** to your page on Observatory and make sure we can get to the project page, the repo page and the blog page from it.
 5. Submit a ***text file*** with a link to your Lab 7 notebook on github. Make sure your lab notebook has been pushed to github. Your notebook should have:
