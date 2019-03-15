@@ -14,7 +14,7 @@ This is a draft schedule for this course -
 
 	[Documentation](../Modules/DocumentationAndCommunity/Documentation.html)
 
-* Tuesday 1/29/2019 - [Lab: Community](Labs/Lab4.md)
+* Tuesday 1/29/2019 - [Lab: Community](../Modules/DocumentationAndCommunity/Lab-DocumentationAndCommunity.md)
 
 * Friday 2/1/2019 - [Understanding Open Source](../Modules/Licensing/Licensing-S2017-RPI-PatrickMasson.pdf)
 
