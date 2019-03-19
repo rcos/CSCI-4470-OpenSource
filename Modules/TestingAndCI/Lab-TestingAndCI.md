@@ -1,4 +1,4 @@
-# Lab 8: Testing and Continuous Integration (7/26/2018)
+# Lab 8: Testing and Continuous Integration (3/22/2019)
 
 Testing is the life blood of any large project and a comprehensive 
 suite of unit and regression tests can greatly improve the lives of both developers and users. For developers:

@@ -1,0 +1,391 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+
+    <title>Testing </title>
+
+    <meta name="description" content="Introduction to Testing">
+    <meta name="author" content="Moorthy">
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+    <link rel="stylesheet" href="revealjs/css/reveal.min.css">
+    <link rel="stylesheet" href="revealjs/css/theme/sky.css" id="theme">
+
+    <!-- For syntax highlighting -->
+    <link rel="stylesheet" href="revealjs/lib/css/zenburn.css">
+
+    <!-- If the query includes 'print-pdf', use the PDF print sheet -->
+    <script>
+      document.write( '<link rel="stylesheet" href="revealjs/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );
+    </script>
+
+  </head>
+
+  <body>
+
+    <div class="reveal">
+
+      <!-- Any section element inside of this container is displayed as a slide -->
+      <div class="slides">
+        <section>
+          <h2>Testing</h2>
+
+          <p>
+            <small>Created by <a href="http://www.cs.rpi.edu/~moorthy">Moorthy</a> / <a href=http://twitter.com>@mskmoorthy </a> and modified by <a href="https://science.rpi.edu/computer-science/faculty/wes-turner"> Wesley Turner </a> / <a href="http://twitter.com/wdturner">@wdturner</a></small> 
+          </p>
+        </section>
+
+        <section>
+          <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">
+             <img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" />
+          </a>
+          <br />
+          <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" property="dct:title" rel="dct:type">Documentation</span>
+           by Moorthy</span>
+           is licensed under a
+          <a rel="license" href="http://creativecommons.org/licenses/by/3.0/deed.en_US">Creative Commons Attribution 3.0 Unported License</a>.
+        </section>
+	<section>
+	<h2>Reading Material</h2>
+	  <ul>
+		  <li><a href=http://pythontesting.net/framework/unittest/unittest-introduction/> unittest introduction</a></li>
+		  
+                  <li><a href=http://pythontesting.net/framework/doctest/doctest-introduction/>doctest introduction</a> </li>
+	    </ul>
+	</section>
+        <section>
+        <h3>Testing </h3>
+        <ul> 
+        <li> Testing of Systems</li>
+        <li> Testing of Code</li>
+        </ul>
+        	
+        </section>
+        <section>
+        	
+        <h2> Purpose</h2>
+        <ul>
+        	<li>Software Quality Control/Software Quality Assurance </li>
+        	<li>Validation - building the right product</li>
+        	<li>Verification - does the code/system implement the specification</li>
+        	<li> Possibly avoid debugging</li>
+        </ul>
+        </section>
+       <section>
+       	<h3>Debugging vs Testing</h3>
+       	<ul>
+       		<li> Debugging is a cyclic activity - code execution and correction
+       		<li> Aim of Debugging is to locate errors </li>
+		<li> Testing is to demonstrate "correctness"
+       	</ul>
+       </section>
+<section>
+  <h3> Testing of Code </h3>
+  <ul>
+    <li> Black Box - Treat the system as a black box and generate test cases based on input/output specification </li>
+    <li> Gray Box - Limited knowledge of the system and generate test cases based on it. Ensure that code correctly cleans up after itself </li>
+    <li> White Box - Code details are known. Tests are based on the code structure.
+</ul>
+</section> 
+<section>
+  <h3> Types of Tests </h3>
+    <ul>
+      <li> Smoke Tests - most common kind of test - non extensive - most cruicial functions of a program work </li>
+      <li> Functional Tests - Done by QA to test functionality according to a test plan based on requirements and design specs.</li>
+      <li> Unit Tests -  Done by developers to test specific code.</li>
+      <li> Regressions Tests - Change in code does not affect other parts </.li>
+</ul>
+</section>
+<section>
+  <h3> Why Write Unit Tests </h3>
+<ul> 
+  <li> Increase Developer Confidence  </li>
+  <li> Avoid regression - If a unit test is run frequently enough, one knows when new code breaks old code. </li>
+  <li> If you write tests first, you know when you are done. </li>
+  <li> Encourage maximal modularity and minimal interface </li>
+</ul>
+</section>
+<section> 
+  <h3> When to Write Unit Tests </h3>
+  <ul>
+    <li> Always write tests. </li>
+    <li> Before you check the code into repository, you know your code works.</li>
+    <li> Before and after refactoring - redesign/reimplementation does not break </li>
+    <li> Before Debugging, to ease the process and help you know when you have finished debugging. </li>
+    </ul>
+  </section>
+        <section>
+          <h3>Terminology</h3>
+<ul>
+<li> An error is made by an Engineer/Algorithm Designer/Implementor  </li>
+<li> A fault is manifestation of that error in the code </li>
+<li> A failure is an incorrect output behavior that is caused by executing a fault </li>
+<li>Testing attempts to discover failures in software systems </li>
+<ul>
+<li> Debugging associates failures with faults and then correct the fault. </li>
+</ul>
+<li> If a system passes all of its tests, is the system free of faults?</li> 
+</ul>
+        </section>
+<section>
+	<h1>NO!</h1>
+</section>
+
+        <section>
+          <h3>Why No ...</h3>
+          <ul>
+            <li> Faults may be hiding in portions of code that rarely get executed.  </li>
+            <li> Sometimes faults mask one other</li>
+	    <li> Creatng a test or tyest suite that covers all code paths and all functional units is essentially impossible.</li>
+	    
+          </ul>
+        </section>
+
+        <section>
+	    <h2> However, Having all tests pass increases our confidence that our system has high quality</h2>
+        </section>
+        <section>
+          <h3>Looking for Faults</h3>
+	  <ul>
+	  <li> The input/output space of any software system is vast</li>
+          <li> Tests are a way of sampling the behaviors of a software system looking for failures </li>
+	  <li> Partition the space into equivalent behaviors and sample each partition</li>
+           
+           
+          </ul>
+        </section>
+
+        <section>
+          <h3>Example </h3>
+          
+          <ul>
+            <li>GCD Program takes two numbers and computes the GCD </li>
+            </ul>
+<pre><code>
+def gcd(a,b):
+    while(1 > 0):
+        if (a == 0):
+            return b
+        b = b % a
+        if (b == 0):
+            return a
+        a = a % b
+</code>        </pre>
+        </section>
+<section>
+  <h3> Test Cases for the  GCD Program </h3>
+  <ul>
+    <li> Assumptions in data a and b are nonnegative integers. Try edge
+      cases </li>
+    <li> Assumptions about Data are implemented in the program. </li>
+    <li> a = 9, b =3 gcd = 3 </li>
+     <li> a = 2, b = 6 gcd = 2 </li>
+     <li> a = 3 , b= 11 gcd =1 prime numbers </li>
+     <li> a = 0, b = 10 gcd=? edge case </li>
+     <li> a = -9,  b =18 gcd=? data constraint </li>
+     </ul>
+</section>
+<section>
+  <h3> Test Coverage </h3>
+  <ul>
+    <li> Covers all the paths </li>
+    <li> Covers all the loops and conditionals </li>
+    <li> Statement Coverage - All statements have been executed. </li>
+    <li> Branch Coverage - all edges in the control graph have been executed at least once . </li>
+    <li> Condition Coverage -all combination of conditions have been covered. </li>
+</li>
+</section>
+<section>
+  <h3> Control Flow Graph <h3>
+       <a href="https://github.com/rcos/TestingandCI/blob/master/g3.pdf"> g3.pdf</a>
+</section>
+<section>
+<h3> In Class Exercise </h3>
+<ul>
+	<li> Write the Input/Output specification for a Binary Search </li>
+	<li> Write the functional timing spec </li>
+	<li> What tests would we have? </li>
+</ul>
+</section>
+<section>
+  <h3> Language Support for Testing </h3>
+  <ul>
+    <li> ctest - Covered previously </li>
+    <li> PyUnit, unittest </li>
+    <li> JUnit </li>
+   </ul>
+</section>
+<section>
+<h3> Testing in Python </h3>
+<uL>
+<li> unittest </li>
+<ul>
+<li> copy <a href=http://pythontesting.net/framework/unittest/unittest-introduction/#example>test_um_unittest.py</a> </li>
+</ul>
+<li> doctest </li>
+<ul>
+<li> copy <a href=http://pythontesting.net/framework/doctest/doctest-introduction/#example>test_unnecessary_math.txt</a> </li>
+</ul>
+</ul>
+</section>
+<section>
+<pre>Unnecessary_math.py<code>
+'''
+Module showing how doctests can be included with source code
+Each '&gt&gt&gt' line is run as if in a python shell, and counts as a test.
+The next line, if not '>>>' is the expected output of the previous line.
+If anything doesn't match exactly (including trailing spaces), the test fails.
+'''
+ 
+def multiply(a, b):
+    """
+    &gt&gt&gt multiply(4, 3)
+    12
+    &gt&gt&gt multiply('a', 3)
+    'aaa'
+    """
+    return a * b
+
+</code></pre>
+</section>
+<section>
+<pre> test_um_unittest.py <code>
+import unittest
+from unnecessary_math import multiply
+ 
+class TestUM(unittest.TestCase):
+ 
+    def setUp(self):
+        pass
+ 
+    def test_numbers_3_4(self):
+        self.assertEqual( multiply(3,4), 12)
+ 
+    def test_strings_a_3(self):
+        self.assertEqual( multiply('a',3), 'aaa')
+ 
+if __name__ == '__main__':
+    unittest.main()
+</code></pre>
+</section>
+<section>
+<h3> Run Test </h3>
+<pre>$ python test_um_unittest.py<code>
+..
+----------------------------------------------------------------------
+Ran 2 tests in 0.000s
+
+OK
+</code></pre>
+</section>
+<section>
+<h3> Run Test </h3>
+<pre>$ python -m doctest -v unnecessary_math.py <code>
+Trying:
+    multiply(4, 3)
+Expecting:
+    12
+ok
+Trying:
+    multiply('a', 3)
+Expecting:
+    'aaa'
+ok
+1 items had no tests:
+    unnecessary_math
+1 items passed all tests:
+   2 tests in unnecessary_math.multiply
+2 tests in 2 items.
+2 passed and 0 failed.
+Test passed.
+</code></pre>
+</section>
+
+<section>
+<pre>test_unecessary_math.txt<code>
+This is a doctest based regression suite for unnecessary_math.py
+Each '>>' line is run as if in a python shell, and counts as a test.
+The next line, if not '>>' is the expected output of the previous line.
+If anything doesn't match exactly (including trailing spaces), the test fails.
+ 
+>>> from unnecessary_math import multiply
+>>> multiply(3, 4)
+12
+>>> multiply('a', 3)
+'aaa'
+</code></pre>
+</section>
+
+<section>
+<h3> Run Test </h3>
+<pre>$ python -m doctest -v test_unecessary_math.txt 
+<code>
+Trying:
+    from unnecessary_math import multiply
+Expecting nothing
+ok
+Trying:
+    multiply(3, 4)
+Expecting:
+    12
+ok
+Trying:
+    multiply('a', 3)
+Expecting:
+    'aaa'
+ok
+1 items passed all tests:
+   3 tests in test_unecessary_math.txt
+3 tests in 1 items.
+3 passed and 0 failed.
+Test passed.
+</code></pre>
+</section>
+
+   
+      <section>
+	<h3> The End </h3>
+	<h5> by Moorthy </h5>
+      </section>
+
+      </div>
+
+    </div>
+
+    <script src="revealjs/lib/js/head.min.js"></script>
+    <script src="revealjs/js/reveal.min.js"></script>
+
+    <script>
+
+      // Full list of configuration options available here:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+        controls: true,
+        progress: true,
+        history: true,
+        center: true,
+
+        theme: Reveal.getQueryHash().theme, // available themes are in /css/theme
+        transition: Reveal.getQueryHash().transition || 'default', // default/cube/page/concave/zoom/linear/fade/none
+
+        // Optional libraries used to extend on reveal.js
+        dependencies: [
+          { src: 'revealjs/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'revealjs/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'revealjs/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+          { src: 'revealjs/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+          { src: 'revealjs/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+          { src: 'revealjs/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+        ]
+      });
+
+    </script>
+
+  </body>
+</html>
