@@ -37,6 +37,7 @@ Record all of your observations and a reasonably comprehensive set of screen sho
 5. All other options should remain as they are originally.
 5. Hit *configure* and then *generate* to complete generating the build system
 6. At this point, VTK is ready to test. We could execute the tests from this point, but just as a sanity check, build the system normally and verify everything works correctly. For OSX or Linux, this just means go into the build directory and execute make (*make -j4* will run on up to 4 separate threads to speed up build times). For Windows, open the project and build with the VS IDE.
+7. Add a screenshot of the successful, build complete message to your Lab notebook.
 
 ## Checkpoint 2: Executing the Tests
 1. While the system is building, visit the VTK dashboard at [https://open.cdash.org/index.php?project=VTK](https://open.cdash.org/index.php?project=VTK). Explore the project. 
@@ -45,11 +46,14 @@ Record all of your observations and a reasonably comprehensive set of screen sho
 	- Find a system that is close to your specific configuration in the *Nightly* sectino. How _clean_ is the dashboard? Are there any errors that you need to be concerned with?
 2. Once the system is done building, it is time to verify the installation. We will be doing an *Experimental* build to differentiate ourselves from *validated* systems. In the Build directory, execute the command _ctest -D Experimental_. Experimental builds start from your current project state, execute a configure command to pull in any changes you may have made to the CMake Files, build the system to pull in any code changes and then execute a suite of tests and report back to the dashboard. Since we just did a build, the configure and build phases should be trivial. Most of the time will actually be spent running *VTK tests.
 3. Go back to the dashboard and find your submission. Are there any errors? If so, are they consistent with other projects using your architecture? If not, fix any sugnificant errors in your system and resubmit to the dashboard until your system performs similarly to equivalent architectures.
+4. Add a screenshot of your test submission in the Experimental Dashboard to your Lab notebook.
+
  
 ## Checkpoint 3: Adding a Test
 1. Take a look at the file [TestNewArrayInterpolationDense.cxx](TestNewArrayInterpolationDense.cxx). We will add this to the testing for the _common core_ module in VTK. It is a little bit of a cheat because it is a slight variation of a test (_TestArrayInterpolationDense.cxx_) that already exists in the system, but really, it is not much of a cheat. Generally, when you add a test to an existing system, it is because you found a hole in the testing. Starting from an existing test that *comes close* is a good beginning.
 2. Add the file to the appropriate directory in the VTK source and enable it in the build. You will need to find the right place and you will need to modify the *CMakeList.txt* file in the testing directory. Use the clues above (particularly that the new test is derived from _TestArrayInterpolationDense.cxx_) to figure out the changes that need to be made.
 3. Re-execute the Experimental test suite and find your new submission on the Dashboard. Explore and make sure that you can identify the error. What information does the Dashboard provide?
+4. Add a screenshot of your test submission with errors in the Experimental Dashboard to your Lab notebook.
 
 ## Checkpoint 4: Fixing the Test
 1. Figure out what's wrong with the test and fix it. Now resubmit the Experimental tests and visit the Dashboard. Look at the differences between successful and unsuccessful tests. Note the increase in the number of tests executed.
@@ -57,6 +61,7 @@ Record all of your observations and a reasonably comprehensive set of screen sho
 	- You don't need to execute the Experimental Build every time you want to test your solution. Instead you can execute the test directly.
 	-  To find out the proper command to exercise the test outside of the Experimental build, try: *ctest -N -VV -R TestNewArrayInterpolationDense*. In this command, the *-N* flag says not to actually run the test, the *-VV* flag says to give a verbose output, and the *-R* flag gives the name of the test to simulate.
 	-  *[Optional]* This is a pretty simple change and a pretty simple error. You should be able to quickly figure out the error by comparing the new file to the original and by maybe putting in a few print statements to find where the error is occurring. However, cMake does allow you to run the code with debug enabled so that you can use your favorite debugger. As an optional step, figure out how to turn on Debug in the VTK build and use a debugger to find the error above.
+4. Add a screenshot of your fixed test submission in the Experimental Dashboard to your Lab notebook.
 
 ***When you are finished, push your Lab 8 report to your Lab Notebook repository and post a text file with a link to the Lab 8 report on Submitty.***
 
