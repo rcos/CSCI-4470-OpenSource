@@ -25,7 +25,7 @@ Record all of your observations and a reasonably comprehensive set of screen sho
 1. You should already have *cMake* installed from our unit on build systems. If not, please visit [https://cmake.org/download/](https://cmake.org/download/) to download and install it for your operating system.
 2. Now visit the VTK download page on GitLab [https://gitlab.kitware.com/vtk/vtk](https://gitlab.kitware.com/vtk/vtk) and clone VTK.
 3. Create a build directory and use *cmake-gui* to bring up the configuration options for cmake. Point the source and build directories appropriately for where you installed VTK and the build directory you create. Hit _configure_ to allow cmake to set up the build files for your system. Choose to build _unix makefiles_ as the generator if you are on Linux or OSX. Choose the appropriate version of VS if you are on Windows.
-4. We could configure and build VTK using the default options, but VTK is a big project and it would take an hour or more to build it completely. Instead, we will turn off some options and get a system we can build in around 10 minutes. You may need to hit configure after turning off the VTK flags to get all of the Module options.
+4. We could configure and build VTK using the default options, but VTK is a big project and it would take an hour or more to build it completely. Instead, we will turn off some options and get a system we can build in around 10 minutes. You may need to hit configure after turning off the VTK flags to get all of the Module options. Also, be sure that the _Grouped_ and _Advanced_ options are checked in the interface.
 	- Turn **off (NO)**:
 		- VTK\_GROUP\_ENABLE\_Rendering
 		- VTK\_GROUP\_ENABLE\_StandAlone
