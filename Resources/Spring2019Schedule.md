@@ -44,13 +44,13 @@ This is a draft schedule for this course -
 
 * Tuesday 3/19/2019 Lecture - [Testing and Continuous Integration](../Modules/TestingAndCI/TestingAndCI.md)
 
-* Friday 3/22/2019 - [Lab 8](../Modules/TestingAndCI/Lab-TestingAndCI.md)
+* Friday 3/22/2019 - [Lab: Testing and Contnuous Integration](../Modules/TestingAndCI/Lab-TestingAndCI.md)
 
-* Tuesday 3/26/2019 Lecture - [Mongo DB](Lectures/MongoDB.pdf)
+* Tuesday 3/26/2019 Lecture - [Open Source Databases](../Modules/Databases/Databases.pdf)
 
      **Project Update Presentations** 
 
-* Friday 3/29/2019 - [Lab 9](Labs/Lab9.md)
+* Friday 3/29/2019 - [Lab: Databases](../Modules/Databases/Lab-Databases.pdf)
 
      **Project Update Presentations** 
 
