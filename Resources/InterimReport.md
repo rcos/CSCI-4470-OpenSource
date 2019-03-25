@@ -13,7 +13,6 @@ We will have presentations on your projects during class on 3/26 and 3/29/2019. 
 The goal will be to take 30 minutes out of next lecture (end) and next lab (beginning) to get through everybody. I picked the order teams were formed:
 
 1. impac
-2. Open Scanner Serial
 3. B7
 4. BeirRun
 5. StoryHop
@@ -24,6 +23,7 @@ The goal will be to take 30 minutes out of next lecture (end) and next lab (begi
 10. Stupdown
 11. MultiMC5
 12. P5.js *
+2. Open Scanner Serial
 
 After your presentation, you will need to upload a PDF of your presentation to Submitty for grading.
 
