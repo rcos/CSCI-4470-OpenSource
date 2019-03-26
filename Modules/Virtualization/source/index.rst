@@ -137,7 +137,7 @@ Disadvantages
 Virtualization and the Cloud
 ----------------------------
 
-Virtual machine are the *de facto* way of using cloud compute reosurces
+Virtual machine are the *de facto* way of using cloud compute resources
 
 * **You** are protected by the virtual environment by interference from other VMs
 
