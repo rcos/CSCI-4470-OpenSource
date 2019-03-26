@@ -64,7 +64,7 @@ int TestNewArrayInterpolationDense(int vtkNotUsed(argc), char *vtkNotUsed(argv)[
     c->SetValue(3, 0, 6);
     c->SetValue(3, 1, 7);
     c->SetValue(4, 0, 8);
-    c->SetValue(5, 1, 9);
+    c->SetValue(4, 1, 9);
 
     vtkSmartPointer<vtkDenseArray<double> > d = vtkSmartPointer<vtkDenseArray<double> >::New();
     d->Resize(vtkArrayExtents(2, 2));
