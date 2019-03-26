@@ -44,19 +44,19 @@ This is a draft schedule for this course -
 
 * Tuesday 3/19/2019 Lecture - [Testing and Continuous Integration](../Modules/TestingAndCI/TestingAndCI.md)
 
-* Friday 3/22/2019 - [Lab: Testing and Contnuous Integration](../Modules/TestingAndCI/Lab-TestingAndCI.md)
+* Friday 3/22/2019 - [Lab: Testing and Continuous Integration](../Modules/TestingAndCI/Lab-TestingAndCI.md)
 
-* Tuesday 3/26/2019 Lecture - [Open Source Databases](../Modules/Databases/Databases.pdf)
-
-     **Project Update Presentations** 
-
-* Friday 3/29/2019 - [Lab: Databases](../Modules/Databases/Lab-Databases.pdf)
+* Tuesday 3/26/2019 - [Virtualization and Containers](../Modules/Virtualization/source/index.rst)
 
      **Project Update Presentations** 
 
-* Tuesday 4/2/2019 - [Virtualization and Containers](https://github.com/rcos/CSCI-4961-01-Summer-2018/tree/master/HTML_Lectures/Virtualization_Lecture)
+* Friday 3/29/2019 - [Lab: Virtualization](../Modules/Virtualization/Lab-Virtualization.md)
 
-* Friday 4/5/2019 - [Lab 10](Labs/Lab10-Docker.md)
+     **Project Update Presentations** 
+
+* Tuesday 4/2/2019 Lecture - [Open Source Databases](../Modules/Databases/Databases.pdf)
+
+* Friday 4/5/2019 - [Lab: Databases](../Modules/Databases/Lab-Databases.pdf)
 
 * Tuesday 4/9/2019 - [Community and Sustainability](Lectures/CommunityandSustainability-3-1-2016.pdf)
 
