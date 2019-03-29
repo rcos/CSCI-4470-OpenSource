@@ -7,6 +7,8 @@ If you are running the home version of Windows 10, you need to execute a few add
 1. Download and Install the docker toolbox: [http://tinyurl.com/docker19](http://tinyurl.com/docker19)
 2. Run the Docker Quickstart Tutorial
 
+***Make sure that there are no VirtualBox images running!***
+
 ## Learning Objectives:
 
 After completing this lab you will be familiar with the practical aspects of using and configuing light weight environments using the Open Source Docker tool.
