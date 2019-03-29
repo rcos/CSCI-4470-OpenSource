@@ -25,5 +25,5 @@ The lab parallels a lot of the material we worked through at the end of the [Vir
 
 Please clone the github repository [rcos/docker-examples](https://github.com/rcos/docker-examples) and ***CHECKOUT the Spring2019 Branch***. The ***master*** branch has an issue with ***example04*** and will not work, Then go through examples 0-4. Document your steps and observations in your lab notebook for Lab 9 and upload a link to the lab to Submitty.
 
-Note that the Docker files for examples 0-3 are given to you. I recommend that you go through and regenerate them line by line for practice. You will need to create files for exmpale04 on your own, although the code is embedded in the lab.
+Note that the Docker files for examples 0-3 are given to you. I recommend that you go through and regenerate them line by line for practice. You will need to create files for example04 on your own, although the code is embedded in the lab.
 
