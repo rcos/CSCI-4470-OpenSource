@@ -1,6 +1,11 @@
 # Lab 9 Virtualization and Docker - 3/29/2019
 
+## Before you start ...
 
+If you are running the home version of Windows 10, you need to execute a few additional steps:
+
+1. Download and Install the docker toolbox: [http://tinyurl.com/docker19](http://tinyurl.com/docker19)
+2. Run the Docker Quickstart Tutorial
 
 ## Learning Objectives:
 
