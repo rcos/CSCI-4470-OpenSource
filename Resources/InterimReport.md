@@ -24,6 +24,7 @@ The goal will be to take 30 minutes out of next lecture (end) and next lab (begi
 11. MultiMC5
 12. P5.js *
 2. Open Scanner Serial
+3. Codebuddy
 
 After your presentation, you will need to upload a PDF of your presentation to Submitty for grading.
 
