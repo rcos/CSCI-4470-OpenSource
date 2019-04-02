@@ -28,10 +28,8 @@ Reading Material
 
 * MongoDB Manual
     * https://docs.mongodb.com/manual/
+    * Read up through *MongoDB CRUD Operations*, especially **Introdution** and **SQL to MongoDB Mapping Chart**
 
-* White Paper on Pluggable Storage (Optional)
-    * https://www.mongodb.com/collateral/storage-engine-white-paper
- 
 Introduction
 ============
 
@@ -640,24 +638,24 @@ Get Help and Stats
 
 .. code-block:: console
 
-  > db.stats(
+  > db.stats()
   {
-    "db" : "test",
-    "collections" : 0,
-    "objects" : 0,
-    "avgObjSize" : 0,
-    "dataSize" : 0,
-    "storageSize" : 0,
-    "numExtents" : 0,
-    "indexes" : 0,
-    "indexSize" : 0,
-    "fileSize" : 0,
-    "nsSizeMB" : 0,
-    "dataFileVersion" : {
-    	
-  },
+  "db" : "test",
+  "collections" : 0,
+  "views" : 0,
+  "objects" : 0,
+  "avgObjSize" : 0,
+  "dataSize" : 0,
+  "storageSize" : 0,
+  "numExtents" : 0,
+  "indexes" : 0,
+  "indexSize" : 0,
+  "fileSize" : 0,
+  "fsUsedSize" : 0,
+  "fsTotalSize" : 0,
   "ok" : 1
   }
+  
 
 .. nextslide::
 
@@ -738,7 +736,7 @@ Add Some Data
         }
      ]
   }
-  ]}
+  ])
 
 .. nextslide::
 
