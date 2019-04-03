@@ -1,9 +1,9 @@
  1. Create a project page in http://rcos.io and include your team members
  2. Create a Mattermost channel for your project or join an existing RCOS Mattermost channel if you are doing an RCOS project.
  3. The categories below what we will be evaluating and the types of activities that contribute to the category. Not all of the types of contribution are required for every project, but make sure you have enough separate contributions to demonstrate your understanding of open source development and good project design. Items like documentation and code contrbutions, for example, are both ways of making contributions to the project. If you write 300 pages of documentation, I would not expect many code contributions.
- 4. Some of the project structure items will be weighed differently depnding on if you are joining an established project or creating your own. If you are joining an existing project, be able to find the items and know what the items say. If you see holes that are needed for effective project management, you can create them locally and then engage with the community to see if they would want to adopt your contribution. However, choosing, for example, a project without a license will result in a substantial deduction to your grade.
- 3. Please note that you will need to demonstrate or document how you meet these rubric items.
- 4. If you have questions about what you need, **Talk to Me**. 
+ 4. Some of the project structure items will be weighed differently depending on if you are joining an established project or creating your own. If you are joining an existing project, be able to find the items and know what the items say. If you see holes that are needed for effective project management, you can create them locally and then engage with the community to see if they would want to adopt your contribution. However, choosing, for example, a project without a license will result in a substantial deduction to your grade.
+ 5. Please note that you will need to demonstrate or document how you meet these rubric items.
+ 6. If you have questions about what you need, **Talk to Me**. 
 
 | Points | Item | Description |
 | ------------- |-------------|-------------|
