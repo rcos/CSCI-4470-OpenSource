@@ -5,9 +5,9 @@
 
 For the first checkpoint of this lab, we'll work on just getting a proper installation of MongoDB. Fortunately MongoDB's documentation is really awesome.
 
-https://docs.mongodb.org/manual/installation/
+[https://docs.mongodb.org/manual/installation/](https://docs.mongodb.org/manual/installation/)
 
-Select your system from Tutorials/MongoDB Community Edition, and follow their instructions for setup.
+Select your system from Tutorials/MongoDB Community Edition, and follow their instructions for setup. I am going to go out o a limb here and suggest that if you are using the WSL, you abandon it fr this lab and do a native installation. I am not happy with the way WSL treats ports from the Docker Lab and I am concerned we will run into similar issues here. Then again, if you want to try and add to our pool of knowledge, please feel free.
 
 After you've finished the MongoDB installation instructions, to test if MongoDB is working, open two terminal windows. In the first one type `mongod`, which starts the MongoDB Daemon.
 
@@ -17,6 +17,14 @@ If all goes well again, the `mongod` window should show a line about "connection
 
 Keep these two terminal windows open and running the way they are, we'll need them later.
 
+**Add a screenshot of your connection accepted message (from the *mongod* window) to your lab notebook.**
+
+It should look something like:
+
+```
+2019-04-03T16:23:40.890-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:64983 #1 (1 connection now open)
+2019-04-03T16:23:40.891-0400 I NETWORK  [conn1] received client metadata from 127.0.0.1:64983 conn1: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "4.0.7" }, os: { type: "Darwin", name: "Mac OS X", architecture: "x86_64", version: "18.2.0" } }
+```
 
 ## Checkpoint 2: Load Some Data
 
@@ -41,6 +49,16 @@ From the mongodb\_lab directory execute the following command:
 ```
 
 You can read about the mongoimport command at: [https://docs.mongodb.org/manual/reference/program/mongoimport/](https://docs.mongodb.org/manual/reference/program/mongoimport/)
+
+**Add a screenshot of your createCollection message (from the *mongod* window) to your lab notebook.**
+
+It should look something like:
+
+```
+2019-04-03T16:37:08.580-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:49440 #2 (1 connection now open)
+2019-04-03T16:37:08.593-0400 I STORAGE  [conn2] createCollection: mongo_db_lab.definitions with generated UUID: 84db43be-78eb-4a99-9260-55b3746d344d
+2019-04-03T16:37:08.649-0400 I NETWORK  [conn2] end connection 127.0.0.1:49440 (0 connections now open)
+```
 
 ## Checkpoint 3: Basic Queries
 
@@ -87,7 +105,7 @@ You can update a record like so:
 ```
 Where query is something like what you provided to `db.definitions.find` and new document is what you want to replace the old one with.
 
-After you are satisfied with your changes, let's dump the database back to json and make a pull request.
+After you are satisfied with your changes, dump the database back to json and make a pull request.
 
 Specifically for this lab, {query} should be an existing word in the database and { new document } is a new definition that you want
 to make for that word. When you run the update command you overwrite the previous definition with the one you specify.
@@ -96,7 +114,7 @@ to make for that word. When you run the update command you overwrite the previou
 >>> mongoexport --host=127.0.0.1 --db mongo_db_lab --collection definitions --out definitions.json
 ```
 
-Your lab report should contain the results of finding both the record you entered and the record you changed.
+**Your lab report should contain the results of finding both the record you entered, the record you changed, and a `git diff` of your new definitions file.**
 
 ## Checkpoint 4: Driving Queries
 
@@ -119,7 +137,7 @@ One of the greatest things about MongoDB is the availability of docs. Use them t
 - Fetch a record by object id
 - Insert a new record
 
-Show a TA the code that you used to do these steps and include the script in your lab report.
+**Include the script and the pprint output in your lab report.**
 
 
 ## Checkpoint 5: Random Word Requester
@@ -142,9 +160,11 @@ And after calling the script, it should look something like:
 
 ```
 {
-  word: "Approach",
-  definition: " n. (RPI) The decaying ruins of the old Rensselaer gateway from Troy."
-  dates: [2016-03-31 23:05:14.966395]
+  { "_id" : ObjectId("56fe9e22bad6b23cde07b8eb"), "definition" : " n. 
+  General Personal Aptitude, the rating by which the rest of the world 
+  values your existence. Though you'll hear of these, RPI won't give you 
+  one; being a technical school, they have to complicate it. See QPA.", 
+  "word" : "GPA", "dates" : [ ISODate("2019-04-04T02:14:31.460Z") ] }
 }
 ```
 
@@ -152,14 +172,20 @@ And if we called it again:
 
 ```
 {
-  word: "Approach",
-  definition: " n. (RPI) The decaying ruins of the old Rensselaer gateway from Troy."
-  dates: [2016-03-31 23:05:14.966395, 2016-03-31 23:06:08.152208]
+  { "_id" : ObjectId("56fe9e22bad6b23cde07b8eb"), "definition" : " n. 
+  General Personal Aptitude, the rating by which the rest of the world 
+  values your existence. Though you'll hear of these, RPI won't give you 
+  one; being a technical school, they have to complicate it. See QPA.", 
+  "word" : "GPA", "dates" : [ ISODate("2019-04-04T02:14:31.460Z"), 
+  ISODate("2019-04-04T02:14:43.701Z") ] }
 }
 ```
 
 Hint: Look at MongoDB documentation for $push
 
-Again, you will need to show a TA the code that you used to do these steps and include the script in your lab report.
+You will need to include the script in your lab report. Run it until you get a duplicate. Then go and `find` that entry in the mongo database. Include the result of this find in your lab report.
+
+**When you are finished, push your report to your lab notebook and submit a text file with a link to the lab report to Submitty.**
+
 
 

@@ -54,9 +54,9 @@ This is a draft schedule for this course -
 
      **Project Update Presentations** 
 
-* Tuesday 4/2/2019 Lecture - [Open Source Databases](../Modules/Databases/Databases.pdf)
+* Tuesday 4/2/2019 Lecture - [Open Source Databases](../Modules/Databases/source/Index.rst)
 
-* Friday 4/5/2019 - [Lab: Databases](../Modules/Databases/Lab-Databases.pdf)
+* Friday 4/5/2019 - [Lab: Databases](../Modules/Databases/Lab-Databases.md)
 
 * Tuesday 4/9/2019 - [Community and Sustainability](Lectures/CommunityandSustainability-3-1-2016.pdf)
 
