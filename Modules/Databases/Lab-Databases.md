@@ -105,7 +105,7 @@ You can update a record like so:
 ```
 Where query is something like what you provided to `db.definitions.find` and new document is what you want to replace the old one with.
 
-After you are satisfied with your changes, dump the database back to json and make a pull request.
+After you are satisfied with your changes, dump the database back to json and (OPTIONAL)**make a pull request.**
 
 Specifically for this lab, {query} should be an existing word in the database and { new document } is a new definition that you want
 to make for that word. When you run the update command you overwrite the previous definition with the one you specify.
