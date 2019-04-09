@@ -9,9 +9,20 @@ Rensselaer Polytechnic Institute
 
 Department of Computer Science
 
+Some material adapted from Olivier Poulin
+
 .. nextslide::
 
 Licensed under: CC-BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/
+
+Reading Material
+################
+
+* TensorFlow Guide
+    * https://www.tensorflow.org/guide
+
+      * Read High Level APIs 
+      * Low Level APIs 
 
 Introduction
 ============
@@ -307,7 +318,8 @@ Run a docker container and update it
 
 .. code-block:: console
 
-  docker run -it -p 8888:8888 tensorflow/tensorflow:latest
+  docker run -it -p 8888:8888 -e "DISPLAY"=wesleys-macbook-pro.local:0 \
+    tensorflow/tensorflow:latest
   apt-get install python-tk
   pip install matplotlib
 
@@ -460,6 +472,8 @@ https://github.com/tensorflow/workshops
 .. nextslide::
 
 Other links:
+
+* Cats versus Dogs (longer version) https://bit.ly/2G0bWNe
 
 * https://colab.research.google.com/
 
