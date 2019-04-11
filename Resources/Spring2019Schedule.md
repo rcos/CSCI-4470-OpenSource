@@ -58,13 +58,13 @@ This is a draft schedule for this course -
 
 * Friday 4/5/2019 - [Lab: Databases](../Modules/Databases/Lab-Databases.md)
 
-* Tuesday 4/9/2019 - [Community and Sustainability](Lectures/CommunityandSustainability-3-1-2016.pdf)
+<!--* Tuesday 4/9/2019 - [Community and Sustainability](Lectures/CommunityandSustainability-3-1-2016.pdf)
 
-or 
+or -->
 
-* Tuesday 4/9/2019 - [TensorFlow (TBD)]()
+* Tuesday 4/9/2019 - [TensorFlow](../Modules/TensorFlow/source/index.rst)
 
-* Friday 4/12/2019 - [Lab 11 (TBD)]()
+* Friday 4/12/2019 - [Lab: TensorFlow)](../Modules/TensorFlow/Lab-TensorFlow.md)
 
 * Tuesday 4/16/2019 - Test 2
 
