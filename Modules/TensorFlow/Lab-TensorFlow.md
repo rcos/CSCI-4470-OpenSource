@@ -40,7 +40,7 @@ Next go to [https://www.tensorflow.org/tutorials/keras/basic_classification](htt
 and run through the fashion classification example. 
 
 When you are done, modify the code block below to print out the information for
-the 12 images from 9000-9011 instead of for images 0-11:
+the 15 images from 9000-9014 instead of for images 0-11:
 
 ```
 # Plot the first X test images, their predicted label, and the true label
