@@ -110,7 +110,7 @@ For this test I would recommend having the following software available.
 * [R](https://www.r-project.org/)
 * [ctest](http://cmake.org)
 * [mongo](https://docs.mongodb.org/manual/installation/)
-* [TensorFlow, numpy, python-tk, pillow ans keras](https://github.com/rcos/CSCI-49XX-OpenSource/blob/master/Modules/TensorFlow/Lab-TensorFlow.md)
+* [TensorFlow, numpy, python-tk, pillow and keras](https://github.com/rcos/CSCI-49XX-OpenSource/blob/master/Modules/TensorFlow/Lab-TensorFlow.md)
 * [Docker](http://tinyurl.com/docker19)
 
 If you have gone through the labs up to this point, you should have most of this already. 
