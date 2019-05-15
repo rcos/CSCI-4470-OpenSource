@@ -18,16 +18,19 @@ The goal will be to get through 4-5 projects per day. We will go in reverse proj
 3. B7
 4. BeirRun
 5. StoryHop
-6. IO Game / Open IO
 7. submitty bypass (sched) *
-8. Corsair keyboard
+
+Done: 
+
 9. Schedj
-10. Stupdown
 11. MultiMC5
 12. P5.js *
-2. Open Scanner Serial
 3. Codebuddy
+8. Corsair keyboard
+10. Stupdown (missing)
+6. IO Game / Open IO
+2. Open Scanner Serial (missing)
 
-After your presentation, you will need to upload a PDF of your presentation to Submitty for grading. All presentations will be due Friday 2/26. **You may continue to update your presentations with addiaional work until that time!**
+After your presentation, you will need to upload a PDF of your presentation to Submitty for grading. All presentations will be due Friday 2/26. **You may continue to update your presentations with additional work until that time!**
 
  
