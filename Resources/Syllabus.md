@@ -4,22 +4,23 @@
 
 ## Instructor: Wesley D. Turner
 
+### TA
+
+- Minerva Opare-Addo oparem2@rpi.edu
+- Office Hours: TBD
+
 ### Undergraduate Mentors:
 
-- Byan Dieudonne dieudb@rpi.edu
-- Dan McCrevan mccred@rpi.edu
+- John Allwein allwej@rpi.edu
 - Adrian Collado collada@rpi.edu
-- Olivier Poulin poulio@rpi.edu
 
 ## Open Source has been taught at RPI since Fall of 2007 (taught jointly by Dr. William Shroeder and Dr. Luis Ibanez) as a 4000 level class, and then by Mukkai Krishnamoorthy as a 2000 level class. We will continue this tradition by offering it as a 4000 level course this semester and in the Summer.
 
-### Meets in Amos Eaton 215 on Tuesdays, Fridays from 12:00pm - 1:50pm
+### Meets in Carnegie 113 on Tuesdays, Fridays from 10:30pm - 12:35pm
 
-### Office Hours: Tuesday, Thursday 2 - 3:30 pm, Amos Eaton 207
+### Office Hours: Tuesday 3:30-5:00, Thursday 2:00-3:30, Amos Eaton 207
 
 ### We are extremely thankful to RedHat for their generous support. Thanks to Mr. Tom Callaway and Ms. Gina Likins for their valuable advice and suggestions.
-
-##  Generally, lectures are on Tuesdays and Labs are on Fridays. This will be flipped for some portion of the class due to the Friday = Tuesday start.
 
 ## Goal of this Class:
 
@@ -31,7 +32,7 @@
 - Become aware of and conversant in team project and diversity issues. 
 - Prepare a new RCOS project for the following semester.
 
-## Learning Outcome:
+## Learning Outcomes:
 
 The goal of this course is to provide a strong foundation in open source software development
 in preparation for jobs in industry or for more advanced courses.
@@ -70,18 +71,18 @@ in preparation for jobs in industry or for more advanced courses.
 
 ## Grading Criteria:
 
-- 2 Tests (10 points each) - 20%
+- 2 Quizzes (10 points each) - 20%
 - Open Source Project Analysis - 10%
 - 11 Labs (3 points each/drop lowest) - 30%
 - Project - 40%
 
 ## Test Dates
 
-- Test 1 22nd February
-- Test 2 16th April
+- Quiz 1 28th June
+- Quiz 2 13th August
 
 ## Opensource Paper Due
-- 12th February
+- 21st June
 
 ## Grade Distribution
 
@@ -98,7 +99,7 @@ in preparation for jobs in industry or for more advanced courses.
 
 ## Community:
 
-Please join csci-4966-Spring2019 channel in http://rcos.slack.com 
+Please join https://chat.rcos.io/oss-summer2019 on Mattermost. 
 
 ## Integrity
 
