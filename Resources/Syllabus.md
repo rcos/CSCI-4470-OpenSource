@@ -101,6 +101,22 @@ in preparation for jobs in industry or for more advanced courses.
 
 Please join https://chat.rcos.io/oss-summer2019 on Mattermost. 
 
+## Policies
+ 
+These will be designated by the instructor in advance to the student and will deal with the following issues. 
+
+### Lateness
+ Late submissions receive a penalty of 10% with an additional 10% penalty (20% total) for up to a week late. Assignments are not generally accepted more than one week late. 
+
+### Class participation 
+Regular attendance and participation is expected.
+
+### Attendance
+ Regular attendance and participation is expected. 
+
+### Missed exams or assignments: 
+A formal excused absence is required to make up a missed assignment or to turn in an assignment after the due date.
+
 ## Integrity
 
 Student-teacher relationships are built on trust. For example, students must trust that teachers have made appropriate decisions about the structure and content of the courses they teach, and teachers must trust that the assignments that students turn in are their own. Acts that violate this trust undermine the educational process.

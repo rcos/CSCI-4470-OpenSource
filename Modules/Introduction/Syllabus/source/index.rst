@@ -173,6 +173,28 @@ Grading
 
 93 and above A; 90 and above A-; 87 and above B+; 83 and above B; 80 and above B-; 77 and above C+; 73 and above C; 70 and above C-; 67 and above D+; 60 and above D.
 
+Other Course Policies
+---------------------
+
+* Lateness
+
+  * Late submissions receive a penalty of 10% with an additional 10% penalty (20% total) for up to a week late. Assignments are not generally accepted more than one week late. 
+
+* Class participation 
+
+  * Regular attendance and participation is expected.
+
+* Attendance
+
+  * Regular attendance and participation is expected. 
+
+.. nextslide::
+
+* Missed exams or assignments
+
+  * A formal excused absence is required to make up a missed assignment or to turn in an assignment after the due date.
+
+
 Integrity
 ---------
 
