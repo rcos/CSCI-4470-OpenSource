@@ -1,6 +1,6 @@
 This is a draft schedule for this course -
 
-* Tuesday 5/21/2019 - [Lecture: Introduction to Open Source](../Modules/Introduction/Syllabus.pdf), [History](../Modules/Introduction/History.pdf), [Additional Material](../Modules/Introduction/Linux.pdf)
+* Tuesday 5/21/2019 - [Lecture: Introduction to Open Source](../Modules/Introduction/Syllabus/), [The Open Source Model](../Modules/Introduction/OpenSourceModel/), [Additional Material](../Modules/Introduction/Linux)
 
 * Friday 5/24/2019 - [Lab: Introduction](../Modules/Introduction/Lab-Introduction.md)
 
