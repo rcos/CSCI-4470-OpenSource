@@ -36,7 +36,7 @@ Reading Material
   - http://www.unterstein.net/su/docs/CathBaz.pdf
   - Sections 1,2,3, 4 and 9
 
-- Free Culture (Introduction and Chapter 4) Find out where RPI is mentioned! 
+- Free Culture (Introduction and Chapter 4)
   
   - http://www.free-culture.cc/freeculture.pdf
 
