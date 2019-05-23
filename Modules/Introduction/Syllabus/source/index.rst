@@ -46,7 +46,7 @@ Minerva Opare-Addo
 
 oparem2@rpi.edu
 
-Office Hours: TBD
+Office Hours: Monday, 12:00 - 2:00pm, Amos Eaton 119
 
 Mentors
 -------
