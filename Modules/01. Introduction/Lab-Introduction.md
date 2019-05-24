@@ -35,7 +35,8 @@
   2. Practice with grep, egrep commands
      - Look at the manual (`man grep`) to see how to use these commands. 
   3. Install tree and get the directory structure. 
-     - `sudo apt-get install tree`, or use the Ubuntu software install
+     - On linux: `sudo apt-get install tree`, or use the Ubuntu software install
+     - on OSX: `brew install tree`
      - `man tree`
      - Take a screenshot and add to `lab01.md`
 
@@ -53,15 +54,15 @@
 1. **Play with** [Snap](http://snap.berkeley.edu/) or
 [Blockly](https://blockly-games.appspot.com/) 
   
-    1. Create some thing using Snap or solve [this](https://blockly-games.appspot.com/maze?lang=en&level=10&skin=0) using blockly
-    2. Add documentation (screenshots) of your accomplishments to `lab1.md`
+   - Create some thing using Snap or solve [this](https://blockly-games.appspot.com/maze?lang=en&level=10&skin=0) using blockly
+   - Add documentation (screenshots) of your accomplishments to `lab1.md`
 
 1. **Reflection**
 
-   1. Pick an Open Source Project that might be interesting to evaluate
-   2. Start thinking/finding a problem/project that interests you 
-   3. Add a paragraph on how you are doing this activity to `lab01.md`
-   5. Check out [http://aosabook.org/en/index.html](http://aosabook.org/en/index.html) for a list of a number of open source projects and for a discussion of the architectures they use.
+   - Pick an Open Source Project that might be interesting to evaluate
+   - Start thinking/finding a problem/project that interests you 
+   - Add a paragraph on how you are doing this activity to `lab01.md`
+   - Check out [http://aosabook.org/en/index.html](http://aosabook.org/en/index.html) for a list of a number of open source projects and for a discussion of the architectures they use.
 
 <!--#### Revisit e. Replace with TOS activity on evaluating open source ... 
 [foss2serve](http://foss2serve.org/index.php/Intro_to_FOSS_Project_Anatomy_(Activity)), [Evaluation](http://users.dickinson.edu/~braught/courses/cs491f17/projexpl.html)
