@@ -1,4 +1,4 @@
-# Lab 1  Friday May 24th, 2019 (in class lab)
+# Lab 01 - Friday May 24th, 2019 (in class lab)
 
 ## Github, Linux Command Line Instructions, Regular Expressions and Visual Programming
 
@@ -8,13 +8,12 @@
 
 1. **Create and setup a Github account** 
   1. Go through this tutorial to get familiar with [git and github](http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1) and to set up a git hub account.
-  
-  2. Create a repository under your Github account for all your lab work.
-  3. Create a bio page in your repository titled `bio.md`
-  
-  	 - Please have your name and a photo in the markdown page . [Here is a sample page](https://github.com/mskmoorthy/Doc-ex1/blob/master/lab-1-sample.Md)
-  	 - You can copy and paste screen shots as well as add text
-  	 - Please add your github id and your slack handle
+
+  2. Fork the [template repository](https://github.com/rcos/oss-repo-template).
+  3. Fill out the information in the document.
+  	 - Please have your name and a photo in the markdown page . [Here is a sample page](https://github.com/mskmoorthy/Doc-ex1/blob/master/lab-1-sample.Md).
+  	 - You can copy and paste screen shots as well as add text.
+  	 - Please add your Mattermost handle.
 
 1. **Reading assignments** - make sure to reflect on these in a lab1.md file in your repository 
   
