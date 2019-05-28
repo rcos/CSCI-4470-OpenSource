@@ -1,14 +1,14 @@
 This is a draft schedule for this course -
 
-* Tuesday 5/21/2019 - [Lecture: Introduction to Open Source](../Modules/Introduction/Syllabus/), [The Open Source Model](../Modules/Introduction/OpenSourceModel/), [Additional Material](../Modules/Introduction/Linux)
+* Tuesday 5/21/2019 - [Lecture: Introduction to Open Source](../Modules/01.%20Introduction/Syllabus/), [The Open Source Model](../Modules/01.%20Introduction/OpenSourceModel/), [Additional Material](../Modules/01.%20Introduction/Linux)
 
-* Friday 5/24/2019 - [Lab: Introduction](../Modules/Introduction/Lab-Introduction.md)
+* Friday 5/24/2019 - [Lab: Introduction](../Modules/0.1%20Introduction/Lab-Introduction.md)
 
-* Tuesday 5/28/2019 - [Lecture: Git Introduction](../Modules/Git/README.Md)
+* Tuesday 5/28/2019 - [Lecture: Git Introduction](../Modules/Git/README.md)
 
 * Friday 5/31/2019 - [Lab: Git](../Modules/Git/Lab-Git.md)
 
-* Tuesday 6/04/2019 - [Lecture: Documentation and Community](../Modules/DocumentationAndCommunity/Lecture-DocumentationAndCommunity.Md)
+* Tuesday 6/04/2019 - [Lecture: Documentation and Community](../Modules/DocumentationAndCommunity/Lecture-DocumentationAndCommunity.md)
 
 	[Community Involvement](../Modules/DocumentationAndCommunity/Community.html)
 
