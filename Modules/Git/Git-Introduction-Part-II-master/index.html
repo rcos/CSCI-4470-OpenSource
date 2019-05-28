@@ -72,18 +72,18 @@
         <section>
           <h3>Clone Repository</h3>
           <pre><code data-trim contenteditable>
-git clone git@github.com:wdturner/StorySpring2019.git
+git clone git@github.com:wdturner/OSSStory.git
           </code></pre>
           <ul>
             <li>github username = "wdturner"
-            <li>repository name = "StorySpring2019"
+            <li>repository name = "OSSStory"
           </ul>
         </section>
 
         <section>
           <h3>Go Inside the Directory</h3>
           <pre><code data-trim contenteditable>
-cd StorySpring2019
+cd OSSStory
           </code></pre>
         </section>
 
@@ -221,10 +221,8 @@ git remote -v
           <h2>Use HTTPS</h2>
           <p>For the address of your team mates</p>
           <ul>
-            <li>Use:
-            <li>https://github.com/aaronsw/...
-            <li>instead of
-            <li>git@github.com:aaronsw/...
+            <li>Use: https://github.com/aaronsw/...
+            <li>Instead of: git@github.com:aaronsw/...
           </ul>
         </section>
 
@@ -246,6 +244,8 @@ git branch Table&lt;i&gt;
 
 git checkout Table&lt;i&gt;
 
+cd &lt;Current Semester&gt;
+
 mkdir Table&lt;i&gt;
 
 cd Table&lt;i&gt;
@@ -264,7 +264,7 @@ git add table&lti&gt;.Md
 
 git commit -m "Started team directory"
           </code></pre>
-          <h4>and push it to origin</h4>
+          <h4>and pushes it to origin</h4>
           <pre><code data-trim contenteditable>
 git push origin master
           </code></pre>
@@ -275,7 +275,7 @@ git push origin master
           <h4>with a message like this</h4>
           <pre><code data-trim contenteditable>
  ! [rejected]        master -> master (non-fast-forward)
-error: failed to push some refs to 'git@github.com:ossp/Git-Branchy-Story-Exercise-01.git'
+error: failed to push some refs to 'git@github.com:wdturner/OSSStory.git'
 hint: Updates were rejected because a pushed branch tip is behind its remote
 hint: counterpart. Check out this branch and merge the remote changes
 hint: (e.g. 'git pull') before pushing again.
@@ -308,7 +308,7 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
           <pre><code data-trim contenteditable>
 git pull origin master
           </code></pre>
-          <h4>and then try again the Command</h4>
+          <h4>and then try the Command again</h4>
           <pre><code data-trim contenteditable>
 git push origin master
           </code></pre>
@@ -413,7 +413,7 @@ git show 5d7d137
           <h2>Each Team Member</h2>
           <ul>
             <li>Picks a "character" name
-            <li>Go into the team directory
+            <li>Goes into the team directory
             <li>Creates a file with that name
             <li>and extension ".md"
           </ul>
@@ -441,7 +441,7 @@ git show 5d7d137
           <h4>with a message like this</h4>
           <pre><code data-trim contenteditable>
  ! [rejected]        master -> master (non-fast-forward)
-error: failed to push some refs to 'git@github.com:ossp/Git-Branchy-Story-Exercise-01.git'
+error: failed to push some refs to 'git@github.com:wdturner/OSSStory.git'
 hint: Updates were rejected because a pushed branch tip is behind its remote
 hint: counterpart. Check out this branch and merge the remote changes
 hint: (e.g. 'git pull') before pushing again.
@@ -466,7 +466,7 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
           <pre><code data-trim contenteditable>
 git pull origin master
           </code></pre>
-          <h4>and then try again the Command</h4>
+          <h4>and then try the Command again</h4>
           <pre><code data-trim contenteditable>
 git push origin master
           </code></pre>
@@ -481,8 +481,8 @@ git push origin master
         <section>
           <h2>Each Team Member</h2>
           <ul>
-            <li>Edit the file of her/his character
-            <li>Change the state of the character
+            <li>Edits the file of her/his character
+            <li>Changes the state of the character
           </ul>
         </section>
 
@@ -529,6 +529,14 @@ git commit
 git checkout master
 git pull origin master
 git merge --no-ff MyNewBranch
+git push origin master
+          </code></pre>
+        </section>
+
+        <section>
+          <h4>Repeat the push until it succeds</h4>
+          <pre><code data-trim contenteditable>
+git pull origin master
 git push origin master
           </code></pre>
         </section>
