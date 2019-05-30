@@ -38,6 +38,9 @@
      - On linux: `sudo apt-get install tree`, or use the Ubuntu software install
      - on OSX: `brew install tree`
      - `man tree`
+     - **For Ubuntu versions 18.04 and greater:** 
+        - `sudo snap install tree`
+        - `tree --help`
      - Take a screenshot and add to `lab01.md`
 
 1. **Regex**
