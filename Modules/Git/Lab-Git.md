@@ -47,6 +47,7 @@ In this lab you will practice the git commands we introduced. At the end of the 
     git remote add origin <repo url>
     git push origin master
     ```
+    
     ***Provide a link to this repository in your Lab2.md file.***
 
 3. Create a file `first.py` that prints "Hello World!".
