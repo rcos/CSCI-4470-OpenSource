@@ -48,7 +48,7 @@ In this lab you will practice the git commands we introduced. At the end of the 
     git push origin master
     ```
     
-    ***Provide a link to this repository in your Lab2.md file.***
+  ***Provide a link to this repository in your Lab2.md file.***
 
 3. Create a file `first.py` that prints "Hello World!".
   * Add, commit, and push the file to your github repository on the master branch with `git push origin master`.
@@ -63,7 +63,7 @@ In this lab you will practice the git commands we introduced. At the end of the 
 6. Visualize the branching diagram.
       * Use `gitk` and `gitk --all`
       * Compare it with to `git log --graph --oneline --decorate`.
-  *   **Include a screenshot in your lab report.**
+  *   ***Include a screenshot in your lab report.***
 
 
 ## Part 2
