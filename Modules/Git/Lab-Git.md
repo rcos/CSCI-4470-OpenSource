@@ -101,7 +101,8 @@ In this lab you will practice the git commands we introduced. At the end of the 
 
 2. Make sure you understand the command `git diff` from [this example](https://www.safaribooksonline.com/library/view/version-control-with/9780596158187/ch08s02.html)
 
-   * Examine the contents of the diff file from the previous question (your pull request)
+   * Examine the contents of the diff file from the previous question (your pull request) using
+   `git diff HEAD~1`
   
   ***Provide a screenshot of the diff to this repository in your Lab2.md file.***
 
@@ -133,7 +134,7 @@ In this lab you will practice the git commands we introduced. At the end of the 
   * Each person writes their project ideas inside their own version of the file. **Your ideas are not binding; it is just to get you thinking and to start communicating with your colleagues**
   
   * Each person should push to your `common repository`; fix any merge conflicts.
-  * Once everyone has their changes suceessfully in the model fie, each table submits a pull request to the upstream repository.
+  * Once everyone has their changes successfully in the model file, each table submits a pull request to the upstream repository.
   * Resolve any merge conflicts that occur along the way.
   
     * You can update your repository to reflect changes in the upstream repository using `git remote add upstream https://github.com/wdturner/OSSProjectIdeas.git` and `git pull upstream master`
