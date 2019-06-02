@@ -12,7 +12,7 @@ Commands used will include `git add`, `git commit`, `git pull`, `git checkout`, 
 
 Useful pages:
 
-- A cheat sheet for [git commands] (cheat_sheet_git_final.pdf)
+- A cheat sheet for [git commands](cheat_sheet_git_final.pdf)
 - A very nice [book about git](https://git-scm.com/book/en/v2)
 - A cheat sheet for [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) and [another cheat sheet for markdown](http://scottboms.com/downloads/documentation/markdown_cheatsheet.pdf)
 
