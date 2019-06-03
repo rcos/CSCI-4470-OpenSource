@@ -2,7 +2,7 @@ This is a draft schedule for this course -
 
 * Tuesday 5/21/2019 - [Lecture: Introduction to Open Source](../Modules/01.%20Introduction/Syllabus/), [The Open Source Model](../Modules/01.%20Introduction/OpenSourceModel/), [Additional Material](../Modules/01.%20Introduction/Linux)
 
-* Friday 5/24/2019 - [Lab: Introduction](../Modules/0.1%20Introduction/Lab-Introduction.md)
+* Friday 5/24/2019 - [Lab: Introduction](../Modules/01.%20Introduction/Lab-Introduction.md)
 
 * Tuesday 5/28/2019 - [Lecture: Git Introduction](../Modules/Git/README.md)
 
