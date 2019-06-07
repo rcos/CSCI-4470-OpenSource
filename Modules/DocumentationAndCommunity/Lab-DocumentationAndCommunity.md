@@ -1,4 +1,4 @@
-# Lab 3 Community Development and Unit Testing - January 29, 2019
+# Lab 3 Community Development and Unit Testing - June 7, 2019
 
 ## This Lab has two parts [Documentation](#part-1) and [Community](#part-2)
 
@@ -9,7 +9,9 @@
 > All the results should be documented in a `Lab3.md` and pushed to in your Github account.
 
 ### Part 1 - Documentation
-1. Each person individually, on your github wiki page (using Markdown or reStructuredText) write a brief description of some area of interest that you might want to explore in your project - It should include:
+1. Go to your lab repository and look for the wiki link at the top tab bar. If it isn't there, click on settings and check the wiki box near the bottom of the page.
+    ![Wiki and Settings Locations](Wiki.png)
+1. Each person individually, on this wiki page (using Markdown or reStructuredText) write a brief description of some area of interest that you might want to explore in your project - It should include:
 
       1. The problem area that your software is researching or a technology or technologies that you might want to explore.
       2. Existing Software that addreses similar problems and how yours will be different or better; or examples of projects in your area of interest. Check out [LinksforPossibleProjects.md](../../Resources/LinksforPossibleProjects.md) in the resoures area to get ideas of both.
