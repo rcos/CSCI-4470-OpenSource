@@ -2,7 +2,7 @@
 
 ## This Lab has two parts [Documentation](#part-1) and [Community](#part-2)
 
-#### We talked about community and how people cooperate in order to contribute to a project. In this lab, we will explore this further using automatic tools, software and manually.####
+#### We talked about community and how people cooperate in order to contribute to a project. In this lab, we will explore this further using automatic tools, software and manually. ####
 
 > This lab will be done in groups of 4-5. Each will be assigned a table number
 
