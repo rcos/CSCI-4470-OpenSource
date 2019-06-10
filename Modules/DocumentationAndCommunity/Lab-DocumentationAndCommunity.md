@@ -46,23 +46,23 @@
         - the latest commit
         - the current branches
    
-   **Note: if the project you are assigned has no commits to its repository, pick a different project.**
+      **Note: if the project you are assigned has no commits to its repository, pick a different project.**
     
 2. Gitstats
-  1. Install - This can be done in Windows or OSX, but it will be easiest on Linux. **Do not use WSL. I do not believe gnuplot works correctly with the windows environment. If you are on a Windows platform, use the native windows tools.**
+   1. Install - This can be done in Windows or OSX, but it will be easiest on Linux. **Do not use WSL. I do not believe gnuplot works correctly with the windows environment. If you are on a Windows platform, use the native windows tools.**
       - Clone the project `https://github.com/hoxu/gitstats` locally `cd gitstats`, and run `make install`
       - Homebrew / Linuxbrew users can use `brew install --HEAD homebrew/head-only/gitstats`
       - If you have issues, an alternate version, specific to Python 3 can be found in [RCOS](https://github.com/rcos/gitstats). Use either the `futureized_gitstats` or `python3` branches.
       - Gitstats requires gnuplot. To install, run `sudo apt-get install gnuplot-x11` for Ubuntu (or the appropiate command for your platform, see [https://sourceforge.net/projects/gnuplot/](https://sourceforge.net/projects/gnuplot/)).
 
-  2. Running
-     - From the command line, run `gitstats <path to project1 git repo> <output path>` inside the cloned project directory
-     - You can see the output in a browser by typing `file:///<output path>/index.html` in the address bar (use `pwd` from the command line to get the current path  )
-     - You may also be able to open it from the command line using `xdg-open <output path>/index.html`, `sensible-browser <output path>/index.html`, or `sensible-browser <output path>/index.html`
-     - Repeat this for each of the five projects.
-  4. Compare to your results from #1 to these results and comment on your findings in `Lab3.md`.
+   2. Running
+      - From the command line, run `gitstats <path to project1 git repo> <output path>` inside the cloned project directory
+      - You can see the output in a browser by typing `file:///<output path>/index.html` in the address bar (use `pwd` from the command line to get the current path  )
+      - You may also be able to open it from the command line using `xdg-open <output path>/index.html`, `sensible-browser <output path>/index.html`, or `sensible-browser <output path>/index.html`
+      - Repeat this for each of the five projects.
+   4. Compare to your results from the github exercise to these results and comment on your findings in `Lab3.md`.
 
-    > If you are curious, please read and try to understand the [python code for gitstats](https://github.com/hoxu/gitstats/blob/master/gitstats). (Its even better if you suggest some improvements!)
+   > If you are curious, please read and try to understand the [python code for gitstats](https://github.com/hoxu/gitstats/blob/master/gitstats). (Its even better if you suggest some improvements!)
 
 3. Streaming Contribution Visualizations
    - Read the [webpage for gource](http://gource.io/).
