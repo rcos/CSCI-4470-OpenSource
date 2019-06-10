@@ -1,5 +1,5 @@
 # Analysis of an Open Source Project
-### Due date 2/12/2019
+### Due date 6/21/2019
 
 Reread your Lab4 report, particularly the end of the report where we asked you to look at the license for 5 repositories on the RCOS page. For this assignment, we are going to ask you to take a more in depth look at some open source projects.
 
