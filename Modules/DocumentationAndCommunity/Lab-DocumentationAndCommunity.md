@@ -1,4 +1,4 @@
-# Lab 3 Community Development and Unit Testing - June 7, 2019
+# Lab 3 Documentation and Community Development - June 7, 2019
 
 ## This Lab has two parts [Documentation](#part-1) and [Community](#part-2)
 
