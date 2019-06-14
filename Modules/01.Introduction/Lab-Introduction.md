@@ -1,4 +1,4 @@
-# Lab 1  Friday May 24th, 2019 (in class lab)
+# Lab 01 - Friday May 24th, 2019 (in class lab)
 
 ## Github, Linux Command Line Instructions, Regular Expressions and Visual Programming
 
@@ -8,13 +8,12 @@
 
 1. **Create and setup a Github account** 
   1. Go through this tutorial to get familiar with [git and github](http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1) and to set up a git hub account.
-  
-  2. Create a repository under your Github account for all your lab work.
-  3. Create a bio page in your repository titled `bio.md`
-  
-  	 - Please have your name and a photo in the markdown page . [Here is a sample page](https://github.com/mskmoorthy/Doc-ex1/blob/master/lab-1-sample.Md)
-  	 - You can copy and paste screen shots as well as add text
-  	 - Please add your github id and your slack handle
+
+  2. Fork the [template repository](https://github.com/rcos/oss-repo-template).
+  3. Fill out the information in the document.
+  	 - Please have your name and a photo in the markdown page . [Here is a sample page](https://github.com/mskmoorthy/Doc-ex1/blob/master/lab-1-sample.Md).
+  	 - You can copy and paste screen shots as well as add text.
+  	 - Please add your Mattermost handle.
 
 1. **Reading assignments** - make sure to reflect on these in a lab1.md file in your repository 
   
@@ -36,8 +35,12 @@
   2. Practice with grep, egrep commands
      - Look at the manual (`man grep`) to see how to use these commands. 
   3. Install tree and get the directory structure. 
-     - `sudo apt-get install tree`, or use the Ubuntu software install
+     - On linux: `sudo apt-get install tree`, or use the Ubuntu software install
+     - on OSX: `brew install tree`
      - `man tree`
+     - **For Ubuntu versions 18.04 and greater:** 
+        - `sudo snap install tree`
+        - `tree --help` 
      - Take a screenshot and add to `lab01.md`
 
 1. **Regex**
@@ -54,15 +57,15 @@
 1. **Play with** [Snap](http://snap.berkeley.edu/) or
 [Blockly](https://blockly-games.appspot.com/) 
   
-  1. Create some thing using Snap or solve [this](https://blockly-games.appspot.com/maze?lang=en&level=10&skin=0) using blockly
-  2. Add documentation (screenshots) of your accomplishments to `lab1.md`
+   - Create some thing using Snap or solve [this](https://blockly-games.appspot.com/maze?lang=en&level=10&skin=0) using blockly
+   - Add documentation (screenshots) of your accomplishments to `lab1.md`
 
 1. **Reflection**
 
- 1. Pick an Open Source Project that might be interesting to evaluate
- 2. Start thinking/finding a problem/project that interests you 
- 3. Add a paragraph on how you are doing this activity to `lab01.md`
- 5. Check out [http://aosabook.org/en/index.html](http://aosabook.org/en/index.html) for a list of a number of open source projects and for a discussion of the architectures they use.
+   - Pick an Open Source Project that might be interesting to evaluate
+   - Start thinking/finding a problem/project that interests you 
+   - Add a paragraph on how you are doing this activity to `lab01.md`
+   - Check out [http://aosabook.org/en/index.html](http://aosabook.org/en/index.html) for a list of a number of open source projects and for a discussion of the architectures they use.
 
 <!--#### Revisit e. Replace with TOS activity on evaluating open source ... 
 [foss2serve](http://foss2serve.org/index.php/Intro_to_FOSS_Project_Anatomy_(Activity)), [Evaluation](http://users.dickinson.edu/~braught/courses/cs491f17/projexpl.html)
