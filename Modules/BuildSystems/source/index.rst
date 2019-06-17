@@ -299,8 +299,6 @@ Create an archive of object files; use to link executables:
   + ar qc libhello.a hello1.o hello2.o
   + cc -c hi1.c -o hi1.o
   + cc -c hi2.c -o hi2.o
-
-  .. nextslide::
   + cc hi1.o libhello.a -o hi1
   + cc hi2.o libhello.a -o hi2
   $ ./hi1
@@ -630,7 +628,7 @@ Example Build Systems
   An "assembly language for build systems".  Designed to be generated.
 * `MSBuild <https://msdn.microsoft.com/en-us/library/0k6kkbsd.aspx>`__:
   Underlies Visual Studio 2010+ builds.
-* `Waf <https://github.com/waf-project/waf>`__,
+* `Waf <https://gitlab.com/ita1024/waf/>`__,
   `Scons <http://www.scons.org/>`__:
   Python-based build system frameworks.
 
@@ -812,6 +810,6 @@ Build Systems Summary
 
 --------------------------------------------------------------------
 
-* Your next lab session will focus on CMake.
+* Your next lab session will focus on Make and CMake.
 
 * Thank You
