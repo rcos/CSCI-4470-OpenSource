@@ -1,5 +1,5 @@
-%%\def\beginanswers{\iffalse}
-\def\beginanswers{\iftrue}
+\def\beginanswers{\iffalse}
+%%\def\beginanswers{\iftrue}
 
 \documentclass[10pt]{article}
 \usepackage{amsmath,amsfonts,amsthm,amssymb}
@@ -100,29 +100,29 @@ nor received aid on this exam.}
 
 \item Short answers (38 pts)
 
-\begin{enumerate}
-	\item There are numerous fields in which Scientific Computing is essetntial. In class, we defined 16.  Give 4 of the fields we called out. (8 pts)
+    \begin{enumerate}
+    \item There are numerous fields in which Scientific Computing is essetntial. In class, we defined 16.  Give 4 of the fields we called out. (8 pts)
 
-\beginanswers
-\begin{itemize}
-\item Finite Element Modeling - Structural Safety
-\item Fluid Mechanics - Aerodynamics - Aircraft Design
-\item Circuit Simulation
-\item Genomics and Drug Simulation
-\item Image Processing Applications
-\item Airline Scheduling, Linear and Nonlinear Programming Application
-\item Astronomy and Space Computations
-\item Simulation of Materials
-\item Manufacturing Process
-\item Network Simulation
-\item Weapon Simulation/Modeling
-\item Solving NP-hard/complete Problems
-\item Protein Folding
-\item SETI, Milkyway@Home
-\item Physics Engines for Game Playing
-\item Chemistry
-\end{itemize}
-\else
+    \beginanswers
+        \begin{itemize}
+        \item Finite Element Modeling - Structural Safety
+        \item Fluid Mechanics - Aerodynamics - Aircraft Design
+        \item Circuit Simulation
+        \item Genomics and Drug Simulation
+        \item Image Processing Applications
+        \item Airline Scheduling, Linear and Nonlinear Programming Application
+        \item Astronomy and Space Computations
+        \item Simulation of Materials
+        \item Manufacturing Process
+        \item Network Simulation
+        \item Weapon Simulation/Modeling
+        \item Solving NP-hard/complete Problems
+        \item Protein Folding
+        \item SETI, Milkyway@Home
+        \item Physics Engines for Game Playing
+        \item Chemistry
+        \end{itemize}
+    \else
 	\begin{enumerate}
 	\item 
 	\bigskip
@@ -136,259 +136,230 @@ nor received aid on this exam.}
 	\item
 	\bigskip
 	\bigskip
-\end{enumerate}
-\fi
-	\bigskip
-	\bigskip
+        \end{enumerate}
+    \fi
+    \bigskip
+    \bigskip
 
-	\item Looking at the Angry Birds Game, answer the following two questions. (4 pts)
+    \item Looking at the Angry Birds Game, answer the following two questions. (4 pts)
 	\begin{enumerate}
-		\item Which module encapsulates the physics of the simulation?:
-		\beginanswers
-		\begin{itemize}
-			\item pymunk
+	\item Which module encapsulates the physics of the simulation?:
+	    \beginanswers
+	        \begin{itemize}
+		\item pymunk
 		\end{itemize}
-		\else
-		\bigskip
-		\bigskip
-		\bigskip
-		\bigskip
-		\item The entirety of the physics simulation for a given time step is contained in a single call. What is the call to advance the simulation one step?:
-		\beginanswers
-		\begin{itemize}
-			\item space.step(dt) 
+	    \else
+            \bigskip
+            \bigskip
+            \bigskip
+            \bigskip
+            \fi
+        \item The entirety of the physics simulation for a given time step is contained in a single call. What is the call to advance the simulation one step?:
+	    \beginanswers
+                \begin{itemize}
+                \item space.step(dt) 
 		\end{itemize}
-		\else
-		\bigskip
-		\bigskip
-		\bigskip
-		\bigskip
+            \else
+            \bigskip
+            \bigskip
+            \bigskip
+            \bigskip
+	    \fi
 	\end{enumerate}
-\bigskip
-\bigskip
-\item From our notes, name 3 statistical  languages with a BSD based license (6 points):
-\beginanswers
-\begin{itemize}
-	\item SciPy
-	\item Panda
-	\item Shogun
-\end{itemize}
-\else
-\begin{enumerate}
-	\item 
-	\bigskip
-	\bigskip
-	\item
-	\bigskip
-	\bigskip
-	\item 
-	\bigskip
-	\bigskip
-\end{enumerate}
-\fi
-\bigskip
-\bigskip
-\item From our notes, name four benefits of incremental testing (8 points):
-\beginanswers
-\begin{itemize}
-	\item Errors easier to isolate, find, fix reduces developer bug-fixing load
-	\item System is always in a relatively working state - good for developers and customers.
-	\item System complexity can be understood incrementally.
-	\item Users can develop a better understanding of their requirements.
-\end{itemize}
-\else
-\begin{enumerate}
-	\item 
-	\bigskip
-	\bigskip
-	\item
-	\bigskip
-	\bigskip
-	\item 
-	\bigskip
-	\bigskip
-	\item 
-\bigskip
-\bigskip
-\end{enumerate}
-\fi
-\bigskip
-\bigskip
-\item From our notes, name what percent of open source projects have a single developer (as of 2013). Any answer within 5 points of the correct solution will be accepted. (2 points)]?
-\beginanswers
-\begin{itemize}
-	\item 51%
-\end{itemize}
-\else
-\begin{enumerate}
-	\item
-	\bigskip
-	\bigskip
-\end{enumerate}
-\fi
-\bigskip
-\bigskip
-\item From our notes, name three governance models (6 points):
-\beginanswers
-\begin{itemize}
-	\item Benevolent dictator
-	\item Meritocracy
-	\item Dr. Who Rengeneration Model
-\end{itemize}
-\else
-\begin{enumerate}
-	\item 
-	\bigskip
-	\bigskip
-	\item
-	\bigskip
-	\bigskip
-	\item 
-	\bigskip
-	\bigskip
-\end{enumerate}
-\fi
-\bigskip
-\bigskip
-\item Who \verb|"owns"| an open source project? (4 points)
-\beginanswers
-\begin{itemize}
-	\item Who: No one
-	\item Why: Forking
-	\end{itemize}
-\else
-\begin{enumerate}
-	\item (Who:)
-	\bigskip
-	\bigskip
-	\item (Why:)
-	\bigskip
-	\bigskip
-	\end{enumerate}
-\fi
-\end{enumerate}
+    \bigskip
+    \bigskip
+    \item From our notes, name 3 statistical  languages with a BSD based license (6 points):
+        \beginanswers
+            \begin{itemize}
+	    \item SciPy
+	    \item Panda
+	    \item Shogun
+            \end{itemize}
+        \else
+            \begin{enumerate}
+	    \item 
+	    \bigskip
+	    \bigskip
+	    \item
+	    \bigskip
+	    \bigskip
+	    \item 
+	    \bigskip
+	    \bigskip
+            \end{enumerate}
+        \fi
+    \bigskip
+    \bigskip
+    \item From our notes, name four benefits of incremental testing (8 points):
+        \beginanswers
+            \begin{itemize}
+	    \item Errors easier to isolate, find, fix reduces developer bug-fixing load
+	    \item System is always in a relatively working state - good for developers and customers.
+	    \item System complexity can be understood incrementally.
+	    \item Users can develop a better understanding of their requirements.
+            \end{itemize}
+        \else
+            \begin{enumerate}
+	    \item 
+	    \bigskip
+	    \bigskip
+	    \item
+	    \bigskip
+	    \bigskip
+	    \item 
+	    \bigskip
+	    \bigskip
+	    \item 
+            \bigskip
+            \bigskip
+            \end{enumerate}
+        \fi
+    \bigskip
+    \bigskip
+    \item From our notes, name what percent of open source projects have a single developer (as of 2013). Any answer within 5 points of the correct solution will be accepted. (2 points)]?
+        \beginanswers
+            \begin{itemize}
+	    \item 51%
+            \end{itemize}
+        \else
+            \begin{enumerate}
+	    \item
+	    \bigskip
+	    \bigskip
+            \end{enumerate}
+        \fi
+    \bigskip
+    \bigskip
+    \item From our notes, name three governance models (6 points):
+        \beginanswers
+            \begin{itemize}
+	    \item Benevolent dictator
+	    \item Meritocracy
+	    \item Dr. Who Rengeneration Model
+            \end{itemize}
+        \else
+            \begin{enumerate}
+	    \item 
+	    \bigskip
+	    \bigskip
+	    \item
+	    \bigskip
+	    \bigskip
+	    \item 
+	    \bigskip
+	    \bigskip
+            \end{enumerate}
+        \fi
+    \bigskip
+    \bigskip
+    \item Who \verb|"owns"| an open source project? (4 points)
+        \beginanswers
+            \begin{itemize}
+	    \item Who: No one
+	    \item Why: Forking
+	    \end{itemize}
+        \else
+            \begin{enumerate}
+	    \item (Who:)
+	    \bigskip
+	    \bigskip
+	    \item (Why:)
+	    \bigskip
+	    \bigskip
+	    \end{enumerate}
+        \fi
+    \end{enumerate}
 
-%
-%\item For each question below, circle the best answer (12 pts)
-%\begin{enumerate}
-%	\item Which command shows you a summary of all commits into a git repository?
-%	\begin{enumerate}
-%		\item git branch
-%		\item git status
-%		\item git checkout newbranch
-%		\item git log
-%	\end{enumerate}
-%\newpage
-% 	\item Literate programming:
-% 	\begin{enumerate}
-% 		\item Is well structured code with minimal comments
-% 		\item Cannot express complicated algorithms
-% 		\item Mixes code and comments in an easily human readable format
-% 		\item Is a failed development methodology
-% 	\end{enumerate}
-% 	\item Open or Free software:
-% 	\begin{enumerate}
-% 		\item Cannot be used for a commercial purpose
-% 		\item Can be redistributed either for free or for a fee
-% 		\item Can be sold, but only for the nominal cost of the media used to store it
-% 		\item Must be maintained by unpaid volunteers
-% 	\end{enumerate}
-% 	\item It is a good idea when selecting an open source license to:
-%	\begin{enumerate}
-%		\item Go to an authority such as the OSI and pick an approved license
-%		\item Create a new license from scratch because it is unlikely that an existing license would meet your needs
-%		\item Just place the code in a public repository. Easily available code is the same as open
-%		\item Take an existing, approved license and modify to better represent your unique personality
-%	\end{enumerate}
-%\end{enumerate}
-%
 \newpage
 
 \item \textit{Scientific Computation} Feel free to review, edit or run code from the Scientific Computation lecture or lab to answer the following questions. (16 pts):
 
 \textit{Note:} If you import \verb|networkx| into python and issue the command \verb|help(networkx.shortest_path)| it will provide you with additional information on the shortest path algorithm. In particular, notice that if you do not provide a target, then the algorithm returns a dictionary where the keys are words that can be reached from the source and the values are the list of nodes. This information will help you with this question.
 
-\begin{enumerate}
-	\item Consider your word ladder code to find the shortest path from one five letter word to another.
+    \begin{enumerate}
+    \item Consider your word ladder code to find the shortest path from one five letter word to another.
 	\begin{enumerate}
-		\item Assuming that you are not allowed to change the order of the letters, what is the length of the longest, shortest path from the word \textit{party}? (4 points)
-				\beginanswers
+	\item Assuming that you are not allowed to change the order of the letters, what is the length of the longest, shortest path from the word \textit{party}? (4 points)
+	    \beginanswers
 		\begin{itemize}
-			\item 18
+		\item 18
 		\end{itemize}
-		\else
-		\bigskip
-		\bigskip
-		\bigskip
-		\bigskip
-		\item What is the final word in the path? (4 points)
-		\beginanswers
+	    \else
+	    \bigskip
+	    \bigskip
+	    \bigskip
+	    \bigskip
+	    \fi
+        \item What is the final word in the path? (4 points)
+	    \beginanswers
 		\begin{itemize}
-			\item amigo
+		\item amigo
 		\end{itemize}
-		\else
-		\bigskip
-		\bigskip
-		\bigskip
-		\bigskip
-\fi
+	    \else
+	    \bigskip
+	    \bigskip
+	    \bigskip
+	    \bigskip
+            \fi
 	\end{enumerate}
 
-	\item Now consider the degree of a word as the number of other words that can be made from it by changing a single letter and keeping the word order the same. 
-	\begin{enumerate}
+    \item Now consider the degree of a word as the number of other words that can be made from it by changing a single letter and keeping the word order the same. 
+        \begin{enumerate}
 	\item What words have the maximum degree of 25? (4 points)
-	\beginanswers
-	\begin{itemize}
+	    \beginanswers
+	        \begin{itemize}
 		\item cores, bares
-	\end{itemize}
-	\else
-	\bigskip
-	\bigskip
-	\bigskip
-	\bigskip
+	        \end{itemize}
+	    \else
+	    \bigskip
+	    \bigskip
+	    \bigskip
+	    \bigskip
+	    \fi
 	\item There are far more words with degree 0. How many are there? (4 points)
-					\beginanswers
-	\begin{itemize}
+	    \beginanswers
+	        \begin{itemize}
 		\item 671
-	\end{itemize}
-	\else
-	\bigskip
-	\bigskip
-	\bigskip
-	\bigskip
+	        \end{itemize}
+	    \else
+	    \bigskip
+	    \bigskip
+	    \bigskip
+	    \bigskip
+	    \fi
 	\end{enumerate}	
-
-	\end{enumerate}
+    \end{enumerate}
 
 \newpage
 
 \item \textit{Statistical Computation} Feel free to review, edit or run code from the Statistical Computation lecture or lab to answer the following questions. (10 pts):
-\begin{enumerate}
-	\item Consider the topmovie data we used in our \textit{R} examples. 
+    \begin{enumerate}
+    \item Consider the topmovie data we used in our \textit{R} examples. 
 	\begin{enumerate}
-		\item What is the Minimum, 1st Quartile, Median, Mean, 3rd Quartile, and Maximum values for the box office? (4 points)
-		\beginanswers
+	\item What is the Minimum, 1st Quartile, Median, Mean, 3rd Quartile, and Maximum values for the box office? (4 points)
+	    \beginanswers
 		\begin{itemize}
-			\item 52.58, 70.28, 93.60, 117.47, 134.62, 759.56
+		\item 52.58, 70.28, 93.60, 117.47, 134.62, 759.56
 		\end{itemize}
-		\else
-		\bigskip
-		\bigskip
-		\bigskip
-		\bigskip
-		\item If we want to look at the relationship between the box office and the year, how would we generate a scatterplot with year on the \textit{X-axis} and box office on the \textit{Y-axis}? Type the command below: (6 points)
-		\beginanswers
+	    \else
+	    \bigskip
+	    \bigskip
+	    \bigskip
+	    \bigskip
+	    \fi
+	\item If we want to look at the relationship between the box office and the year, how would we generate a scatterplot with year on the \textit{X-axis} and box office on the \textit{Y-axis}? Type the command below: (6 points)
+            \beginanswers
 		\begin{itemize}
-			\item plot(topmovies$year, topmovies$box)
+		\item plot(topmovies$year, topmovies$box)
 		\end{itemize}
-		\else
-		\bigskip
-		\bigskip
-		\bigskip
-		\bigskip
+	    \else
+	    \bigskip
+	    \bigskip
+	    \bigskip
+	    \bigskip
+	    \fi
 	\end{enumerate}
-		
-\end{enumerate}
+    \end{enumerate}
 
 \newpage
 
@@ -454,7 +425,7 @@ if __name__ == "__main__":
 Generate a python file, \textit{test\_merge.py} that uses the unittest framework to thoroughly test the \textit{merge} and \textit{merge\_sort\_recursive} functions. 
 Assume \textit{white box} testing. 
 You should be able to come up with at least 3 test cases for \textit{merge} and at least 2 test cases for \textit{merge\_sort\_recursive}
-\beginanswers
+    \beginanswers
 \begin{verbatim}
 import unittest
 import merge_sort
@@ -493,11 +464,11 @@ class TestMS(unittest.TestCase):
 if __name__ == '__main__':
   unittest.main()
 \end{verbatim}
-\else
-Write your \textit{test\_merge.py} function in the space below:
+    \else
+    Write your \textit{test\_merge.py} function in the space below:
 
-\hspace*{-0.4in}\framebox(540,600){}
-\fi
+    \hspace*{-0.4in}\framebox(540,600){}
+    \fi
 
 \newpage
 
@@ -519,7 +490,9 @@ Write your \textit{test\_merge.py} function in the space below:
 	> quit()
 	$
 	\end{verbatim}
+
 \beginanswers
+
 \begin{verbatim}
 $ mongo
 MongoDB shell version v4.0.0
@@ -535,8 +508,11 @@ ubuntu@eec278129a30:~/mongodb_lab$ mongoimport --host=127.0.0.1 --db mongo_db_la
 2018-08-15T16:21:34.205+0000	imported 147 documents
 ubuntu@eec278129a30:~/mongodb_lab$ 
 \end{verbatim}
+
 \else
 Write your commands in the space below:
+
+
 \hspace*{-0.4in}\framebox(540,400){}
 \fi
 
@@ -553,6 +529,7 @@ Write your commands in the space below:
 \fi
 
 \item Now write Python code to search through the database, replace every occurrence of \verb|" RPI "| in a definition with \verb|" Rensselaer Polytechnic Institute "|, and write the modified records back out to the database. Be careful with the search and replacement strings. You do not want to change the string \verb|"(RPI)"|. (Also, if you are testing your code make sure that you reset your database before running.) (10 points)
+
 \beginanswers
 \begin{verbatim}
 from pymongo import MongoClient
@@ -582,7 +559,6 @@ if __name__ == '__main__':
 \end{verbatim}
 \else
 Write your code in the space below:
-
 \hspace*{-0.4in}\framebox(540,500){}
 \fi
 \newpage
