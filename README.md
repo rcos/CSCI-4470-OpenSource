@@ -2,7 +2,7 @@
 
 ## Class Information
 
-Meets in Carnegie 113 on Tuesdays and Fridays from 10:30am - 12:35pm.
+Meets in Carnegie 112/113 on Tuesdays and Fridays from 10:30am - 12:35pm.
 
 - **Instructor** - Wesley D. Turner
     - turnew2@rpi.edu
