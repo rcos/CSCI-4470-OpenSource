@@ -14,15 +14,21 @@ Department of Computer Science
 Licensed under: CC-BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/
 
 Reading Material
-################
+================
 
-* Oracle VirtualBox VM
-    * https://www.virtualbox.org/manual/ch01.html#virt-why-useful
+Reading Material
+----------------
 
+* Virtualization
+    * https://en.wikipedia.org/wiki/Virtualization
+    * https://en.wikipedia.org/wiki/Hardware_virtualization
+ 
 * Using Virtual Machines and Docker:
-
     * https://goo.gl/sRVT7o
  
+* Oracle VirtualBox VM (Reference)
+    * https://www.virtualbox.org/manual/ch01.html#virt-why-useful
+
 Introduction
 ============
 
@@ -31,7 +37,7 @@ What is Virtualization?
 
 .. pull-quote:: In computing, virtualization refers to the act of creating a virtual (rather than actual) version of something, including virtual computer hardware platforms, storage devices, and computer network resources. [1]_ 
 
-.. [1] Read https://en.wikipedia.org/wiki/Virtualization
+.. [1] https://en.wikipedia.org/wiki/Virtualization
 
 .. nextslide::
 
@@ -66,9 +72,10 @@ In a Virtual Machine:
 Architecture
 ------------
 
-.. image:: static/server_virtualization-traditional_virtual_architecture.jpg 
+.. image:: static/container-vm-whatcontainer_2.png 
+  :scale: 50
 
-https://goo.gl/HYoWA3
+https://dockr.ly/2S0D5Fw
 
 Advantages
 ----------
@@ -454,4 +461,5 @@ Example
 
 As a class exercise, we will run through steps 1-3 of the Docker Tutorial at: https://docs.docker.com/get-started/
 
-
+End
+###
