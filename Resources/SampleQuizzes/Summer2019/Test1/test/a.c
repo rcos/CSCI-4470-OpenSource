@@ -1,0 +1,4 @@
+void a()
+{
+	printf("a");
+}
