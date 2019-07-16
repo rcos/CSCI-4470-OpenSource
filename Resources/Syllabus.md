@@ -3,22 +3,22 @@
 ## Open Source Software Spring Semester 2019
 
 ## Instructor: Wesley D. Turner
+### Office Hours: Tuesday 3:30-5:00, Thursday 2:00-3:30, Amos Eaton 207
 
 ### TA
 
 - Minerva Opare-Addo oparem2@rpi.edu
-- Office Hours: TBD
+- Office Hours: Monday 12:30-2:30, AE 118
 
 ### Undergraduate Mentors:
 
 - John Allwein allwej@rpi.edu
 - Adrian Collado collada@rpi.edu
+- Office Hours: Tuesday, Thursday 12:30-1:30, Carnegie 112
 
 ## Open Source has been taught at RPI since Fall of 2007 (taught jointly by Dr. William Shroeder and Dr. Luis Ibanez) as a 4000 level class, and then by Mukkai Krishnamoorthy as a 2000 level class. We will continue this tradition by offering it as a 4000 level course this semester and in the Summer.
 
 ### Meets in Carnegie 113 on Tuesdays, Fridays from 10:30pm - 12:35pm
-
-### Office Hours: Tuesday 3:30-5:00, Thursday 2:00-3:30, Amos Eaton 207
 
 ### We are extremely thankful to RedHat for their generous support. Thanks to Mr. Tom Callaway and Ms. Gina Likins for their valuable advice and suggestions.
 
