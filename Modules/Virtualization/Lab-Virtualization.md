@@ -1,13 +1,10 @@
-# Lab 9 Virtualization and Docker - 3/29/2019
+# Lab 9 Virtualization and Docker - 7/12/2019
 
 ## Before you start ...
 
-If you are running the home version of Windows 10, you need to execute a few additional steps:
+I **strongly** recommend doing this lab from your linux machine, USB boot or your Mac under OSX. Running from Windows is possible, but there are implications with other virtualization products such as ***Virtual Box*** if you do. Please see [https://docs.docker.com/docker-for-windows/install/](https://docs.docker.com/docker-for-windows/install/) for more information and note the two possibilities that are given to you on that page: **Docker Community Edition (CS)**, and **Docker Desktop**. Then make sure to run the Docker Quickstart Tutorial to veridy the system is installed and working.
 
-1. Download and Install the docker toolbox: [http://tinyurl.com/docker19](http://tinyurl.com/docker19)
-2. Run the Docker Quickstart Tutorial
-
-***Make sure that there are no VirtualBox images running!***
+***Make sure that there are no VirtualBox images running whenn you do the install!***
 
 ## Learning Objectives:
 
@@ -23,9 +20,9 @@ Specifically you will:
 
 _For this lab we will use the excellent material on Docker prepared by RCOS alumni Severin Ibarluzea, Ada Young, and Joseph Lee._
 
-The lab parallels a lot of the material we worked through at the end of the [Virtualization and Containers](https://github.com/rcos/CSCI-4961-01-Summer-2018/tree/master/HTML%20Lectures/Virtualization_Lecture) lecture, except that it does not require you to push your containers to a Docker repository.
+The lab parallels a lot of the material we worked through at the end of the [Virtualization and Containers](https://github.com/rcos/CSCI-49XX-OpenSource/blob/master/Modules/Virtualization/source/index.rst) lecture, except that it does not require you to push your containers to a Docker repository.
 
-Please clone the github repository [rcos/docker-examples](https://github.com/rcos/docker-examples) and ***CHECKOUT the Spring2019 Branch***. The ***master*** branch has an issue with ***example04*** and will not work, Then go through examples 0-4. Document your steps and observations in your lab notebook for Lab 9 and upload a link to the lab to Submitty.
+Please clone the github repository [rcos/docker-examples](https://github.com/rcos/docker-examples) and ***CHECKOUT the Spring2019 Branch***. The ***master*** branch has an issue with ***example04*** and will not work, Then go through examples 0-4. Document your steps and observations in your lab notebook for Lab 6 and upload a link to the lab to Submitty.
 
-Note that the Docker files for examples 0-3 are given to you. I recommend that you go through and regenerate them line by line for practice. You will need to create files for example04 on your own, although the code is embedded in the lab.
+Note that the Dockerfile for examples 3 is given to you. I recommend that you go through and regenerate it line by line for practice. You will need to create files for example04 on your own, although the code is embedded in the lab.
 
