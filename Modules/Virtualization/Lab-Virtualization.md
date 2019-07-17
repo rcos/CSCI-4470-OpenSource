@@ -1,4 +1,4 @@
-# Lab 9 Virtualization and Docker - 7/12/2019
+# Lab 6 Virtualization and Docker - 7/12/2019
 
 ## Before you start ...
 
