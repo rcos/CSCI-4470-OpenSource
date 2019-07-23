@@ -45,14 +45,14 @@ This is a draft schedule for this course -
 * Friday 7/19/2019 - [Lab: Scientific Computing](../Modules/ScientificComputing/Lab-ScientificComputing.md)
 
 * Tuesday 7/23/2019 - [Lecture: Open Source and Statistical Computation](../Modules/StatisticalComputing/index.html)
- 
-    **Project Update Presentations** 
 
 * Friday 7/26/2019 - [Lab: Statistical Computing](../Modules/StatisticalComputing/Lab-StatisticalComputing.md)
 
     **Project Update Presentations** 
 
 * Tuesday 7/30/2019 - [Lecture: Testing and Continuous Integration](../Modules/TestingAndCI/TestingAndCI.md)
+ 
+    **Project Update Presentations** 
 
 * Friday 8/02/2019 - [Lab: Testing and Continuous Integration](../Modules/TestingAndCI/Lab-TestingAndCI.md)
 
