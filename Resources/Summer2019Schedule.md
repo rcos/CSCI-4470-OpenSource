@@ -67,7 +67,7 @@ or -->
 
 * Tuesday 8/06/2019 - [Lecture: TensorFlow](../Modules/TensorFlow/source/index.rst)
 
-* Friday 8/09/2019 - [Lab: TensorFlow)](../Modules/TensorFlow/Lab-TensorFlow.md)
+* Friday 8/09/2019 - [Lab: TensorFlow)](../Modules/TensorFlow/Lab-TensorFlow.md
 
 * Tuesday 8/13/2019 - Quiz 2
 
