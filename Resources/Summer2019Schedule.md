@@ -50,11 +50,15 @@ This is a draft schedule for this course -
 
     **Project Update Presentations** 
 
-* Tuesday 7/30/2019 - [Lecture: Testing and Continuous Integration](../Modules/TestingAndCI/TestingAndCI.md)
- 
+* Tuesday 7/30/2019 - [Lecture: TensorFlow](../Modules/TensorFlow/source/index.rst)
+
     **Project Update Presentations** 
 
-* Friday 8/02/2019 - [Lab: Testing and Continuous Integration](../Modules/TestingAndCI/Lab-TestingAndCI.md)
+* Friday 8/02/2019 - [Lab: TensorFlow](../Modules/TensorFlow/Lab-TensorFlow.md)
+
+* Tuesday 8/06/2019 - [Lecture: Testing and Continuous Integration](../Modules/TestingAndCI/TestingAndCI.md)
+ 
+* Friday 8/09/2019 - Quiz 2
 
 <!--* Tuesday 8/06/2019 - [Lecture: Open Source Databases](../Modules/Databases/source/Index.rst)
 
@@ -65,11 +69,7 @@ This is a draft schedule for this course -
 
 or -->
 
-* Tuesday 8/06/2019 - [Lecture: TensorFlow](../Modules/TensorFlow/source/index.rst)
-
-* Friday 8/09/2019 - [Lab: TensorFlow](../Modules/TensorFlow/Lab-TensorFlow.md)
-
-* Tuesday 8/13/2019 - Quiz 2
+* Tuesday 8/13/2019 - Project Reports
 
 	**Project Final Presentations**
 
