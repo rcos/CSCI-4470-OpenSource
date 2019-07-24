@@ -17,7 +17,7 @@
 || Style guidelines|Does your project have a style guideline document and can you find it?|
 || Communications channels, blogs and status updates|Does your project have ccommunications channels and can you find them?|
 |30-40|**`Contributions`**|Percentage depends on new vs existing project|
-||Community involvement Pull Requests, Pushing Code| Ho much have you contributed locally and/or offered back to the external community?|
+||Community involvement Pull Requests, Pushing Code| How much have you contributed locally and/or offered back to the external community?|
 || Working in large codebase / using external APIs or modules|How big is your codebase, are you using it effectively and with the appropriate interfaces?|
 ||Documentation (both inline comments and full project)|Have you generated any documentation for the project and is your code easily understood?|
 ||Learning and using new tools|Did you need to learn new technologies? Did you document your learning path in a tutorial?
