@@ -1,5 +1,5 @@
 # TensorFlow Lab
-### 4/12/2019
+### 8/2/2019
 
 ## Checkpoint 1: Verify Your TensorFlow
 
@@ -62,7 +62,14 @@ plt.show()
 ## Checkpoint 3: Curate some data
 
 Browse the web, or take a picture to find at least 3 images of clothing, shoes, bags etc. The Google speakers assured us that obtaining and curating the data
-would be the hard part. We are going to see if they were correct. Take your images, process them to get them in the correct form for the model (greyscale, 28x28 pixels - make sure you use cropping to get your image square before resizing it and make sure you invert the colors so that white is 0) and then pass it into the classification model you generated. The Image and ImageOps modules from pillow will be very useful for this.
+would be the hard part. We are going to see if they were correct. Take your images, process them to get them in the correct form for the model:
+
+- greyscale
+- 28x28 pixels - make sure you use cropping to get your image square before resizing it 
+- inverted (white is 0)
+- scaled between 0 an 1 instead of 0 and 255
+ 
+Then pass them into the classification model you generated. The Image and ImageOps modules from pillow will be very useful for this. It will help to view the images using the same tools you used to view the test and training images for the models just to be sure you have good models.
 
 The following links may help you:
 

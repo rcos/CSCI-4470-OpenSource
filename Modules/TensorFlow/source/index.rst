@@ -1,7 +1,7 @@
 TensorFlow Tutorial
 ###################
 
-Open Source Software - Summer 2018
+Open Source Software - Summer 2019
 
 Wesley Turner
 
@@ -18,7 +18,7 @@ Licensed under: CC-BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/
 Reading Material
 ################
 
-* TensorFlow Guide
+* TensorFlow Guide - (Reference Only)
     * https://www.tensorflow.org/guide
 
       * Read High Level APIs 
@@ -30,7 +30,7 @@ Introduction
 What is TensorFlow?
 -------------------
 
-.. pull-quote:: An open source machine learning framework for everyone [1]_
+.. pull-quote:: TensorFlow is an end-to-end open source platform for machine learning ... that lets researchers push the state-of-the-art in ML and developers easily build and deploy ML powered applications.  [1]_
 
 .. [1] https://www.tensorflow.org/
 
@@ -88,15 +88,15 @@ Github page: https://github.com/tensorflow
 
 Main repository: https://github.com/tensorflow/tensorflow
 
-* 53,075 commits
+* 53,075 commits (now 61099)
 
-* 27 branches
+* 27 branches (now 30)
 
-* 1932 contributers
+* 1932 contributers (now 2095)
 
-* 79 releases
+* 79 releases (now 88)
 
-* 2021 Issues
+* 2021 Issues (now 2404)
 
 * Permissively licensed under Apache-2.0
 
@@ -131,7 +131,7 @@ Active community
 
 .. nextslide::
 
-* Issue Tracker: https://stackoverflow.com/questions/tagged/tensorflow
+* Questions: https://stackoverflow.com/questions/tagged/tensorflow
 
 .. image:: static/StackOverflow.png
 
@@ -148,7 +148,7 @@ Others:
 The Basics
 ==========
 
-Much of this section courtesy of Olivier Poulin, one of our mentors
+Much of this section courtesy of Olivier Poulin, one of our mentors from last summer
 
 Multiple Installations
 ----------------------
@@ -244,8 +244,8 @@ Base usage involves making execution graph
 ------------------------------------------
 * TensorFlow uses a computation graph that has no numerical value until it’s evaluated.
 * Program structure has two phases: Construction phase and Execution phase.
-* Construction phase assemble the computation graph. 
-* Execution phase the session object to execute all the operations in the graph.
+* Construction phase assembles the computation graph. 
+* Execution phase runs the session object to execute all the operations in the graph.
 
 .. image:: static/ex_graph.png
 
@@ -314,25 +314,29 @@ A simple linear example
 Get set up
 ----------
 
-Run a docker container and update it
-
-.. code-block:: console
-
-  docker run -it -p 8888:8888 -e "DISPLAY"=wesleys-macbook-pro.local:0 \
-    tensorflow/tensorflow:latest
-  apt-get install python-tk
-  pip install matplotlib
-
-For OSX, you will need to install a few packages to get the plots at the end to work:
+For OSX, you will need to install a few packages on the host first to get the plots at the end to work:
 
 .. code-block:: console
 
   brew install socat
-  socat TCP-LISTEN:6000,reuseaddr,fork UNIX-CLIENT:\"$DISPLAY\"
-  brew install xquartz
+  socat TCP-LISTEN:6000,reuseaddr,fork UNIX-CLIENT:\"$DISPLAY\" &
+  brew cask install xquartz
   open -a Xquartz
 
   Then set Allow connections from network clients in the pop up
+
+.. nextslide::
+
+Run a docker container and update it
+
+.. code-block:: console
+
+  docker run -it -p 8888:8888 -e "DISPLAY"=host.docker.internal:0 \
+    tensorflow/tensorflow:latest
+  apt-get update
+  apt-get install python-tk xterm x11-apps
+  xeyes & # Just a test to make sure our display is working
+  pip install matplotlib
 
 Run a simple example
 --------------------
@@ -354,7 +358,7 @@ Set up the system:
   # bias is the coefficient of the contant term (1)
   num_examples = 50
   X = np.array([np.linspace(-2, 4, num_examples), \
-    np.linspace(-6, 6, num_examples)])
+    np.linspace(6, -18, num_examples)])
   X += np.random.randn(2, num_examples)
   x, y = X
   bias_with_x = np.array([(1.0, a) for a in x]).astype(np.float32)
