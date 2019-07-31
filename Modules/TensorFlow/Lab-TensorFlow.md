@@ -106,7 +106,7 @@ Here are my first three attempts:
 [[2.5140275e-06 3.3653549e-11 1.4402343e-04 5.7210900e-06 2.7189176e-03
   5.5948669e-07 9.9712771e-01 2.7641710e-11 4.2381637e-07 1.2968426e-09]] 6 Shirt
 ```
-2 out of 3 isn't bad ...
+2 out of 3 isn't bad ... You are welcome to use my small images as part of your testing, although, I still expect you to get novel images as well. If you do use my images, note that they are already 28x28 and greyscale, but they have not yet been inverted and scaled to [0, 1]. You will need to complete the operations to get good results.
 
 **When you are finished, push your report to your lab notebook and submit a text file with a link to the lab report to Submitty.**
 
