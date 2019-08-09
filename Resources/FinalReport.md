@@ -10,7 +10,7 @@ We will have presentations on your projects during class on 8/16 and 8/13/2019. 
 * Contributions 
 * Progress / issues 
 * Demo if possible
-* Please include 1 appendix per persion where you call out, and provide pointers to your project contributions!
+* Please include 1 appendix per person where you call out, and provide pointers to your project contributions!
 
 The goal will be to get through 8 projects per day. Our project order is:
 
