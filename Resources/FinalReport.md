@@ -23,12 +23,12 @@ Tuesday:
 1. Safe Ride Web
 1. Anagram
 1. The Forge Website
-1. MagicVoice
+1. Open AI Gym
 
 Friday:
 
+1. MagicVoice
 1. FLOM
-1. Open AI Gym
 1. Shuttle Tracker
 1. Ruby
 1. RPI Machines Map
