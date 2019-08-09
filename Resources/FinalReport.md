@@ -1,6 +1,6 @@
 # Project Final Report
 
-We will have presentations on your projects during class on 4/19 and 4/26/2019. I currently have 13 projects on the schedule. We will plan on 15-20 minutes per project. Please prepare up to 10 slides covering:
+We will have presentations on your projects during class on 8/16 and 8/13/2019. I currently have 16 projects on the schedule. We will plan on 10-15 minutes per project. Please prepare up to 10 slides covering:
 
 * Your project title
 * Team members
@@ -12,25 +12,32 @@ We will have presentations on your projects during class on 4/19 and 4/26/2019. 
 * Demo if possible
 * Please include 1 appendix per persion where you call out, and provide pointers to your project contributions!
 
-The goal will be to get through 4-5 projects per day. We will go in reverse project order:
+The goal will be to get through 8 projects per day. Our project order is:
 
-1. impac
-3. B7
-4. BeirRun
-5. StoryHop
-7. submitty bypass (sched) *
+Tuesday:
 
-Done: 
+1. Chain Automata
+1. Wikipedia Link Analysis
+1. Fantasy Team Predictor
+1. Rubber Duck Discord Bot
+1. Safe Ride Web
+1. Anagram
+1. The Forge Website
+1. MagicVoice
 
-9. Schedj
-11. MultiMC5
-12. P5.js *
-3. Codebuddy
-8. Corsair keyboard
-10. Stupdown (missing)
-6. IO Game / Open IO
-2. Open Scanner Serial (missing)
+Friday:
 
-After your presentation, you will need to upload a PDF of your presentation to Submitty for grading. All presentations will be due Friday 2/26. **You may continue to update your presentations with additional work until that time!**
+1. FLOM
+1. Open AI Gym
+1. Shuttle Tracker
+1. Ruby
+1. RPI Machines Map
+1. RuAr
+1. OpenBook
+1. NoteX
+
+Let me know if there are issues with this order and we will try to make accommodations 
+
+After your presentation, you will need to upload a PDF of your presentation to Submitty for grading. All presentations will be due Friday 8/66. **You may continue to update your presentations with additional work until that time!**
 
  
