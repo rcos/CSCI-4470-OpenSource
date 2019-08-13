@@ -38,6 +38,6 @@ Friday:
 
 Let me know if there are issues with this order and we will try to make accommodations 
 
-After your presentation, you will need to upload a PDF of your presentation to Submitty for grading. All presentations will be due Friday 8/66. **You may continue to update your presentations with additional work until that time!**
+After your presentation, you will need to upload a PDF of your presentation to Submitty for grading. All presentations will be due Friday 8/16. **You may continue to update your presentations with additional work until that time!**
 
  
