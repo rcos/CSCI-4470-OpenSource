@@ -1,2 +1,0 @@
-# Statistical-Computing
-# StatComputing
