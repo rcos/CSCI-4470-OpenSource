@@ -1,4 +1,4 @@
-## This lab (Lab #2 on 1/22/2019) is about Git (local repository), Github and a few of the commands you need to know to effectively manage an open source project.
+## This lab (Lab #2 on 2/5/2021) is about Git (local repository), Github and a few of the commands you need to know to effectively manage an open source project.
 
 ### Since we are already practicing git in class as part of our git lecture, you should not need the whole period. Accordingly, we will take the first 40 minutes or so to finish our discussion of git first.
 
@@ -14,7 +14,7 @@ Useful pages:
 
 - A cheat sheet for [git commands](cheat_sheet_git_final.pdf)
 - A very nice [book about git](https://git-scm.com/book/en/v2)
-- A cheat sheet for [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) and [another cheat sheet for markdown](http://scottboms.com/downloads/documentation/markdown_cheatsheet.pdf)
+- A cheat sheet for [Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 ## Learning Objectives
 
@@ -28,7 +28,7 @@ In this lab you will practice the git commands we introduced. At the end of the 
     (make sure you select the correct operating system at the top)
 
 1. Setup git
-  * Follow the instructions from slides 7 - 27 of https://github.com/rcos/Git-Introduction-Part-I by cloning the repository and opening index.html.
+  * Follow the instructions from slides 7 - 27 of [https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Modules/02.Git/Git-Introduction-Part-I/index.html](https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Modules/02.Git/Git-Introduction-Part-I/index.html) by cloning the repository and opening index.html.
     * Create a local repository `lab2part1` using the command line
   * Create a README.md file.
     * This file should include, as a bulleted list:
@@ -88,7 +88,7 @@ In this lab you will practice the git commands we introduced. At the end of the 
 1. Fork the repository [https://github.com/wdturner/PullReq](https://github.com/wdturner/PullReq)
 
   * Clone your fork using the command line.
-  * In the Summer2019 directory, add a file named &lt;firstName lastName&gt;.md, add today's date on the first line (1/22/2019), 
+  * In the Spring2021 directory, add a file named &lt;firstName lastName&gt;.md, add today's date on the first line (1/22/2019), 
   * Add, commit, and push your file back to your forked version. Then use the `github` interface to make a pull request.
   * Ask one of the helpful instructional staff to merge your pull request.
   * You can update your repository to reflect changes in the upstream repository using:
@@ -139,6 +139,6 @@ In this lab you will practice the git commands we introduced. At the end of the 
   
     * You can update your repository to reflect changes in the upstream repository using `git remote add upstream https://github.com/wdturner/OSSProjectIdeas.git` and `git pull upstream master`
 
-  * [Git Introduction  Part II](https://github.com/rcos/Git-Introduction-Part-II) might be useful for this (open index.html in the same way as the Introduction Part I slides)
+  * [Git Introduction  Part II](https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Modules/02.Git/Git-Introduction-Part-II/index.html) might be useful for this (open index.html in the same way as the Introduction Part I slides)
 
 When you have completed the lab, submit a text file with a link to your lab2.md file via Submitty.

@@ -1,26 +1,77 @@
-
 # CSCI-4961-01
-## Open Source Software Spring Semester 2019
+## Open Source Software Spring Semester 2021
 
-## Instructor: Wesley D. Turner
-### Office Hours: Tuesday 3:30-5:00, Thursday 2:00-3:30, Amos Eaton 207
+Open Source has been taught at RPI since Fall of 2007 (taught jointly by Dr. William Shroeder and Dr. Luis Ibanez) as a 4000 level class, and then by Mukkai Krishnamoorthy as a 2000 level class. We will continue this tradition by offering it as a 4000 level course.
 
-### TA
+Licensing And Credit
+---------
 
-- Minerva Opare-Addo oparem2@rpi.edu
-- Office Hours: Monday 12:30-2:30, AE 118
+* Licensed under: CC-BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/
 
-### Undergraduate Mentors:
+* Our Lecture Slides have greatly benefited from the previous classes taught by Dr. William Schroeder and Dr. Luis Ibanez at RPI,
 
-- John Allwein allwej@rpi.edu
-- Adrian Collado collada@rpi.edu
-- Office Hours: Tuesday, Thursday 12:30-1:30, Carnegie 112
+* And by Professor Mukkai Krishnamoorthy who succeeded them in teaching the course
 
-## Open Source has been taught at RPI since Fall of 2007 (taught jointly by Dr. William Shroeder and Dr. Luis Ibanez) as a 4000 level class, and then by Mukkai Krishnamoorthy as a 2000 level class. We will continue this tradition by offering it as a 4000 level course this semester and in the Summer.
+__We are extremely thankful to RedHat for their generous support. Thanks to Mr. Tom Callaway and Ms. Gina Likins for their valuable advice and suggestions.__
 
-### Meets in Carnegie 113 on Tuesdays, Fridays from 10:30pm - 12:35pm
 
-### We are extremely thankful to RedHat for their generous support. Thanks to Mr. Tom Callaway and Ms. Gina Likins for their valuable advice and suggestions.
+People
+======
+
+Professor
+---------
+
+---
+
+Wesley Turner 
+
+Amos Eaton 207
+
+wdturner@gmail.com
+
+https://rensselaer.webex.com/meet/turnew2
+
+Office Hours: Tuesday 10:00-11:30, Thursday 2:00-3:30 in my WebEx (above), or by appointment
+
+---
+
+TA
+--
+
+---
+- Kevin Mackenzie
+- mackek4@rpi.edu
+- Office Hours: TBD
+
+Mentors
+-------
+---
+- Hunter Harris 
+- harrih3@rpi.edu
+
+---
+- Jeremy Macks 
+- macksj@rpi.edu
+
+---
+- Avery Sommer
+- sommea2@rpi.edu
+
+---
+- Steven vanZyl
+- vanzys@rpi.edu
+
+
+---
+ - Ethan Whitton
+ - whitte3@rpi.edu
+
+---
+
+The course meets in Prof. Turner's WebEx [https://rensselaer.webex.com/meet/turnew2](https://rensselaer.webex.com/meet/turnew2) on Tuesdays and Fridays from 12:20pm - 2:10pm. Class discussions are an important part of the lecture and the labs so synchronous attendance is strongly encouraged; however, for students who are attending remotely with significant timezone differences, we understand that this is not always possible. All pertinent material will be recorded and a link posted as quickly as possible after the class. Students are required to review the course material within 24 hours of the class.
+
+## Online LMS and the use of Submitty
+This course __will not__ use the RPI Blackboard LMS. Instead, we will use __Submitty__ a course management tool developed as an opensource project under __RCOS__ and the creative and technical auspices of Prof. Barbara Cutler. If you are registered in the course, you may access it at [https://submitty.cs.rpi.edu/courses/s21/csci4470](https://submitty.cs.rpi.edu/courses/s21/csci4470). If you do not have access, please email the TA or the Professor.
 
 ## Goal of this Class:
 
@@ -78,11 +129,11 @@ in preparation for jobs in industry or for more advanced courses.
 
 ## Test Dates
 
-- Quiz 1 28th June
-- Quiz 2 13th August
+- Quiz 1 5th March
+- Quiz 2 20th April
 
 ## Opensource Paper Due
-- 21st June
+- 26th February
 
 ## Grade Distribution
 
@@ -99,7 +150,7 @@ in preparation for jobs in industry or for more advanced courses.
 
 ## Community:
 
-Please join https://chat.rcos.io/oss-summer2019 on Mattermost. 
+Please join our discord server **oss-spring2021** at https://discord.gg/9wq4bKAGGR.
 
 ## Policies
  
