@@ -43,6 +43,8 @@ TA
 - mackek4@rpi.edu
 - Office Hours: TBD
 
+---
+
 Mentors
 -------
 ---
