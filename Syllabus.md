@@ -1,4 +1,4 @@
-# CSCI-4961-01
+# CSCI-4470-01
 ## Open Source Software Spring Semester 2021
 
 Open Source has been taught at RPI since Fall of 2007 (taught jointly by Dr. William Shroeder and Dr. Luis Ibanez) as a 4000 level class, and then by Mukkai Krishnamoorthy as a 2000 level class. We will continue this tradition by offering it as a 4000 level course.

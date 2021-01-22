@@ -1,28 +1,70 @@
-## Open Source Summer Semester 2019
+# CSCI-4470-01
+## Open Source Software Spring Semester 2021
 
-## Class Information
+Open Source has been taught at RPI since Fall of 2007 (taught jointly by Dr. William Shroeder and Dr. Luis Ibanez) as a 4000 level class, and then by Mukkai Krishnamoorthy as a 2000 level class. We will continue this tradition by offering it as a 4000 level course.
 
-Meets in Carnegie 112/113 on Tuesdays and Fridays from 10:30am - 12:35pm.
+Licensing And Credit
+---------
 
-- **Instructor** - Wesley D. Turner
-    - turnew2@rpi.edu
-    - Office Hours Tuesday - Amos Eaton 207 - 3:30pm - 5:00pm
-    - Office Hours Thursday - Amos Eaton 207 - 2:00pm - 3:30pm
-- **Graduate Mentor** - Minerva Opare-Addo
-    - oparem2@rpi.edu
-    - Office Hours Monday - Amos Eaton 119 - 12:00pm to 2:00pm
-- **Undergraduate Mentor** - Adrian Collado
-    - collaa@rpi.edu
-    - Office Hours Tuesday & Friday - Carnegie 113 - 12:35pm to 1:30pm
-- **Undergraduate Mentor** - John Allwein
-    - allwej@rpi.edu
-    - Office Hours Tuesday & Friday - Carnegie 113 - 12:35pm to 1:30pm
+* Licensed under: CC-BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/
 
-## Acknowledgements
-**Open Source has been taught at RPI since the Fall of 2007 (taught jointly by Dr. William Shroeder and Dr. Luis Ibanez) as a 4000 level course and by Prof. Mukkai Krishnamoorthy as a 2000 level course.**
+* Our Lecture Slides have greatly benefited from the previous classes taught by Dr. William Schroeder and Dr. Luis Ibanez at RPI,
 
-**We are extremely thankful to RedHat for their generous support. Thanks to Mr. Tom Callaway and Ms. Gina Likins for their valuable advice and suggestions.**
+* And by Professor Mukkai Krishnamoorthy who succeeded them in teaching the course
 
-## Resources
-- This class is supported by **DataCamp**, the most intuitive platform for data science. Learn R, Python and SQL the way you learn best through a combination of short expert videos and hands-on-the-keyboard exercises. Take over 100+ courses by expert instructors on topics such as importing data, data visualization or machine learning and learn faster through immediate and personalised feedback on every exercise.
+__We are extremely thankful to RedHat for their generous support. Thanks to Mr. Tom Callaway and Ms. Gina Likins for their valuable advice and suggestions.__
+
+
+People
+======
+
+Professor
+---------
+
+---
+
+Wesley Turner 
+
+Amos Eaton 207
+
+wdturner@gmail.com
+
+https://rensselaer.webex.com/meet/turnew2
+
+Office Hours: Tuesday 10:00-11:30, Thursday 2:00-3:30 in my WebEx (above), or by appointment
+
+---
+
+TA
+--
+
+---
+- Kevin Mackenzie
+- mackek4@rpi.edu
+- Office Hours: TBD
+
+Mentors
+-------
+---
+- Hunter Harris 
+- harrih3@rpi.edu
+
+---
+- Jeremy Macks 
+- macksj@rpi.edu
+
+---
+- Avery Sommer
+- sommea2@rpi.edu
+
+---
+- Steven vanZyl
+- vanzys@rpi.edu
+
+
+---
+ - Ethan Whitton
+ - whitte3@rpi.edu
+
+---
 
