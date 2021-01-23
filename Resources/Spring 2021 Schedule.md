@@ -1,6 +1,6 @@
 This is a draft schedule for this course -
 
-* Tuesday 1/26/2021 - [Lecture: Introduction to Open Source](../Modules/01.Introduction/Syllabus), [History](../Modules/01.Introduction/History), [Additional Material](../Modules/01.Introduction/Linux)
+* Tuesday 1/26/2021 - [Lecture: Introduction to Open Source](../Syllabus.md), [History](../Modules/01.Introduction/History), [Additional Material](../Modules/01.Introduction/Linux)
 
 * Friday 1/29/2021 - [Lab: Introduction](../Modules/01.Introduction/Lab-Introduction.md)
 

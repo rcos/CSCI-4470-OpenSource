@@ -1,7 +1,7 @@
-CSCI-4961 Open Source Software
+CSCI-4470 Open Source Software
 ##############################
 
-Summer 2019 
+Spring 2021 
 
 Rensselaer Polytechnic Institute
 
@@ -38,7 +38,7 @@ Reading Material
 
 - Free Culture (Introduction and Chapter 4)
   
-  - http://www.free-culture.cc/freeculture.pdf
+  - https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Resources/freeculture.pdf
 
 Why Open Source?
 =====================

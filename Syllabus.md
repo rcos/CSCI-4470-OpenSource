@@ -3,10 +3,12 @@
 
 Open Source has been taught at RPI since Fall of 2007 (taught jointly by Dr. William Shroeder and Dr. Luis Ibanez) as a 4000 level class, and then by Mukkai Krishnamoorthy as a 2000 level class. We will continue this tradition by offering it as a 4000 level course.
 
+In the spirit of Open Source, all of the course notes are available online  in Github: [https://github.com/rcos/CSCI-4470-OpenSource](https://github.com/rcos/CSCI-4470-OpenSource).
+
 Licensing And Credit
 ---------
 
-* Licensed under: CC-BY-SA 4.0 https://creativecommons.org/licenses/by-sa/4.0/
+* Licensed under: CC-BY-SA 4.0 [https://creativecommons.org/licenses/by-sa/4.0/](https://creativecommons.org/licenses/by-sa/4.0/)
 
 * Our Lecture Slides have greatly benefited from the previous classes taught by Dr. William Schroeder and Dr. Luis Ibanez at RPI,
 
@@ -93,7 +95,7 @@ in preparation for jobs in industry or for more advanced courses.
 - Understanding of Open Source Software Tools and Community
 - Understanding of Open Source Licensing.
 - Understanding of Testing, Version Control.
-- Understanding of Common Open Source Software Stacks.
+- Understanding of Common Open Source Software Stacks and common tools.
 
 ## Syllabus:
 
@@ -125,7 +127,7 @@ in preparation for jobs in industry or for more advanced courses.
 ## Grading Criteria:
 
 - 2 Quizzes (10 points each) - 20%
-- Open Source Project Analysis - 10%
+- Open Source Project Analysis Paper - 10%
 - 11 Labs (3 points each/drop lowest) - 30%
 - Project - 40%
 
@@ -134,7 +136,7 @@ in preparation for jobs in industry or for more advanced courses.
 - Quiz 1 5th March
 - Quiz 2 20th April
 
-## Opensource Paper Due
+## Open Source Paper Due
 - 26th February
 
 ## Grade Distribution
@@ -152,10 +154,10 @@ in preparation for jobs in industry or for more advanced courses.
 
 ## Community:
 
-Please join our discord server **oss-spring2021** at https://discord.gg/9wq4bKAGGR.
+Please join our discord server **oss-spring2021** at [https://discord.gg/9wq4bKAGGR](https://discord.gg/9wq4bKAGGR).
 
 ## Policies
- 
+
 These will be designated by the instructor in advance to the student and will deal with the following issues. 
 
 ### Lateness
