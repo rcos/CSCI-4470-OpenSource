@@ -1,7 +1,7 @@
-CSCI-4961 Open Source Software
+CSCI-4470 Open Source Software
 ##############################
 
-Summer 2019 
+Spring 2021 
 
 Rensselaer Polytechnic Institute
 
@@ -33,7 +33,7 @@ Reading Material
 
 * Free Software/Open Source: Information Society Opportunities for Europe?
 
-  * https://bit.ly/2LSgrje
+  * http://eu.conecta.it/paper.pdf
 
 * Brief history of open source software 
 

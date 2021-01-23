@@ -1,8 +1,8 @@
-# Lab 01 - Friday May 24th, 2019 (in class lab)
+# Lab 01 - Friday January 29th, 2021 (in class lab)
 
 ## Github, Linux Command Line Instructions, Regular Expressions and Visual Programming
 
-***Maintain a repository on github for all your lab work. Inside, you should create a markdown page (lab01.md) for this lab's work. You will be graded by the beginning of the next lab. To submit this assignment, create a text file with 2 lines. The first line should be a link to your github repository and the second link should be the link to your Lab 1 entry. Submit this as the only file to [Submitty](https://submitty.cs.rpi.edu/index.php?semester=u19&course=csci4961&component=navigation).***
+***Maintain a repository on github for all your lab work. Inside, you should create a markdown page (lab01.md) for this lab's work. You will be graded by the beginning of the next lab. To submit this assignment, create a text file with 2 lines. The first line should be a link to your github repository and the second link should be the link to your Lab 1 entry. Submit this as the only file to [Submitty](https://submitty.cs.rpi.edu/courses/s21/csci4470).***
 
 > Markdown syntax is [here](https://help.github.com/articles/basic-writing-and-formatting-syntax/) and [here](https://guides.github.com/features/mastering-markdown/) 
 
@@ -21,7 +21,7 @@
   2. Please read Eric Raymond's article [Smart Questions](http://www.catb.org/esr/faqs/smart-questions.html) How to ask the question The Smart Way . 
      - Do you have more suggestions for How To Answer Questions in a Helpful Way (from your past experience)
      - List at least two.
-  3. Please read chapter 3 of [Free Culture](http://www.free-culture.cc/freeculture.pdf)
+  3. Please read chapter 3 of [Free Culture](https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Resources/freeculture.pdf)
      - Write a short paragraph ( 8 to 10 sentences) of what you got out of reading that chapter.
   4. Read the first chapter in [Beautiful Code](https://docs.google.com/viewer?a=v&pid=sites&srcid=ZGVmYXVsdGRvbWFpbnxpb3ZhbmFsZXh8Z3g6MjVjYWFmNjAwYTA0MmMxZA) about the development and implementation (in C) of a very simple grep
      - You don't need to record anything here on the reading, but it will help you with the exercises on ***grep***, ***egrep***, and ***regex***.
@@ -29,7 +29,7 @@
   
 1. **Linux** 
 
-  1. Boot linux (Ubuntu) through a USB or dual boot **(we do not recommend WSL, we had significant issues completing our labs using WSL in previous semesters)**
+  1. Boot linux (Ubuntu) through a USB, dual boot, or WSL
      - Get familiar with the directory structure.
      - Practice with ls, cd, mkdir, chmod commands - when in doubt search the web to find the answer.
   2. Practice with grep, egrep commands
@@ -41,6 +41,7 @@
      - **For Ubuntu versions 18.04 and greater:** 
         - `sudo snap install tree`
         - `tree --help` 
+     - On WSL, it looks like it is already available [https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/tree](https://docs.microsoft.com/en-us/windows-server/administration/windows-commands/tree)
      - Take a screenshot and add to `lab01.md`
 
 1. **Regex**

@@ -10,7 +10,7 @@ templates_path = ['_templates']
 source_suffix = '.rst'
 master_doc = 'index'
 
-project = u'Introdcution'
+project = u'Introduction'
 
 pygments_style = 'sphinx'
 
@@ -24,7 +24,7 @@ slide_footer = '''
 </a>
  
 <span class="slide-footer-text">
-  RPI OSS - Summer 2019 - Linux
+  RPI OSS - Spring 2021 - Linux
 </span>
 '''
 
