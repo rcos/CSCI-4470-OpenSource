@@ -88,7 +88,7 @@ In this lab you will practice the git commands we introduced. At the end of the 
 1. Fork the repository [https://github.com/wdturner/PullReq](https://github.com/wdturner/PullReq)
 
   * Clone your fork using the command line.
-  * In the Spring2021 directory, add a file named &lt;firstName lastName&gt;.md, add today's date on the first line (1/22/2019), 
+  * In the Spring2021 directory, add a file named &lt;firstName lastName&gt;.md, add today's date on the first line (2/5/2021), 
   * Add, commit, and push your file back to your forked version. Then use the `github` interface to make a pull request.
   * Ask one of the helpful instructional staff to merge your pull request.
   * You can update your repository to reflect changes in the upstream repository using:
@@ -129,7 +129,7 @@ In this lab you will practice the git commands we introduced. At the end of the 
 
 6. Each member should clone the **table's** repository
 
-  * Locally, in the `Summer2019` directory, each member should create a file called `ProjectIdeas<table number>.md`
+  * Locally, in the `Summer2021` directory, each member should create a file called `ProjectIdeas<table number>.md`
  
   * Each person writes their project ideas inside their own version of the file. **Your ideas are not binding; it is just to get you thinking and to start communicating with your colleagues**
   
