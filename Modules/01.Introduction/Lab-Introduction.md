@@ -6,6 +6,11 @@ Maintain a repository on github for all your lab work. Inside, you should create
 
 > Markdown syntax is [here](https://help.github.com/articles/basic-writing-and-formatting-syntax/) and [here](https://guides.github.com/features/mastering-markdown/) 
 
+## 0. Join the Discord if you haven't already 
+  1. Join here: [https://discord.gg/R9qyC7aY](https://discord.gg/R9qyC7aY) 
+  2. Post a message into the "#general" channel
+  3. Take a screenshot the post and paste it into your Lab 1 notebook.
+
 ## 1. Create and setup a Github account
   1. Go through this tutorial to get familiar with [Git and GitHub](http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1) and to set up a GitHub account.
   2. Fork the [template repository](https://github.com/rcos/oss-repo-template).
@@ -13,9 +18,6 @@ Maintain a repository on github for all your lab work. Inside, you should create
   	 - Please have your name and a photo in the markdown page . [Here is a sample page](https://github.com/mskmoorthy/Doc-ex1/blob/master/lab-1-sample.Md).
   	 - You can copy and paste screen shots as well as add text.
   	 - Please add your Discord handle.
-  4. If you haven't already joined our Discord, use this invitation to join [https://discord.gg/R9qyC7aY](https://discord.gg/R9qyC7aY) 
-     - Post a message into the "#general" channel
-     - Capture the post and paste it into your Lab 1 notebook.
 
 ## 2. Reading assignments - make sure to reflect on these in `lab1.md` in your repository 
   1. Please read the 10 criteria of [Open Source Definition](http://opensource.org/osd) and understand why they are important.
