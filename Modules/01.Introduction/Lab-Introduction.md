@@ -13,7 +13,7 @@
   - Fill out the information in the document.
   	 - Please have your name and a photo in the markdown page . [Here is a sample page](https://github.com/mskmoorthy/Doc-ex1/blob/master/lab-1-sample.Md).
   	 - You can copy and paste screen shots as well as add text.
-  	 - Please add your Mattermost handle.
+  	 - Please add your Discord handle.
   
 1. If you haven't already joined our Discord, use this invitation to join [https://discord.gg/R9qyC7aY](https://discord.gg/R9qyC7aY) 
      - Post a message into the "#general" channel
