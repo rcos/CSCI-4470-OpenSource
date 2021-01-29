@@ -6,6 +6,10 @@
 
 > Markdown syntax is [here](https://help.github.com/articles/basic-writing-and-formatting-syntax/) and [here](https://guides.github.com/features/mastering-markdown/) 
 
+1. If you haven't already joined our Discord, use this invitation to join [https://discord.gg/R9qyC7aY](https://discord.gg/R9qyC7aY) 
+     - Post a message into the "#general" channel
+     - Capture the post and paste it into your Lab 1 notebook once you create it in the next step.
+
 1. **Create and setup a Github account** 
   - Go through this tutorial to get familiar with [git and github](http://readwrite.com/2013/09/30/understanding-github-a-journey-for-beginners-part-1) and to set up a git hub account.
 
@@ -15,10 +19,6 @@
   	 - You can copy and paste screen shots as well as add text.
   	 - Please add your Discord handle.
   
-1. If you haven't already joined our Discord, use this invitation to join [https://discord.gg/R9qyC7aY](https://discord.gg/R9qyC7aY) 
-     - Post a message into the "#general" channel
-     - Capture the post and paste it into your Lab 1 notebook.
-
 1. **Reading assignments** - make sure to reflect on these in a lab1.md file in your repository 
   
      - Please read the 10 criteria of [Open Source Definition](http://opensource.org/osd) and understand why they are important.
