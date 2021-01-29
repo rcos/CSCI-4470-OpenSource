@@ -16,6 +16,11 @@
   	 - Please add your Mattermost handle.
 
 1. **Reading assignments** - make sure to reflect on these in a lab1.md file in your repository 
+  1. If you haven't already joined our Discord, use this invitation to join [https://discord.gg/R9qyC7aY](https://discord.gg/R9qyC7aY) 
+  2. Post a message into the "#general" channel
+  3. Capture the post and paste it into your Lab 1 notebook.
+
+1. **Reading assignments** - make sure to reflect on these in a lab1.md file in your repository 
   
   1. Please read the 10 criteria of [Open Source Definition](http://opensource.org/osd) and understand why they are important.
   2. Please read Eric Raymond's article [Smart Questions](http://www.catb.org/esr/faqs/smart-questions.html) How to ask the question The Smart Way . 
