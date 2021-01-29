@@ -30,7 +30,7 @@ Maintain a repository on github for all your lab work. Inside, you should create
      - You don't need to record anything here on the reading, but it will help you with the exercises on `grep`, `egrep`, and `regex`.
 
 ## 3. Linux 
-  1. Boot linux (Ubuntu) through a USB, dual boot, or WSL
+  1. Boot linux (Ubuntu) through a USB, dual boot, or WSL (version 2 strongly recommended)
      - Get familiar with the directory structure.
      - Practice with `ls`, `cd`, `mkdir`, `chmod` commands - when in doubt search the web to find the answer.
   2. Practice with `grep`, `egrep` commands
