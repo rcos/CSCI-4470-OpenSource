@@ -6,3 +6,4 @@ Tests/*
 *.out
 *.synctex.gz
 *.swp
+.idea/
