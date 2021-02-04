@@ -58,6 +58,7 @@ Mentors
 ---
 - Avery Sommer
 - sommea2@rpi.edu
+- Office Hours: 2:10 - 4:10 Tuesday & Thursday (nooks)
 
 ---
 - Steven vanZyl
