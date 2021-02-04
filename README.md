@@ -41,7 +41,7 @@ TA
 ---
 - Kevin Mackenzie
 - mackek4@rpi.edu
-- Office Hours: TBD
+- Office Hours: Thursday 4:30-6:30 (discord)
 
 ---
 
