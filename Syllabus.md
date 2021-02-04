@@ -31,7 +31,7 @@ Amos Eaton 207
 
 wdturner@gmail.com
 
-https://rensselaer.webex.com/meet/turnew2
+[https://rensselaer.webex.com/meet/turnew2](https://rensselaer.webex.com/meet/turnew2)
 
 Office Hours: Tuesday 10:00-11:30, Thursday 2:00-3:30 in my WebEx (above), or by appointment
 
@@ -43,7 +43,7 @@ TA
 ---
 - Kevin Mackenzie
 - mackek4@rpi.edu
-- Office Hours: TBD
+- Office Hours: Thursday 4:30-6:30 (discord)
 
 ---
 
@@ -52,23 +52,30 @@ Mentors
 ---
 - Hunter Harris 
 - harrih3@rpi.edu
+- Office Hours: 7:00 - 8:00 Wednesday (WebEx)
+- [https://rensselaer.webex.com/meet/harrih3](https://rensselaer.webex.com/meet/harrih3])
 
 ---
 - Jeremy Macks 
 - macksj@rpi.edu
+- Office Hours: 4:00 - 5:00 Monday (WebEx)
+- [https://rensselaer.webex.com/meet/macksj](https://rensselaer.webex.com/meet/macksj])
 
 ---
 - Avery Sommer
 - sommea2@rpi.edu
+- Office Hours: 2:10 - 4:10 Tuesday & Thursday (nooks)
 
 ---
 - Steven vanZyl
 - vanzys@rpi.edu
-
+- Office Hours: 7:00 - 8:00 Wednesday (discord)
 
 ---
- - Ethan Whitton
- - whitte3@rpi.edu
+- Ethan Whitton
+- whitte3@rpi.edu
+- Office Hours: 2:10 - 4:10 Tuesday & Thursday (WebEx)
+- [https://rensselaer.webex.com/meet/whitte3](https://rensselaer.webex.com/meet/whitte3])
 
 ---
 
