@@ -72,7 +72,7 @@ In this lab you will practice the git commands we introduced. At the end of the 
   * Read about forking [here](https://guides.github.com/activities/forking/index.html)
   * Fork [https://github.com/octocat/Spoon-Knife](https://github.com/octocat/Spoon-Knife) repository by pressing the Fork button in the top right corner of the repository page.
 
-    ***Provide a link to this repository in your Lab2.md file.***
+    ***Provide a link to your fork of this repository in your Lab2.md file.***
 
 2. Clone the fork you made using `git clone <fork url>`
 
@@ -97,7 +97,8 @@ In this lab you will practice the git commands we introduced. At the end of the 
     git remote add upstream https://github.com/wdturner/PullReq.git
     git pull upstream master
     ```
-  ***Provide a link to this repository in your Lab2.md file.***
+
+  ***Provide a link to your fork of this repository in your Lab2.md file.***
 
 2. Make sure you understand the command `git diff` from [this example](https://www.safaribooksonline.com/library/view/version-control-with/9780596158187/ch08s02.html)
 
