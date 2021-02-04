@@ -183,12 +183,13 @@ git remote -v
         </section>
 
         <section>
-          <h3>Add the Remote repository</h3>
+          <h3>Add the Remote repository as the new orgin</h3>
           <pre><code data-trim contenteditable>
-git remote add rcosgithub "your clone address"
+git remote set-url origin "your clone address"
           </code></pre>
           <ul>
-            <li>rcosgithub = local name for remote repository
+            <li>origin = local name for remote repository
+	    <li>This is where you will do your personal work
           </ul>
         </section>
 
@@ -224,6 +225,28 @@ git remote -v
             <li>Use: https://github.com/aaronsw/...
             <li>Instead of: git@github.com:aaronsw/...
           </ul>
+        </section>
+
+        <section>
+          <h3>Now choose one of your table to host the Centralized Repository </h3>
+          <pre><code data-trim contenteditable>
+git remote add upstream "address of centralized repository"
+          </code></pre>
+	  <ul>
+		  <li> upstream will be the centralized repository </li>
+		  <li> owner of the upstream will need to add everyone else as a collaborator </li>
+	  </ul>
+<!--          <a href="#" class="image">
+            <img src="images/GitIntroductionPartII-003.png" alt="Add remote">
+          </a> -->
+        </section>
+
+        <section>
+          <h2>Add Collaborators</h2>
+          <a href="#" class="image">
+            <img src="images/addcollaborators.png" alt="Fork address">
+          </a>
+          </p>
         </section>
 
         <section>
@@ -264,13 +287,13 @@ git add table&lti&gt;.Md
 
 git commit -m "Started team directory"
           </code></pre>
-          <h4>merges to master and pushes it to origin</h4>
+          <h4>merges to master and pushes it to upstream</h4>
           <pre><code data-trim contenteditable>
 git checkout master
 
 git merge Table&lt;i&gt;
 
-git push origin master
+git push upstream master
           </code></pre>
         </section>
 
@@ -310,11 +333,11 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
         <section>
           <h4>Update With the Command</h4>
           <pre><code data-trim contenteditable>
-git pull origin master
+git pull upstream master
           </code></pre>
           <h4>and then try the Command again</h4>
           <pre><code data-trim contenteditable>
-git push origin master
+git push upstream master
           </code></pre>
         </section>
 
@@ -333,7 +356,8 @@ git push origin master
           <h3>All Team Members</h3>
           <h3>Update their local table .Md</h3>
           <pre><code data-trim contenteditable>
-git pull origin master
+git pull upstream master
+git push origin master
           </code></pre>
         </section>
 
@@ -436,7 +460,7 @@ git show 5d7d137
           <ul>
             <li>Git add the file
             <li>Git commit
-            <li>Git push to origin
+            <li>Git push to upstream
           </ul>
         </section>
 
@@ -468,11 +492,11 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
         <section>
           <h4>Update With the Command</h4>
           <pre><code data-trim contenteditable>
-git pull origin master
+git pull upstream master
           </code></pre>
           <h4>and then try the Command again</h4>
           <pre><code data-trim contenteditable>
-git push origin master
+git push upstream master
           </code></pre>
         </section>
 
@@ -521,9 +545,9 @@ git commit
           <h2>Each Team Member</h2>
           <ul>
             <li>Git move to master branch
-            <li>Git update master from origin
+            <li>Git update master from upstrem
             <li>Git merge branch into master
-            <li>Git push master to origin
+            <li>Git push master to upstream
           </ul>
         </section>
 
@@ -531,19 +555,40 @@ git commit
           <h4>Use the Commands</h4>
           <pre><code data-trim contenteditable>
 git checkout master
-git pull origin master
+git pull upstream master
 git merge --no-ff MyNewBranch
-git push origin master
+git push upstream master
           </code></pre>
         </section>
 
         <section>
           <h4>Repeat the push until it succeds</h4>
           <pre><code data-trim contenteditable>
-git pull origin master
+git pull upstream master
+git push upstream master
+# When you're done, end by updating your personal repository
 git push origin master
           </code></pre>
         </section>
+        <section>
+          <h2>Finally, one person at the table</h2>
+          <ul>
+            <li>Do a Pull Request to wdturner/OSSStory
+          </ul>
+          <a href="#" class="image">
+            <img src="images/PullRequest.png" alt="Fork address">
+          </a>
+          </p>
+        </section>
+        <section>
+          <h2>This shows 2 Workflows</h2>
+          <ul>
+            <li>Your table is a "Collective Workflow"
+            <li>The Pull Request back to the wdturner repository is a "Blessed Repository"
+          </ul>
+        </section>
+
+
 <!--
         <section>
           <h2>Reading the Story</h2>
