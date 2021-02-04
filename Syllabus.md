@@ -52,8 +52,7 @@ Mentors
 ---
 - Hunter Harris 
 - harrih3@rpi.edu
-- Office Hours: 7:00 - 8:00 Wednesday (WebEx)
-- [https://rensselaer.webex.com/meet/harrih3](https://rensselaer.webex.com/meet/harrih3])
+- Office Hours: 7:00 - 8:00 Wednesday (discord)
 
 ---
 - Jeremy Macks 
