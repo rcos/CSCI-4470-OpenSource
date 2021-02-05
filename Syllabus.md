@@ -63,12 +63,12 @@ Mentors
 ---
 - Avery Sommer
 - sommea2@rpi.edu
-- Office Hours: 2:10 - 4:10 Tuesday & Thursday (nooks)
+- Office Hours: 2:10 - 4:10 Tuesday & Thursday (discord)
 
 ---
 - Steven vanZyl
 - vanzys@rpi.edu
-- Office Hours: 7:00 - 8:00 Wednesday (discord)
+- Office Hours: 6:00 - 8:00 Wednesday (discord)
 
 ---
 - Ethan Whitton
