@@ -130,7 +130,7 @@ In this lab you will practice the git commands we introduced. At the end of the 
 
 6. Each member should clone the **table's** repository
 
-  * Locally, in the `Summer2021` directory, each member should create a file called `ProjectIdeas<table number>.md`
+  * Locally, in the `Spring2021` directory, each member should create a file called `ProjectIdeas<table number>.md`
  
   * Each person writes their project ideas inside their own version of the file. **Your ideas are not binding; it is just to get you thinking and to start communicating with your colleagues**
   
