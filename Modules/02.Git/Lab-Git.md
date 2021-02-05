@@ -81,7 +81,7 @@ In this lab you will practice the git commands we introduced. At the end of the 
   * Push it back to your forked Github repository.
 
 4. Do the first four levels (Introduction Sequence) of [Learn Git Branching](http://pcottle.github.io/learnGitBranching/).
-  * Include a screenshot in your lab report.
+  * ***Include a screenshot in your lab report.***
 
 ## Part 3
 
