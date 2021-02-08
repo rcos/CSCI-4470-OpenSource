@@ -11,10 +11,10 @@
 ### Part 1 - Documentation
 1. Go to your lab repository and look for the wiki link at the top tab bar. If it isn't there, click on settings and check the wiki box near the bottom of the page.
     ![Wiki and Settings Locations](Wiki.png)
-1. Each person individually, on this wiki page (using Markdown or reStructuredText) write a brief description of some area of interest that you might want to explore in your project - It should include:
+1. Each person individually, on their wiki page (using Markdown or reStructuredText) writes a brief description of some area of interest that they might want to explore in their project - It should include:
 
       1. The problem area that your software is researching or a technology or technologies that you might want to explore.
-      2. Existing Software that addreses similar problems and how yours will be different or better; or examples of projects in your area of interest. Check out [LinksforPossibleProjects.md](../../Resources/LinksforPossibleProjects.md) in the resoures area to get ideas of both.
+      2. Existing Software that addresses similar problems and how yours will be different or better; or examples of projects in your area of interest. Check out [LinksforPossibleProjects.md](../../Resources/LinksforPossibleProjects.md) in the resources area to get ideas of both.
       3. Potential technologies you will use in your project; or any ideas about how where your technology might fit.
       4. The end product or goal.
  
@@ -36,7 +36,7 @@
 1. Project selection
   1. Take a look at your assigned projects from [https://rcos.io/projects](https://rcos.io/projects) and clone them locally. All people at the table need to record the information for all projects, but each person can do one project and share the results with the group.
       
-      **Table 1 gets project 1-5, table 2 takes 6-10, and so on... Adjust the numbers to the number of people at your table, but do at least 4.**
+      **Table 1 gets projects 1-5, table 2 takes 6-10, and so on... Adjust the numbers to the number of people at your table, but do at least 4.**
 
   2. For each of your projects, look up by hand and record in `Lab3.md`:
         - the number of contributors

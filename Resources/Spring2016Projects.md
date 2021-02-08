@@ -1,0 +1,84 @@
+# Spring 2016 Projects 
+### Pitch Slides were presented for Introduction to Open Source Software (3/25/2016) 
+
+- **Auto Login:** Sean Waclawik
+  - **Pitch Slides** 
+  - **Date for Presentation  5/6**
+  - **Presentation Slides** https://docs.google.com/presentation/d/19yFc4ZK7H81wID0rD5aqw-f_UnLK0qGLjN7Kk4QWxYo/edit#slide=id.p
+  - **Repository** https://github.com/SeanWaclawik/courseproject
+  - **Blog** https://rcos.io/projects/SeanWaclawik/courseproject.git/blog
+  - **Project Outline** https://docs.google.com/document/d/1nNefMSA2h1oc0r_uA2nTGIDnKipaElGsVdHO0y1fV4k/edit
+- **Command Line Argument Parser for Rust:** Owen Stenson
+  - **Pitch Slides** https://docs.google.com/presentation/d/17XrUNMZMytbeKCoyVRZcH7xqieR_WlJ29kT8mQMn2KA/edit#slide=id.p
+  - **Date for Presentation 5/6**
+  - **Presentation Slides** https://slack-files.com/files-pri-safe/T033VT1N8-F16PTUA1L/clap-rs_slides.pdf?c=1462551295-a1ed10f7dd958b1e10da6c279f36373eb4d8b6d9
+  - **Repository** https://github.com/stensonowen/clap-rs
+  - **Blog** https://rcos.io/projects/stensonowen/clap-rs/blog
+- **Split Screen:** Sam Deslandes
+  - **Pitch Slides** 
+  - **Date for Presentation 5/6**
+  - **Presentation Slides** https://docs.google.com/presentation/d/1jxZoIzVDiZZatcWGIdPBi0R2CQyf8bRwLhhn2Tya_6U/edit#slide=id.p
+  - **Repository** https://github.com/tassiahmed/SplitScreen
+  - **Blog** https://rcos.io/projects/tassiahmed/SplitScreen/blog
+- **Table Tome:** Jonathan Wrona, Dan Lowe, Cameron Root
+  - **Pitch Slides** http://slides.com/jonathanwrona/table-tome-os#/
+  - **Date for Presentation 5/10**
+  - **Presentation Slides** https://docs.google.com/presentation/d/1xp_Xj4B3GaUWCzKo-dBtJGit3oyQhi6I26NuDSeJ5j8/edit#slide=id.p
+  - **Repository** https://github.com/table-tome
+  - **Blog** https://rcos.io/projects/table-tome/table-tome/blog
+- **MineBot:** Oliver Poulin, Graham Atkinson 
+  - **Pitch Slides** 
+  - **Date for Presentation 5/6**
+  - **Presentation Slides** https://docs.google.com/presentation/d/1g_jKlhKvjUonEQfiJt8Fu6rFeQCZ4uG81-YKFDQyN0I/edit#slide=id.p
+  - **Repository** https://github.com/olivierpo/minebot
+  - **Blog** https://rcos.io/projects/olivierpo/minebot.git/blog
+- **Labyrinth** Chandrika Sinha, Lars Olsson
+  - **Pitch Slides** https://drive.google.com/file/d/0B3AxVWEWY1u0YzRTQnoxSVJiUGc/view?usp=sharing
+  - **Date for Presentation 5/6**
+  - **Presentation Slides** https://docs.google.com/presentation/d/1v7JSDaomgjKKcC0zcqHec6lFDv6u_Z_jI1ghPzqbsMA/edit?ts=572ca464#slide=id.g12ffc454af_5_17
+  - **Repository** https://github.com/sinhac/labyrinth
+  - **Blog** https://rcos.io/projects/sinhac/labyrinth/blog
+- **Relax:** Erin Jordan, Shreya Patel, Jon Harris, Zefanya Putri 
+  - **Pitch Slides** https://docs.google.com/presentation/d/1DJ7TT39kM-pe5fcPAFGlaKSM13qS66wc8IaY4J2GMHo/edit#slide=id.p
+  - **Date for Presentation 5/6**
+  - **Presentation Slides** https://docs.google.com/presentation/d/1WSf-0S1TCgHXTNsJ2EJUs47pPx-Ip_J9EWNaveN_0I0/edit#slide=id.p
+  - **Repository** https://github.com/erinjordan24/relax
+  - **Blog** https://rcos.io/projects/erinjordan24/relax/blog
+- **Pokemon Snowdown:** Adeel Phanse. Alvin Leung, Jacob Arriola, Matt Bu 
+  - **Pitch Slides** https://drive.google.com/file/d/0B3AxVWEWY1u0VHAwZHRQSndHb28/view?usp=sharing
+  - **Date for Presentation 5/6**
+  - **Presentation Slides** https://slack-files.com/files-pri-safe/T033VT1N8-F16PX4BL6/pokesnowdown_presentation_final.pdf?c=1462556426-05d57900879c998aff13852263acffb73a8d1cfe
+  - **Repository** https://github.com/Phansa/PokeSnowdown
+  - **Blog** https://rcos.io/projects/Phansa/PokeSnowdown/blog
+- **Open Javascript Whiteboard:** (continued from fall 2015) Cristian Rivera, Kevin Stoner, Paul Sambolin and Donald Disha 
+  - **Pitch Slides** https://docs.google.com/presentation/d/13DFbx1S-HpCQrJynzY4afmDaaQbVvXVnP565Gj7rXkI/edit#slide=id.g10e77d7083_0_0
+  - **Date for Presentation 5/6**
+  - **Presentation Slides** https://docs.google.com/presentation/d/1oOY-33bLAtSbNVv859IPSFYnebOczkrQz5zGyfZ69PE/edit
+  - **Repository** https://github.com/paulSambolin/draw
+  - **Blog** https://rcos.io/projects/PaulSambolin/OpenJavascriptWhiteboard/blog
+- **Pizza Dash:** Morgan Larkin, Joe Iaquinto, Dan Gorman. Perri Adams, 
+  - **Pitch Slides** https://docs.google.com/presentation/d/1EVMLJznRJFmcdIJXf9tZQb4kjfZUBCSS7OM3HCZOiZ8/edit#slide=id.p 
+  - **Date for Presentation 5/6**
+  - **Presentation Slides** https://docs.google.com/presentation/d/1DKZS9dtPSJB4cxK4F-c0RCaR849W8nRvm2KzpJ89VSI/edit
+  - **Repository** https://github.com/PizzadashRPIOpenSource/pizzadash
+  - **Blog** https://rcos.io/projects/PizzadashRPIOpenSource/pizzadash/blog
+- **Atom:**Mukul Surajiwale, Alwin Joy, Ryan Manske, Nathan Potolsky and Victor Zhu 
+  - **Pitch Slides** https://docs.google.com/presentation/d/1y5Zt6V-nz-XqX747LCWH-WNkiggsukLVU1TfMKtGEeQ/edit#slide=id.p and https://drive.google.com/file/d/0B3AxVWEWY1u0TjE1S0NlY1ZTMXc/view?usp=sharing
+LCWH-WNkiggsukLVU1TfMKtGEeQ/edit#slide=id.p
+  - **Date for Presentation 5/10**
+  - **Presentation Slides** https://docs.google.com/presentation/d/1S75jHK-sEvJHtp6_ChaK8sBKvFLXEb8lz5gnz9iTzUA/edit#slide=id.g1308c32f43_0_5
+  - **Repository** https://github.com/mukulio/AtomX
+  - **Blog** https://rcos.io/projects/mukulio/atomx/blog
+- **Butter:** Eric Gunderson, Louis Silvestrand Matt Gilman
+  - **Pitch Slides** https://docs.google.com/presentation/d/1JfmhGK3renlILtHVkqzY2-ICSlByhKu9ueutKfrZsnY/edit#slide=id.p
+  - **Date for Presentation 5/3**
+  - **Presentation Slides** https://docs.google.com/presentation/d/1VzPSouW_X022ScTqId2HYSSIsiHieZdKzSKdYR1Ef_M/edit?usp=sharing
+  -  **Repository** https://github.com/mattgilman10/butter-desktop
+  -  **Blog** https://rcos.io/projects/mattgilman10/butter-desktop/blog
+  -  **Schedule**  https://docs.google.com/spreadsheets/d/1Jry2VRQQWjf6XyTEga8FGYUPI-BRoTG-ygTuUbejWws/edit#gid=0
+- **Algorithm Club:** Christian Encarnacion, Ashwin Raghuraman, Steven Scally and Jayson Tung =
+  - **Pitch Slides** https://docs.google.com/presentation/d/1kgSteDsO2EGiOKYC_Hja_Bau7f8OJvt8jQUcqNL441Y/edit#slide=id.p
+  - **Date for Presentation 5/6**
+  - **Presentation Slides** https://docs.google.com/presentation/d/1vr8LS22Rj_4NR0yQ3jbX_HV0xqZsTIgLoTUlhCc3ePE/edit#slide=id.p
+  - **Repository** https://github.com/axptwig/swift-algorithm-club
+  - **Blog** https://rcos.io/projects/axptwig/swift-algorithm-club/blog
