@@ -54,8 +54,7 @@ Mentors
 ---
 - Jeremy Macks 
 - macksj@rpi.edu
-- Office Hours: Monday 4:00pm - 5:00pm EST (WebEx)
-- [https://rensselaer.webex.com/meet/macksj](https://rensselaer.webex.com/meet/macksj])
+- Office Hours: Monday 4:00pm - 5:00pm EST (discord)
 
 ---
 - Avery Sommer
