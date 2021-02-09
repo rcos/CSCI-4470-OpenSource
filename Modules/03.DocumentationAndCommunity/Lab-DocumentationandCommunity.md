@@ -51,7 +51,7 @@
       **Note: if the project you are assigned has no commits to its repository, pick a different project.**
     
 2. Gitstats
-   1. Install - This can be done in Windows or OSX, but it will be easiest on Linux. **Do not use WSL. I do not believe gnuplot works correctly with the windows environment. If you are on a Windows platform, use the native windows tools.**
+   1. Install - This can be done in Windows or OSX, but it will be easiest on Linux. I go it working on WSL, but it required installing gnuplot and (possibly) installing an X11 windows server. I am using Xming [https://sourceforge.net/projects/xming/](https://sourceforge.net/projects/xming/).
       - Clone the project `https://github.com/hoxu/gitstats` locally `cd gitstats`, and run `make install`
       - Homebrew / Linuxbrew users can use `brew install --HEAD homebrew/head-only/gitstats`
       - If you have issues, an alternate version, specific to Python 3 can be found in [RCOS](https://github.com/rcos/gitstats). Use either the `futureized_gitstats` or `python3` branches.
@@ -78,23 +78,31 @@
    
     ```
     gource -1280x720 -o gource.ppm --time-scale 3
+    ```
+    
+    ```
     ffmpeg -y -r 60 -f image2pipe -vcodec ppm -i gource.ppm  -vcodec mpeg4 -b:v 3000k -s hd480 gource.mp4
     ```
-    or
     
+    or
+
     ```
     gource -1280x720 -o gource.ppm --time-scale 3
+    ```
+
+    ```
     avconv -y -r 60 -f image2pipe -vcodec ppm -i gource.ppm  -vcodec mpeg4 -b:v 3000k -s hd480 gource.mp4
     ```
-    or for a more fun gource, generate the ppm file with:
     
+    or for a more fun gource, generate the ppm file with:
+
     ```
     gource -1280x720 -o gource.ppm --auto-skip-seconds 1 --max-files 0 --time-scale 3 --camera-mode track --file-idle-time 0 --bloom-multiplier 1.5  -e 0.5 --title "<Project Title>"
     ```
 
   - (Optional) If you would like, upload your video to Youtube and add a link in `Lab3.md`.
 
-      > Example youtube videos - [Ruby](https://www.youtube.com/watch?v=si-kxnwKvjU) and  [Observatory   (old)](https://www.youtube.com/watch?v=SKArMLw1QY0)  and [CSCI 2961-01 Intro to Open Source](https://youtu.be/-R3-t0oLcpk )
+      > Example youtube videos - [Observatory   (old)](https://www.youtube.com/watch?v=SKArMLw1QY0)  and [CSCI 2961-01 Intro to Open Source](https://youtu.be/-R3-t0oLcpk )
 
 
   __Make sure to include screenshots and comments 	in your lab report.__
