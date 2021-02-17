@@ -1,4 +1,4 @@
-# Lab 3 Documentation and Community Development - June 7, 2019
+# Lab 3 Documentation and Community Development - February 12, 2021
 
 ## This Lab has two parts [Documentation](#part-1) and [Community](#part-2)
 
