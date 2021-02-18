@@ -1,7 +1,7 @@
 Build Systems
 #############
 
-RPI Open Source Software - Spring 2019
+RPI Open Source Software - Spring 2021
 
 Brad King, Kitware, Inc.
 
@@ -30,7 +30,7 @@ Reading and Reference Material
 
 * CMake 
   
-  * https://cmake.org/cmake/help/v3.13/index.html -- read cmake-buildsystem
+  * https://cmake.org/cmake/help/latest/index.html -- read cmake-buildsystem
 
 What is a Build System?
 -----------------------
@@ -635,6 +635,14 @@ Example Build Systems
 Generating Build Systems
 ========================
 
+Where Do We Go From Here?
+-------------------------
+
+* https://www.slant.co/topics/4263/~open-source-build-systems-for-c-c
+
+.. image:: static/build_overview.png
+
+
 Build System Generators
 -----------------------
 
@@ -662,14 +670,16 @@ CMake
 * Generalized incrementally over time.
 
 * `KDE <https://www.kde.org>`__ (K Desktop Environment)
-  switched to CMake in 2006; kicked off widespread adoption.
+  switched to CMake in 2006; kicked off widespread adoption. 
+
+* How to: https://community.kde.org/Guidelines_and_HOWTOs/CMake
 
 * Now de-facto standard for cross-platform ``C``, ``C++``, and
   ``Fortran`` projects.
 
 * Homepage: https://cmake.org
 
-* Documentation: https://cmake.org/documentation
+* Documentation: https://cmake.org/cmake/help/latest/
 
 CMake Example Code
 ------------------
