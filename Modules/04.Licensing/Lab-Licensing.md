@@ -31,6 +31,6 @@ https://github.com/rcos/Observatory | Yes | Two Clause BSD License https://en.wi
 
 When you have completed the lab, submit a text file with a link to your `Lab4.md` file via Submitty.
 
-This is a short lab and you should have time available. When you are finished, please use the time to begin working on your [Analysis Project](../../Assignments/AnalysisHomework.md)
+This is a short lab and you should have time available. When you are finished, please use the time to begin working on your [Analysis Project](https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Assignments/Analysis%20Homework/Analysis%20Homework.md)
 
 ![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png) This work is licensed under a http://creativecommons.org/licenses/by/4.0/ Creative Commons Attribution 4.0 International License.
