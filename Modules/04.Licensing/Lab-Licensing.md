@@ -1,5 +1,6 @@
-## This Lab (6/14/2019) is on Open Source Licensing.
-Some good reading materials are [OSI's License page](http://opensource.org/licenses) and the [class lecture notes](https://github.com/rcos/CSCI-49XX-OpenSource/blob/master/Modules/Licensing/Licensing-S2017-RPI-PatrickMasson.pdf)
+
+## This Lab (2/19/2021) is on Open Source Licensing.
+Some good reading materials are [OSI's License page](http://opensource.org/licenses) and the [class lecture notes](https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Modules/04.Licensing/Licensing-S2021-RPI-PatrickMasson.pdf)
 
 ### All of the steps below should be recorded in a github file `Lab4.md` in your Labs directory
 
@@ -31,6 +32,6 @@ https://github.com/rcos/Observatory | Yes | Two Clause BSD License https://en.wi
 
 When you have completed the lab, submit a text file with a link to your `Lab4.md` file via Submitty.
 
-This is a short lab and you should have time available. When you are finished, please use the time to begin working on your [Analysis Project](../../Assignments/AnalysisHomework.md)
+This is a short lab and you should have time available. When you are finished, please use the time to begin working on your [Analysis Project](https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Assignments/Analysis%20Homework/Analysis%20Homework.md)
 
 ![Creative Commons License](https://i.creativecommons.org/l/by/4.0/88x31.png) This work is licensed under a http://creativecommons.org/licenses/by/4.0/ Creative Commons Attribution 4.0 International License.
