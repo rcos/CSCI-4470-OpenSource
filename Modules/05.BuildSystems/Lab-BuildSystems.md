@@ -1,12 +1,12 @@
-## Week 5 Lab  Number 5,  6/21/2019 Friday - Build Systems
+## Week 5 Lab  Number 5,  2/29/2021 Friday - Build Systems
 ### Learning Objectives
 1. Learn about different build systems 
 2. Gain familiarity with shared and static libraries and how to build them
 3. Get practice creating projects using `make` and `cmake`
 
 ### Steps
-- Download CMake from this website [https://cmake.org/download/](https://cmake.org/download/)
-- You can see the last example in the lecture slide [here](https://github.com/rcos/CSCI-4961-01-Summer-2018/tree/master/Modules/05.BuildSystems/Ex-sp17) (first `cd build`, then execute `cmake ../source/` followed by `make`)
+- Download CMake from this website [https://cmake.org/download/](https://cmake.org/download/) if needed (you can also install it using 
+- You can see the last example in the lecture slide [here](https://github.com/rcos/CSCI-4470-OpenSource/tree/master/Modules/05.BuildSystems/Ex-sp17) (first `cd build`, then execute `cmake ../source/` followed by `make`)
 - Follow Steps 1-5 of the CMake tutorial. The tutorial can be found online at [https://cmake.org/cmake/help/latest/guide/tutorial/index.html](https://cmake.org/cmake/help/latest/guide/tutorial/index.html). I recommend, however, that you instead, clone the CMake repository from GitLab using `git clone https://gitlab.kitware.com/cmake/cmake.git`. If you do, you can get to all of the code used in the tutorial by going to the tutorial directory: `cd cmake/Help/guide/tutorial/`. The steps can be found in the `index.rst` file.
     - Please read and understand the Tutorial. If you use the tutorial directory from CMake as noted above, you will not need to type in a lot of text.
     - The tutorial is not perfect and I found a few errors, particularly around Step 2. See if you can work them out, but don't stay stuck for too long. Discuss the issues with your classmates and then with the mentors, TA, and instructor if you find yourself unable to make progress after a few minutes.
@@ -16,7 +16,7 @@
         - For Step 3, include `CMakeLists.txt` and `MathFunctions/CMakeLists.txt` (most of your changes for `Step3` will be in `MathFunctions/CMakeLists.txt`) along with a screen shot of running the `Tutorial` code without input, with 10 and with 4294967296
         - For Step 4, include `CMakeLists.txt` and `MathFunctions/CMakeLists.txt` along with the output of running `ctest -VV`.
         - For Step 5, include `CMakeLists.txt` and `MathFunctions/CMakeLists.txt` along with a screen shot of running the `Tutorial` code without input, with 10 and with 4294967296.
-- When you are finished, get a copy of the code at [https://github.com/rcos/CSCI-49XX-OpenSource/tree/master/Modules/BuildSystems/Lab-Example](https://github.com/rcos/CSCI-49XX-OpenSource/tree/master/Modules/BuildSystems/Lab-Example) 
+- When you are finished, get a copy of the code at [https://github.com/rcos/CSCI-4470-OpenSource/tree/master/Modules/05.BuildSystems/Lab-BuildSystemsExample](https://github.com/rcos/CSCI-4470-OpenSource/tree/master/Modules/05.BuildSystems/Lab-BuildSystemsExample) 
     - Write a Makefile for the code in that directory. Your solutions should:
         - Create a static library from the code in the `source` directory.
         - Create a shared library from the code in the `source` directory.        

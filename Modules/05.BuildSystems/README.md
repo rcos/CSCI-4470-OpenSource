@@ -8,12 +8,12 @@
 
 ### Lecture material
 
-  - [https://github.com/rcos/CSCI-49XX-OpenSource/blob/master/Modules/BuildSystems/BuildSystems.pdf](https://github.com/rcos/CSCI-49XX-OpenSource/blob/master/Modules/BuildSystems/BuildSystems.pdf)
+  - [https://github.com/rcos/CSCI-49XX-OpenSource/blob/master/Modules/05.BuildSystems/BuildSystems.pdf](https://github.com/rcos/CSCI-49XX-OpenSource/blob/master/Modules/05.BuildSystems/BuildSystems.pdf)
 
-If you have cloned this repository, the slides are maintained in RestructuredText. You can navigate to [Modules/BuildSystems](../BuildSystems/). The source files are in the ''source'' directory. ''make latexpdf'' will generate ''BuildSystems.pdf''; ''make slides'' will generate html slides.
+If you have cloned this repository, the slides are maintained in RestructuredText. You can navigate to [Modules/BuildSystems](../05.BuildSystems/). The source files are in the ''source'' directory. ''make latexpdf'' will generate ''BuildSystems.pdf''; ''make slides'' will generate html slides.
 
 ### Lab
 
-  - [https://github.com/rcos/CSCI-49XX-OpenSource/blob/master/Modules/BuildSystems/Lab-BuildSystems.md](https://github.com/rcos/CSCI-49XX-OpenSource/blob/master/Modules/BuildSystems/Lab-BuildSystems.md)
+  - [https://github.com/rcos/CSCI-49XX-OpenSource/blob/master/Modules/BuildSystems/05.Lab-BuildSystems.md](https://github.com/rcos/CSCI-49XX-OpenSource/blob/master/Modules/05.BuildSystems/Lab-BuildSystems.md)
 
-If you have cloned this repository, navigate to [Modules/BuildSystems/Lab-BuildSystems.md](../BuildSystems/Lab-BuildSystems.md).
+If you have cloned this repository, navigate to [Modules/05.BuildSystems/Lab-BuildSystems.md](../05.BuildSystems/Lab-BuildSystems.md).

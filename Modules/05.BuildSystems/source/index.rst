@@ -88,8 +88,9 @@ It runs the compiler and linker internally:
 .. code-block:: console
 
   $ gcc hi.c -o hi -###
-  cc1 hi.c -o /tmp/tmp1.o
-  collect2 -o hi /tmp/tmp1.o -lgcc ...
+  cc1 hi.c -o /tmp/tmp1.s
+  as -o /tmp/tmp2.o /tmp/tmp1.s
+  collect2 -o hi /tmp/tmp2.o -lgcc ...
 
 Reusable Source File
 --------------------
@@ -138,9 +139,11 @@ The compiler driver runs the compiler and linker internally:
 .. code-block:: console
 
   $ gcc hi1.c hello.c -o hi1 -###
-  cc1 hi1.c -o /tmp/tmp1.o
-  cc1 hello.c -o /tmp/tmp2.o
-  collect2 -o hi1 /tmp/tmp1.o /tmp/tmp2.o -lgcc ...
+  cc1 hi1.c -o /tmp/tmp1.s
+  as -o /tmp/tmp2.o /tmp/tmp1.s
+  cc1 hello.c -o /tmp/tmp3.s
+  as -o /tmp/tmp4.o /tmp/tmp3.s
+  collect2 -o hi1 /tmp/tmp2.o /tmp/tmp4.o -lgcc ...
 
 Sharing Source Files
 --------------------
@@ -196,13 +199,17 @@ The compiler driver runs the compiler and linker internally:
 .. code-block:: console
 
   $ gcc hi1.c hello.c -o hi1 -###
-  cc1 hi1.c -o /tmp/tmp1.o
-  cc1 hello.c -o /tmp/tmp2.o
-  collect2 -o hi1 /tmp/tmp1.o /tmp/tmp2.o -lgcc ...
+  cc1 hi1.c -o /tmp/tmp1.s
+  as -o /tmp/tmp2.o /tmp/tmp1.s
+  cc1 hello.c -o /tmp/tmp3.s
+  as -o /tmp/tmp4.o /tmp/tmp3.s
+  collect2 -o hi1 /tmp/tmp2.o /tmp/tmp4.o -lgcc ...
   $ gcc hi2.c hello.c -o hi2 -###
-  cc1 hi2.c -o /tmp/tmp1.o
-  cc1 hello.c -o /tmp/tmp2.o
-  collect2 -o hi2 /tmp/tmp1.o /tmp/tmp2.o -lgcc ...
+  cc1 hi2.c -o /tmp/tmp1.s
+  as -o /tmp/tmp2.o /tmp/tmp1.s
+  cc1 hello.c -o /tmp/tmp3.s
+  as -o /tmp/tmp4.o /tmp/tmp3.s
+  collect2 -o hi2 /tmp/tmp2.o /tmp/tmp4.o -lgcc ...
 
 * Compiles ``hello.c`` twice.
 * Re-uses source file but not compiler output.
@@ -233,13 +240,16 @@ The compiler driver runs the compiler and linker internally:
 .. code-block:: console
 
   $ gcc hello.c -o hello.o -###
-  cc1 hello.c -o hello.o
+  cc1 hello.c -o /tmp/ccjdUPnL.s
+  as --64 -o hello.o /tmp/ccjdUPnL.s
   $ gcc hi1.c hello.o -o hi1 -###
-  cc1 hi1.c -o /tmp/tmp1.o
-  collect2 -o hi1 /tmp/tmp1.o hello.o -lgcc ...
+  cc1 hi1.c -o /tmp/ccYmx5bQ.s
+  as --64 -o /tmp/ccZsgmJR.o /tmp/ccYmx5bQ.s
+  collect2 -o hi1 /tmp/ccZsgmJR.o hello.o
   $ gcc hi2.c hello.o -o hi2 -###
-  cc1 hi2.c -o /tmp/tmp1.o
-  collect2 -o hi2 /tmp/tmp1.o hello.o -lgcc ...
+  cc1 hi2.c -o /tmp/cc8bugZV.s
+  as --64 -o /tmp/cccpkgnU.o /tmp/cc8bugZV.s
+  collect2 -o hi2 /tmp/cccpkgnU.o hello.o 
 
 * Compiles ``hello.c`` only once.
 
@@ -356,7 +366,7 @@ View dependency of executable on shared library:
   $ readelf -d hi1 | grep NEEDED
    0x0000000000000001 (NEEDED) Shared library: [libhello.so]
    0x0000000000000001 (NEEDED) Shared library: [libc.so.6]
-  $ readelf -d hi1 | grep RPATH
+  $ readelf -d hi1 | grep RUNPATH
    0x000000000000000f (RPATH) Library rpath: [$ORIGIN]
 
 For OSX, we need to use:
@@ -444,6 +454,8 @@ A ``Makefile`` also specifies build commands:
 .. code-block:: makefile
 
   all: hi1 hi2
+  clean: 
+          rm hi1 hi2 hi1.o hi2.o libhello.so hello1.o hello2.o
   hi1: hi1.o libhello.so
           cc hi1.o libhello.so -o hi1 -Wl,-rpath='$$ORIGIN'
   hi2: hi2.o libhello.so
@@ -800,7 +812,7 @@ CMake Syntax Primer
           [[${VAR2}]] "\n" # "${VAR2}" (bracket)
           )
 
-.. _`cmake-language(7)`: https://cmake.org/cmake/help/v3.3/manual/cmake-language.7.html
+.. _`cmake-language(7)`: https://cmake.org/cmake/help/latest/manual/cmake-language.7.html
 
 Conclusion
 ==========
