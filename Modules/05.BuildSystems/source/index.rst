@@ -239,7 +239,7 @@ The compiler driver runs the compiler and linker internally:
 
 .. code-block:: console
 
-  $ gcc hello.c -o hello.o -###
+  $ gcc -c hello.c -o hello.o -###
   cc1 hello.c -o /tmp/ccjdUPnL.s
   as --64 -o hello.o /tmp/ccjdUPnL.s
   $ gcc hi1.c hello.o -o hi1 -###
