@@ -72,7 +72,7 @@ Mentors
 ---
 - Ethan Whitton
 - whitte3@rpi.edu
-- Office Hours: 2:10 - 4:10 Tuesday & Thursday (WebEx)
+- Office Hours: 4:30 - 6:30 Tuesday & Friday (WebEx)
 - [https://rensselaer.webex.com/meet/whitte3](https://rensselaer.webex.com/meet/whitte3])
 
 ---
