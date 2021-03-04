@@ -1,6 +1,6 @@
 # Study Guide for Tests
 
-## Quiz 1 - Friday 2/22/19
+## Quiz 1 - Friday 3/05/21
 
 Test one will cover all of the lectures and labs we have done so far up to and including Lab 5
 (See [Spring2019Schedule.md](Spring2019Schedule.md) for more info), but will not cover Scientific Computing.
@@ -96,7 +96,7 @@ How would you resolve the following merge conflict (pick whichever one you feel 
 
 Solutions are [here](testing_solution.cpp) - Look at comments at the bottom of the file.
 
-## Quiz 2 - Tuesday 4/16/19
+## Quiz 2 - Tuesday 4/20/21
 
 Test two will focus on material from *Open Source in Scientific Computation* up through TensorFlow (Labs 6 through 11), although, you are expected to be able to apply the material from earlier in the semester as well.
 (See [Spring2019Schedule.md](Spring2019Schedule.md) for more info).
