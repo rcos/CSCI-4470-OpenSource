@@ -1,4 +1,4 @@
-## Lab 7 - Scientific Computation 3/1/2019
+## Lab 7 - Scientific Computation 3/8/2019
 
 <!--
 - One/Two page slide presentation of your project and post your slide in RCOS class channel #csci2963-01
@@ -14,7 +14,7 @@
 
 Please start by doing the following:
 
-- Download and Install networkx matplotlib (See [http://matplotlib.org/](http://matplotlib.org/))
+- Download and Install networkx and matplotlib (See [http://matplotlib.org/](http://matplotlib.org/))
 
 ```bash
 sudo apt-get install python-networkx python-matplotlib
