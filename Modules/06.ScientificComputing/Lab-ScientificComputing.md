@@ -1,10 +1,10 @@
-## Lab 7 - Scientific Computation 3/8/2019
+## Lab 6 - Scientific Computation 3/8/2019
 
 <!--
 - One/Two page slide presentation of your project and post your slide in RCOS class channel #csci2963-01
 -->
 
-#### All of the steps below should be recorded in a github file `Lab7.Md` ####
+#### All of the steps below should be recorded in a github file `Lab6.Md` ####
  
 - Graphs and Networks are ubiquitous in Scientific Computations. Networkx is an open source python package located here [https://networkx.github.io/](https://networkx.github.io/)
 
@@ -83,7 +83,7 @@ Once you have installed the tools and familiarized yourself with the networkx co
 
   ***Include the code and a copy of your results in your lab notebook.***
 
-Document your program in a lab 7 writeup and then submit a text file with a link to this file via Submitty. Your lab report should contain:
+Document your program in a lab 6 writeup and then submit a text file with a link to this file via Submitty. Your lab report should contain:
 	
 	- Your results for the 4 five letter pairs
 	- Your code for the four letter solution
