@@ -30,15 +30,15 @@ This is a draft schedule for this course -
 
 * Friday 3/12/2021 - [Lab: Scientific Computing](../Modules/06.ScientificComputing/Lab-ScientificComputing.md)
 
+* Tuesday 3/16/2021 - ** Pseudo-Spring Break: Work on Your Projects **
+
+* Friday 3/19/2021 - ** Pseudo-Spring Break: Work on Your Projects **
+
 	**Last Day to Drop**
-
-* Tuesday 3/16/2021 - [Lecture: Open Source and Statistical Computation](../Modules/07.StatisticalComputing/index.html)
-
-* Friday 3/19/2021 - [Lab: Statistical Computing](../Modules/07.StatisticalComputing/Lab-StatisticalComputing.md)
 
 * Tuesday 3/23/2021 Lecture - [Lecture: Testing and Continuous Integration](../Modules/08.TestingAndCI/TestingAndCI.md)
 
-     **Project Update Presentations** 
+    **Project Update Presentations** 
 
 * Friday 3/26/2021 - [Lab: Testing and Continuous Integration](../Modules/08.TestingAndCI/Lab-TestingAndCI.md)
 
