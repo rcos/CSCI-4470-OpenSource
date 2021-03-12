@@ -1,4 +1,4 @@
-## Lab 6 - Scientific Computation 3/8/2019
+## Lab 6 - Scientific Computation 3/12/2019
 
 <!--
 - One/Two page slide presentation of your project and post your slide in RCOS class channel #csci2963-01

@@ -30,9 +30,9 @@ This is a draft schedule for this course -
 
 * Friday 3/12/2021 - [Lab: Scientific Computing](../Modules/06.ScientificComputing/Lab-ScientificComputing.md)
 
-* Tuesday 3/16/2021 - ** Pseudo-Spring Break: Work on Your Projects **
+* Tuesday 3/16/2021 - **Pseudo-Spring Break: Work on Your Projects**
 
-* Friday 3/19/2021 - ** Pseudo-Spring Break: Work on Your Projects **
+* Friday 3/19/2021 - **Pseudo-Spring Break: Work on Your Projects**
 
 	**Last Day to Drop**
 
