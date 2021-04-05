@@ -15,7 +15,7 @@ For users:
 
 This final point is further improved when integration tests or examples are included in the testing environment.
 
-For this lab, we will revisit the material from our section on build systems. We will use some of the same tools to execute and verify unit tests on an established project, *VTK*, demonstrate how to add a _(non-working)_ test to the system, and then how to iterate on the test until we have it working correctly.
+For this lab, we will revisit the material from our section on build systems. We will use some of the same tools to execute and verify unit tests on an established project, *CMake*, demonstrate how to add a _(non-working)_ test to the system, and then how to iterate on the test until we have it working correctly.
 
 *If it ain't tested, it's broken -- Bill Lorensen and the VCV Board, GE Global Research*
 
