@@ -1,7 +1,7 @@
 TensorFlow Tutorial
 ###################
 
-Open Source Software - Summer 2019
+Open Source Software
 
 Wesley Turner
 
@@ -88,15 +88,15 @@ Github page: https://github.com/tensorflow
 
 Main repository: https://github.com/tensorflow/tensorflow
 
-* 53,075 commits (now 61099)
+* 53,075 commits (now 108,174)
 
-* 27 branches (now 30)
+* 27 branches (now 41)
 
-* 1932 contributers (now 2095)
+* 1932 contributers (now 2948)
 
-* 79 releases (now 88)
+* 79 releases (now 134)
 
-* 2021 Issues (now 2404)
+* 2021 Issues (now 3836 - closed 27,154)
 
 * Permissively licensed under Apache-2.0
 
@@ -119,7 +119,7 @@ Active community
 
 .. nextslide::
 
-* Blog: https://medium.com/tensorflow
+* Blog: https://blog.tensorflow.org/
 
 .. image:: static/Blog.png
 
@@ -148,7 +148,7 @@ Others:
 The Basics
 ==========
 
-Much of this section courtesy of Olivier Poulin, one of our mentors from last summer
+Much of this section courtesy of Olivier Poulin, one of our previous mentors.
 
 Multiple Installations
 ----------------------
@@ -462,7 +462,7 @@ Tutorial
 --------
 
 Of course, Google has us covered:
-https://www.youtube.com/watch?v=tjsHSIG8I08
+https://www.youtube.com/watch?v=5ECD8J3dvDQ
 
 .. image:: static/Video.png
 

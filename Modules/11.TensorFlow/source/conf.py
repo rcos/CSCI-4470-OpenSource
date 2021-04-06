@@ -24,7 +24,7 @@ slide_footer = '''
 </a>
  
 <span class="slide-footer-text">
-  RPI OSS - Summer 2018 - TensorFlow
+  RPI OSS - TensorFlow
 </span>
 '''
 
