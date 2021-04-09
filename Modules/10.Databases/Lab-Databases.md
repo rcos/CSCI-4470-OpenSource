@@ -1,6 +1,21 @@
 # MongoDB Lab
 ### 8/2/2018
 
+## Checkpoint 0: Project Updates
+
+On Tuesday we discussed a lot of material on the Mongodb license as well as on a recent Supreme Court 
+ruling on the ability to Copywrite APIs and the resignation and return of Richard Stallman from the FSF. 
+Pick one of these topics and make a blog post on your site discussing some impact on open source software from
+one of these topics. For instance, you could address the impact of Mongodb's licensing decision on any of 
+the categories of participants in the Mongo ecosystem: outside contributors, employees, the company, external
+companies, users, etc. Or for the API decision, you could consider if this a net gain for open source, or is there likely to 
+been unforeseen consequences. For Richard Stallman, I am less interested in the political and salacious details 
+than I am in the impact of his return on an open source organization. Remember that even before these events, he
+was considered a difficult personality.
+
+I encourage you to discuss these topics at your tables. Then each of you please write at least one well-formed
+paragraph on any part of this and post it to your Blog. Put a link to your blog in your Lab Report for today.
+
 ## Checkpoint 1: Install MongoDB
 
 For the first checkpoint of this lab, we'll work on just getting a proper installation of MongoDB. MongoDB has some good documentation for Linux, OSX and Windows here:  
