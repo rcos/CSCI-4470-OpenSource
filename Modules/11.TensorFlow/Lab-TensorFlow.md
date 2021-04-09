@@ -36,8 +36,8 @@ When you are finished exit python and restart it to clear your work.
 
 ## Checkpoint 2: Run a TensorFlow classification
 
-Next go to [https://www.tensorflow.org/tutorials/keras/basic_classification](https://www.tensorflow.org/tutorials/keras/basic_classification)
-and run through the fashion classification example. 
+Next go to [https://www.tensorflow.org/tutorials/keras/classification](https://www.tensorflow.org/tutorials/keras/basic_classification)
+and run through the fashion classification example in its entirety. 
 
 When you are done, modify the code block below to print out the information for
 the 15 images from 9000-9014 instead of for images 0-11:
