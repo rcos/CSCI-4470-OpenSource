@@ -1,5 +1,4 @@
 # MongoDB Lab
-### 8/2/2018
 
 ## Checkpoint 0: Project Updates
 
