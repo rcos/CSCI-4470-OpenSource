@@ -116,7 +116,7 @@ For this test I would recommend having the following software available in addit
 
 If you have gone through the labs up to this point, you should have most of this already. 
 
-Remember that this test is open notes (but closed internet). Make sure you have a recent version of the repository cloned: [https://github.com/rcos/CSCI-49XX-OpenSource.git](https://github.com/rcos/CSCI-49XX-OpenSource.git) and that you have local copies of any reading/reference material you may want to use including for the listed packages. You may also bring
+Remember that this test is open notes (but closed internet). Make sure you have a recent version of the repository cloned: [https://github.com/rcos/CSCI-4470-OpenSource](https://github.com/rcos/CSCI-4470-OpenSource) and that you have local copies of any reading/reference material you may want to use including for the listed packages. You may also bring
 your notes.
 
 Make sure all of your lab code is on your local computer as you are allowed to refer to it and may
@@ -125,12 +125,13 @@ find it helpful.
 Any topic we covered or that was assigned as reading is fair game, but specific topics that I would review for the quiz are:
 
 * Why is testing important, what is a dashboard, and how do you add tests to an existing project using CMake?
+* Be familiar with the topic of licensing as it pertains to Mongo DB.
 * How do you execute CRUD (Create, Read, Update, and Delete) operations in Mongo? Make sure you revisit this from Lab. Some of you did not update records correctly and were unable to pull them back with a subsequent query.
-* What tools are available for doing scientific and statistical programming using open source tools? Be able to use networkx, python and R to answer some simple questions.
+* What tools are available for doing scientific and statistical programming using open source tools? Be able to use networkx, python and R (R is not needed for Spring 2021) to answer some simple questions.
 * Be able to run and interact with a Docker container. Be able to use a Dockerfile and/or a YAML file to create a container with specific requirements.
 * Be able to create test data, test, and verify a TensorFlow. Know the varoius terms we used: Test, Training, loss, epoch, Neural Net, etc. and be able to describe them.
 
-If you have any more questions feel free to contact the Undergraduate Programming Mentors
-or Professor Turner (preferably on the Mattermost channel) before the test! Good luck everyone!
+If you have any more questions feel free to contact the TA, the Undergraduate Programming Mentors
+or Professor Turner (preferably on Discord) before the test! We will use the same procedures as before with the test held on Submitty. Everyone will have to complete the testing using no more than their alotted time from within a window. Nominally, you will have 90 minutes from within a 110 minute window, **Oh, and I especially wanted to congratulate and thank all of you for completing the test within your time window Good luck everyone!
 
 
