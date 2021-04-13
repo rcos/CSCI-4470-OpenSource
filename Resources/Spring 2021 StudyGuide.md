@@ -98,16 +98,17 @@ Solutions are [here](testing_solution.cpp) - Look at comments at the bottom of t
 
 ## Quiz 2 - Tuesday 4/20/21
 
-Test two will focus on material from *Open Source in Scientific Computation* up through TensorFlow (Labs 6 through 11), although, you are expected to be able to apply the material from earlier in the semester as well.
-(See [Spring2019Schedule.md](Spring2019Schedule.md) for more info).
+Test two will focus on material from *Open Source in Scientific Computation* up through TensorFlow (Labs 6 through 11), although, you are expected to be able to apply the material from earlier in the semester as well. Note that for **Spring 2021 only** there are only 10 labs and the
+module on Statistical Computing will not be on the test.
+(See [Spring 2021 Schedule.md](https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Resources/Spring%202021%20Schedule.md) for more info).
 The format will be some short answer questions and some free response
 questions. I do not yet have a sample test, so you will need to refer to Test 1 for the testing style. Review all lecture/guest lecture notes and all labs, particularly Labs 6-11.
 
-For this test I would recommend having the following software available.
+For this test I would recommend having the following software available in addition to any software used for Test 1.
 
 * [Networkx](https://networkx.github.io/)
 * [matplotlib](http://matplotlib.org/)
-* [R](https://www.r-project.org/)
+* [R](https://www.r-project.org/) (Not necessary for Spring 2021)
 * [ctest](http://cmake.org)
 * [mongo](https://docs.mongodb.org/manual/installation/)
 * [TensorFlow, numpy, python-tk, pillow and keras](https://github.com/rcos/CSCI-49XX-OpenSource/blob/master/Modules/TensorFlow/Lab-TensorFlow.md)
