@@ -459,7 +459,15 @@ Quick Cheat Sheet
 Example
 -------
 
-As a class exercise, we will run through steps 1-3 of the Docker Tutorial at: https://docs.docker.com/get-started/
+As a class exercise, we will run through steps 1-4 of the Docker Tutorial at: https://docs.docker.com/get-started/
+
+For those of you running on WSL, there may be a few more steps:
+
+* Follow the directions to download the Windows Desktop
+
+* Then go to: https://docs.microsoft.com/en-us/windows/wsl/install-win10
+
+* And Finally: https://docs.docker.com/docker-for-windows/wsl/
 
 End
 ###

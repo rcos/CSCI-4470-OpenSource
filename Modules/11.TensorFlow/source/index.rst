@@ -1,7 +1,7 @@
 TensorFlow Tutorial
 ###################
 
-Open Source Software - Summer 2019
+Open Source Software
 
 Wesley Turner
 
@@ -88,15 +88,15 @@ Github page: https://github.com/tensorflow
 
 Main repository: https://github.com/tensorflow/tensorflow
 
-* 53,075 commits (now 61099)
+* 53,075 commits (now 108,174)
 
-* 27 branches (now 30)
+* 27 branches (now 41)
 
-* 1932 contributers (now 2095)
+* 1932 contributers (now 2948)
 
-* 79 releases (now 88)
+* 79 releases (now 134)
 
-* 2021 Issues (now 2404)
+* 2021 Issues (now 3836 - closed 27,154)
 
 * Permissively licensed under Apache-2.0
 
@@ -119,7 +119,7 @@ Active community
 
 .. nextslide::
 
-* Blog: https://medium.com/tensorflow
+* Blog: https://blog.tensorflow.org/
 
 .. image:: static/Blog.png
 
@@ -148,7 +148,7 @@ Others:
 The Basics
 ==========
 
-Much of this section courtesy of Olivier Poulin, one of our mentors from last summer
+Much of this section courtesy of Olivier Poulin, one of our previous mentors.
 
 Multiple Installations
 ----------------------
@@ -211,11 +211,15 @@ From the Docker container:
 .. code-block:: python
 
   >>> import tensorflow as tf
-  >>> hello = tf.constant('Hello, TensorFlow!')
-  >>> sess = tf.Session()
-  2018-08-09 19:31:10.894780: I tensorflow/core/platform/cpu_feature_guard.cc:141] Your CPU supports instructions that this TensorFlow binary was not compiled to use: AVX2 FMA
-  >>> print sess.run(hello) 
-  Hello, TensorFlow!
+  >>> a = tf.constant(3)
+  >>> a
+  <tf.Tensor: shape=(), dtype=int32, numpy=3>
+  >>> b = tf.constant(5)
+  >>> c = a + b
+  >>> c
+  <tf.Tensor: shape=(), dtype=int32, numpy=8>
+  >>> print(c)
+  tf.Tensor(8, shape=(), dtype=int32)
 
 What does TensorFlow do?
 ------------------------
@@ -227,7 +231,7 @@ What does TensorFlow do?
 +========================================+========================================+
 | a=np.zeros((2,2)); b=np.ones((2,2))    | a=tf.zeros((2,2)); b=tf.ones((2,2))    |
 +----------------------------------------+----------------------------------------+
-| np.sum(b,axis=1)                       | tf.reduce_sum(b,reduction_indices=[1]) |
+| np.sum(b,axis=1)                       | tf.reduce_sum(b,axis=[1])              |
 +----------------------------------------+----------------------------------------+
 | a.shape                                | a.get_shape()                          |
 +----------------------------------------+----------------------------------------+
@@ -248,6 +252,14 @@ Base usage involves making execution graph
 * Execution phase runs the session object to execute all the operations in the graph.
 
 .. image:: static/ex_graph.png
+
+.. nextslide::
+
+Base usage involves making execution graph
+------------------------------------------
+* Okay forget that ...
+* This was Tensorflow 1.0
+* In Tensorflow 2.0, the graph still exists but you can ignore it ...
 
 What is Deep Learning?
 ----------------------
@@ -277,7 +289,7 @@ Simplest artificial neural network (ANN): Perceptron
 Sigmoid Neurons
 ---------------
 
-* Inputs/outputs are any values between 0 and 1‘
+* Inputs/outputs are any values between 0 and 1
 * Gives us much more nuanced outputs
 * Can be used for % matches
 
@@ -325,6 +337,8 @@ For OSX, you will need to install a few packages on the host first to get the pl
 
   Then set Allow connections from network clients in the pop up
 
+This is untested with Tensorflow 2.0!
+
 .. nextslide::
 
 Run a docker container and update it
@@ -334,9 +348,15 @@ Run a docker container and update it
   docker run -it -p 8888:8888 -e "DISPLAY"=host.docker.internal:0 \
     tensorflow/tensorflow:latest
   apt-get update
-  apt-get install python-tk xterm x11-apps
+  apt-get install python-tk xterm x11-apps qt5-default
   xeyes & # Just a test to make sure our display is working
-  pip install matplotlib
+  pip install matplotlib PyQt5
+
+or use your own python installation
+
+.. code-block:: console
+
+  pip install tensorflow matplotlib PyQt5
 
 Run a simple example
 --------------------
@@ -346,22 +366,44 @@ Imports:
 .. code-block:: python
 
   import tensorflow as tf
-  import numpy as np
+  from tensorflow.keras import Model
   import matplotlib.pyplot as plt
 
-Set up the system:
+.. nextslide::
+
+Let's define some utilities:
 
 .. code-block:: python
 
-  # Set up the data with a noisy linear relationship between X and Y
-  # y = -4x - 2 (gaussian, mean 0, stddev 1)
-  # bias is the coefficient of the contant term (1)
-  num_examples = 50
-  X = np.array([np.linspace(-2, 4, num_examples), \
-    np.linspace(6, -18, num_examples)])
-  X += np.random.randn(2, num_examples)
-  x, y = X
-  bias_with_x = np.array([(1.0, a) for a in x]).astype(np.float32)
+  def make_noisy_data(m=0.1, b=0.3, n=100):
+    x = tf.random.uniform(shape=(n,))
+    noise = tf.random.normal(shape=(len(x),), stddev=0.01)
+    y = m * x + b + noise
+    return x, y
+
+  def predict(x):
+    y = m * x + b
+    return y
+
+  def squared_error(y_pred, y_true):
+    return tf.reduce_mean(tf.square(y_pred - y_true))
+
+.. nextslide::
+
+Set up the data:
+
+.. code-block:: python
+
+  x_train, y_train = make_noisy_data()
+  plt.plot(x_train, y_train, 'b.')
+  plt.show()
+
+  m = tf.Variable(0.)
+  b = tf.Variable(0.)
+
+  loss = squared_error(predict(x_train), y_train)
+  loss_vec = []
+  print("Starting loss {:.6f}".format(loss.numpy()))
 
 .. nextslide::
 
@@ -369,91 +411,46 @@ Training parameters:
 
 .. code-block:: python
 
-  # Keep track of losses to plot later
-  losses = []
-  # How many iteration of training
-  training_steps = 50
-  # Learning rate (step size to control gradient descent). Too large 
-  # and you may jump past minima, too small and it takes forever.
-  learning_rate = 0.002
+  learning_rate = 0.05
+  steps = 200
 
 .. nextslide::
 
-Set up the TensorFlow graph:
+Execute the gradient descent:
 
 .. code-block:: python
 
-  with tf.Session() as sess:
-    # Set up all the tensors. The input layer is x and bias
-    input = tf.constant(bias_with_x)
-    # Our output are the y values as a column vector
-    target = tf.constant(np.transpose([y]).astype(np.float32))
-    # Weights are what we are changing. Initialize them to random
-    # values (gaussian, mean 0, stddev 0.1)
-    weights = tf.Variable(tf.random_normal([2, 1], 0, 0.1))
-    # Now initialize the variables
-    tf.global_variables_initializer().run()
+  for i in range(steps):
+
+    with tf.GradientTape() as tape:
+        predictions = predict(x_train)
+        loss = squared_error(predictions, y_train)
+
+    loss_vec.append(loss)
+    gradients = tape.gradient(loss, [m, b])
+
+    m.assign_sub(gradients[0] * learning_rate)
+    b.assign_sub(gradients[1] * learning_rate)
+
+    
+    if i % 20 == 0:
+        print("Step {:d}, Loss {:.6f}".format(i, loss.numpy()))
 
 .. nextslide::
 
-Still within the with:
+Report:
 
 .. code-block:: python
 
-  # with tf.Session() as sess:
-    #
-    # Set up the operations that will run in the loop
-    # For all x values, generate an estimate for y given our current
-    # weights. I.e. y^ = w2 * x + w1 * bias
-    yhat = tf.matmul(input, weights)
-    # The error is our estimate minus the measured
-    yerror = tf.subtract(yhat, target)
-    # Use the L2 magnitude over all estimates as the error function
-    loss = tf.nn.l2_loss(yerror)
-    # Now do gradient descent to optimize the weights.
-    update_weights = tf.train.GradientDescentOptimizer(learning_rate).\
-    minimize(loss)
-
-.. nextslide::
-
-Still within the with:
-
-.. code-block:: python
-
-  # with tf.Session() as sess:
-    #
-    # We have defined all the tensors, run the initialization and
-    # set up the execution graph to run the training data. Now repeatedly
-    # call the training operation to execute gradient descent and 
-    # optimize the weights.
-    for _ in range(training_steps):
-        # Run an iteration of gradient descent
-        sess.run(update_weights)
-        # Save our loss magnitude so we can plot it later.
-        losses.append(loss.eval())
-    # When we are done training, get the final values for the charts.
-    betas = weights.eval()
-    yhat = yhat.eval()
-
-.. nextslide::
-
-Still within the with:
-
-.. code-block:: python
-
-  # Show the results
-  fig, (ax1, ax2) = plt.subplots(1,2)
-  plt.subplots_adjust(wspace=0.3)
-  fig.set_size_inches(10, 4)
-  ax1.scatter(x, y, alpha=0.7)
-  ax1.scatter(x, np.transpose(yhat)[0], c="g", alpha=0.6)
-  line_x_range = (-4, 6)
-  ax1.plot(line_x_range, [betas[0] + a * betas[1] \
-    for a in line_x_range], "g", alpha=0.6)
-  ax2.plot(range(0, training_steps), losses)
-  ax2.set_ylabel("Loss")
-  ax2.set_xlabel("Training steps")
+  print("Solution: y = {:.6f} * x + {:.6f}".format(m.numpy(), b.numpy()))
+  plt.plot(range(steps), loss_vec)
   plt.show()
+
+  plt.plot(x_train, y_train, 'b.')
+  plt.plot(x_train, predict(x_train))
+  plt.show()
+
+.. nextslide::
 
 Using TensorFlow
 ================
@@ -462,7 +459,7 @@ Tutorial
 --------
 
 Of course, Google has us covered:
-https://www.youtube.com/watch?v=tjsHSIG8I08
+https://www.youtube.com/watch?v=5ECD8J3dvDQ
 
 .. image:: static/Video.png
 

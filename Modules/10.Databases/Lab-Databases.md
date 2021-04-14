@@ -1,19 +1,34 @@
 # MongoDB Lab
-### 8/2/2018
+
+## Checkpoint 0: Project Updates
+
+On Tuesday we discussed a lot of material on the Mongodb license as well as on a recent Supreme Court 
+ruling on the ability to Copywrite APIs and the resignation and return of Richard Stallman from the FSF. 
+Pick one of these topics and make a blog post on your site discussing some impact on open source software from
+one of these topics. For instance, you could address the impact of Mongodb's licensing decision on any of 
+the categories of participants in the Mongo ecosystem: outside contributors, employees, the company, external
+companies, users, etc. Or for the API decision, you could consider if this a net gain for open source, or is there likely to 
+been unforeseen consequences. For Richard Stallman, I am less interested in the political and salacious details 
+than I am in the impact of his return on an open source organization. Remember that even before these events, he
+was considered a difficult personality.
+
+I encourage you to discuss these topics at your tables. Then each of you please write at least one well-formed
+paragraph on any part of this and post it to your Blog. Put a link to your blog in your Lab Report for today.
 
 ## Checkpoint 1: Install MongoDB
 
-For the first checkpoint of this lab, we'll work on just getting a proper installation of MongoDB. Fortunately MongoDB's documentation is really awesome.
+For the first checkpoint of this lab, we'll work on just getting a proper installation of MongoDB. MongoDB has some good documentation for Linux, OSX and Windows here:  
 
 [https://docs.mongodb.org/manual/installation/](https://docs.mongodb.org/manual/installation/)
 
-Select your system from Tutorials/MongoDB Community Edition, and follow their instructions for setup. I am going to go out o a limb here and suggest that if you are using the WSL, you abandon it fr this lab and do a native installation. I am not happy with the way WSL treats ports from the Docker Lab and I am concerned we will run into similar issues here. Then again, if you want to try and add to our pool of knowledge, please feel free.
+Select your system from Tutorials/MongoDB Community Edition, and follow their instructions for setup. For those of you who are using WSL2, I used the installation instructions in the lecture notes [https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Modules/10.Databases/source/index.rst](https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Modules/10.Databases/source/index.rst) I generally prefer doing this on Linux, but just to test things out, I did the install and this lab using the WSL 2 install and it seems to work. 
 
-After you've finished the MongoDB installation instructions, to test if MongoDB is working, open two terminal windows. In the first one type `mongod`, which starts the MongoDB Daemon.
+After you've finished the MongoDB installation instructions, to test if MongoDB is working, open two terminal windows. In the first one type `mongod`, which starts the MongoDB Daemon. If `mongod` gives you an error that the database directory doesn't exist, either create it and try again or use the `--dbpath` 
+ to point the database at an appropriate directory.
 
 If all goes well you should have a MongoDB database instance running and bound on localhost:27017. In the second terminal window, type `mongo`, which is the MongoDB shell and lets you connect to your server instance.
 
-If all goes well again, the `mongod` window should show a line about "connection accepted" and the `mongo` window should give you a single `>` terminal prompt.
+If all goes well again, the `mongod` window should show a line about "connection accepted" and the `mongo` window should give you a single `>` terminal prompt. 
 
 Keep these two terminal windows open and running the way they are, we'll need them later.
 
@@ -47,6 +62,8 @@ From the mongodb\_lab directory execute the following command:
 ```
 >>> mongoimport --host=127.0.0.1 --db mongo_db_lab --collection definitions --file definitions.json
 ```
+
+If needed, you can install `mongoimport` using: `sudo apt install mongo-tools`.
 
 You can read about the mongoimport command at: [https://docs.mongodb.org/manual/reference/program/mongoimport/](https://docs.mongodb.org/manual/reference/program/mongoimport/)
 
@@ -129,13 +146,15 @@ First reset _definitions.json_. So long as you haven't committed your changes, t
 - Drop the database (mongo shell) `db.definitions.drop()`
 - Run `mongoimport` again
 
-One of the greatest things about MongoDB is the availability of docs. Use them to perform the following with a python script.  You can start from the code in _checkpoint4.py_ and you can use [https://api.mongodb.org/python/current/tutorial.html](https://api.mongodb.org/python/current/tutorial.html) to help you work out the proper commands.
+One of the important things about MongoDB is the availability of docs. Use them to perform the following with a python script.  You can start from the code in _checkpoint4.py_ and you can use [https://https://docs.mongodb.com/drivers/pymongo/](https://docs.mongodb.com/drivers/pymongo/) to help you work out the proper commands. The `Tutorial` and the `API Reference` will be of particular use.
 
 - Fetch all records
 - Fetch one record
 - Fetch a specific record
 - Fetch a record by object id
 - Insert a new record
+
+All of these (including `pprint`) are covered in the tutorial.
 
 **Include the script and the pprint output in your lab report.**
 
@@ -164,7 +183,7 @@ And after calling the script, it should look something like:
   General Personal Aptitude, the rating by which the rest of the world 
   values your existence. Though you'll hear of these, RPI won't give you 
   one; being a technical school, they have to complicate it. See QPA.", 
-  "word" : "GPA", "dates" : [ ISODate("2019-04-04T02:14:31.460Z") ] }
+  "word" : "GPA", "dates" : [ "2019-04-04T02:14:31.460Z" ] }
 }
 ```
 
@@ -176,12 +195,13 @@ And if we called it again:
   General Personal Aptitude, the rating by which the rest of the world 
   values your existence. Though you'll hear of these, RPI won't give you 
   one; being a technical school, they have to complicate it. See QPA.", 
-  "word" : "GPA", "dates" : [ ISODate("2019-04-04T02:14:31.460Z"), 
-  ISODate("2019-04-04T02:14:43.701Z") ] }
+  "word" : "GPA", "dates" : ["2019-04-04T02:14:31.460Z", 
+  "2019-04-04T02:14:43.701Z" ] }
 }
 ```
 
-Hint: Look at MongoDB documentation for $push
+**Hint**: Checkout the `datetime` python module and the `datetime.datetime.utcnow()` and `datetime.datetime.isoformat()` commands for the date part and at the 
+MongoDB documentation for $push for managing the array of dates in the update.
 
 You will need to include the script in your lab report. Run it until you get a duplicate. Then go and `find` that entry in the mongo database. Include the result of this find in your lab report.
 

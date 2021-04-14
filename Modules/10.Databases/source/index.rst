@@ -89,22 +89,33 @@ Through the Decades
 The Relational Database
 -----------------------
 
-+-------------+-------------------+---+-------------+----------+--------------+
-|     Professors                  |   | Software                              |
-+-------------+-------------------+---+-------------+----------+--------------+
-| Name        | Favorite Software |   | Name        | Platforms| Release Date |
-+=============+===================+===+=============+==========+==============+
-| Goldschmidt | Notepad           |   | Notepad     | Windows  | 1983         |
-+-------------+-------------------+---+-------------+----------+--------------+
-| Moorthy     | Observatory       |   | Dr. Memory  | Cross-   | 2011         |
-|             |                   |   |             | Platform |              |
-+-------------+-------------------+---+-------------+----------+--------------+
-| Magdon-     | Latex             |   | Observatory | Web      | 2010         |
-| Ismail      |                   |   |             |          |              |
-+-------------+-------------------+---+-------------+----------+--------------+
-| Cutler      | Dr. Memory        |   | LaTeX       | Cross-   | 1985         |
-|             |                   |   |             | Platform |              |
-+-------------+-------------------+---+-------------+----------+--------------+
++---------------+-------------------+
+|     Professors                    |
++---------------+-------------------+
+| Name          | Favorite Software |
++===============+===================+
+| Goldschmidt   | Notepad           |
++---------------+-------------------+
+| Moorthy       | Observatory       |
++---------------+-------------------+
+| Magdon-Ismail | Latex             |
++---------------+-------------------+
+| Cutler        | Dr. Memory        |
++---------------+-------------------+
+
++-------------+----------------+--------------+
+| Software                                    |
++-------------+----------------+--------------+
+| Name        | Platforms      | Release Date |
++=============+================+==============+
+| Notepad     | Windows        | 1983         |
++-------------+----------------+--------------+
+| Dr. Memory  | Cross-Platform | 2011         |
++-------------+----------------+--------------+
+| Observatory | Web            | 2010         |
++-------------+----------------+--------------+
+| LaTeX       | Cross-Platform | 1985         |
++-------------+----------------+--------------+
 
 .. nextslide::
 
@@ -586,19 +597,60 @@ SQLite is ACID-compliant. It implements most of the SQL standard making use of t
 Quick Tutorial on MongoDB
 =========================
 
-Install MongoDB
----------------
+Install MongoDB For Ubuntu 20.04 (Focal)
+----------------------------------------
 
 .. code-block:: console
 
-  > sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 \
-      --recv 7F0CEB10
-  > sudo apt-key adv --keyserver hkp://keyserver.ubuntu.com:80 \
-      --recv 7F0CEB10
-  > echo 'deb http://downloads-distro.mongodb.org/repo/ubuntu-upstart \
-      dist 10gen' | sudo tee /etc/apt/sources.list.d/mongodb.list
+  > sudo apt-get install gnupg
+  > wget -qO - https://www.mongodb.org/static/pgp/server-4.4.asc | \
+      sudo apt-key add -
+  > echo "deb [ arch=amd64,arm64 ] https://repo.mongodb.org/apt/ubuntu \
+      focal/mongodb-org/4.4 multiverse" | \
+      sudo tee /etc/apt/sources.list.d/mongodb-org-4.4.list
   > sudo apt-get update
-  > sudo apt-get install mongodb-10gen
+  > sudo apt-get install mongodb-org
+
+Other options and instructions can be found at https://docs.mongodb.com/manual/tutorial/install-mongodb-on-ubuntu/#install-mongodb-community-edition
+
+.. nextslide::
+
+Install MongoDB For WSL (Maybe)
+----------------------------------------
+
+.. code-block:: console
+
+  > sudo apt-get update
+  > sudo apt-get install mongodb
+
+This can be found at https://dev.to/seanwelshbrown/installing-mongodb-on-windows-subsystem-for-linux-wsl-2-19m9
+
+These install different versions ... 4.4 vs 3.6.8?
+
+.. nextslide::
+
+Or you can use Docker (Untested)
+----------------------------------------
+
+YAML file:
+
+.. code-block:: console
+
+  version: "3.8"
+  services:
+  mongodb:
+  image : mongo
+  container_name: mongodb
+  environment:
+  - PUID=1000
+  - PGID=1000
+  volumes:
+  - /home/barry/mongodb/database:/data/db
+  ports:
+  - 27017:27017
+  restart: unless-stopped
+
+This can be found at https://www.bmc.com/blogs/mongodb-docker-container/
 
 .. nextslide::
 
@@ -608,7 +660,12 @@ Start the Database and Connect to It
 .. code-block:: console
 
   > mkdir database
-  > sudo mongod --dbpath database &
+  > sudo mongod --dbpath database 
+
+Then in a separate window,
+
+.. code-block:: console
+
   > mongo
 
 .. nextslide::
