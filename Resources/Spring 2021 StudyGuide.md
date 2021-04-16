@@ -129,9 +129,9 @@ Any topic we covered or that was assigned as reading is fair game, but specific 
 * How do you execute CRUD (Create, Read, Update, and Delete) operations in Mongo? Make sure you revisit this from Lab. Some of you did not update records correctly and were unable to pull them back with a subsequent query.
 * What tools are available for doing scientific and statistical programming using open source tools? Be able to use networkx, python and R (R is not needed for Spring 2021) to answer some simple questions.
 * Be able to run and interact with a Docker container. Be able to use a Dockerfile and/or a YAML file to create a container with specific requirements.
-* Be able to create test data, test, and verify a TensorFlow. Know the varoius terms we used: Test, Training, loss, epoch, Neural Net, etc. and be able to describe them.
+* Be able to create test data, test, and verify a TensorFlow. Know the various terms we used: Test, Training, loss, epoch, Neural Net, etc. and be able to describe them.
 
 If you have any more questions feel free to contact the TA, the Undergraduate Programming Mentors
-or Professor Turner (preferably on Discord) before the test! We will use the same procedures as before with the test held on Submitty. Everyone will have to complete the testing using no more than their alotted time from within a window. Nominally, you will have 90 minutes from within a 110 minute window, **Oh, and I especially wanted to congratulate and thank all of you for completing the test within your time window Good luck everyone!
+or Professor Turner (preferably on Discord) before the test! We will use the same procedures as before with the test held on Submitty. Everyone will have to complete the testing using no more than their alotted time from within a window. Nominally, you will have 90 minutes from within a 110 minute window, **Oh, and I especially wanted to congratulate and thank all of you for completing the last test within your time window.** Good luck everyone!
 
 

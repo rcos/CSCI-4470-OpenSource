@@ -21,8 +21,8 @@ Reading Material
 * TensorFlow Guide - (Reference Only)
     * https://www.tensorflow.org/guide
 
-      * Read High Level APIs 
-      * Low Level APIs 
+      * Read TensorFlow Basics through "Training Loops"
+      * Keras through "Training and evaluation ..."
 
 Introduction
 ============
