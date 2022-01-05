@@ -1,5 +1,5 @@
 # CSCI-4470-01
-## Open Source Software Spring Semester 2021
+## Open Source Software Spring Semester 2022
 
 Open Source has been taught at RPI since Fall of 2007 (taught jointly by Dr. William Shroeder and Dr. Luis Ibanez) as a 4000 level class, and then by Mukkai Krishnamoorthy as a 2000 level class. We will continue this tradition by offering it as a 4000 level course.
 
@@ -33,7 +33,7 @@ wdturner@gmail.com
 
 [https://rensselaer.webex.com/meet/turnew2](https://rensselaer.webex.com/meet/turnew2)
 
-Office Hours: Tuesday 10:00-11:30, Thursday 2:00-3:30 in my WebEx (above), or by appointment
+Office Hours (subject to change): Tuesday 10:00-11:30 (in person), Thursday 10:00-11:30 in my WebEx (above), or by appointment
 
 ---
 
@@ -41,46 +41,31 @@ TA
 --
 
 ---
-- Kevin Mackenzie
-- mackek4@rpi.edu
-- Office Hours: Thursday 4:30-6:30 (discord)
+- Peter Ly
+- <lyp2@rpi.edu>
+- Office Hours: TBD
 
 ---
 
 Mentors
 -------
----
-- Hunter Harris 
-- harrih3@rpi.edu
-- Office Hours: 7:00 - 8:00 Wednesday (discord)
 
 ---
 - Jeremy Macks 
-- macksj@rpi.edu
-- Office Hours: 4:00 - 5:00 Monday (discord)
+- <macksj@rpi.edu>
+- Office Hours: TBD
 
 ---
-- Avery Sommer
-- sommea2@rpi.edu
-- Office Hours: 2:10 - 4:10 Tuesday & Thursday (discord)
-
----
-- Steven vanZyl
-- vanzys@rpi.edu
-- Office Hours: 6:00 - 8:00 Wednesday (discord)
-
----
-- Ethan Whitton
-- whitte3@rpi.edu
-- Office Hours: 4:30 - 6:30 Tuesday & Friday (WebEx)
-- [https://rensselaer.webex.com/meet/whitte3](https://rensselaer.webex.com/meet/whitte3])
+- Yichen Li
+- <liy55@rpi.edu>
+- Office Hours: TBD
 
 ---
 
-The course meets in Prof. Turner's WebEx [https://rensselaer.webex.com/meet/turnew2](https://rensselaer.webex.com/meet/turnew2) on Tuesdays and Fridays from 12:20pm - 2:10pm. Class discussions are an important part of the lecture and the labs so synchronous attendance is strongly encouraged; however, for students who are attending remotely with significant timezone differences, we understand that this is not always possible. All pertinent material will be recorded and a link posted as quickly as possible after the class. Students are required to review the course material within 24 hours of the class.
+The course will initially meet in Prof. Turner's WebEx [https://rensselaer.webex.com/meet/turnew2](https://rensselaer.webex.com/meet/turnew2) on Tuesdays and Fridays from 12:00pm - 1:50pm. We will transition to in-person instruction (Yay) as soon as we can. Class discussions are an important part of the lecture and the labs so synchronous attendance is required. If you are attending remotely with significant timezone differences, please let Prof. Turner know so he can make arrangements.
 
 ## Online LMS and the use of Submitty
-This course __will not__ use the RPI Blackboard LMS. Instead, we will use __Submitty__ a course management tool developed as an opensource project under __RCOS__ and the creative and technical auspices of Prof. Barbara Cutler. If you are registered in the course, you may access it at [https://submitty.cs.rpi.edu/courses/s21/csci4470](https://submitty.cs.rpi.edu/courses/s21/csci4470). If you do not have access, please email the TA or the Professor.
+This course __will not__ use the RPI Blackboard LMS. Instead, we will use __Submitty__ a course management tool developed as an opensource project under __RCOS__ and the creative and technical auspices of Prof. Barbara Cutler. If you are registered in the course, you may access it at [https://submitty.cs.rpi.edu/courses/s22/csci4470](https://submitty.cs.rpi.edu/courses/s22/csci4470). If you do not have access, please email the TA or the Professor.
 
 ## Goal of this Class:
 
@@ -138,11 +123,11 @@ in preparation for jobs in industry or for more advanced courses.
 
 ## Test Dates
 
-- Quiz 1 5th March
-- Quiz 2 20th April
+- Quiz 1 25th February
+- Quiz 2 12th April
 
 ## Open Source Paper Due
-- 26th February
+- 11th February
 
 ## Grade Distribution
 
@@ -159,7 +144,7 @@ in preparation for jobs in industry or for more advanced courses.
 
 ## Community:
 
-Please join our discord server **oss-spring2021** at [https://discord.gg/9wq4bKAGGR](https://discord.gg/9wq4bKAGGR).
+Please join our discord server **OSS-Spring2022** at [https://discord.gg/8NnpgwJd](https://discord.gg/8NnpgwJd).
 
 ## Policies
 
