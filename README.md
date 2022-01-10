@@ -1,5 +1,5 @@
 # CSCI-4470-01
-## Open Source Software Spring Semester 2021
+## Open Source Software Spring Semester 2022
 
 Open Source has been taught at RPI since Fall of 2007 (taught jointly by Dr. William Shroeder and Dr. Luis Ibanez) as a 4000 level class, and then by Mukkai Krishnamoorthy as a 2000 level class. We will continue this tradition by offering it as a 4000 level course.
 
@@ -25,53 +25,40 @@ Professor
 
 Wesley Turner 
 
-Amos Eaton 207
-
-wdturner@gmail.com
-
-[https://rensselaer.webex.com/meet/turnew2](https://rensselaer.webex.com/meet/turnew2)
-
-Office Hours: Tuesday 10:00am - 11:30am EST, Thursday 2:00pm - 3:30pm EST in my WebEx (above), or by appointment
+- Office: Amos Eaton 207
+- Email: <wdturner@gmail.com>
+- WebEx: [https://rensselaer.webex.com/meet/turnew2](https://rensselaer.webex.com/meet/turnew2)
+- Office Hours (subject to change): Tuesday 10:00-11:30 (in person), Thursday 10:00-11:30 in my WebEx (above), or by appointment
 
 ---
 
 TA
 --
 ---
-- Kevin Mackenzie
-- mackek4@rpi.edu
-- Office Hours: Thursday 4:30pm - 6:30pm EST (discord)
+Peter Ly
+
+- Email: <lyp2@rpi.edu>
+- WebEx: [https://rensselaer.webex.com/meet/lyp2](https://rensselaer.webex.com/meet/lyp2)
+- Office Hours: TBD
 
 ---
 
 Mentors
 -------
 ---
-- Hunter Harris 
-- harrih3@rpi.edu
-- Office Hours: Wednesday 7:00pm - 8:00pm EST (discord)
+Jeremy Macks 
+
+- Email: <macksj@rpi.edu>
+- WebEx: [https://rensselaer.webex.com/meet/macksj](https://rensselaer.webex.com/meet/macksj)
+- Office Hours: TBD
 
 ---
-- Jeremy Macks 
-- macksj@rpi.edu
-- Office Hours: Monday 4:00pm - 5:00pm EST (discord)
+Yichen Li
+
+- Email: <liy55@rpi.edu>
+- WebEx: [https://rensselaer.webex.com/meet/liy55](https://rensselaer.webex.com/meet/liy55)
+- Office Hours: (Tentative) Friday 2:00-4:00pm
 
 ---
-- Avery Sommer
-- sommea2@rpi.edu
-- Office Hours: Tuesday & Thursday 2:10pm - 4:10pm EST (discord)
-
----
-- Steven vanZyl
-- vanzys@rpi.edu
-- Office Hours: Wednesday 6:00pm - 8:00pm EST (discord)
-
-
----
-- Ethan Whitton
-- whitte3@rpi.edu
-- Office Hours: Tuesday & Friday 4:30pm - 6:30pm EST (WebEx)
-- [https://rensselaer.webex.com/meet/whitte3](https://rensselaer.webex.com/meet/whitte3])
-
 ---
 

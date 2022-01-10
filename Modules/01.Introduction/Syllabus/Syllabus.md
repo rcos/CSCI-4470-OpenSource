@@ -27,11 +27,9 @@ Professor
 
 Wesley Turner 
 
-Amos Eaton 207
-
-wdturner@gmail.com
-
-[https://rensselaer.webex.com/meet/turnew2](https://rensselaer.webex.com/meet/turnew2)
+* Office: Amos Eaton 207
+* Email: wdturner@gmail.com
+* WebEx:[https://rensselaer.webex.com/meet/turnew2](https://rensselaer.webex.com/meet/turnew2)
 
 Office Hours (subject to change): Tuesday 10:00-11:30 (in person), Thursday 10:00-11:30 in my WebEx (above), or by appointment
 
@@ -41,8 +39,10 @@ TA
 --
 
 ---
-- Peter Ly
-- <lyp2@rpi.edu>
+Peter Ly
+
+- Email: <lyp2@rpi.edu>
+- WebEx: [https://rensselaer.webex.com/meet/lyp2](https://rensselaer.webex.com/meet/lyp2)
 - Office Hours: TBD
 
 ---
