@@ -1,7 +1,7 @@
 CSCI-4470 Open Source Software
 ##############################
 
-Spring 2021 
+Spring 2022 
 
 Rensselaer Polytechnic Institute
 
