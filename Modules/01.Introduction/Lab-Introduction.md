@@ -19,7 +19,7 @@ Maintain a repository on github for all your lab work. Inside, you should create
   	 - You can copy and paste screen shots as well as add text.
   	 - Please add your Discord handle.
 
-## 2. Reading assignments - make sure to reflect on these in `lab1.md` in your repository 
+## 2. Reading assignments - make sure to reflect on these in `labs/lab-01/report.md` in your repository 
   1. Please read the 10 criteria of [Open Source Definition](http://opensource.org/osd) and understand why they are important.
   2. Please read Eric Raymond's article [Smart Questions - How to ask the question The Smart Way](http://www.catb.org/esr/faqs/smart-questions.html). 
   3. Do you have more suggestions for `How To Answer Questions in a Helpful Way` (from your past experience)?
