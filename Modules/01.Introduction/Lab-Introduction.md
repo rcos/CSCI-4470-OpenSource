@@ -1,13 +1,13 @@
-# Lab 01 - Friday January 29th, 2021 (in class lab)
+# Lab 01 - Friday January 14th, 2022 (in class lab)
 
 ## Github, Linux Command Line Instructions, Regular Expressions and Visual Programming
 
-Maintain a repository on github for all your lab work. Inside, you should create a markdown page (`lab01.md`) for this lab's work. You will be graded by the beginning of the next lab. To submit this assignment, create a text file with 2 lines. The first line should be a link to your github repository and the second link should be the link to your Lab 1 entry. Submit this as the only file to [Submitty](https://submitty.cs.rpi.edu/courses/s21/csci4470).
+Maintain a repository on github for all your lab work. Inside, you should create a markdown page (`lab01.md`) for this lab's work. You will be graded by the beginning of the next lab. To submit this assignment, create a text file with 2 lines. The first line should be a link to your github repository and the second link should be the link to your Lab 1 entry. Submit this as the only file to [Submitty](https://submitty.cs.rpi.edu/courses/s22/csci4470).
 
 > Markdown syntax is [here](https://help.github.com/articles/basic-writing-and-formatting-syntax/) and [here](https://guides.github.com/features/mastering-markdown/) 
 
 ## 0. Join the Discord if you haven't already 
-  1. Join here: [https://discord.gg/R9qyC7aY](https://discord.gg/R9qyC7aY) 
+  1. Join here: [https://discord.gg/8G6Hgmk8](https://discord.gg/8G6Hgmk8) 
   2. Post a message into the "#general" channel
   3. Take a screenshot the post and paste it into your Lab 1 notebook.
 
