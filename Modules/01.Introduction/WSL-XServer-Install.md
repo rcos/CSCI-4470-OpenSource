@@ -10,8 +10,15 @@
     [Download the X Server for Windows here](https://sourceforge.net/projects/vcxsrv/) and install.
     
     * During setup is important to disable the access control to avoid the permission denied error when trying to run a GUI application:
+        
+        ![image](https://user-images.githubusercontent.com/29618911/150582899-57664df9-3818-4de7-83eb-6dceb7d3cce7.png)
     * To make sure that "Disable access control" will alwasy be checked, save the configuration and always launch VcXsrv using the config file (config.xlaunch)
-    * Also make sure to allow VcXsrv in the Windows firewall settings:
+        
+        ![image](https://user-images.githubusercontent.com/29618911/150582968-2620ca11-1658-475c-9743-f272513e4a5a.png)
+
+    * Also make sure to allow VcXsrv in the Windows firewall settings (make sure private is checked too, apparently):
+        
+        ![image](https://user-images.githubusercontent.com/29618911/150583025-22233ed2-cbb7-4088-a681-9c85d37d617a.png)
 
 1. Set the DISPLAY environment variable on WSL to use the Windows host's IP address (because WSL2 and Windows host are not on the same network device). It's necessary to set the DISPLAY environment variable with the correct IP address on launch.
 
@@ -30,6 +37,7 @@
     ```
     
     __To avoid having to run that command every time that WSL is launched, you can add the command to the end of your `/etc/bash.bashrc` file.__
+    ![image](https://user-images.githubusercontent.com/29618911/150583406-cde4200a-bfab-4489-9eff-9623abadf40e.png)
 
 1. It's also necessary to create a .xsession file in the user's home directory (/home/<user>/.xsession) with the content xfce4-session:
 
