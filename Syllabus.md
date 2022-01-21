@@ -43,7 +43,8 @@ TA
 ---
 - Peter Ly
 - <lyp2@rpi.edu>
-- Office Hours: TBD
+- WebEx: [https://rensselaer.webex.com/meet/lyp2](https://rensselaer.webex.com/meet/lyp2)
+- Office Hours: Thursday 4:30-5:30 in Amos Eaton 127
 
 ---
 
@@ -62,7 +63,7 @@ Yichen Li
 
 - Email: <liy55@rpi.edu>
 - WebEx: [https://rensselaer.webex.com/meet/liy55](https://rensselaer.webex.com/meet/liy55)
-- Office Hours: (Tentative) Friday 2:00-4:00pm
+- Office Hours: Friday 2:00-4:00pm (Room TBD)
 
 ---
 The course will initially meet in Prof. Turner's WebEx [https://rensselaer.webex.com/meet/turnew2](https://rensselaer.webex.com/meet/turnew2) on Tuesdays and Fridays from 12:00pm - 1:50pm. We will transition to in-person instruction (Yay) as soon as we can. Class discussions are an important part of the lecture and the labs so synchronous attendance is required. If you are attending remotely with significant timezone differences, please let Prof. Turner know so he can make arrangements.
