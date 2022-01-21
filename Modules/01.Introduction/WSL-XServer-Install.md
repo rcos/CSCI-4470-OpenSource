@@ -1,5 +1,8 @@
-## Getting Graphical Utilities to Work on WSL
+# Getting Graphical Utilities to Work on WSL
 
+## [__Check this article about native WSL support first__](https://docs.microsoft.com/en-us/windows/wsl/tutorials/gui-apps)
+
+## Older Instructions:
 > Instructions taken from https://techcommunity.microsoft.com/t5/windows-dev-appconsult/running-wsl-gui-apps-on-windows-10/ba-p/1493242
 
 1. Get VcXsrv Windows X Server
