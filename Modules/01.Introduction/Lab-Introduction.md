@@ -31,6 +31,7 @@ You will be maintaining a repository on github for all your lab work. Step 0 wil
 
 ## 3. Linux 
   1. Boot linux (Ubuntu) through a USB, dual boot, or WSL (version 2 strongly recommended)
+     - [__For WSL: How to make graphical utilities work__](./WSL-XServer-Install.md)
      - Get familiar with the directory structure.
      - Practice with `ls`, `cd`, `mkdir`, `chmod` commands - when in doubt search the web to find the answer.
   2. Practice with `grep`, `egrep` commands
