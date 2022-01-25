@@ -41,7 +41,8 @@ TA
 --
 
 ---
-- Peter Ly
+Peter Ly
+
 - <lyp2@rpi.edu>
 - WebEx: [https://rensselaer.webex.com/meet/lyp2](https://rensselaer.webex.com/meet/lyp2)
 - Office Hours: Thursday 4:30-5:30 in Amos Eaton 127
@@ -56,7 +57,7 @@ Jeremy Macks
 
 - Email: <macksj@rpi.edu>
 - WebEx: [https://rensselaer.webex.com/meet/macksj](https://rensselaer.webex.com/meet/macksj)
-- Office Hours: TBD
+- Office Hours: Wednesday 2:00-3:00pm (Room TBD)
 
 ---
 Yichen Li
