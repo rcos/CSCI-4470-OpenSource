@@ -1,6 +1,6 @@
 # Lab 3 Documentation and Community Development
 
-## This Lab has two parts [Documentation](#part-1) and [Community](#part-2)
+## This Lab has two parts [Documentation](##part-1---documentation) and [Community](##part-2---community)
 
 #### We talked about community and how people cooperate in order to contribute to a project. In this lab, we will explore this further using automatic tools, software and manually. ####
 
