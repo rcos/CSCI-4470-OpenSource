@@ -1,10 +1,14 @@
 Some Links to look through
 
-- https://hacktoberfest.digitalocean.com/  - Digital Ocean Hacktober
+- https://github.com/topics/hacktoberfest  - Digital Ocean Hacktober
 
-- https://rcos.io/projects - Current RCOS Projects
+- https://observatory.rcos.io/projects - Current RCOS Projects
 
-- https://rcos.io/projects/past - Past RCOS Projects
+- https://observatory.rcos.io/projects/past - Past RCOS Projects
+
+_________________
+ Note that the RCOS Website is being refactored and you may run into issues accessing this site. Try using Private Mode on your browser and avoid using Chrome while we work things out.
+_________________
 
 - https://cos.io/ and https://github.com/CenterForOpenScience/
 

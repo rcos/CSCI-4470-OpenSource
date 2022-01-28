@@ -1,4 +1,4 @@
-# Lab 3 Documentation and Community Development - February 12, 2021
+# Lab 3 Documentation and Community Development
 
 ## This Lab has two parts [Documentation](#part-1) and [Community](#part-2)
 
@@ -6,7 +6,7 @@
 
 > This lab will be done in groups of 4-5. Each will be assigned a table number
 
-> All the results should be documented in a `Lab3.md` and pushed to in your Github account.
+> All the results should be documented in a lab report using your lab repository. Make sure you push it to your Github account before subnmitting to Submitty.
 
 ### Part 1 - Documentation
 1. Go to your lab repository and look for the wiki link at the top tab bar. If it isn't there, click on settings and check the wiki box near the bottom of the page.
@@ -22,11 +22,11 @@
 
     Note that all of this is preliminary. We don't need "good" answers, but I want you to be thinking about your project and this should be a first iteration of it. All of this together should take no more than one or two paragraphs. Here is a perfectly acceptable blurb. 
 
-    >*I am not sure exactly what project I would like to do, but I am interested in medical image processing. I have been looking around and found two open source resources, [itk](http://www.itk.org) and [open-access-medical-image-repositories](http://www.aylward.org/notes/open-access-medical-image-repositories). The first is an open source toolkit for working with medical images and the second is a list of open data archives. This seems to be an active area of research with projects like [3D SLicer](https://slicer.org) being very popular. However, in looking through the site, 3D Slicer seems to be very difficult to learn.*
+    >*I am not sure exactly what project I would like to do, but I am interested in medical image processing. I have been looking around and found two open source resources, [itk](http://www.itk.org) and [open-access-medical-image-repositories](http://www.aylward.org/notes/open-access-medical-image-repositories). The first is an open source toolkit for working with medical images and the second is a list of open data archives. This seems to be an active area of research with projects like [3D Slicer](https://slicer.org) being very popular. However, in looking through the site, 3D Slicer seems to be very difficult to learn.*
 
     >*I think I want to do something in this area that is maybe less powerful, but easier to use. I could consider using web technologies, which would required a web stack; or maybe just look at something that will help patients look at and understand their own data. What I would be focussing on is avoiding the complications of systems for research to make it more accessible to the patients themselves.*
 
-2. Use latex [http://www.artofproblemsolving.com/texer](http://www.artofproblemsolving.com/texer) to generate the formulae depicted in [https://github.com/rcos/CSCI-4961-01-Summer-2018/blob/master/Labs/latex_formulae.png](https://github.com/rcos/CSCI-4961-01-Summer-2018/blob/master/Labs/latex_formulae.png)
+2. Use latex [http://www.artofproblemsolving.com/texer](http://www.artofproblemsolving.com/texer) to generate the formulae depicted in [latex_formulae.png](https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Modules/03.DocumentationAndCommunity/latex_formulae.png)
 
 3. Use latex to display a [Hadamard Matrix of size 4](http://mathworld.wolfram.com/HadamardMatrix.html) (equation 5). You can use just 1 and -1; although, if you want to make a matrix using the white and black boxes you are welcome to.
 
@@ -34,11 +34,11 @@
 ### Part 2 - Community
 1. Break up into "tables" of 4-5 students.
 1. Project selection
-  1. Take a look at your assigned projects from [https://rcos.io/projects](https://rcos.io/projects) and clone them locally. All people at the table need to record the information for all projects, but each person can do one project and share the results with the group.
+  1. Take a look at your assigned projects from [https://observatory.rcos.io/projects/past](https://observatory.rcos.io/projects/past) and clone them locally. All people at the table need to record the information for all projects, but each person can do one project and share the results with the group.
       
       **Table 1 gets projects 1-5, table 2 takes 6-10, and so on... Adjust the numbers to the number of people at your table, but do at least 4.**
 
-  2. For each of your projects, look up by hand and record in `Lab3.md`:
+  2. For each of your projects, look up by hand and record in your `lab report`:
         - the number of contributors
         - number of lines of code
         
@@ -59,10 +59,12 @@
 
    2. Running
       - From the command line, run `gitstats <path to project1 git repo> <output path>` inside the cloned project directory
+      	 - If you get an error with `gnuplot` not being able to generate a .png file, you can safely ignore it. Your output won't be quite as nice, but you will be able to answer all of the questions.
+      	 - If you really want the graphs, edit the file `gitstats` and change all occurences of `.png` to `.svg` and remove all occurences of `transparent`. Then rerun.
       - You can see the output in a browser by typing `file:///<output path>/index.html` in the address bar (use `pwd` from the command line to get the current path  )
       - You may also be able to open it from the command line using `xdg-open <output path>/index.html`, `sensible-browser <output path>/index.html`, or `sensible-browser <output path>/index.html`
       - Repeat this for each of the five projects.
-   4. Compare to your results from the github exercise to these results and comment on your findings in `Lab3.md`.
+   4. Compare to your results from the github exercise to these results and comment on your findings in your `lab report`.
 
    > If you are curious, please read and try to understand the [python code for gitstats](https://github.com/hoxu/gitstats/blob/master/gitstats). (Its even better if you suggest some improvements!)
 
@@ -100,7 +102,7 @@
     gource -1280x720 -o gource.ppm --auto-skip-seconds 1 --max-files 0 --time-scale 3 --camera-mode track --file-idle-time 0 --bloom-multiplier 1.5  -e 0.5 --title "<Project Title>"
     ```
 
-  - (Optional) If you would like, upload your video to Youtube and add a link in `Lab3.md`.
+  - (Optional) If you would like, upload your video to Youtube and add a link in your `lab report`.
 
       > Example youtube videos - [Observatory   (old)](https://www.youtube.com/watch?v=SKArMLw1QY0)  and [CSCI 2961-01 Intro to Open Source](https://youtu.be/-R3-t0oLcpk )
 
