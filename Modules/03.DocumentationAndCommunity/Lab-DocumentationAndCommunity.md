@@ -51,7 +51,7 @@
       **Note: if the project you are assigned has no commits to its repository, pick a different project.**
     
 2. Gitstats
-   1. Install - This can be done in Windows or OSX, but it will be easiest on Linux. I go it working on WSL, but it required installing gnuplot and (possibly) installing an X11 windows server. I am using Xming [https://sourceforge.net/projects/xming/](https://sourceforge.net/projects/xming/).
+   1. Install - This can be done in Windows or OSX, but it will be easiest on Linux. I got it working on WSL, but it required installing gnuplot and (possibly) installing an X11 windows server. [__Here are some instructions__](../01.Introduction/WSL-XServer-Install.md).
       - Clone the project `https://github.com/hoxu/gitstats` locally `cd gitstats`, and run `make install`
       - Homebrew / Linuxbrew users can use `brew install --HEAD homebrew/head-only/gitstats`
       - If you have issues, an alternate version, specific to Python 3 can be found in [RCOS](https://github.com/rcos/gitstats). Use either the `futureized_gitstats` or `python3` branches.
