@@ -30,7 +30,7 @@ Website | License Present | License
 ---------|:----------|:-------
 https://github.com/rcos/Observatory | Yes | Two Clause BSD License https://en.wikipedia.org/wiki/ISC_license
 
-When you have completed the lab, submit a text file with a link to your your lab report. file via Submitty.
+When you have completed the lab, submit a link to your lab repository to Submitty.
 
 This is a short lab and you should have time available. When you are finished, please use the time to begin working on your [Analysis Project](https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Assignments/Analysis%20Homework/Analysis%20Homework.md)
 
