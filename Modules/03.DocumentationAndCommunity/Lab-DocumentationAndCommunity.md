@@ -6,7 +6,7 @@
 
 > This lab will be done in groups of 4-5. Each will be assigned a table number
 
-> All the results should be documented in a lab report using your lab repository. Make sure you push it to your Github account before subnmitting to Submitty.
+> All the results should be documented in a lab report using your lab repository. Make sure you push it to your Github account before submitting to Submitty.
 
 ### Part 1 - Documentation
 1. Go to your lab repository and look for the wiki link at the top tab bar. If it isn't there, click on settings and check the wiki box near the bottom of the page.
@@ -51,10 +51,10 @@
       **Note: if the project you are assigned has no commits to its repository, pick a different project.**
     
 2. Gitstats
-   1. Install - This can be done in Windows or OSX, but it will be easiest on Linux. I go it working on WSL, but it required installing gnuplot and (possibly) installing an X11 windows server. I am using Xming [https://sourceforge.net/projects/xming/](https://sourceforge.net/projects/xming/).
+   1. Install - This can be done in Windows or OSX, but it will be easiest on Linux. I got it working on WSL, but it required installing gnuplot and (possibly) installing an X11 windows server. [__Here are some instructions__](../01.Introduction/WSL-XServer-Install.md).
       - Clone the project `https://github.com/hoxu/gitstats` locally `cd gitstats`, and run `make install`
       - Homebrew / Linuxbrew users can use `brew install --HEAD homebrew/head-only/gitstats`
-      - If you have issues, an alternate version, specific to Python 3 can be found in [RCOS](https://github.com/rcos/gitstats). Use either the `futureized_gitstats` or `python3` branches.
+      - If you have issues, an alternate version, specific to Python 3 can be found in [RCOS](https://github.com/rcos/gitstats). Use either the `futurized_gitstats` or `python3` branches.
       - Gitstats requires gnuplot. To install, run `sudo apt-get install gnuplot-x11` for Ubuntu (or the appropiate command for your platform, see [https://sourceforge.net/projects/gnuplot/](https://sourceforge.net/projects/gnuplot/)).
 
    2. Running
@@ -66,7 +66,7 @@
       - Repeat this for each of the five projects.
    4. Compare to your results from the github exercise to these results and comment on your findings in your `lab report`.
 
-   > If you are curious, please read and try to understand the [python code for gitstats](https://github.com/hoxu/gitstats/blob/master/gitstats). (Its even better if you suggest some improvements!)
+   > If you are curious, please read and try to understand the [python code for gitstats](https://github.com/hoxu/gitstats/blob/master/gitstats). (It's even better if you suggest some improvements!)
 
 3. Streaming Contribution Visualizations
    - Read the [webpage for gource](http://gource.io/).
