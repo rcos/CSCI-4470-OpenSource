@@ -8,3 +8,4 @@
 | Blockchain-based Game | Jeremy Weiss | weissj5@rpi.edu | RPI | A blockchain-based web app game. |
 | Obfuscation Tool | Thomas Andrasek | andrat@rpi.edu | RPI | A tool to obfuscate Java source code or projects. |
 | Submitty | Stephanie Li & Javier Portorreal | lis21@rpi.edu & portoj@rpi.edu | RPI | Online course managment system |
+| [SDE](https://github.com/alfxs/SDE) | Alexandre Fernandez | fernaa6@rpi.edu | RPI | Sensible Desktop Environment |
