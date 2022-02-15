@@ -6,3 +6,4 @@
 | Fitbit Dashboard | Liam Haining | hainil@rpi.edu | RPI | Web app for creating customizeable dashboards for your Fitbit data. |
 | [No name yet] | Callum Hauber | haubec2@rpi.edu | RPI | Club/Greek organization management and planning webapp with Discord/Slack integration. |
 | Blockchain-based Game | Jeremy Weiss | weissj5@rpi.edu | RPI | A blockchain-based web app game. |
+| Submitty | Stephanie Li & Javier Portorreal | lis21@rpi.edu & portoj@rpi.edu | RPI | Online course managment system |
