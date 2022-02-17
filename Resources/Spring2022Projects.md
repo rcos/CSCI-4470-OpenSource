@@ -10,3 +10,4 @@
 | Submitty | Stephanie Li & Javier Portorreal | lis21@rpi.edu & portoj@rpi.edu | RPI | Online course managment system |
 | [SDE](https://github.com/alfxs/SDE) | Alexandre Fernandez | fernaa6@rpi.edu | RPI | Sensible Desktop Environment |
 | Long Term Strategy Game | Otto Daniels | danieo3@rpi.edu | RPI | Life friendly, long term multiplayer strategy game without predatory pay to win mechanics |
+| RPI Room Planner | Alexis Bagramian | bagraa@rpi.edu | RPI | Room planner for RPI students to layout/plan dorm rooms and other housing |
