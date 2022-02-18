@@ -32,4 +32,4 @@ Milestones are given as weeks from project start:
 - By Week 4 : Obtain unknown information on 6 things that 6 random strangers don't know.
 - By Week 7 : Have the informaton from the last stranger. We assume that strangers who don't know things will become harder to find once more people know what we are doing.
 - By Week 9: Have the seven unknowns coded into the chosen (unknown) language.
-- By Week 10 : Completely develop the website that uses deep learning and artificial intelligence to source a cooperative crowd, decide what they don't know and automatically encode it into the chosen laguage. 
+- By Week 10 : Completely develop the website that uses deep learning and artificial intelligence to source a cooperative crowd, decide what they don't know and automatically encode it into the chosen language. 
