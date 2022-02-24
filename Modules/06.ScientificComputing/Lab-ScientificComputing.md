@@ -5,7 +5,7 @@
 -->
 
 #### All of the steps below should be recorded in a github file `Lab6.Md` ####
- 
+
 - Graphs and Networks are ubiquitous in Scientific Computations. Networkx is an open source python package located here [https://networkx.github.io/](https://networkx.github.io/)
 
 - A nice tutorial may be found in [https://networkx.github.io/documentation/stable/tutorial.html](https://networkx.github.io/documentation/stable/tutorial.html)
@@ -60,6 +60,7 @@ Once you have installed the tools and familiarized yourself with the networkx co
     5. `pear` to `beef`
     5. `make` to `take`
     
+
   ***Include the code and a copy of your results in your lab notebook.***
 
 4. Implement a variation where we consider two words (nodes) to be adjacent if there is a one letter difference without regard to ordering. You will need to change the edit\_distance\_one function to disregard letter position. Test with the 5 letter examples above. There are several ways to attack this. One way is to use multisets [(Counter)](https://docs.python.org/3.5/library/collections.html#collections.Counter) from the collections module, another is to use permutations from [itertools](https://docs.python.org/3/library/itertools.html?highlight=permutations#itertools.permutations). Of the two, I ***highly*** recommend itertools. The multiset implementation is far more difficult to get correct.
@@ -74,8 +75,8 @@ Once you have installed the tools and familiarized yourself with the networkx co
         coder
         order
         
-    ```
-  Your path may be different.
+   ```
+    Your path may be different.
 
   ***Include the code and a copy of your results in your lab notebook.***
 
@@ -96,4 +97,3 @@ Document your program in a lab 6 writeup and then submit a text file with a link
 <!--
 - Then create/fork a github repository for your project and work on your first commit
 -->
-	
