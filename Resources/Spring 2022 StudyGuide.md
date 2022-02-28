@@ -28,7 +28,7 @@ Any topic we covered or that was assigned as reading is fair game, but specific 
 * Who are the major personalities behind open source/free software? How did the movement evolve? What are its connections to copyright and other property laws? 
 * What are the basics of Open Source (What is the definition of Open Source? What are the Four Freedoms of Open Source? What 10 characteristics comprise open source software?)
 * What are the characteristics of a permissive open source license (BSD, MIT), a copyleft open source license (GPL, LGPL).
-* Know the major characteristics of MIT, BSD, AGPL, GPL, LGPL, Mozilla and Aache licenses and know how they impact your ability to create, use, and distribute software.
+* Know the major characteristics of MIT, BSD, AGPL, GPL, LGPL, Mozilla and Apache licenses and know how they impact your ability to create, use, and distribute software.
 * Know make and CMake and what is going on when you use them (Review [Build Systems Lecture](../Modules/BuildSystems/BuildSystems.pdf))
 * Why is it important to have community? 
 * Why is documentation important?

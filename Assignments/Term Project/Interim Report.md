@@ -1,6 +1,6 @@
 # Project Interim Report
 
-We will have presentations on your projects during class beginning on 3/15 and running until everyone has presented. I currently have 17 - 19 projects on the schedule. We will plan on 3-5 minutes per project. Please prepare 1-3 slides covering:
+We will have presentations on your projects during class beginning on 3/15 and running until everyone has presented. I currently have 14 projects on the schedule. We will plan on 3-5 minutes per project. Please prepare 1-3 slides covering:
 
 * Your project title
 * Team members
@@ -12,28 +12,23 @@ We will have presentations on your projects during class beginning on 3/15 and r
 
 The goal will be to take 30 minutes out of next lecture (end) and next lab (beginning) to get through everybody. I picked the order teams show up in Submitty:
 
-* 00006_hongj8
-* 00007_czyrm
-* 00008_kulize
-* 00016_bissot
-* 00000_zamanj
-* 00002_boylek3
-* 00003_yaon
-* 00010_yangb7
-* 00018_zeccac
-* 00004_eiffer
-* 00009_schife
-* 00012_sanfot
-* 00013_oconnr4
-* 00014_orlang2
-* 00011_qianm
-* 00015_khaghk
-* 00017_hotopb
-* 00019_acharp
+ * Blockchain Game
+ *	Sensible Desktop Environment
+ *	Submitty
+ *	The Obfuscatorinator
+ *	RoomMate 
+ *	TackleBox	
+ * 	NP_DataHub
+ *	Fitbit Dashboard
+ * Stress in Beams
+ *	BetterShot 
+ *	OrgManagement
+ *	Wrathskeller
+ * TrackBuddy
+ * Aquamarine Toolkit
 
 After your presentation, you will need to upload a PDF of your presentation to Submitty for grading.
 
-***Note that there are still 2 students without projects. Please find a project and sign yourself into a team ASAP***
 
 
  
