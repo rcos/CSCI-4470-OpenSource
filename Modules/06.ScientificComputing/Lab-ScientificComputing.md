@@ -60,6 +60,7 @@ Once you have installed the tools and familiarized yourself with the networkx co
   ***Include the code and a copy of your results in your lab report.***
 
 - Now generate a new version that takes words of length 4 and test with:
+
     4. `cold` to `warm`
     5. `love` to `hate`
     5. `good` to `evil`
@@ -91,7 +92,7 @@ There are several ways to attack this. One way is to use multisets [(Counter)](h
 
    ```
 
-    Your path may be different.
+  Your path may be different.
 
   ***Include the code and a copy of your results in your lab report.***
 
