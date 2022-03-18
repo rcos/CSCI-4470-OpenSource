@@ -61,7 +61,7 @@ Finally, we are going to use a simpler example to set up a CMake CI test on Gith
 5. Verify that your tests run automatically on creating the pull request and give you no errors. Fix them if necessary.
 6. **Put a link to your repository on github in your Lab report along with screenshots of your pull request after the actions execute successfully, and at least one successful push execution. Screenshots from my run are at the bottom of this file for reference.**
 
-***When you are finished, push your Lab 8 report to your Lab Notebook repository and post a text file with a link to the Lab 8 report on Submitty.***
+***When you are finished, push your Lab 8 report to your Lab Folder in your repository and fill out your repository information on Submitty to submit.***
 
 ## Checkpoint 5: Project Updates
 Please write your blog entry, and work on your projects with any remaining time! This doesn't need to go into your **lab report**.
