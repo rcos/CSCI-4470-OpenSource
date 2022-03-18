@@ -100,7 +100,7 @@ There are several ways to attack this. One way is to use multisets [(Counter)](h
 
   ***Include the code and a copy of your results in your lab report.***
 
-Document your program in a lab 6 writeup and then submit a text file with a link to this file via Submitty. Your lab report should contain:
+Document your program in a lab 6 writeup and then submit the report via Submitty by inputting your repository information into the gradeable. Your lab report should contain:
 	
 	- Your results for the 6 five letter pairs
 	- Your code for the four letter solution
