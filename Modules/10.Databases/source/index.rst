@@ -29,6 +29,11 @@ Reading Material
 * MongoDB Manual
     * https://docs.mongodb.com/manual/
     * Read up through *MongoDB CRUD Operations*, especially **Introdution** and **SQL to MongoDB Mapping Chart**
+    * Ignore or skim the sections on *Create an Atlas Free Tier Cluster* and *Databases and Collections.*
+
+* Couch Manual
+    * https://docs.couchdb.org/en/stable/intro/index.html
+    * Read the *Introduction*
 
 Introduction
 ============
@@ -364,7 +369,7 @@ Normalization
 | Zune      | Microsoft    |
 +-----------+--------------+
 
-So ... What is MongoDB?
+So ... What is NoSQL?
 =======================
 
 Schema
@@ -374,8 +379,8 @@ Schema
    :scale: 50 %
    :align: center
 
-MongoDB is a Document Database
-------------------------------
+Well ... MongoDB is a Document Database
+---------------------------------------
 
 .. code-block:: console
 
@@ -395,6 +400,15 @@ MongoDB is a Document Database
   }
 
 Actually, BSON (Binary JSON) http://bsonspec.org/
+
+.. nextslide::
+
+Other NoSQL Options May Have Different Terminology
+--------------------------------------------------
+
+But the concept is less formalization ... Think of storing a Python dictionary.
+
+.. nextslide::
 
 Normalization vs. Document Store
 --------------------------------
@@ -505,7 +519,26 @@ Other Options
 Database Top 10
 ===============
 
-https://www.databasejournal.com/features/oracle/slideshows/top-10-2019-databases.html
+Who's popular?
+
+Database Top 10
+---------------
+
+- The following list is from:
+
+  - https://www.databasejournal.com/features/oracle/slideshows/top-10-2019-databases.html 
+    
+  - This no longer available
+
+- A new list from 2021 is similar:
+
+  - https://db-engines.com/en/ranking
+
+- Although, Stackoverflow in 2020 sees it somewhat differently:
+
+  - https://insights.stackoverflow.com/survey/2020#technology-databases-all-respondents4
+
+.. nextslide::
 
 Database Top 10
 ---------------
@@ -882,6 +915,134 @@ Change a Document
   }	 
 
 .. nextslide::
+
+Quick Tutorial on CouchDB
+=========================
+
+Install CouchDB
+---------------
+
+- Follow the directions at:
+  
+  - https://docs.couchdb.org/en/stable/install/index.html
+
+- We won't go into this here ... You will do it during Lab
+
+.. nextslide::
+
+Verify the Database using cURL
+------------------------------
+
+https://docs.couchdb.org/en/stable/intro/tour.html#
+
+.. code-block:: console
+     
+   > curl http://127.0.0.1:5984/
+   
+   {
+   "couchdb": "Welcome",
+   "version": "3.0.0",
+   "git_sha": "83bdcf693",
+   "uuid": "56f16e7c93ff4a2dc20eb6acc7000b71",
+   "features": [
+    "access-ready",
+    "partitioned",
+    "pluggable-storage-engines",
+    "reshard",
+    "scheduler"
+   ],
+   "vendor": {
+    "name": "The Apache Software Foundation"
+     }
+   }
+
+Create a new database
+---------------------
+
+.. code-block:: console
+
+   > curl -X GET http://admin:admin@127.0.0.1:5984/_all_dbs
+
+   ["_replicator","_users"]
+     
+   > curl -X PUT http://admin:admin@127.0.0.1:5984/baseball
+
+   {"ok":true}
+
+   > curl -X GET http://admin:admin@127.0.0.1:5984/_all_dbs
+
+   ["baseball"]
+
+(Required databases omitted from here on.)
+
+.. nextslide::
+
+.. code-block:: console
+
+   > curl -X PUT http://admin:password@127.0.0.1:5984/baseball
+
+   {"error":"file_exists","reason":"The database could not be created, 
+   the file already exists."}
+
+   > curl -X PUT http://admin:password@127.0.0.1:5984/plankton
+
+   {"ok":true}
+
+   > curl -X GET http://admin:password@127.0.0.1:5984/_all_dbs
+
+   ["baseball", "plankton"]
+
+   > curl -X DELETE http://admin:password@127.0.0.1:5984/plankton
+
+   {"ok":true}
+
+   > curl -X GET http://admin:password@127.0.0.1:5984/_all_dbs
+
+   ["baseball"]
+
+Add a Document
+---------------------
+
+.. code-block:: console
+
+   >  curl http://127.0.0.1:5984/_uuids
+
+   {"uuids":["9b1b50e6f7c792b0ca9371a79600edfa"]}
+
+   > curl -X PUT http://admin:admin@127.0.0.1:5984/baseball/9b1b50e6f7c792b0ca9371a79600edfa \
+    -d '{"team":"Yankees"}'
+
+   {"ok":true,"id":"9b1b50e6f7c792b0ca9371a79600edfa", \
+   "rev":"1-6c7d6a1453648632433e1f18a59bc3bb"}
+
+   > curl -X GET http://admin:admin@127.0.0.1:5984/baseball/9b1b50e6f7c792b0ca9371a79600edfa
+
+   {"_id":"9b1b50e6f7c792b0ca9371a79600edfa",\
+   "_rev":"2-de43b90a11f24bfd4aea06f07bf98848","team":"Yankees"} 
+
+.. nextslide::
+
+.. code-block:: console
+
+   > curl -X PUT http://admin:admin@127.0.0.1:5984/baseball/9b1b50e6f7c792b0ca9371a79600edfa \
+    -d '{"_rev":"1-6c7d6a1453648632433e1f18a59bc3bb","team":"Mighty Yankees"}'
+
+   {"ok":true,"id":"9b1b50e6f7c792b0ca9371a79600edfadoc",\
+   "rev":"2-de43b90a11f24bfd4aea06f07bf98848"}
+
+   > curl -X GET http://admin:admin@127.0.0.1:5984/baseball/9b1b50e6f7c792b0ca9371a79600edfa
+
+   {"_id":"9b1b50e6f7c792b0ca9371a79600edfa",\
+   "_rev":"2-de43b90a11f24bfd4aea06f07bf98848","team":"Mighty Yankees"} 
+
+.. nextslide::
+
+Running from the Browser
+------------------------
+
+- Our next few steps come from the CouchDB documents (well the previous ones did too!)
+
+  - https://docs.couchdb.org/en/stable/intro/tour.html#welcome-to-fauxton
 
 The End
 =======
