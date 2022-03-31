@@ -1,47 +1,117 @@
-# MongoDB Lab
+# Database Lab
 
 ## Checkpoint 0: Project Updates
 
-On Tuesday we discussed a lot of material on the Mongodb license as well as on a recent Supreme Court 
-ruling on the ability to Copywrite APIs and the resignation and return of Richard Stallman from the FSF. 
-Pick one of these topics and make a blog post on your site discussing some impact on open source software from
-one of these topics. For instance, you could address the impact of Mongodb's licensing decision on any of 
-the categories of participants in the Mongo ecosystem: outside contributors, employees, the company, external
-companies, users, etc. Or for the API decision, you could consider if this a net gain for open source, or is there likely to 
-been unforeseen consequences. For Richard Stallman, I am less interested in the political and salacious details 
-than I am in the impact of his return on an open source organization. Remember that even before these events, he
-was considered a difficult personality.
+There are real complications of Open Source Software that arise from needing to manage community rather than just the technical details. Three (kind of recent?) well-publicized
+events highlight these complexities. We will discuss these during class on April 12. Below are some resources for you to review. Google around to find more. You should make one (or more) of these topics the subject of your blog this week. Put a link to your blog entry into your lab report and be ready to discuss what you write (in some format ... a debate, round table discussion, or maybe groups of single topics) during class on the twelfth.
 
-I encourage you to discuss these topics at your tables. Then each of you please write at least one well-formed
+Consider different aspects of the cases ... Maybe what other members of the community might think about the actions? Were the actions justified? Do they ultimately help or hurt? What are the unintended consequences. There are no real right or wrong answers.
+
+I encourage you to discuss these topics with your neighbors. Then each of you please write at least one well-formed
 paragraph on any part of this and post it to your Blog. Put a link to your blog in your Lab Report for today.
 
-## Checkpoint 1: Install MongoDB
+- MongoDB License change (You can find many examples, these are just a few. Google it!)
+    - [Percona immediately after the change](https://www.percona.com/blog/2018/10/18/percona-statement-on-mongodb-community-server-license-change/#:~:text=MongoDB%2C%20Inc.%20announced%20it%20has%20elected%20to%20change,license%20better%20suited%20for%20the%20age%20of%20Software-as-a-Service.) 
+    - [Same company a year later](https://www.percona.com/blog/2020/06/16/why-is-mongodbs-sspl-bad-for-you/)
+    - [License and some analysis](https://linuxreviews.org/Server_Side_Public_License)
+    - [One more for good luck!](https://www.scylladb.com/2018/10/22/the-dark-side-of-mongodbs-new-license/)
+- Faker.js and Color.js
+    - [Summary](https://www.theverge.com/2022/1/9/22874949/developer-corrupts-open-source-libraries-projects-affected)
+    - [Additional Details](https://snyk.io/blog/open-source-npm-packages-colors-faker/)
+- Node IPC
+    -  [Summary](https://thehackernews.com/2022/03/popular-npm-package-updated-to-wipe.html)
 
-For the first checkpoint of this lab, we'll work on just getting a proper installation of MongoDB. MongoDB has some good documentation for Linux, OSX and Windows here:  
+For those of you who are conspiracy minded, you might want to consider what steps you could take to undermine the legitimacy of the Open Source movement and to discredit it. Are those steps different from what is going on here?
 
-[https://docs.mongodb.org/manual/installation/](https://docs.mongodb.org/manual/installation/)
+## Checkpoint 1: Install CouchDB
 
-Select your system from Tutorials/MongoDB Community Edition, and follow their instructions for setup. For those of you who are using WSL2, I used the installation instructions in the lecture notes [https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Modules/10.Databases/source/index.rst](https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Modules/10.Databases/source/index.rst) I generally prefer doing this on Linux, but just to test things out, I did the install and this lab using the WSL 2 install and it seems to work. 
+For the first checkpoint of this lab, we'll work on just getting a proper running instance of CouchDB. CouchDB has some good documentation for Linux, OSX and Windows here:  
 
-After you've finished the MongoDB installation instructions, to test if MongoDB is working, open two terminal windows. In the first one type `mongod`, which starts the MongoDB Daemon. If `mongod` gives you an error that the database directory doesn't exist, either create it and try again or use the `--dbpath` 
- to point the database at an appropriate directory.
+[https://docs.couchdb.org/en/stable/install/index.html](https://docs.couchdb.org/en/stable/install/index.html)
 
-If all goes well you should have a MongoDB database instance running and bound on localhost:27017. In the second terminal window, type `mongo`, which is the MongoDB shell and lets you connect to your server instance.
+I have personally installed it in my WSL Ubuntu using the Linux instructions in Section 1.1.1 and using the instructions for Docker. I have not tried the rest. Going by what I found, I expect that the install instructions will *almost* work. You may need to play a little. 
 
-If all goes well again, the `mongod` window should show a line about "connection accepted" and the `mongo` window should give you a single `>` terminal prompt. 
+In particular,
+for **WSL Ubuntu**, the installation assumes that it is installed in the directory ```/home/couchdb/bin/couchdb``` when it actually installs it in
+```/opt/couchdb/bin/couchdb```. And for **Docker**, be sure to export the port 5984 using ```-p 5984:5984```. Note that by default any data you put into couchdb in a Docker container will go away when you kill the image. If you want it to persist, you will need to use ```-d /opt/couchdb/data:<mydatadirectory>``` to bind the docker database directory to actual storage on your machine.
 
-Keep these two terminal windows open and running the way they are, we'll need them later.
+I expect similar minor issues are in most of the install instructions.
 
-**Add a screenshot of your connection accepted message (from the *mongod* window) to your lab notebook.**
+Whichever, way you choose to install couchdb, I recommend you do it stand-alone for simplicity and enable replication. Make sure you complete the [setup](https://docs.couchdb.org/en/stable/setup/index.html#setup) and if you don't give an administrator name, it is probably *admin*.
+
+Once you are running, open a browser and go to ```http://localhost:5984```
+
+**Add a screenshot of the message you get to your lab report.**
 
 It should look something like:
 
 ```
-2019-04-03T16:23:40.890-0400 I NETWORK  [listener] connection accepted from 127.0.0.1:64983 #1 (1 connection now open)
-2019-04-03T16:23:40.891-0400 I NETWORK  [conn1] received client metadata from 127.0.0.1:64983 conn1: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "4.0.7" }, os: { type: "Darwin", name: "Mac OS X", architecture: "x86_64", version: "18.2.0" } }
+{"couchdb":"Welcome",
+ "version":"3.2.1",
+ "git_sha":"244d428af",
+ "uuid":"a3cc56d36b644ee376e45661aeacf43b",
+ "features":["access-ready","partitioned","pluggable-storage-engines",
+             "reshard","scheduler"],
+ "vendor":{"name":"The Apache Software Foundation"}
+}
 ```
 
-## Checkpoint 2: Load Some Data
+## Checkpoint 2: Quick Tour
+
+Now you are going to walk through the first part of the *couchdb* Tutorial at [https://docs.couchdb.org/en/stable/intro/tour.html](https://docs.couchdb.org/en/stable/intro/tour.html). This is the demo I did in class. It requires cURL and a browser. If you don't have cURL you can install it from: [https://curl.se/download.html](https://curl.se/download.html).) 
+
+**Grab screenshots and capture your output from cURL and Fauxton as you go and put them in your lab report.**
+
+## Checkpoint 3: Now Complete the API Tutorial
+
+Walk through [https://docs.couchdb.org/en/stable/intro/api.html](https://docs.couchdb.org/en/stable/intro/api.html)
+
+**Grab screenshots and capture your output as you go and put them in your lab report.**
+
+## Checkpoint 4: What Did We Miss?
+
+We covered most of the necessary database operations, but one thing we didn't cover was finding selected documents via **cURL**.  If you look at the Fauxton Tutorial, you were able to do a find using *Mango* and two *json* structures: an **index** and a **selector**. Technically, the *index* is optional, but for large data bases it is necessary to make efficient queries. Let's see what happens if we don't have it first.
+
+1. The following cURL command can be used to select movies from our **hello-world** database based on the given year:
+
+    ```
+    curl -X POST localhost:5984/hello-world/_find -d '{
+       "selector": {
+          "year": {
+             "$gt": 1987
+        }
+      }
+    }' -H 'Content-Type: application/json'
+    ```
+    
+    Note that this should run correctly and not give an error messages because we previously defined an index for movies based on year in Fauxton. 
+**Run it and paste the results in your lab report.**
+
+2. Modify the above command to find all movies whose titles come after "L" in alphabetic order. (You can be more creative here if you would like, but this is a simple change of indices.) **Run your command and paste it and your results, including any warnings, into your lab report.**
+3. The warning you got in 2 is telling you that this is an inefficient operation. Couchdb wants to optimize your queries so that it can do them fast. In order to do this, it needs to generate a B-Tree based on whichever fields we may want to search on. However, since documents can have arbitrarily large numbers of fields, and databases can be huge, this "indexing" can take a long time and eat up a lot of space. We need to tell couchdb which fields we are interested in. Below is the cURL call to create the "year-json-index" index you created in Fauxton.
+
+    ```
+    curl -X POST admin:admin@localhost:5984/hello-world/_index -d '{
+       "index": {
+          "fields": [
+             "year"
+          ]
+       },
+       "name": "year-json-index",
+       "type": "json"
+    }' -H 'Content-Type: application/json'
+    ```
+
+    Based on the above command, you should be able to create a new commmand to generate an index based on title. **Run your command and paste it and your results into your lab report.**
+
+4. **Finally, rerun your movie title query and paste it and your results into your lab report.** It won't be any faster because we only have 3 movies in our database, but it won't complain any more, and it will remain fast as our database grows.
+
+
+
+
+<!---
+
+** This is supposed to be commented out. Hopefully, it is with your reader. If not, apologies! I plan to add some of this back, but I need to see how long this takes the class to accomplish the first part before deciding if and how muh of this can come back in.**
 
 We're going to use a sample data set to start off with MongoDB, so let's load that in.
 
@@ -205,7 +275,9 @@ MongoDB documentation for $push for managing the array of dates in the update.
 
 You will need to include the script in your lab report. Run it until you get a duplicate. Then go and `find` that entry in the mongo database. Include the result of this find in your lab report.
 
-**When you are finished, push your report to your lab notebook and submit a text file with a link to the lab report to Submitty.**
+--->
+
+**When you are finished, push your report to your lab notebook and submit a link to the repoitory ons Submitty.**
 
 
 
