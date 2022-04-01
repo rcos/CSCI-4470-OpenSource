@@ -1,6 +1,6 @@
 # Project Final Report
 
-We will have presentations on your projects during class on 8/16 and 8/13/2019. I currently have 16 projects on the schedule. We will plan on 10-15 minutes per project. Please prepare up to 10 slides covering:
+We will have presentations on your projects during class on 4/19, 4/22 and 4/26/2022. I currently have 14 projects on the schedule. We will plan on 15 minutes per project. Please prepare up to 10 slides covering:
 
 * Your project title
 * Team members
@@ -12,29 +12,35 @@ We will have presentations on your projects during class on 8/16 and 8/13/2019. 
 * Demo if possible
 * Please include 1 appendix per person where you call out, and provide pointers to your project contributions!
 
-The goal will be to get through 8 projects per day. Our project order is:
+The goal will be to get through 5 projects per day. Our project order is:
 
-Tuesday:
+* Tuesday 4/19/2022 - Project Reports
 
-1. Chain Automata
-1. Wikipedia Link Analysis
-1. Fantasy Team Predictor
-1. Rubber Duck Discord Bot
-1. Safe Ride Web
-1. Anagram
-1. The Forge Website
-1. Open AI Gym
+ * Aquamarine Toolkit
+ * TrackBuddy
+ *	Wrathskeller
+ *	OrgManagement
+ * Fitbit Dashboard
+ 
+* Friday 4/22/2022 - Project Reports
 
-Friday:
+	**Project Final Presentations**
 
-1. MagicVoice
-1. FLOM
-1. Shuttle Tracker
-1. Ruby
-1. RPI Machines Map
-1. RuAr
-1. OpenBook
-1. NoteX
+  *	BetterShot 
+  * Stress in Beams
+  * NP_DataHub
+  *	TackleBox	
+  * RoomMate 
+ 
+* Tuesday 4/26/2022 - Project Reports
+
+	**Project Final Presentations**
+
+ *	The Obfuscatorinator
+ *	Submitty
+ *	Sensible Desktop Environment
+ * Blockchain Game
+
 
 Let me know if there are issues with this order and we will try to make accommodations 
 
