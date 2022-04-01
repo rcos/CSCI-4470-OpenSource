@@ -277,7 +277,7 @@ You will need to include the script in your lab report. Run it until you get a d
 
 --->
 
-**When you are finished, push your report to your lab notebook and submit a link to the repoitory ons Submitty.**
+**When you are finished, push your report to your lab notebook and submit a link to the repository on Submitty.**
 
 
 
