@@ -33,7 +33,7 @@ I have personally installed it in my WSL Ubuntu using the Linux instructions in 
 
 In particular,
 for **WSL Ubuntu**, the installation assumes that it is installed in the directory ```/home/couchdb/bin/couchdb``` when it actually installs it in
-```/opt/couchdb/bin/couchdb```. And for **Docker**, be sure to export the port 5984 using ```-p 5984:5984```. Note that by default any data you put into couchdb in a Docker container will go away when you kill the image. If you want it to persist, you will need to use ```-d /opt/couchdb/data:<mydatadirectory>``` to bind the docker database directory to actual storage on your machine.
+```/opt/couchdb/bin/couchdb```. And for **Docker**, be sure to export the port 5984 using ```-p 5984:5984```. Note that by default any data you put into couchdb in a Docker container will go away when you kill the image. If you want it to persist, you will need to use ```-v /opt/couchdb/data:<mydatadirectory>``` to bind the docker database directory to actual storage on your machine.
 
 I expect similar minor issues are in most of the install instructions.
 
