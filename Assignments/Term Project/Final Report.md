@@ -15,31 +15,33 @@ We will have presentations on your projects during class on 4/19, 4/22 and 4/26/
 The goal will be to get through 5 projects per day. Our project order is:
 
 * Tuesday 4/19/2022 - Project Reports
-
- * Aquamarine Toolkit
- * TrackBuddy
- *	Wrathskeller
- *	OrgManagement
- * Fitbit Dashboard
+ 
+	**Project Final Presentations**
+  
+  * Aquamarine Toolkit
+  * TrackBuddy
+  * Wrathskeller
+  * OrgManagement
+  * Fitbit Dashboard
  
 * Friday 4/22/2022 - Project Reports
 
 	**Project Final Presentations**
 
-  *	BetterShot 
+  * BetterShot 
   * Stress in Beams
   * NP_DataHub
-  *	TackleBox	
+  * TackleBox	
   * RoomMate 
  
 * Tuesday 4/26/2022 - Project Reports
 
 	**Project Final Presentations**
 
- *	The Obfuscatorinator
- *	Submitty
- *	Sensible Desktop Environment
- * Blockchain Game
+  * The Obfuscatorinator
+  * Submitty
+  * Sensible Desktop Environment
+  * Blockchain Game
 
 
 Let me know if there are issues with this order and we will try to make accommodations 
