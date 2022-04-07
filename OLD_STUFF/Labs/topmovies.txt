@@ -1,0 +1,1001 @@
+rank,name,box,date,year
+1,Avatar,$759.563,December 18, 2009
+2,Titanic,$600.788,December 19, 1997
+3,The Dark Knight,$533.184,July 18, 2008
+4,Star Wars: Episode IV - A New Hope,$460.998,May 25, 1977
+5,Shrek 2,$437.212,May 19, 2004
+6,E.T. the Extra-Terrestrial,$434.975,June 11, 1982
+7,Star Wars: Episode I - The Phantom Menace,$431.088,May 19, 1999
+8,Pirates of the Caribbean: Dead Man's Chest,$423.416,July 7, 2006
+9,Toy Story 3,$414.638,June 18, 2010
+10,Spider-Man,$407.681,May 03, 2002
+11,Transformers: Revenge of the Fallen,$402.077,June 24, 2009
+12,Star Wars: Episode III - Revenge of the Sith,$380.271,May 19, 2005
+13,The Lord of The Rings: The Return of The King,$377.019,December 17, 2003
+14,Spider-Man 2,$373.378,June 30, 2004
+15,The Passion of the Christ,$370.774,February 25, 2004
+16,Jurassic Park,$357.068,June 11, 1993
+17,The Lord of The Rings: The Two Towers,$341.748,December 18, 2002
+18,Finding Nemo,$339.715,May 30, 2003
+19,Spider-Man 3,$336.530,May 04, 2007
+20,Alice in Wonderland,$333.920,March 5, 2010
+21,Forrest Gump,$329.694,July 04, 1994
+22,The Lion King,$328.538,June 15, 1994
+23,Shrek the Third,$320.707,May 18, 2007
+24,Transformers,$319.222,July 03, 2007
+25,Iron Man,$318.298,May 02, 2008
+26,Harry Potter and the Sorcerer's Stone,$317.576,November 16, 2001
+27,Indiana Jones and the Kingdom of the Crystal Skull,$317.011,May 22, 2008
+28,The Lord of the Rings: Fellowship of the Ring,$314.163,December 19, 2001
+29,Iron Man 2,$312.057,May 7, 2010
+30,Star Wars: Episode II - Attack of the Clones,$310.677,May 16, 2002
+31,Pirates of the Caribbean: At World's End,$309.303,May 27, 2007
+32,Star Wars: Episode VI - Return of the Jedi,$309.206,May 25, 1983
+33,Independence Day,$306.169,July 03, 1996
+34,Pirates of The Caribbean: The Curse of The Black Pearl,$305.411,July 9, 2003
+35,Harry Potter and the Half-Blood Prince,$301.957,July 15, 2009
+36,The Twilight Saga: Eclipse,$300.099,June 30, 2010
+37,The Twilight Saga: New Moon,$293.815,November 20, 2009
+38,The Sixth Sense,$293.506,August 06, 1999
+39,Up,$292.913,May 29, 2009 
+40,Harry Potter and the Order of the Phoenix,$292.001,July 11, 2007
+41,Inception,$291.833,July 16, 2010
+42,The Chronicles of Narnia: The Lion The Witch and The Wardrobe,$291.710,December 09, 2005
+43,Star Wars: Episode V - The Empire Strikes Back,$290.272,May 21, 1980
+44,Harry Potter and the Goblet of Fire,$290.013,November 18, 2005
+45,Home Alone,$285.761,November 16, 1990
+46,The Matrix Reloaded,$281.539,May 15, 2003
+47,Meet the Fockers,$279.168,December 22, 2004
+48,The Hangover,$277.313,June 5, 2009
+49,Shrek,$267.665,May 18, 2001
+50,Harry Potter and the Chamber of Secrets,$261.980,November 15, 2002
+51,The Incredibles,$261.438,November 05, 2004
+52,Dr. Seuss' How The Grinch Stole Christmas,$260.031,November 17, 2000
+53,Jaws,$260.000,June 20, 1975
+54,Star Trek,$257.704,May 8, 2009
+55,I Am Legend,$256.386,December 14, 2007
+56,The Blind Side,$255.945,November 20, 2009
+57,Monsters Inc.,$255.870,November 02, 2001
+58,Batman,$251.190,June 23, 1989
+59,Night at the Museum,$250.863,December 22, 2006
+60,Men In Black,$250.157,July 02, 1997
+61,Harry Potter and the Prisoner of Azkaban,$249.539,June 04, 2004
+62,Despicable Me,$248.815,July 9, 2010
+63,Toy Story 2,$245.852,November 24, 1999
+64,Cars,$244.083,June 09, 2006
+65,Bruce Almighty,$242.705,May 23, 2003
+66,Raiders Of The Lost Ark,$242.374,June 01, 1981
+67,Twister,$241.722,May 10, 1996
+68,My Big Fat Greek Wedding,$241.438,July 07, 2002
+69,Ghostbusters,$238.600,June 08, 1984
+70,Shrek Forever After,$238.372,May 21,2010
+71,Beverly Hills Cop,$234.760,December 05, 1984
+72,X-Men: The Last Stand,$234.362,May 26, 2006
+73,War of the Worlds,$234.280,June 29, 2005
+74,Cast Away,$233.630,December 22, 2000
+75,The Exorcist,$232.671,September 15, 2000
+76,The Lost World: Jurassic Park,$229.087,May 23, 1997
+77,Hancock,$228.246,July 02, 2008
+78,Signs,$227.966,August 02, 2002
+79,The Bourne Ultimatum,$227.437,August 3, 2007
+80,Rush Hour 2,$226.164,August 03, 2001
+81,WALL-E,$223.807,June 27, 2008
+82,Wall,$223.750,August 26, 2005
+83,National Treasure: Book of Secrets,$219.962,December 21, 2007
+84,Alvin and The Chipmunks: The Squeakuel,$219.607,December 23, 2009
+85,Mrs. Doubtfire,$219.195,November 24, 1993
+86,King Kong,$218.051,December 14, 2005
+87,The Da Vinci Code,$217.650,May 19, 2006
+88,Ghost,$217.631,July 13, 1990
+89,How to Train Your Dragon,$217.388,March 26, 2010
+90,Aladdin,$217.350,November 11, 1992
+91,Alvin and the Chipmunks,$217.324,December 14, 2007
+92,Saving Private Ryan,$216.335,July 24, 1998
+93,Mission: Impossible 2,$215.410,May 24, 2000
+94,Kung Fu Panda,$215.395,June 6, 2008
+95,X2: X-Men United,$214.950,May 02, 2003
+96,Austin Powers in Goldmember,$213.118,July 26, 2002
+97,Back to The Future,$210.610,July 03, 1985
+98,300,$210.593,March 09, 2007
+99,Wedding Crashers,$209.218,July 15, 2005
+100,Sherlock Holmes,$208.979,December 25, 2009
+101,Charlie and the Chocolate Factory,$206.459,July 15, 2005
+102,Ratatouille,$206.435,June 29, 2007
+103,Austin Powers: The Spy Who Shagged Me,$205.445,June 11, 1999
+104,Batman Begins,$205.344,June 15, 2005
+105,Toy Story,$191.773,November 22, 1995
+106,The Mummy Returns,$202.008,May 04, 2001
+107,Armageddon,$201.578,July 01, 1998
+108,Superman Returns,$200.120,June 28, 2006
+109,Gone With the Wind,$198.655,December 15, 1939
+110,Pearl Harbor,$198.543,May 25, 2001
+111,Monsters Vs. Aliens,$198.332,March 27, 2009
+112,Happy Feet,$198.000,November 17, 2006
+113,Indiana Jones & the Last Crusade,$197.172,May 24,1989
+114,Ice Age: Dawn of the Dinosaurs,$196.443,July 1, 2009
+115,Ice Age: The Meltdown,$195.331,March 31, 2006
+116,Men In Black II,$194.391,July 03, 2002
+117,Madagascar,$193.137,May 27, 2005
+118,Twilight,$192.770,November 21, 2008
+119,Gladiator,$187.684,May 05, 2000
+120,The Day After Tomorrow,$186.741,May 28, 2004
+121,Mr. and Mrs. Smith,$186.336,June 10, 2005
+122,Snow White and the Seven Dwarfs,$184.925,February 04, 1938
+123,Dances with Wolves,$184.925,November 21, 1990
+124,Batman Forever,$184.031,June 16, 1995
+125,The Fugitive,$183.753,August 06, 1993
+126,Ocean's Eleven,$183.349,December 7, 2001
+127,The Simpsons Movie,$183.122,July 27, 2007
+128,What Women Want,$182.805,December 15, 2000
+129,The Perfect Storm,$182.618,June 30, 2000
+130,Liar Liar,$181.395,March 21, 1997
+131,The Polar Express,$181.314,November 10, 2004
+132,Jurassic Park III,$181.166,July 18, 2001
+133,Mission: Impossible,$180.982,May 22, 1996
+134,Planet of the Apes,$180.012,April 3, 1968
+135,Madagascar: Escape 2 Africa,$179.983,November 7, 2008
+136,Indiana Jones & the Temple of Doom,$179.870,May 23, 1984
+137,X-Men Origins: Wolverine,$179.864,May 1, 2009
+138,Hitch,$178.505,February 11, 2005
+139,Pretty Woman,$178.406,March 23, 1990
+140,Night at the Museum: Battle of the Smithsonian,$177.234,May 22, 2009
+141,Tootsie,$177.200,December 17, 1982
+142,Top Gun,$176.782,May 16, 1986
+143,The Karate Kid,$176.560,June 22, 1984
+144,There's Something About Mary,$176.484,July 15, 1998
+145,Ice Age,$176.387,March 15, 2002
+146,The Bourne Supremacy,$176.049,July 23, 2004
+147,Crocodile Dundee,$174.635,September 26, 1986
+148,Apollo 13,$173.756,June 30, 1995
+149,Home Alone 2: Lost in New York,$173.600,November 20, 1992
+150,Elf,$173.381,November 07, 2003
+151,National Treasure,$173.016,November 19, 2004
+152,Air Force One,$172.888,July 25, 1997
+153,Rain Man,$172.825,December 12, 1988
+154,The Matrix,$171.480,March 31, 1999
+155,Beauty and the Beast,$171.301,January 01, 1991
+156,Tarzan,$171.085,June 18, 1999
+157,Chicago,$170.685,January 24, 2003
+158,A Beautiful Mind,$169.349,January 04, 2002
+159,Quantum of Solace,$168.368,November 14, 2008
+160,Wild Hogs,$168.214,March 02, 2007
+161,Three Men and a Baby,$167.781,November 25, 1987
+162,Casino Royale,$167.365,November 17, 2006
+163,Meet the Parents,$166.244,October 06, 2000
+164,2012,$165.553,November 13, 2009
+165,Hannibal,$165.092,February 09, 2001
+166,Catch Me if You Can,$164.607,December 25, 2002
+167,The Proposal,$163.900,June 19, 2009
+168,Big Daddy,$163.480,June 25, 1999
+169,Clash of the Titans,$163.192,April 2, 2010
+170,Batman Returns,$162.832,June 19, 1992
+171,The Pursuit of Happyness,$162.800,December 15, 2006
+172,A Bug's Life,$162.793,November 25, 1998
+173,The Waterboy,$161.487,November 06, 1998
+174,Shark Tale,$161.412,October 01, 2004
+175,Grown Ups,$160.978,June 25, 2010
+176,Die Another Day,$160.700,November 22, 2002
+177,The Sting,$159.600,December 25, 1973
+178,The Sound of Music,$158.671,March 02, 1965
+179,The Firm,$158.348,June 30, 1993
+180,The Longest Yard,$158.115,May 27, 2005
+181,X-Men,$157.300,July 14, 2000
+182,Scary Movie,$156.997,July 07, 2000
+183,Fatal Attraction,$156.646,September 18, 1987
+184,What Lies Beneath,$155.370,July 21, 2000
+185,The Mummy,$155.248,May 07, 1999
+186,The Fast and the Furious,$155.022,June 22, 2001
+187,Over The Hedge,$155.019,May 19, 2006
+188,Fast & Furious,$154.875,June 22, 2001
+189,Fantastic Four,$154.696,July 08, 2005
+190,Dr. Seuss' Horton Hears a Who,$154.444,March 14, 2008
+191,Who Framed Roger Rabbit?,$154.112,June 21, 1998
+192,Beverly Hills Cop 2,$153.665,May 20, 1987
+193,Jerry Maguire,$153.621,December 13, 1996
+194,Scooby Doo,$153.294,June 14, 2002
+195,Sex and the City: The Movie,$152.596,May 30, 2008
+196,Runaway Bride,$152.150,July 30, 1999
+197,Rambo: First Blood Part II,$150.415,May 24, 1985
+198,Terminator 3: Rise of the Machines,$150.350,July 2, 2003
+199,G.I. Joe: The Rise of Cobra,$150.168,August 7, 2009
+200,Knocked Up,$148.734,June 1, 2007
+201,Talladega Nights: The Ballad of Ricky Bobby,$148.213,August 04, 2006
+202,Gremlins,$148.168,June 08, 1984
+203,Gran Torino,$148.086,January 9, 2009
+204,As Good As It Gets,$147.637,December 25, 1995
+205,Lethal Weapon 2,$147.254,July 07, 1989
+206,Paul Blart: Mall Cop,$146.336,January 16, 2009
+207,True Lies,$146.282,July 15, 1994
+208,Lilo & Stitch,$145.772,June 21, 2002
+209,American Pie 2,$145.097,August 10, 2001
+210,Taken,$145.001,January 30, 2009
+211,101 Dalmatians,$144.880,January 25, 1961
+212,I Robot,$144.801,July 16, 2004
+213,Lethal Weapon 3,$144.732,May 15, 1992
+214,The Santa Clause,$144.631,November 11, 1994
+215,Dr. Dolittle,$144.156,June 26, 1998
+216,Mamma Mia!,$143.873,July 18, 2008
+217,Juno,$143.493,December 25, 2007
+218,Marley & Me,$143.151,December 25, 2008
+219,xXx,$141.930,August 09, 2002
+220,The Jungle Book,$141.843,October 18, 1967
+221,Animal House,$141.600,July 01, 1978
+222,Pocahontas,$141.579,June 23, 1995
+223,A Few Good Men,$141.340,December 11, 1992
+224,Slumdog Millionaire,$141.319,January 23, 2009
+225,Rush Hour,$141.154,September 18, 1998
+226,The Chronicles of Narnia: Prince Caspian,$140.694,May 16, 2008
+227,The Blair Witch Project,$140.530,July 16, 1999
+228,Deep Impact,$140.465,May 08, 1998
+229,Look Who's Talking,$140.089,October 13, 1989
+230,Rush Hour 3,$140.081,August 10, 2007
+231,Stuart Little,$140.015,December 17, 1999
+232,The Rocky Horror Picture Show,$139.876,September 26, 1975
+233,Sister Act,$139.605,May 29, 1992
+234,The Matrix Revolutions,$139.260,November 05, 2003
+235,The Santa Clause 2,$139.227,November 01, 2002
+236,Cheaper by the Dozen,$138.615,December 25, 2003
+237,Bad Boys II,$138.500,July 18, 2003
+238,Good Will Hunting,$138.339,December 05, 1997
+239,Platoon,$137.963,December 19, 1986
+240,Disney's a Christmas Carol,$137.850,November 6, 2009
+241,Dinosaur,$137.748,May 19, 2000
+242,Click,$137.340,June 23, 2006
+243,The Green Mile,$136.801,December 10, 1999
+244,Ransom,$136.385,November 10, 1996
+245,Godzilla,$136.142,May 20, 1998
+246,101 Dalmatians,$135.539,November 27, 1996
+247,Chicken Little,$135.382,November 04, 2005
+248,Teenage Mutant Ninja Turtles,$135.266,March 30, 1990
+249,The Godfather,$134.966,March 14, 1972
+250,Patch Adams,$134.900,December 25, 1998
+251,Live Free or Die Hard,$134.527,June 27, 2007
+252,Wanted,$134.392,June 27, 2008
+253,Superman,$134.218,December 15, 1978
+254,The Rock,$134.100,June 07, 1996
+255,The Incredible Hulk,$133.844,June 13, 2008
+256,Anger Management,$133.757,April 11, 2003
+257,Mission: Impossible III,$133.501,May 05, 2006
+258,Angels & Demons,$133.376,May 15, 2009
+259,The Departed,$133.311,October 6, 2006
+260,Troy,$133.259,May 14, 2004
+261,Bringing Down The House,$132.541,March 07, 2003
+262,Hulk,$132.176,June 20, 2003
+263,Minority Report,$132.025,June 21, 2002
+264,Fantastic Four: Rise of the Silver Surfer,$131.920,June 15, 2007
+265,The Last Airbender,$131.567,July 1, 2010
+266,Lara Croft: Tomb Raider,$131.145,June 15, 2001
+267,Silence Of The Lambs,$130.727,August 01, 1991
+268,Honey I Shrunk the Kids,$130.724,June 23, 1989
+269,The Flintstones,$130.513,May 27, 1994
+270,Get Smart,$130.246,June 30, 2008
+271,American Gangster,$130.128,November 02, 2007
+272,American Beauty,$130.058,September 15, 1999
+273,An Officer and a Gentleman,$129.796,July 28, 1982
+274,Lethal Weapon 4,$129.735,July 10, 1998
+275,The Nutty Professor,$128.769,June 28, 1996
+276,The Ring,$128.581,October 18, 2002
+277,Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan,$128.506,November 3, 2006
+278,Close Encounters of the Third Kind,$128.290,November 16, 1977
+279,Robots,$128.196,March 11, 2005
+280,Coming to America,$128.152,June 29, 1988
+281,Crouching Tiger Hidden Dragon,$128.068,December 15, 2000
+282,Enchanted,$127.977,November 21, 2007
+283,Rocky IV,$127.874,November 27, 1985
+284,Sweet Home Alabama,$127.613,September 27, 2002
+285,Shutter Island,$127.564,February 19, 2010
+286,The Curious Case of Benjamin Button,$127.491,December 25, 2008
+287,2Fast 2Furious,$127.084,June 06, 2003
+288,The World Is Not Enough,$126.931,November 19, 1999
+289,My Best Friend's Wedding,$126.805,June 20, 1997
+290,Smokey and the Bandit,$126.737,May 19, 1977
+291,Sleepless in Seattle,$126.671,June 25, 1993
+292,Bee Movie,$126.597,November 2, 2007
+293,The Truman Show,$126.467,June 05, 1998
+294,Mr. Deeds,$126.293,June 28, 2002
+295,Erin Brockovich,$125.549,March 17, 2000
+296,Ocean's Twelve,$125.532,December 10, 2004
+297,Dumb and Dumber,$125.464,December 16, 1994
+298,Tomorrow Never Dies,$125.332,December 19, 1997
+299,Charlie's Angels,$125.306,November 3, 2000
+300,Terminator Salvation,$125.287,May 21, 2009
+301,Harry Potter and the Deathly Hallows - Part 1,$125.120,November 19, 2010
+302,Cloudy with a Chance of Meatballs,$124.870,September 18, 2009
+303,The Devil Wears Prada,$124.740,June 30, 2006
+304,Something's Gotta Give,$124.591,December 12, 2003
+305,Traffic,$124.107,January 05, 2001
+306,City Slickers,$124.034,June 07, 1991
+307,The Birdcage,$123.987,March 08, 1996
+308,Good Morning Vietnam,$123.922,December 23, 1987
+309,Nutty Professor II: The Klumps,$123.308,July 28, 2000
+310,Rocky III,$122.823,May 28, 1982
+311,Clear and Present Danger,$121.985,August 03, 1994
+312,The Bodyguard,$121.946,November 25, 1992
+313,Wayne's World,$121.697,February 4, 1992
+314,The Bourne Identity,$121.662,June 14, 2002
+315,Superbad,$121.463,August 17, 2007
+316,Speed,$121.248,June 10, 1994
+317,50 First Dates,$120.777,February 13, 2004
+318,The Hunt for Red October,$120.710,March 02, 1990
+319,Mulan,$120.570,June 19, 1998
+320,Inglourious Basterds,$120.523,August 21, 2009
+321,Seabiscuit,$120.147,July 25, 2003
+322,Four Christmases,$120.136,November 26, 2008
+323,Van Helsing,$120.073,May 07, 2004
+324,The Mask,$119.920,July 29, 1994
+325,I Now Pronounce You Chuck and Larry,$119.685,July 20, 2007
+326,Hook,$119.655,December 08, 1991
+327,Walk the Line,$119.518,November 18, 2005
+328,Blazing Saddles,$119.500,February 07, 1974
+329,Total Recall,$119.395,June 01, 1990
+330,On Golden Pond,$119.285,December 04, 1981
+331,G-Force,$119.251,July 24, 2009
+332,The Other Guys,$119.220,August 6, 2010
+333,Fahrenheit 9/11,$119.078,June 25, 2004
+334,Hairspray,$118.823,July 30, 2007
+335,The Break-Up,$118.703,June 02, 2006
+336,Lemony Snicket's A Series of Unfortunate Events,$118.627,December 17, 2004
+337,The Sum Of All Fears,$118.501,May 31, 2002
+338,Back To The Future Part II,$118.500,November 22, 1989
+339,Blades of Glory,$118.341,March 30, 2007
+340,Basic Instinct,$117.727,March 20, 1992
+341,Salt,$117.563,July 23, 2010
+342,Big Momma's House,$117.559,June 2, 2000
+343,Die Hard 2: Die Harder,$117.324,July 4, 1990
+344,Rocky,$117.235,November 21, 1976
+345,Ocean's Thirteen,$117.144,June 8, 2007
+346,S.W.A.T.,$116.750,August 08, 2003
+347,Double Jeopardy,$116.735,September 24, 1999
+348,8 Mile,$116.725,November 08, 2002
+349,Ghost Rider,$116.400,February 16, 2007
+350,Notting Hill,$116.006,May 13, 1999
+351,The Towering Inferno,$116.000,December 10, 1974
+352,You've Got Mail,$115.732,December 18, 1998
+353,Remember the Titans,$115.649,September 29, 2000
+354,District 9,$115.646,August 14, 2009
+355,Jackass 3D,$115.204,October 15, 2010
+356,The Karate Kid Part II,$115.104,June 19, 1986
+357,American Graffiti,$115.000,August 11, 1973
+358,Big,$114.969,June 03, 1988
+359,Dodgeball: A True Underdog Story,$114.324,June 18, 2004
+360,The Village,$114.196,July 30, 2004
+361,Bolt,$114.054,November 21, 2008
+362,The Addams Family,$113.502,November 22, 1991
+363,The Patriot,$113.330,June 28, 2000
+364,The Pacifier,$113.144,March 04, 2005
+365,Dr. Dolittle 2,$112.951,June 22, 2001
+366,It's Complicated,$112.703,December 25, 2009
+367,Spy Kids,$112.692,March 30, 2001
+368,Face/Off,$112.678,June 27, 1997
+369,Ghostbusters 2,$112.495,June 16, 1989
+370,One Flew Over the Cuckoo's Nest,$112.000,November 19, 1975
+371,Twins,$111.936,December 08, 1988
+372,Spy Kids 3D: Game Over,$111.761,July 25, 2003
+373,Doctor Zhivago,$111.721,December 22, 1965
+374,Enemy of the State,$111.544,November 20, 1998
+375,The Little Mermaid,$111.500,November 14, 1989
+376,The Last Samurai,$111.127,December 05, 2003
+377,Fun with Dick and Jane,$110.503,December 21, 2005
+378,Tropic Thunder,$110.417,August 13, 2008
+379,Valentine's Day,$110.342,February 12, 2010
+380,Freaky Friday,$110.222,August 06, 2003
+381,The Grudge,$110.176,October 22, 2004
+382,Scary Movie 3,$110.003,October 24, 2003
+383,Bedtime Stories,$109.994,December 25, 2008
+384,Star Trek IV: The Voyage Home,$109.713,November 26, 1986
+385,MegaMind,$109.476,November 5, 2010
+386,The 40 Year Old Virgin,$109.329,August 19, 2005
+387,Crocodile Dundee II,$109.306,May 25, 1988
+388,Couples Retreat,$109.176,October 9, 2009
+389,Black Hawk Down,$108.639,January 18, 2002
+390,Terms of Endearment,$108.423,November 20, 1983
+391,Ace Ventura: When Nature Calls,$108.360,November 10, 1995
+392,A Time to Kill,$108.285,July 24, 1996
+393,The Princess Diaries,$108.245,August 03, 2001
+394,Superman II,$108.186,June 19, 1981
+395,Paranormal Activity,$107.902,October 16, 2009
+396,Pulp Fiction,$107.900,October 14, 1994
+397,Watchmen,$107.503,March 6, 2009
+398,A League of Their Own,$107.459,July 01, 1992
+399,Batman & Robin,$107.285,June 20, 1997
+400,Miss Congeniality,$106.808,December 22, 2002
+401,Analyze This,$106.694,March 05, 1999
+402,Goldeneye,$106.636,November 17, 1995
+403,Indecent Proposal,$106.614,April 07, 1993
+404,Chicken Run,$106.604,June 23, 2000
+405,Driving Miss Daisy,$106.593,December 13, 1989
+406,Love Story,$106.397,December 16, 1970
+407,Kramer vs. Kramer,$106.260,December 17, 1979
+408,The Italian Job,$106.126,May 30, 2003
+409,Every Which Way But Loose,$105.918,December 20, 1978
+410,How to Lose A Guy In 10 Days,$105.808,February 07, 2003
+411,Porky's,$105.492,March 19, 1982
+412,The First Wive's Club,$105.306,September 20, 1996
+413,Interview with the Vampire,$105.265,November 11, 1994
+414,George of the Jungle,$105.265,July 16, 1997
+415,Robin Hood,$105.220,May 14, 2010
+416,Phenomenon,$104.632,July 03, 1996
+417,The Graduate,$104.397,December 21, 1967
+418,American Wedding,$104.354,August 01, 2003
+419,Road To Perdition,$104.339,July 12, 2002
+420,Daddy Day Care,$104.149,May 09, 2003
+421,Dick Tracy,$103.738,June 15, 1990
+422,Dreamgirls,$103.366,December 15, 2006
+423,Nine to Five,$103.291,December 19, 1980
+424,Scream,$103.002,December 20, 1996
+425,Jaws 2,$102.922,June 16, 1978
+426,Bambi,$102.797,August 21, 1942
+427,The General's Daughter,$102.678,June 18, 1999
+428,The Aviator,$102.609,December 17, 2004
+429,Daredevil,$102.544,February 14, 2003
+430,The Mummy: Tomb of the Dragon Emperor,$102.483,August 1, 2008
+431,Butch Cassidy and the Sundance Kid,$102.309,September 23, 1969
+432,Mary Poppins,$102.300,August 27, 1964
+433,In the Line of Fire,$102.300,July 09, 1993
+434,American Pie,$101.736,July 09, 1999
+435,Journey to the Center of the Earth,$101.662,July 11, 2008
+436,Gone in Sixty Seconds,$101.643,June 09, 2000
+437,Maverick,$101.600,May 20, 1994
+438,Sleeping with the Enemy,$101.580,February 08, 1991
+439,Stir Crazy,$101.500,December 12, 1980
+440,Scream 2,$101.363,December 12, 1997
+441,Eraser,$101.228,June 21, 1996
+442,The Prince of Egypt,$101.218,December 18, 1998
+443,Unforgiven,$101.157,August 07, 1992
+444,Eagle Eye,$101.112,September 26, 2008
+445,Con Air,$101.087,June 06, 1997
+446,Sleepy Hollow,$101.068,November 19, 1999
+447,The Expendables,$101.000,August 13, 2010
+448,Contact,$100.850,July 11, 1997
+449,Charlie's Angels: Full Throttle,$100.785,June 27, 2003
+450,The Pelican Brief,$100.768,December 17, 1993
+451,Dr. Seuss' The Cat In The Hat,$100.750,November 21, 2003
+452,Vanilla Sky,$100.594,December 14, 2001
+453,Step Brothers,$100.540,July 25, 2008
+454,The Rugrats Movie,$100.492,November 20, 1998
+455,Airport,$100.489,March 05, 1970
+456,Collateral,$100.440,August 06, 2004
+457,Million Dollar Baby,$100.423,December 15, 2004
+458,The Princess and the Frog,$100.352,December 11, 2009
+459,Casper,$100.280,May 26, 1995
+460,Shakespeare in Love,$100.241,December 18, 1998
+461,Jumanji,$100.192,December 15, 1995
+462,Evan Almighty,$100.192,June 22, 2007
+463,Se7en,$100.125,September 22, 1995
+464,The Hunchback of Notre Dame,$100.118,June 21, 1996
+465,Parenthood,$100.050,July 31, 1989
+466,You Don't Mess with the Zohan,$100.019,June 06, 2008
+467,Die Hard: With a Vengeance,$100.012,May 19, 1995
+468,Robin Hood: Prince of Thieves,$ 99.600,June 14, 1991
+469,Hercules,$ 99.046,June 27, 1997
+470,Heaven Can Wait,$ 98.800,June 28, 1978
+471,Date Night,$ 98.711,April 9, 2010
+472,Billy Jack,$ 98.000,May 01, 1971
+473,Meet the Robinsons,$ 97.794,March 30, 2007
+474,Yes Man,$ 97.680,December 17, 2008
+475,Inspector Gadget,$ 97.360,July 23, 1999
+476,Public Enemies,$ 97.033,July 1, 2009
+477,Legally Blonde,$ 96.493,July 13, 2001
+478,The Others,$ 96.471,August 10, 2001
+479,Schindler's List,$ 96.067,December 15, 1993
+480,Dead Poets Society,$ 95.860,June 09, 1989
+481,Cold Mountain,$ 95.633,December 25, 2003
+482,Arthur,$ 95.462,July 17, 1981
+483,Norbit,$ 95.360,February 9, 2007
+484,Michael,$ 95.345,December 25, 1996
+485,Sex and the City 2,$ 95.329,May 27, 2010
+486,Panic Room,$ 95.308,March 29, 2002
+487,The Princess Diaries 2: Royal Engagement,$ 95.149,August 11, 2004
+488,Unbreakable,$ 95.000,November 22, 2000
+489,Flashdance,$ 94.900,April 15, 1983
+490,The Book of Eli,$ 94.823,January 15, 2010
+491,10000 B.C.,$ 94.771,March 7, 2008
+492,Beverly Hills Chihuahua,$ 94.409,October 3, 2008
+493,Saturday Night Fever,$ 94.213,December 14, 1977
+494,The Color Purple,$ 94.175,December 18, 1985
+495,Julie & Julia,$ 94.125,August 7, 2009
+496,Maid In Manhattan,$ 93.932,December 13, 2002
+497,Master and Commander: The Far Side Of The World,$ 93.926,November 14, 2003
+498,He's Just Not That Into You,$ 93.924,February 6, 2009
+499,The Mask of Zorro,$ 93.771,July 24, 1998
+500,America's Sweethearts,$ 93.608,July 20, 2001
+501,Lady and the Tramp,$ 93.600,June 16, 1955
+502,The Bucket List,$ 93.410,January 11, 2008
+503,Cats and Dogs,$ 93.375,July 04, 2001
+504,Two Weeks Notice,$ 93.354,December 20, 2002
+505,The Poseidon Adventure,$ 93.300,December 12, 1972
+506,Red Dragon,$ 93.100,October 04, 2002
+507,Flubber,$ 92.969,November 26, 1997
+508,When Harry Met Sally...,$ 92.824,July 21, 1989
+509,The Client,$ 92.115,July 20, 1994
+510,Star Trek: First Contact,$ 92.001,November 22, 1996
+511,Kindergarten Cop,$ 91.457,December 21, 1990
+512,Crimson Tide,$ 91.400,May 12, 1995
+513,Back to School,$ 91.258,June 13, 1986
+514,The Haunting,$ 91.188,July 23, 1999
+515,Save The Last Dance,$ 91.038,January 12, 2001
+516,Stepmom,$ 91.030,December 25, 1998
+517,The Karate Kid,$ 90.800,June 22, 1984
+518,Scary Movie 4,$ 90.704,April 14, 2006
+519,Prince of Persia: The Sands of Time,$ 90.702,May 28, 2010
+520,Antz,$ 90.646,October 02, 1998
+521,The Game Plan,$ 90.637,September 28, 2007
+522,The Town,$ 90.627,September 17, 2010
+523,Me Myself & Irene,$ 90.567,June 23, 2000
+524,High School Musical 3: Senior Year,$ 90.556,October 24, 2008
+525,Tyler Perry's Madea Goes to Jail,$ 90.485,February 20, 2009
+526,Space Cowboys,$ 90.454,August 04, 2000
+527,The Scorpion King,$ 90.450,April 19, 2002
+528,Space Jam,$ 90.443,October 15, 1996
+529,Trading Places,$ 90.400,June 08, 1983
+530,Mystic River,$ 90.135,October 08, 2003
+531,Legally Blonde 2: Red White & Blonde,$ 89.884,July 02, 2003
+532,Flightplan,$ 89.707,September 23, 2005
+533,Father of the Bride,$ 89.326,December 20, 1991
+534,The Emperor's New Groove,$ 89.303,December 15, 2000
+535,The Social Network,$ 89.250,October 1, 2010
+536,Scream 3,$ 89.138,February 04, 2000
+537,The Trial of Billy Jack,$ 89.000,November 13, 1974
+538,The Ugly Truth,$ 88.915,July 24, 2009
+539,Failure to Launch,$ 88.785,March 10, 2006
+540,Percy Jackson & the Olympians: Lightning Thief,$ 88.719,February 12, 2010
+541,Inside Man,$ 88.513,March 24, 2006
+542,Waterworld,$ 88.246,July 28, 1995
+543,Starsky & Hutch,$ 88.200,March 05, 2004
+544,The Hand That Rocks the Cradle,$ 88.037,January 10, 1992
+545,Along Came Polly,$ 87.857,January 16, 2004
+546,Back To The Future Part III,$ 87.728,May 25, 1990
+547,Entrapment,$ 87.704,April 30, 1999
+548,Peter Pan,$ 87.400,February 05, 1953
+549,Pineapple Express,$ 87.341,August 6, 2008
+550,Out of Africa,$ 87.100,December 10, 1985
+551,Saw II,$ 87.025,October 28, 2005
+552,The Naked Gun 2Â½: The Smell of Fear,$ 86.930,June 28, 1991
+553,The War of the Roses,$ 86.889,December 08, 1989
+554,Presumed Innocent,$ 86.303,July 27, 1990
+555,Young Frankenstein,$ 86.300,December 15, 1974
+556,Mean Girls,$ 86.049,April 30, 2004
+557,Pokemon: The First Movie,$ 85.745,November 10, 1999
+558,Spy Kids 2: The Island of Lost Dreams,$ 85.633,August 09, 2002
+559,The SpongeBob SquarePants Movie,$ 85.417,November 19, 2004
+560,Brother Bear,$ 85.329,October 24, 2003
+561,Stripes,$ 85.297,June 26, 1981
+562,Cinderella,$ 85.000,February 15, 1950
+563,Dangerous Minds,$ 84.919,August 11, 1995
+564,The Santa Clause 3: The Escape Clause,$ 84.500,November 03, 2006
+565,Open Season,$ 84.380,September 29, 2006
+566,Pinocchio,$ 84.254,February 07, 1940
+567,Scooby Doo 2: Monsters Unleashed,$ 84.185,March 26, 2004
+568,Anchorman: The Legend of Ron Burgundy,$ 84.137,July 09, 2004
+569,Atlantis: The Lost Empire,$ 84.053,June 08, 2001
+570,Cliffhanger,$ 84.049,May 28, 1993
+571,The X-Files,$ 83.892,June 19, 1998
+572,Up in the Air,$ 83.775,December 23, 2009
+573,Steel Magnolias,$ 83.759,November 05, 1989
+574,Red,$ 83.574,October 15, 2010
+575,Paranormal Activity 2,$ 83.564,October 22, 2010
+576,Under Siege,$ 83.563,October 09, 1992
+577,Airplane!,$ 83.454,July 02, 1980
+578,Patriot Games,$ 83.287,June 05, 1992
+579,Valkyrie,$ 83.077,December 25, 2008
+580,Brokeback Mountain,$ 83.026,December 09, 2005
+581,Disclosure,$ 83.015,December 09, 1994
+582,Monster-in-Law,$ 82.888,May 13, 2005
+583,Charlotte's Web,$ 82.725,December 15, 2006
+584,Days of Thunder,$ 82.671,June 27, 1990
+585,Cheaper by the Dozen 2,$ 82.570,December 21, 2005
+586,Mr. Holland's Opus,$ 82.528,January 19, 1995
+587,Dracula,$ 82.523,November 13, 1992
+588,To Fly!,$ 82.500,July 01, 1976
+589,Freddy vs. Jason,$ 82.500,August 15, 2003
+590,Fried Green Tomatoes,$ 82.419,December 27, 1991
+591,Are We There Yet?,$ 82.400,January 21, 2005
+592,Bridge to Terabithia,$ 82.307,February 16, 2007
+593,Star Trek: The Motion Picture,$ 82.258,December 06, 1979
+594,The Pink Panther,$ 82.226,February 10, 2006
+595,Beowulf,$ 82.162,November 16, 2007
+596,Aliens,$ 81.843,July 18, 1986
+597,Blade 2,$ 81.677,March 22, 2002
+598,MASH,$ 81.600,January 25, 1970
+599,Eight Below,$ 81.594,February 17, 2006
+600,Payback,$ 81.517,February 05, 1999
+601,Die Hard,$ 81.350,July 13, 1988
+602,The Talented Mr. Ripley,$ 81.298,December 25, 1999
+603,School of Rock,$ 81.258,October 03, 2003
+604,21,$ 81.217,March 28, 2008
+605,Police Academy,$ 81.199,March 16, 1984
+606,Snow Dogs,$ 81.159,January 18, 2002
+607,While You Were Sleeping,$ 81.057,April 21, 1995
+608,Congo,$ 81.022,June 09, 1995
+609,The Notebook,$ 81.002,June 25, 2004
+610,Jimmy Neutron: Boy Genius,$ 80.936,December 21, 2001
+611,Another 48 Hours,$ 80.819,June 08, 1990
+612,Moonstruck,$ 80.641,December 16, 1987
+613,Fiddler on the Roof,$ 80.500,November 03, 1971
+614,48 Hours,$ 75.900,December 08, 1982
+615,Alien Vs. Predator,$ 80.281,August 13, 2004
+616,What Happens in Vegas,$ 80.272,May 9, 2008
+617,The Dukes of Hazzard,$ 80.270,August 05, 2005
+618,The Wedding Singer,$ 80.224,February 13, 1998
+619,Nacho Libre,$ 80.198,June 16, 2006
+620,Jumper,$ 80.170,February 14, 2008
+621,The Texas Chainsaw Massacre,$ 80.148,October 17, 2003
+622,Disturbia,$ 80.050,April 13, 2007
+623,Footloose,$ 80.035,February 17, 1984
+624,Cloverfield,$ 80.034,January 18, 2008
+625,Dear John,$ 80.015,February 5, 2010
+626,Knowing,$ 79.948,March 20, 2009
+627,The Golden Child,$ 79.818,December 12, 1986
+628,Eat Pray Love,$ 79.710,August 13, 2010
+629,Earthquake,$ 79.700,November 15, 1974
+630,WarGames,$ 79.568,June 03, 1983
+631,The Day the Earth Stood Still,$ 79.364,December 12, 2008
+632,Cape Fear,$ 79.092,November 13, 1991
+633,Star Trek II: The Wrath of Khan,$ 78.913,June 04, 1982
+634,Hannah Montana: The Movie,$ 78.899,April 10, 2009
+635,Apocalypse Now,$ 78.800,August 15, 1979
+636,City of Angels,$ 78.685,April 10, 1998
+637,Teenage Mutant Ninja Turtles II: The Secret of the Ooze,$ 78.657,March 22, 1991
+638,The English Patient,$ 78.651,November 15, 1996
+639,A.I.: Artificial Intelligence,$ 78.617,June 29, 2001
+640,Cocktail,$ 78.223,July 29, 1988
+641,We Were Soldiers,$ 78.123,August 20, 2002
+642,The Naked Gun: From the Files of Police Squad,$ 78.042,December 02, 1988
+643,Man on Fire,$ 77.912,April 23, 2004
+644,Backdraft,$ 77.869,May 24, 1991
+645,Gangs of New York,$ 77.820,December 20, 2002
+646,Free Willy,$ 77.699,July 16, 1993
+647,Philadelphia,$ 77.446,December 23, 1993
+648,Everest,$ 77.418,March 06, 1998
+649,March of the Penguins,$ 77.413,June 24, 2005
+650,The A-Team,$ 77.187,June 11, 2010
+651,Where the Wild Things Are,$ 77.176,October 16, 2009
+652,Space Station,$ 77.090,April 19, 2002
+653,U-571,$ 77.086,April 20, 2000
+654,The Terminal,$ 77.032,June 18, 2004
+655,27 Dresses,$ 76.806,January 18, 2008
+656,The Muppet Movie,$ 76.657,June 22, 1979
+657,Training Day,$ 76.632,October 05, 2001
+658,Poltergeist,$ 76.606,June 04, 1982
+659,Father of the Bride Part 2,$ 76.594,December 08, 1995
+660,Romancing the Stone,$ 76.572,March 30, 1984
+661,Rugrats in Paris: The Movie,$ 76.508,November 17, 2000
+662,Star Trek III: The Search for Spock,$ 76.471,June 01, 1984
+663,Fantasia,$ 76.400,January 6, 1942
+664,Knight and Day,$ 76.308,June 23, 2010
+665,The Untouchables,$ 76.270,June 03, 1987
+666,White Men Can't Jump,$ 76.254,March 27, 1992
+667,Cocoon,$ 76.113,June 21, 1985
+668,Conspiracy Theory,$ 76.081,August 08, 1997
+669,The Ring Two,$ 76.032,March 18, 2005
+670,The Jewel of the Nile,$ 75.973,December 11, 1985
+671,Hellboy II: The Golden Army,$ 75.866,July 11, 2008
+672,The Haunted Mansion,$ 75.818,November 26, 2003
+673,The Family Man,$ 75.793,December 22, 2000
+674,Star Trek: Generations,$ 75.671,November 17, 1994
+675,You Me and Dupree,$ 75.628,July 14, 2006
+676,Braveheart,$ 75.610,May 24, 1995
+677,The Rookie,$ 75.600,March 29, 2002
+678,Barbershop,$ 75.594,September 13, 2002
+679,Zombieland,$ 75.590,October 2, 2009
+680,Any Given Sunday,$ 75.531,December 22, 1999
+681,The Last of the Mohicans,$ 75.506,September 25, 1992
+682,Constantine,$ 75.501,February 18, 2005
+683,The Horse Whisperer,$ 75.384,May 15, 1998
+684,Garfield: The Movie,$ 75.368,June 11, 2004
+685,Ray,$ 75.306,October 29, 2004
+686,The Exorcism of Emily Rose,$ 75.200,September 09, 2005
+687,Coraline,$ 75.195,February 6, 2009
+688,Old School,$ 75.150,February 21, 2003
+689,Eragon,$ 75.030,December 15, 2006
+690,Star Trek VI: The Undiscovered Country,$ 74.889,December 03, 1991
+691,10,$ 74.865,October 05, 1979
+692,The Prince of Tides,$ 74.788,December 25, 1991
+693,Ladder 49,$ 74.541,October 01, 2004
+694,Four Brothers,$ 74.484,August 12, 2005
+695,Six Days Seven Nights,$ 74.339,June 12, 1998
+696,No Country for Old Men,$ 74.274,November 21, 2007
+697,Sin City,$ 74.099,April 01, 2005
+698,Along Came A Spider,$ 74.059,April 06, 2001
+699,Ben-Hur,$ 74.000,November 18, 1959
+700,The Secret of My Success,$ 66.996,April 07, 1987
+701,Christmas With the Kranks,$ 73.702,November 24, 2004
+702,Deep Blue Sea,$ 73.648,July 30, 1999
+703,Law Abiding Citizen,$ 73.343,October 16, 2009
+704,Beetlejuice,$ 73.327,March 30, 1988
+705,Spirit: Stallion of the Cimarron,$ 73.280,May 24, 2002
+706,Hollow Man,$ 73.209,August 04, 2000
+707,Hotel for Dogs,$ 73.023,January 16, 2009
+708,Barnyard: The Original Party Animals,$ 72.779,August 04, 2006
+709,Jackass Number Two,$ 72.779,September 22, 2006
+710,Due Date,$ 72.669,November 5, 2010
+711,The Jerk,$ 72.600,December 14, 1979
+712,I Know What You Did Last Summer,$ 72.586,October 17, 1997
+713,Vantage Point,$ 72.550,February 22, 2008
+714,The Interpreter,$ 72.515,April 22, 2005
+715,Ace Ventura: Pet Detective,$ 72.217,February 04, 1994
+716,Dinner for Schmucks,$ 72.215,July 30, 2010
+717,The Cannonball Run,$ 72.180,June 19, 1981
+718,Get Shorty,$ 72.102,October 20, 1995
+719,Michael Jackson's This Is It,$ 72.091,October 28, 2009
+720,Fred Claus,$ 72.001,November 9, 2007
+721,My Fair Lady,$ 72.000,October 21, 1964
+722,1408,$ 71.912,June 22, 2007
+723,Ruthless People,$ 71.625,June 27, 1986
+724,Three Men and a Little Lady,$ 71.609,November 21, 1990
+725,Galaxy Quest,$ 71.584,December 25, 1999
+726,Stargate,$ 71.567,October 28, 1994
+727,Bridget Jones's Diary,$ 71.543,April 13, 2001
+728,Grumpier Old Men,$ 71.519,December 22, 1995
+729,The Bridges of Madison County,$ 71.517,June 02, 1995
+730,Sideways,$ 71.502,October 22, 2004
+731,RV,$ 71.402,April 28, 2006
+732,I Love You Man,$ 71.347,March 20, 2009
+733,Christmas Vacation,$ 71.320,December 01, 1989
+734,Chocolat,$ 71.310,January 05, 2001
+735,The Spiderwick Chronicles,$ 71.301,February 14, 2008
+736,Scary Movie 2,$ 71.277,July 04, 2001
+737,Rocky II,$ 71.200,June 15, 1979
+738,The Score,$ 71.108,July 13, 2001
+739,Turner and Hooch,$ 71.080,July 28, 1989
+740,John Q,$ 71.027,February 15, 2002
+741,Bird on a Wire,$ 70.978,May 18, 1990
+742,Groundhog Day,$ 70.907,February 12, 1993
+743,Shallow Hal,$ 70.839,November 09, 2001
+744,Broken Arrow,$ 70.770,February 09, 1996
+745,Any Which Way You Can,$ 70.687,December 17, 1980
+746,All the President's Men,$ 70.600,April 9, 1976
+747,V for Vendetta,$ 70.503,March 17, 2006
+748,Mortal Kombat,$ 70.454,August 18, 1995
+749,JFK,$ 70.405,December 20, 1991
+750,Shaft,$ 70.334,June 16, 2000
+751,World Trade Center,$ 70.279,August 09, 2006
+752,Rocky Balboa,$ 70.270,December 20, 2006
+753,Fool's Gold,$ 70.224,February 8, 2008
+754,Star Trek: Insurrection,$ 70.188,December 11, 1998
+755,Grumpy Old Men,$ 70.173,December 25, 1993
+756,Big Momma's House 2,$ 70.164,January 27, 2006
+757,Ferris Bueller's Day Off,$ 70.136,June 11, 1986
+758,Kill Bill Vol. 1,$ 70.098,October 10, 2003
+759,Blade,$ 70.088,August 19, 1998
+760,The Golden Compass,$ 70.084,December 7, 2007
+761,Boomerang,$ 70.052,July 01, 1992
+762,Born on the 4th of July,$ 70.002,December 20, 1989
+763,Seven Pounds,$ 69.952,December 19, 2008
+764,Private Benjamin,$ 69.847,October 07, 1980
+765,Splash,$ 69.821,March 09, 1984
+766,Swordfish,$ 69.773,June 08, 2001
+767,The Best Little Whorehouse in Texas,$ 69.702,July 23, 1982
+768,The Kid,$ 69.692,May 19, 2000
+769,Nine Months,$ 69.685,July 12, 1995
+770,Divine Secrets Of The Ya-Ya Sisterhood,$ 69.599,June 07, 2002
+771,The Good Shepherd,$ 69.486,December 22, 2006
+772,Hot Shots!,$ 69.468,July 31, 1991
+773,Thomas Crown Affair,$ 69.305,August 06, 1999
+774,Vertical Limit,$ 69.244,December 08, 2000
+775,White Chicks,$ 69.149,June 23, 2004
+776,Lost In Space,$ 69.118,April 03, 1998
+777,Cool Runnings,$ 68.856,October 01, 1993
+778,Witness,$ 68.707,February 08, 1985
+779,Sahara,$ 68.642,April 08, 2005
+780,Road Trip,$ 68.541,May 19, 2000
+781,Purple Rain,$ 68.393,July 27, 1984
+782,Bring It On,$ 68.379,August 25, 2000
+783,Obsessed,$ 68.312,April 24, 2009
+784,Blue Streak,$ 68.209,September 17, 1999
+785,Guess Who,$ 67.962,March 25, 2005
+786,Octopussy,$ 67.894,June 10, 1983
+787,Outbreak,$ 67.660,March 06, 1995
+788,Sudden Impact,$ 67.643,December 08, 1983
+789,A Perfect Murder,$ 67.638,June 05, 1998
+790,Heat,$ 67.437,December 15, 1995
+791,Insomnia,$ 67.356,May 24, 2002
+792,Holes,$ 67.326,April 18, 2003
+793,Hidalgo,$ 67.287,March 05, 2004
+794,Role Models,$ 67.266,November 7, 2008
+795,Coach Carter,$ 67.253,January 14, 2005
+796,Coal Miner's Daughter,$ 67.183,March 7, 1980
+797,Race to Witch Mountain,$ 67.128,March 13, 2009
+798,Dante's Peak,$ 67.128,February 7, 1997
+799,Waiting to Exhale,$ 67.052,December 22, 1995
+800,102 Dalmatians,$ 66.957,November 22, 2000
+801,End of Days,$ 66.889,November 24, 1999
+802,The Mexican,$ 66.809,March 02, 2001
+803,Changing Lanes,$ 66.802,April 12, 2002
+804,Uncle Buck,$ 66.759,August 16, 1989
+805,Kangaroo Jack,$ 66.736,January 17, 2003
+806,The Godfather: Part III,$ 66.666,December 25, 1990
+807,The Forgotten,$ 66.641,September 24, 2004
+808,Legends of the Fall,$ 66.639,December 16, 1994
+809,Charlie Wilson's War,$ 66.636,December 21, 2007
+810,The Bone Collector,$ 66.519,November 05, 1999
+811,The League of Extraordinary Gentlemen,$ 66.463,July 11, 2003
+812,The Final Destination,$ 66.373,August 28, 2009
+813,Kill Bill Vol. 2,$ 66.372,April 16, 2004
+814,Bowfinger,$ 66.365,August 13, 1999
+815,The Bounty Hunter,$ 66.311,March 19, 2010
+816,The Parent Trap,$ 66.304,July 31, 1998
+817,Big Fish,$ 66.257,December 10, 2003
+818,Smokey and the Bandit II,$ 66.133,August 15, 1980
+819,Herbie: Fully Loaded,$ 66.002,June 22, 2005
+820,The Manchurian Candidate,$ 65.949,July 30, 2004
+821,Anaconda,$ 65.886,April 11, 1997
+822,Bad Boys,$ 65.807,April 07, 1995
+823,Ever After,$ 65.706,July 31, 1998
+824,Stakeout,$ 65.673,August 05, 1987
+825,Lara Croft Tomb Raider: The Cradle Of Life,$ 65.654,July 25, 2003
+826,Deuce Bigalow: Male Gigolo,$ 65.539,December 10, 1999
+827,The Ten Commandments,$ 65.500,October 05, 1956
+828,The Taking of Pelham 1 2 3,$ 65.452,June 12, 2009
+829,Step Up,$ 65.328,August 11, 2006
+830,Hannah Montana & Miley Cyrus: Best of Both Worlds Concert Tour,$ 65.280,February 1, 2008
+831,Lethal Weapon,$ 65.207,January 01, 1987
+832,Barbershop 2: Back In Business,$ 65.189,February 06, 2004
+833,Wolf,$ 65.012,June 17, 1994
+834,About Schmidt,$ 65.011,December 13, 2002
+835,Antarctica,$ 65.000,November 28, 2008
+836,Song of the South,$ 65.000,November 12, 1946
+837,The International,$ 61.811,February 13, 2009
+838,Staying Alive,$ 64.893,July 11, 1983
+839,Stuart Little 2,$ 64.801,July 26, 2002
+840,Mr. Mom,$ 64.784,July 22, 1983
+841,The Amityville Horror,$ 64.664,April 15, 2005
+842,L.A. Confidential,$ 64.617,September 19, 1997
+843,The Happening,$ 64.502,June 13, 2008
+844,Flushed Away,$ 64.489,November 03, 2006
+845,Field of Dreams,$ 64.432,April 21, 1989
+846,Miracle,$ 64.371,February 06, 2004
+847,Mona Lisa Smile,$ 64.362,December 19, 2003
+848,Jackass: The Movie,$ 64.269,October 25, 2002
+849,Down to Earth,$ 64.172,February 16, 2001
+850,17 Again,$ 64.150,April 17, 2009
+851,Deja Vu,$ 64.035,November 22, 2006
+852,Diary of a Wimpy Kid,$ 64.001,March 19, 2010
+853,Sky High,$ 63.939,July 29, 2005
+854,Life,$ 63.886,April 16, 1999
+855,In & Out,$ 63.857,September 19, 1997
+856,The Fifth Element,$ 63.820,May 09, 1997
+857,Working Girl,$ 63.779,December 21, 1988
+858,The Witches of Eastwick,$ 63.767,June 12, 1987
+859,What About Bob?,$ 63.708,May 17, 1991
+860,Babe,$ 63.659,August 04, 1995
+861,Thunderball,$ 63.600,December 21, 1965
+862,Alien,$ 63.594,May 25, 1979
+863,Risky Business,$ 63.542,August 05, 1983
+864,A Fish Called Wanda,$ 63.494,July 29, 1988
+865,Dirty Dancing,$ 63.446,August 21, 1987
+866,Miami Vice,$ 63.438,July 28, 2006
+867,Tango & Cash,$ 63.409,December 22, 1989
+868,She's All That,$ 63.367,January 29, 1999
+869,The Holiday,$ 63.280,December 08, 2006
+870,Dave,$ 63.271,May 07, 1993
+871,Saw IV,$ 63.270,October 26, 2007
+872,Tyler Perry's Madea's Family Reunion,$ 63.232,February 24, 2006
+873,The Time Traveler's Wife,$ 63.214,August 14, 2009
+874,Rising Sun,$ 63.180,July 30, 1993
+875,A Star is Born,$ 63.130,December 17, 1976
+876,Beavis and Butt-Head Do America,$ 63.118,December 20, 1996
+877,Scent of a Woman,$ 63.095,December 23, 1992
+878,A Nightmare on Elm Street,$ 63.060,April 30, 2010
+879,Forgetting Sarah Marshall,$ 63.002,April 18, 2008
+880,The Last Song,$ 62.934,March 31, 2010
+881,Moonraker,$ 62.700,June 29, 1979
+882,Jarhead,$ 62.648,November 04, 2005
+883,The Crying Game,$ 62.549,November 25, 1992
+884,The Fast and the Furious: Tokyo Drift,$ 62.514,June 16, 2006
+885,Patton,$ 62.500,February 04, 1970
+886,The Sorcerer's Apprentice,$ 62.499,July 14, 2010
+887,Spy Game,$ 62.363,November 21, 2001
+888,Underworld: Evolution,$ 62.319,January 20, 2006
+889,Bewitched,$ 62.252,June 24, 2005
+890,Down and Out in Beverly Hills,$ 62.134,January 31, 1986
+891,The Wolfman,$ 61.937,February 12, 2010
+892,Mouse Hunt,$ 61.917,December 19, 1997
+893,The Electric Horseman,$ 61.802,December 21, 1979
+894,Stomp the Yard,$ 61.700,January 12, 2007
+895,Cinderella Man,$ 61.649,June 03, 2005
+896,Flatliners,$ 61.489,August 10, 1990
+897,Vacation,$ 61.400,July 29, 1983
+898,The Goonies,$ 61.390,June 07, 1985
+899,The Saint,$ 61.363,April 04, 1997
+900,Rules of Engagement,$ 61.335,April 07, 2000
+901,The Cell,$ 61.334,August 18, 2000
+902,Misery,$ 61.277,November 30, 1990
+903,Friday Night Lights,$ 61.188,October 08, 2004
+904,The Shaggy Dog,$ 61.124,March 10, 2006
+905,The Devil's Advocate,$ 60.945,October 17, 1997
+906,Get Him to the Greek,$ 60.923,June 4, 2010
+907,Mission to Mars,$ 60.883,March 10, 2000
+908,Harlem Nights,$ 60.865,November 17, 1989
+909,Coyote Ugly,$ 60.786,August 04, 2000
+910,Poseidon,$ 60.656,May 12, 2006
+911,Fantasia 2000,$ 60.655,January 01, 2000
+912,Three Kings,$ 60.652,October 01, 1999
+913,Jingle All the Way,$ 60.592,November 22, 1996
+914,Kiss the Girls,$ 60.528,October 03, 1997
+915,Shanghai Knights,$ 60.470,February 07, 2003
+916,The Wedding Planner,$ 60.401,January 26, 2001
+917,Burn After Reading,$ 60.339,September 12, 2008
+918,The Amityville Horror,$ 60.308,July 27, 1979
+919,Baby Mama,$ 60.269,April 25, 2008
+920,The Cable Guy,$ 60.240,June 14, 1996
+921,Spies Like Us,$ 60.089,December 06, 1985
+922,Species,$ 60.074,July 07, 1995
+923,The Family Stone,$ 60.062,December 16, 2005
+924,Bad Santa,$ 60.058,November 26, 2003
+925,Hope Floats,$ 60.053,May 29, 1998
+926,The American President,$ 60.023,November 17, 1995
+927,Tooth Fairy,$ 60.013,January 22, 2010
+928,Snow Day,$ 60.008,February 11, 2000
+929,The Longest Yard,$ 60.000,August 21, 1974
+930,Bruno,$ 59.993,July 10, 2009
+931,Superman III,$ 59.951,June 17, 1983
+932,Jungle 2 Jungle,$ 59.928,March 07, 1997
+933,Little Miss Sunshine,$ 59.891,July 26, 2006
+934,Predator,$ 59.736,June 12, 1987
+935,Why Did I Get Married Too?,$ 59.681,April 2, 2010
+936,Gothika,$ 59.588,November 21, 2003
+937,The Last Boy Scout,$ 59.510,December 13, 1991
+938,My Girl,$ 59.490,November 27, 1991
+939,The Stepford Wives,$ 59.476,June 11, 2004
+940,Love Actually,$ 59.365,November 07, 2003
+941,Radio,$ 59.206,October 24, 2003
+942,Hellboy,$ 59.035,April 02, 2004
+943,Courage Under Fire,$ 59.031,July 12, 1996
+944,Chariots of Fire,$ 58.973,October 09, 1981
+945,Dawn Of The Dead,$ 58.886,March 19, 2004
+946,Far and Away,$ 58.884,May 22, 1992
+947,Surf's Up,$ 58.868,June 08, 2007
+948,Behind Enemy Lines,$ 58.857,November 30, 2001
+949,Bride Wars,$ 58.703,January 9, 2009
+950,Honey I Blew Up the Kid,$ 58.662,July 17, 1992
+951,Jack,$ 58.621,August 02, 1996
+952,Sea of Love,$ 58.572,September 15, 1989
+953,Housesitter,$ 58.501,June 12, 1992
+954,Funny Girl,$ 58.500,September 19, 1968
+955,The Benchwarmers,$ 58.450,April 07, 2006
+956,Death Becomes Her,$ 58.423,July 31, 1992
+957,Anastasia,$ 58.406,November 21, 1997
+958,Curious George,$ 58.386,February 10, 2006
+959,Open Range,$ 58.329,August 15, 2003
+960,Halloween,$ 58.267,August 31, 2007
+961,Little Man,$ 58.255,July 14, 2006
+962,Bicentennial Man,$ 58.224,December 17, 1999
+963,Ali,$ 58.203,December 25, 2001
+964,Without a Paddle,$ 58.156,August 20, 2004
+965,Demolition Man,$ 58.056,October 08, 1993
+966,Step Up 2 the Streets,$ 58.006,February 14, 2008
+967,Throw Momma From The Train,$ 57.916,December 11, 1987
+968,Shall We Dance?,$ 57.888,October 15, 2004
+969,Red Eye,$ 57.859,August 19, 2005
+970,Invincible,$ 57.807,August 25, 2006
+971,Cleopatra,$ 57.778,June 12, 1963
+972,The Butterfly Effect,$ 57.762,January 23, 2004
+973,Takers,$ 57.745,August 27, 2010
+974,The Animal,$ 57.743,June 01, 2001
+975,The Chronicles of Riddick,$ 57.637,June 11, 2004
+976,The Cider House Rules,$ 57.545,December 10, 1999
+977,Easy A,$ 57.539,September 17, 2010
+978,Boyz N the Hood,$ 57.504,July 12, 1991
+979,Pet Sematary,$ 57.469,April 21, 1989
+980,Dragnet,$ 57.388,June 26, 1986
+981,Moulin Rouge,$ 57.387,May 18, 2001
+982,Blood Diamond,$ 57.378,December 08, 2006
+983,The Specialist,$ 57.363,October 07, 1994
+984,Next Friday,$ 57.329,January 12, 2000
+985,Sister Act 2: Back in the Habit,$ 57.319,December 10, 1993
+986,The Godfather: Part II,$ 57.300,December 12, 1974
+987,Willow,$ 57.270,May 20, 1988
+988,The Whole Nine Yards,$ 57.262,February 18, 2000
+989,Life is Beautiful,$ 57.247,December 11, 1998
+990,The Blues Brothers,$ 57.230,June 20, 1980
+991,U.S. Marshals,$ 57.167,March 06, 1998
+992,What's Up Doc?,$ 57.143,March 10, 1972
+993,12 Monkeys,$ 57.141,January 05, 1995
+994,Unlawful Entry,$ 57.139,June 26, 1992
+995,Beethoven,$ 57.114,April 03, 1992
+996,Annie,$ 57.059,May 21, 1982
+997,Beaches,$ 57.042,December 21, 1988
+998,Message in a Bottle,$ 52.823,February 12, 1999
+999,Resident Evil: Afterlife,$ 56.615,September 10, 2010
+1000,Kicking and Screaming,$ 52.581,May 13, 2005

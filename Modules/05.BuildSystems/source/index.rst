@@ -1,7 +1,7 @@
 Build Systems
 #############
 
-RPI Open Source Software - Spring 2021
+RPI Open Source Software - Spring 2022
 
 Brad King, Kitware, Inc.
 
@@ -602,7 +602,7 @@ Build System: MSBuild
 
 Underlies Visual Studio 2010+ builds.
 
-.. code-block:: guess
+.. code-block:: 
 
   <Project DefaultTargets="Build" ToolsVersion="12.0" ...>
     ...

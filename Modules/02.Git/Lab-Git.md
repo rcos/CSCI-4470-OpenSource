@@ -1,10 +1,10 @@
-## This lab (Lab #2 on 2/5/2021) is about Git (local repository), Github and a few of the commands you need to know to effectively manage an open source project.
+## This lab (Lab #2 on 1/21/2022) is about Git (local repository), Github and a few of the commands you need to know to effectively manage an open source project.
 
-### Since we are already practicing git in class as part of our git lecture, you should not need the whole period. Accordingly, we will take the first 40 minutes or so to finish our discussion of git first.
+### Since we are already practicing git in class as part of our git lecture, you should not need the whole period. Accordingly, we will take the first few minutes to finish our discussion of git first.
 
-## Your Lab report will be Lab2.md
+### You will be maintaining a repository on github for all your lab work. If you need help getting started, please check out the instructions for Lab 1. For this week you will need to create and commit a report `labs/lab-02/report.md` __IN THE SAME REPOSITORY__ you used last week. You must maintain this lab as an open repository or Submitty will not be able to access your submissions. When you submit your lab to [Submitty](https://submitty.cs.rpi.edu/courses/s22/csci4470) you will need to supply your github user name and the name of your fork. For me I would enter `wdturner` and `oss-repo-template`. Make sure that you commit your work and push it to your remote repository before you submit to Submitty!
 
-Commands used will include `git add`, `git commit`, `git pull`, `git checkout`, `git branch`, `git push`, `git log`, `git status`, `git diff` , `git tag`,  `git rebase` and `git merge`
+The commands used in this lab will include `git add`, `git commit`, `git pull`, `git checkout`, `git branch`, `git push`, `git log`, `git status`, `git diff` , `git tag`,  `git rebase` and `git merge`
 
 - Use the command line (or git shell) for this lab
 
@@ -40,15 +40,17 @@ In this lab you will practice the git commands we introduced. At the end of the 
 2. [Create a new repository on github](https://github.com/new) and push the README.md file you created.
   > *(hint: you should be doing something like this):* 
 
-    ```
+
+```
     git init
     git add README.md
     git commit
     git remote add origin <repo url>
     git push origin master
-    ```
+```
+
     
-  ***Provide a link to this repository in your Lab2.md file.***
+  ***Provide a link to this repository in your lab report file.***
 
 3. Create a file `first.py` that prints "Hello World!".
   * Add, commit, and push the file to your github repository on the master branch with `git push origin master`.
@@ -69,10 +71,10 @@ In this lab you will practice the git commands we introduced. At the end of the 
 ## Part 2
 
 1. You can create a derivative of a repository by forking.
-  * Read about forking [here](https://guides.github.com/activities/forking/index.html)
+  * Read about forking [here](https://docs.github.com/en/get-started/quickstart/fork-a-repo)
   * Fork [https://github.com/octocat/Spoon-Knife](https://github.com/octocat/Spoon-Knife) repository by pressing the Fork button in the top right corner of the repository page.
 
-    ***Provide a link to your fork of this repository in your Lab2.md file.***
+    ***Provide a link to your fork of this repository in your lab report.***
 
 2. Clone the fork you made using `git clone <fork url>`
 
@@ -88,49 +90,48 @@ In this lab you will practice the git commands we introduced. At the end of the 
 1. Fork the repository [https://github.com/wdturner/PullReq](https://github.com/wdturner/PullReq)
 
   * Clone your fork using the command line.
-  * In the Spring2021 directory, add a file named &lt;firstName lastName&gt;.md, add today's date on the first line (2/5/2021), 
+  * In the Spring2022 directory, add a file named &lt;firstName lastName&gt;.md, add today's date on the first line (1/21/2022), 
   * Add, commit, and push your file back to your forked version. Then use the `github` interface to make a pull request.
   * Ask one of the helpful instructional staff to merge your pull request.
   * You can update your repository to reflect changes in the upstream repository using:
     
-    ```
+```
     git remote add upstream https://github.com/wdturner/PullReq.git
     git pull upstream master
-    ```
+```
 
-  ***Provide a link to your fork of this repository in your Lab2.md file.***
+  ***Provide a link to your fork of this repository in your lab report.***
 
 2. Make sure you understand the command `git diff` from [this example](https://www.safaribooksonline.com/library/view/version-control-with/9780596158187/ch08s02.html)
 
    * Examine the contents of the diff file from the previous question (your pull request) using
    `git diff HEAD~1`
   
-  ***Provide a screenshot of the diff to this repository in your Lab2.md file.***
+  ***Provide a screenshot of the diff to this repository in your lab report.***
 
 3. Understand git tagging from [this example](https://git-scm.com/book/en/v2/Git-Basics-Tagging) and [this one](http://rogerdudler.github.io/git-guide/)
 
     * Tag your repository with `1.0.0`
 
-  ***Provide a screenshot of the output from `git tag -l` in your Lab2.md file.***
+  ***Provide a screenshot of the output from `git tag -l` in your lab report.***
 
 5. As a table: (one person per table)
 
   * Fork the repository [https://github.com/wdturner/OSSProjectIdeas.git](https://github.com/wdturner/OSSProjectIdeas.git)
   * Add each member of the table to the repository:
-  
-     ````
+````
      Click 'Settings' on the repository page
      Click 'Collaborators'
      Add the username of each person
-     ````
-  * Your fork is now a **common repository**
+````
+* Your fork is now a **common repository**
   
-   **Please add a link to this repository in your Lab2.md report**
+   **Please add a link to this repository in your lab report.**
 
 
 6. Each member should clone the **table's** repository
 
-  * Locally, in the `Spring2021` directory, each member should create a file called `ProjectIdeas<table number>.md`
+  * Locally, in the `Spring2022` directory, each member should create a file called `ProjectIdeas<table number>.md`
  
   * Each person writes their project ideas inside their own version of the file. **Your ideas are not binding; it is just to get you thinking and to start communicating with your colleagues**
   
@@ -138,8 +139,12 @@ In this lab you will practice the git commands we introduced. At the end of the 
   * Once everyone has their changes successfully in the model file, each table submits a pull request to the upstream repository.
   * Resolve any merge conflicts that occur along the way.
   
-    * You can update your repository to reflect changes in the upstream repository using `git remote add upstream https://github.com/wdturner/OSSProjectIdeas.git` and `git pull upstream master`
+    * You can update your repository to reflect changes in the upstream repository using 
+```
+    git remote add upstream https://github.com/wdturner/OSSProjectIdeas.git
+    git pull upstream master
+```
 
   * [Git Introduction  Part II](https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Modules/02.Git/Git-Introduction-Part-II/index.html) might be useful for this (open index.html in the same way as the Introduction Part I slides)
 
-When you have completed the lab, submit a text file with a link to your lab2.md file via Submitty.
+When you have completed the lab, submit your lab to Submitty by specifying your repository.

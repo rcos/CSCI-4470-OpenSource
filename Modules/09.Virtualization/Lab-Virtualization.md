@@ -22,17 +22,10 @@ Specifically you will:
 
 _For this lab we will use the excellent material on Docker prepared by RCOS alumni Severin Ibarluzea, Ada Young, and Joseph Lee._
 
-The lab parallels a lot of the material we worked through at the end of the [Virtualization and Containers](https://github.com/rcos/CSCI-49XX-OpenSource/blob/master/Modules/Virtualization/source/index.rst) lecture, except that it does not require you to push your containers to a Docker repository.
+The lab parallels a lot of the material we worked through at the end of the [Virtualization and Containers](https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Modules/09.Virtualization/source/index.rst) lecture, except that it does not require you to push your containers to a Docker repository.
 
-Please clone the github repository [rcos/docker-examples](https://github.com/rcos/docker-examples) and ***CHECKOUT the Spring2019 Branch***. The ***master*** branch has an issue with ***example04*** and will not work, Then go through examples 0-4. Document your steps and observations in your lab notebook for Lab 6 and upload a link to the lab to Submitty.
+
+Please clone the github repository [rcos/docker-examples](https://github.com/rcos/docker-examples) and ***CHECKOUT the Spring2019 Branch***. The ***master*** branch has an issue with ***example04*** and will not work, Then go through examples 0-4. Document your steps and observations in your lab report for this lab and upload a link to the your lab repository on Submitty when you are done.
 
 Note that the Dockerfile for examples 3 is given to you. I recommend that you go through and regenerate it line by line for practice. You will need to create files for example04 on your own, although the code is embedded in the lab.
-
-https://docs.docker.com/get-started/
-
-For those of you running on WSL, there may be a few more steps:
-
-Follow the directions to download the Windows Desktop
-Then go to: https://docs.microsoft.com/en-us/windows/wsl/install-win10
-And Finally: https://docs.docker.com/docker-for-windows/wsl/
 

@@ -88,15 +88,15 @@ Github page: https://github.com/tensorflow
 
 Main repository: https://github.com/tensorflow/tensorflow
 
-* 53,075 commits (now 108,174)
+* 53,075 commits (now 127,381)
 
-* 27 branches (now 41)
+* 27 branches (now 47)
 
-* 1932 contributers (now 2948)
+* 1932 contributers (now 3099)
 
-* 79 releases (now 134)
+* 79 releases (now 158)
 
-* 2021 Issues (now 3836 - closed 27,154)
+* 2021 Issues (now 2288 - closed 32,098)
 
 * Permissively licensed under Apache-2.0
 
@@ -443,7 +443,7 @@ Report:
 .. code-block:: python
 
   print("Solution: y = {:.6f} * x + {:.6f}".format(m.numpy(), b.numpy()))
-  plt.plot(range(steps), loss_vec)
+  plt.plot(list(range(steps)), loss_vec)
   plt.show()
 
   plt.plot(x_train, y_train, 'b.')

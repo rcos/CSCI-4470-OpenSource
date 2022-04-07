@@ -30,7 +30,7 @@ This should print out a version of TensorFlow in the console window and pop up a
 
 ![hello_tf.png](hello_tf.png)
 
-Take a screenshot of your pop-up and include it in your lab notebook.
+Take a screenshot of your pop-up and include it in your lab report.
 
 When you are finished exit python and restart it to clear your work.
 
@@ -57,7 +57,7 @@ for i in range(num_images):
 plt.show()
 ```
 
-**Grab a screenshot of this plot and include it in your lab notebook.**
+**Grab a screenshot of this plot and include it in your lab report.**
 
 ## Checkpoint 3: Curate some data
 
@@ -77,7 +77,7 @@ The following links may help you:
 
 [https://kite.com/python/examples/4887/pil-convert-between-a-pil-%60image%60-and-a-numpy-%60array%60](https://kite.com/python/examples/4887/pil-convert-between-a-pil-%60image%60-and-a-numpy-%60array%60)
 
-**Include your original image, your greyscale 28x28 pixel image, and the results of your classification in your lab notebook.**
+**Include your original image, your greyscale 28x28 pixel image, and the results of your classification in your lab report.**
 
 Here are my first three attempts:
 ![shirt1.png](shirt1.png)
@@ -108,7 +108,7 @@ Here are my first three attempts:
 ```
 2 out of 3 isn't bad ... You are welcome to use my small images as part of your testing, although, I still expect you to get novel images as well. If you do use my images, note that they are already 28x28 and greyscale, but they have not yet been inverted and scaled to [0, 1]. You will need to complete the operations to get good results.
 
-**When you are finished, push your report to your lab notebook and submit a text file with a link to the lab report to Submitty.**
+**When you are finished, push your report to your lab report and submit a link to your repository in Submitty.**
 
 
 

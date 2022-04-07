@@ -1,7 +1,7 @@
 CSCI-4470 Open Source Software
 ##############################
 
-Spring 2021 
+Spring 2022 
 
 Rensselaer Polytechnic Institute
 
@@ -40,6 +40,10 @@ Reading Material
   
   - https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Resources/freeculture.pdf
 
+- A (Brief) History of REGEX
+
+  - https://whyisthisinteresting.substack.com/p/the-regular-expression-edition
+
 Why Open Source?
 =====================
 
@@ -67,7 +71,7 @@ Why Open Source?
   
   - `Red Hat, Inc. <https://www.redhat.com/en>`_
 
-    - `Cygnus Solutions <https://en.wikipedia.org/wiki/Cygnus_Solutions>`_
+   - `Cygnus Solutions <https://en.wikipedia.org/wiki/Cygnus_Solutions>`_
 
   - `Kitware <https://kitware.com>`_
   - Service Oriented Business Model
@@ -177,7 +181,7 @@ The Cathedral and the Bazaar
 
 .. rst-class:: build
 
-- Any tool should be useful in the expected way, but a truly great tool tends itself to users you never expected.
+- Any tool should be useful in the expected way, but a truly great tool lends itself to uses you never expected.
 - When your language is nowhere near Turing-complete, `syntactic sugar <https://en.wikipedia.org/wiki/Syntactic_sugar>`_ can be your friend.
 
 Software Management Functions

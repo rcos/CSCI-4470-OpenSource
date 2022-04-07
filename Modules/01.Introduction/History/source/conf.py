@@ -24,7 +24,7 @@ slide_footer = '''
 </a>
  
 <span class="slide-footer-text">
-  RPI OSS - Spring 2021 - The Open Source Model
+  RPI OSS - Spring 2022 - The Open Source Model
 </span>
 '''
 

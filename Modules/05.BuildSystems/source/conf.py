@@ -23,7 +23,7 @@ slide_footer = '''
   <img border="0" src="_static/cc-by-sa.png" alt="CC BY-SA"/>
 </a>
 <span class="slide-footer-text">
-  RPI OSS - Spring 2021 - Buildsystems - Kitware, Inc.
+  RPI OSS - Spring 2022 - Buildsystems - Kitware, Inc.
 </span>
 '''
 
