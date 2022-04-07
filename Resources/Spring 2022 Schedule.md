@@ -62,22 +62,49 @@ or -->
 
 * Friday 4/8/2022 - [Lab: TensorFlow](../Modules/11.TensorFlow/Lab-TensorFlow.md)
 
-* Tuesday 4/12/2022 - Test 2
+* Tuesday 4/12/2022 - Open Discussion/Work on your Projects
 
-* Friday 4/15/2022 - Project Reports
+    - MongoDB License change (You can find many examples, these are just a few. Google it!)
+        - [Percona immediately after the change](https://www.percona.com/blog/2018/10/18/percona-statement-on-mongodb-community-server-license-change/#:~:text=MongoDB%2C%20Inc.%20announced%20it%20has%20elected%20to%20change,license%20better%20suited%20for%20the%20age%20of%20Software-as-a-Service.) 
+        - [Same company a year later](https://www.percona.com/blog/2020/06/16/why-is-mongodbs-sspl-bad-for-you/)
+        - [License and some analysis](https://linuxreviews.org/Server_Side_Public_License)
+        - [One more for good luck!](https://www.scylladb.com/2018/10/22/the-dark-side-of-mongodbs-new-license/)
+    - Faker.js and Color.js
+        - [Summary](https://www.theverge.com/2022/1/9/22874949/developer-corrupts-open-source-libraries-projects-affected)
+        - [Additional Details](https://snyk.io/blog/open-source-npm-packages-colors-faker/)
+    - Node IPC
+        -  [Summary](https://thehackernews.com/2022/03/popular-npm-package-updated-to-wipe.html)
 
 	**Work on your Projects Day**
+
+* Friday 4/15/2022 - Test 2
 
 * Tuesday 4/19/2022 - Project Reports
 
 	**Project Final Presentations**
+	
+ * Aquamarine Toolkit
+ * TrackBuddy
+ *	Wrathskeller
+ *	OrgManagement
+  * Fitbit Dashboard
 
 * Friday 4/22/2022 - Project Reports
 
 	**Project Final Presentations**
 
+ *	BetterShot 
+  * Stress in Beams
+  * NP_DataHub
+  *	TackleBox	
+  * RoomMate 
+ 
 * Tuesday 4/26/2022 - Project Reports
 
 	**Project Final Presentations**
 
+ *	The Obfuscatorinator
+ *	Submitty
+ *	Sensible Desktop Environment
+ * Blockchain Game
  
