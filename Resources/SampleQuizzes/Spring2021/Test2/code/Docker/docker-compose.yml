@@ -1,0 +1,21 @@
+version: '3'
+services:
+  mongo:
+    image: mongo:4.0.7
+    volumes:
+      - mongo-data:/data/db
+    expose:
+      - "27017"
+  rocketchat:
+    image: rocket.chat:0.62
+    ports:
+            - "3000:3000"
+    links:
+      - mongo
+    depends_on:
+      - mongo
+    environment:
+            - MONGO_URL=mongodb://mongo:27017/rocketchat
+            - MONGO_OPLOG_URL=mongodb://mongo:27017/local
+volumes:
+  mongo-data:
