@@ -1,0 +1,18 @@
+
+    "assignment_message" : "#Welcome to Quiz 2 \n\
+  \n\
+Here's a short list of instructions:  \n\
+* This is an open book, open notes and open reference material exam. You may NOT discuss\n\
+  any portion of this exam with any person during the exam period. DO NOT use Google, DO \n\
+  NOT consult any resources such as Stack Overflow. You may use class notes.\n\
+* You will have 90 minutes to complete the test (135 minutes for 50% accommodations or \n\
+  180 minutes for 100% accommodations).\n\
+&nbsp;  \n\
+*NOTE 1: If you submit your answers beyond the allowed time, you will lose 1 point per minute over the limit. * \n\
+&nbsp;  \n\
+*NOTE 2: You may submit this assignment multiple times. * \n\
+&nbsp;  \n\
+*NOTE 3: By submitting this test, you are certifying that you agree with and will abide by the honor code for the course below * \n\
+\n\n\
+&nbsp;        __ Honor pledge: On my honor I have neither given nor received aid on this exam __ ",
+
