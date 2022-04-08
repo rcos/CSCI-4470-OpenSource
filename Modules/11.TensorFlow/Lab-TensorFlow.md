@@ -1,5 +1,4 @@
 # TensorFlow Lab
-### 8/2/2019
 
 ## Checkpoint 1: Verify Your TensorFlow
 
