@@ -9,6 +9,9 @@ I am going to give you leeway to use whatever tools you want for this lab. Feel 
 
 Regardless, you will need access to the python packages **tensorflow, keras, matplotlib and numpy, and probably pillow**. Install them (you can probably use pip or conda depending on your `python` install). Once you are done, start `python` and run:
 
+Lastly, if none of these options work, feel free to use a google colab setup. This link [here](https://colab.research.google.com/drive/14zt6fD9o0nxx7W9dVe6P0NVzX9QPc-_8?usp=sharing) is to a Google Colab notebook. It's read only, so duplicate it, make a copy and run from there. You need to connect before running.
+
+
 ```
 from __future__ import absolute_import, division, print_function
 
