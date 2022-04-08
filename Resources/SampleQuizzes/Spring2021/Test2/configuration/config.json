@@ -1,0 +1,276 @@
+{
+	
+    "hide_submitted_files" : true,
+    "hide_version_and_test_details" : false,
+#include "textdirectory/message.txt"
+    "autograding" : {
+        "submission_to_compilation" : [ "*.txt", "*.cpp", "*.py" ],
+        "submission_to_runner" : [ "*.txt", "*.out", "*.py" ],
+        "submission_to_validation" : [ "*.txt", "*.png", ".user_assignment_access.json" ],
+        "work_to_details" : [ "*.txt", "*.png", "test*/*.txt", "test*/*_diff.json" ]
+    },
+#include "textdirectory/front_page.txt"
+    "grading_parameters" : {
+        "TOTAL_POINTS" : 100,
+        "AUTO_POINTS" : 0,
+        "TA_POINTS" : 100
+    },
+    "notebook" : [
+        {
+	    "type": "image",
+            "image" : "exam2_1a.png",
+            "width": 800
+        },
+        {
+	    "type": "image",
+            "image" : "exam2_1b.png",
+            "width": 800
+        },
+	{
+	    "type": "markdown",
+	    "markdown_string": "(a) (2 of 20 points) Which python package encapsulates the game play?"
+	},
+        {
+            "testcase_ref" : "scientific_a",
+            "type": "short_answer",
+            "rows": 2,
+            "filename": "1_a.txt"
+        },
+	{
+	    "type": "markdown",
+	    "markdown_string": "(b) (2 of 20 points) Which python module ecapsulates the game physics?"
+	},
+        {
+            "testcase_ref" : "scientific_b",
+            "type": "short_answer",
+            "rows": 2,
+            "filename": "1_b.txt"
+        },
+	{
+	    "type": "markdown",
+	    "markdown_string": "(c) (4 of 20 points) Assume you want to add a headwind blowing from right to left across the screen. The force due to the headwind is one tenth 1/10 of the force of gravity in the simulation. Write a short code snippet to start the headwind and reset the gravity to Earth normal, as currently defined in the simulation, when the **'h'** key is pressed. (Headwinds don't occur in space.)  Indicate where your code should be inserted in the snippet provided. (Use the provided line numbers.)"
+	},
+        {
+            "testcase_ref" : "scientific_c",
+            "type": "short_answer",
+            "rows": 5,
+            "filename": "1_c.txt"
+        },
+	{
+	    "type": "markdown",
+	    "markdown_string": "(d) (2 of 20 points) What would you change in your code if there was a tailwind instead (blowing left to right)?"
+	},
+        {
+            "testcase_ref" : "scientific_d",
+            "type": "short_answer",
+            "rows": 5,
+            "filename": "1_d.txt"
+        },
+	{
+	    "type": "markdown",
+	    "markdown_string": "(e) (3 of 20 points) Which **pymunk** variable represents the **toggleable** wall at the right end of the laying field?"
+	},
+        {
+            "testcase_ref" : "scientific_e",
+            "type": "short_answer",
+            "rows": 2,
+            "filename": "1_e.txt"
+        },
+	{
+	    "type": "markdown",
+	    "markdown_string": "(f) (3 of 20 points) Which **pymunk** variable represents the floor at the bottom of the laying field?"
+	},
+        {
+            "testcase_ref" : "scientific_f",
+            "type": "short_answer",
+            "rows": 2,
+            "filename": "1_f.txt"
+        },
+	{
+	    "type": "markdown",
+	    "markdown_string": "(g) (2 of 20 points) Which python module manages the frames per second?"
+	},
+        {
+            "testcase_ref" : "scientific_g",
+            "type": "short_answer",
+            "rows": 2,
+            "filename": "1_g.txt"
+        },
+	{
+	    "type": "markdown",
+	    "markdown_string": "(h) (2 of 20 points) Which python module manages the collisions by invoking the collision handlers?"
+	},
+        {
+            "testcase_ref" : "scientific_h",
+            "type": "short_answer",
+            "rows": 2,
+            "filename": "1_h.txt"
+        },
+        {
+	    "type": "image",
+            "image" : "exam2_2.png",
+            "width": 800
+        },
+        {
+            "testcase_ref" : "database",
+            "type": "short_answer",
+            "rows": 50,
+            "filename": "2.txt"
+        },
+        {
+	    "type": "image",
+            "image" : "exam2_3.png",
+            "width": 800
+        },
+	{
+	    "type": "markdown",
+	    "markdown_string": "(a) (4 of 20 points) What is the command that **builds** the test executables?"
+	},
+        {
+            "testcase_ref" : "testing_a",
+            "type": "short_answer",
+            "rows": 2,
+            "filename": "3_a.txt"
+        },
+	{
+	    "type": "markdown",
+	    "markdown_string": "(b) (4 of 20 points) What platform and version do the tests run on?"
+	},
+        {
+            "testcase_ref" : "testing_b",
+            "type": "short_answer",
+            "rows": 2,
+            "filename": "3_b.txt"
+        },
+	{
+	    "type": "markdown",
+	    "markdown_string": "(c) (4 of 20 points) Assuming actions are set up correctly, what repository actions cause this testing file to run?"
+	},
+        {
+            "testcase_ref" : "testing_c",
+            "type": "short_answer",
+            "rows": 2,
+            "filename": "3_c.txt"
+        },
+	{
+	    "type": "markdown",
+	    "markdown_string": "(d) (4 of 20 points) Modify the line that actually executes the tests so that it only runs tests 50 though 100."
+	},
+        {
+            "testcase_ref" : "testing_d",
+            "type": "short_answer",
+            "rows": 2,
+            "filename": "3_d.txt"
+        },
+	{
+	    "type": "markdown",
+	    "markdown_string": "(e) (4 of 20 points) In our class notes we discussed errors, faults, and failures. Please discuss the meanings of the 3 terms and say which one testing is designed to discover."
+	},
+        {
+            "testcase_ref" : "testing_e",
+            "type": "short_answer",
+            "rows": 5,
+            "filename": "3_e.txt"
+        },
+        {
+	    "type": "image",
+            "image" : "exam2_4.png",
+            "width": 800
+        },
+	{
+	    "type": "markdown",
+	    "markdown_string": "(a) (16/20 points) Write a **Dockerfile** to provision the container described above."
+	},
+        {
+            "testcase_ref" : "docker_a",
+            "type": "short_answer",
+            "rows": 30,
+            "filename": "4_a.txt"
+        },
+	{
+	    "type": "markdown",
+	    "markdown_string": "(b) (2/20 points) What command would be used to generate a container named **favorites** from this Dockerfile?  You can assume you are in the same directory as the file."
+	},
+        {
+            "testcase_ref" : "docker_b",
+            "type": "short_answer",
+            "rows": 2,
+            "filename": "4_b.txt"
+        },
+	{
+	    "type": "markdown",
+	    "markdown_string": "(c) (2/20 points) What command would be used to run the container you just created so that it comes up in interactive mode with a terminal prompt?"
+	},
+        {
+            "testcase_ref" : "docker_c",
+            "type": "short_answer",
+            "rows": 2,
+            "filename": "4_c.txt"
+        },
+        {
+	    "type": "image",
+            "image" : "exam2_5a.png",
+            "width": 800
+        },
+        {
+	    "type": "image",
+            "image" : "exam2_5b.png",
+            "width": 800
+        },
+        {
+            "testcase_ref" : "tensorflow",
+            "type": "short_answer",
+            "rows": 30,
+            "filename": "5.txt"
+        }
+	
+    ],
+    "testcases" : [
+        // ==========================================================
+        // NOTE: Currently implemented as an instructor provided
+        // custom validator, but will likely be available as a built
+        // in validation option in the future.
+        // ==========================================================
+        {
+            "title":"Check Time Limit",
+            "copy_access_files" : true,
+            "points": -100,  // maximum penalty -- must match below
+            "validation":
+            [
+                {
+                    "actual_file" : ".user_assignment_access.json",
+                    "method" : "custom_validator",
+                    "command" : "python3 timelimit.py",
+                    "allowed_minutes" : 90,
+                    "penalty_per_minute" : -1,
+                    "max_penalty" : -100, // must match above
+                    "show_actual":"never",
+
+                    // optional field to list specific users with different time limits
+		    "override" :
+                    [
+                        { "user" : "zeccac",    "allowed_minutes" : 180 },
+                        { "user" : "orlang2",   "allowed_minutes" : 135 },
+                        { "user" : "ungerb",    "allowed_minutes" : 135 },
+                        { "user" : "bealsj2",   "allowed_minutes" : 135 },
+                        { "user" : "schife",    "allowed_minutes" : 135 },
+                        { "user" : "woodz",     "allowed_minutes" : 136 },
+                        { "user" : "reils",     "allowed_minutes" : 135 },
+                        { "user" : "chens29",   "allowed_minutes" : 90 },
+                        { "user" : "wdturner",  "allowed_minutes" : 10 }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "title": "Submission Limit",
+            "type": "FileCheck",
+            "max_submissions": 50,
+            "penalty": -1,
+            "points": -5,
+            "timestamped_stdout": false
+         }
+
+    ]
+}
