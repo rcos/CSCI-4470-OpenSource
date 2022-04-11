@@ -332,12 +332,10 @@ For OSX, you will need to install a few packages on the host first to get the pl
 
   brew install socat
   socat TCP-LISTEN:6000,reuseaddr,fork UNIX-CLIENT:\"$DISPLAY\" &
-  brew cask install xquartz
+  brew install --cask xquartz
   open -a Xquartz
 
-  Then set Allow connections from network clients in the pop up
-
-This is untested with Tensorflow 2.0!
+  Then set Allow connections from network clients in the pop up if asked.
 
 .. nextslide::
 
