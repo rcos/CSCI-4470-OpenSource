@@ -95,7 +95,7 @@ How would you resolve the following merge conflict (pick whichever one you feel 
 
 Solutions are [here](testing_solution.cpp) - Look at comments at the bottom of the file.
 
-## Quiz 2 - Tuesday 4/15/22
+## Quiz 2 - Friday 4/15/22
 
 Test two will focus on material from *Open Source in Scientific Computation* up through TensorFlow (Labs 6 through 10), although, you are expected to be able to apply the material from earlier in the semester as well. Note that there are only 10 labs and the
 module on Statistical Computing will not be on the test.
