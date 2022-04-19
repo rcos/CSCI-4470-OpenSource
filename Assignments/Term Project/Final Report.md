@@ -28,9 +28,9 @@ The goal will be to get through 5 projects per day. Our project order is:
 
 	**Project Final Presentations**
 
+  * NP_DataHub
   * BetterShot 
   * Stress in Beams
-  * NP_DataHub
   * TackleBox	
   * RoomMate 
  
