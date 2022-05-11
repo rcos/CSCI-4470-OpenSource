@@ -1,0 +1,13 @@
+> use yankees
+switched to db yankees
+> db.menu.find()
+{"_id":"0001a2", "name":"Turner", "drink":"Tea"}
+{"_id":"0001a3", "name":"Turner", "drink":"Coffee"}
+{"_id":"0001a4", "name":"Gleyber", "drink":"Gatorade"}
+{"_id":"0001a5", "name":"Voit"}
+{"_id":"0001a6", "name":"Stanton", "drink":"Water"}
+{"_id":"0001a7", "name":"Gardner", "drink":"Water"}
+{"_id":"0001a8", "name":"Sanchez", "drink":"Water"}
+{"_id":"0001a9", "name":"Judge", "drink":"RC"}
+{"_id":"0001b1", "name":"Boone", "drink":"Pepsi"}
+{"_id":"0001b2", "drink": "Coke"}

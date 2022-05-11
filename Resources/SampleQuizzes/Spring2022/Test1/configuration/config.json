@@ -1,0 +1,310 @@
+{
+	
+    "hide_submitted_files" : true,
+    "hide_version_and_test_details" : false,
+#include "textdirectory/message.txt"
+    "autograding" : {
+        "submission_to_compilation" : [ "*.txt", "*.cpp", "*.py" ],
+        "submission_to_runner" : [ "*.txt", "*.out", "*.py" ],
+        "submission_to_validation" : [ "*.txt", "*.png", ".user_assignment_access.json" ],
+        "work_to_details" : [ "*.txt", "*.png", "test*/*.txt", "test*/*_diff.json" ]
+    },
+#include "textdirectory/front_page.txt"
+    "grading_parameters" : {
+        "TOTAL_POINTS" : 100,
+        "AUTO_POINTS" : 0,
+        "TA_POINTS" : 100
+    },
+    "notebook" : [
+        {
+	    "type": "image",
+            "image" : "exam1_1.png",
+            "width": 800
+        },
+	{
+	    "type": "markdown",
+	    "markdown_string": "Capture Group 1 (2/10pts)"
+	},
+        {
+            "testcase_ref" : "regex1",
+            "type": "short_answer",
+            "rows": 2,
+            "filename": "capture_1.txt"
+        },
+	{
+	    "type": "markdown",
+	    "markdown_string": "Capture Group 2 (2/10pts)"
+	},
+        {
+            "testcase_ref" : "regex2",
+            "type": "short_answer",
+            "rows": 2,
+            "filename": "capture_2.txt"
+        },
+	{
+	    "type": "markdown",
+	    "markdown_string": "Capture Group 3 (2/10pts)"
+	},
+        {
+            "testcase_ref" : "regex3",
+            "type": "short_answer",
+            "rows": 2,
+            "filename": "capture_3.txt"
+        },
+	{
+	    "type": "markdown",
+	    "markdown_string": "Capture Group 4 (2/10pts)"
+	},
+        {
+            "testcase_ref" : "regex4",
+            "type": "short_answer",
+            "rows": 2,
+            "filename": "capture_4.txt"
+        },
+	{
+	    "type": "markdown",
+	    "markdown_string": "Capture Group 5 (2/10pts)"
+	},
+        {
+            "testcase_ref" : "regex5",
+            "type": "short_answer",
+            "rows": 2,
+            "filename": "capture_5.txt"
+        },
+        {
+	    "type": "image",
+            "image" : "exam1_2.png",
+            "width": 800
+        },
+	{
+	    "type": "markdown",
+	    "markdown_string": "Clause 1 (3/12pts)"
+	},
+        {
+            "testcase_ref" : "clause1",
+            "type": "short_answer",
+            "rows": 5,
+            "filename": "clause_1.txt"
+        },
+	{
+	    "type": "markdown",
+	    "markdown_string": "Reasoning 1 (3/12pts)"
+	},
+        {
+            "testcase_ref" : "reasoning1",
+            "type": "short_answer",
+            "rows": 5,
+            "filename": "reasoning_1.txt"
+        },
+	{
+	    "type": "markdown",
+	    "markdown_string": "Clause 2 (3/12pts)"
+	},
+        {
+            "testcase_ref" : "clause2",
+            "type": "short_answer",
+            "rows": 5,
+            "filename": "clause_2.txt"
+        },
+	{
+	    "type": "markdown",
+	    "markdown_string": "Reasoning 2 (3/12pts)"
+	},
+        {
+            "testcase_ref" : "reasoning2",
+            "type": "short_answer",
+            "rows": 5,
+            "filename": "reasoning_2.txt"
+        },
+        {
+	    "type": "image",
+            "image" : "exam1_3_a.png",
+            "width": 800
+        },
+	{
+	    "type": "markdown",
+	    "markdown_string": "MarkDown (3/18pts)"
+	},
+        {
+            "testcase_ref" : "markdown_list",
+            "type": "short_answer",
+            "rows": 10,
+            "filename": "markdown_list.txt"
+        },
+	{
+	    "type": "markdown",
+	    "markdown_string": "reStructuredText (3/18pts)"
+	},
+        {
+            "testcase_ref" : "restructuredtext_list",
+            "type": "short_answer",
+            "rows": 10,
+            "filename": "restructured_list.txt"
+        },
+	{
+	    "type": "markdown",
+	    "markdown_string": "LaTex (3/18pts)"
+	},
+        {
+            "testcase_ref" : "latex_list",
+            "type": "short_answer",
+            "rows": 10,
+            "filename": "latex_list.txt"
+        },
+        {
+	    "type": "image",
+            "image" : "exam1_3_b.png",
+            "width": 800
+        },
+	{
+	    "type": "markdown",
+	    "markdown_string": "MarkDown (3/18pts)"
+	},
+        {
+            "testcase_ref" : "markdown_link",
+            "type": "short_answer",
+            "rows": 10,
+            "filename": "markdown_link.txt"
+        },
+	{
+	    "type": "markdown",
+	    "markdown_string": "reStructuredText (3/18pts)"
+	},
+        {
+            "testcase_ref" : "restructuredtext_link",
+            "type": "short_answer",
+            "rows": 10,
+            "filename": "restructured_link.txt"
+        },
+	{
+	    "type": "markdown",
+	    "markdown_string": "HTML (3/18pts)"
+	},
+        {
+            "testcase_ref" : "html_link",
+            "type": "short_answer",
+            "rows": 10,
+            "filename": "html_link.txt"
+        },
+        {
+	    "type": "image",
+            "image" : "exam1_4_a.png",
+            "width": 800
+        },
+	{
+	    "type": "markdown",
+	    "markdown_string": "Documentation (8/16pts)"
+	},
+        {
+            "testcase_ref" : "documentation",
+            "type": "short_answer",
+            "rows": 15,
+            "filename": "documentation.txt"
+        },
+        {
+	    "type": "image",
+            "image" : "exam1_4_b.png",
+            "width": 800
+        },
+	{
+	    "type": "markdown",
+	    "markdown_string": "License (8/16pts)"
+	},
+        {
+            "testcase_ref" : "license",
+            "type": "short_answer",
+            "rows": 15,
+            "filename": "license.txt"
+        },
+        {
+	    "type": "image",
+            "image" : "exam1_5.png",
+            "width": 800
+        },
+        {
+            "testcase_ref" : "git",
+            "type": "short_answer",
+            "rows": 15,
+            "filename": "git.txt"
+        },
+        {
+	    "type": "image",
+            "image" : "exam1_6_a.png",
+            "width": 800
+        },
+	{
+	    "type": "markdown",
+	    "markdown_string": "Makefile (14/24pts)"
+	},
+        {
+            "testcase_ref" : "makefile",
+            "type": "short_answer",
+            "rows": 30,
+            "filename": "makefile.txt"
+        },
+        {
+	    "type": "image",
+            "image" : "exam1_6_b.png",
+            "width": 800
+        },
+	{
+	    "type": "markdown",
+	    "markdown_string": "CMakeLists.txt (10/24pts)"
+	},
+        {
+            "testcase_ref" : "cmakelists",
+            "type": "short_answer",
+            "rows": 30,
+            "filename": "cmkelists.txt"
+        }
+	
+    ],
+    "testcases" : [
+        // ==========================================================
+        // NOTE: Currently implemented as an instructor provided
+        // custom validator, but will likely be available as a built
+        // in validation option in the future.
+        // ==========================================================
+        {
+            "title":"Check Time Limit",
+            "copy_access_files" : true,
+            "points": -100,  // maximum penalty -- must match below
+            "validation":
+            [
+                {
+                    "actual_file" : ".user_assignment_access.json",
+                    "method" : "custom_validator",
+                    "command" : "python3 timelimit.py",
+                    "allowed_minutes" : 96,
+                    "penalty_per_minute" : -1,
+                    "max_penalty" : -100, // must match above
+                    "show_actual":"never",
+
+                    // optional field to list specific users with different time limits
+		    "override" :
+                    [
+                        { "user" : "zeccac",    "allowed_minutes" : 180 },
+                        { "user" : "orlang2",   "allowed_minutes" : 135 },
+                        { "user" : "ungerb",    "allowed_minutes" : 135 },
+                        { "user" : "bealsj2",   "allowed_minutes" : 135 },
+                        { "user" : "schife",    "allowed_minutes" : 135 },
+                        { "user" : "woodz",     "allowed_minutes" : 136 },
+                        { "user" : "reils",     "allowed_minutes" : 135 },
+                        { "user" : "chens29",   "allowed_minutes" : 107 },
+                        { "user" : "wdturner",  "allowed_minutes" : 10 }
+                    ]
+                }
+            ]
+        },
+
+        {
+            "title": "Submission Limit",
+            "type": "FileCheck",
+            "max_submissions": 50,
+            "penalty": -1,
+            "points": -5,
+            "timestamped_stdout": false
+         }
+
+    ]
+}

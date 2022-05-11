@@ -1,0 +1,49 @@
+"load_gradeable_message" : {
+        "message" : "**Open Source Software &nbsp;  \n\
+CSci 4470 &nbsp;  \n\
+Spring 2021  &nbsp;  \n\
+Quiz 1  &nbsp;  \n\
+March 5, 2021**\n\
+\n\
+        * Submitty will open for a 90 minute submission period beginning at the start of \n\
+          class at 12:20 pm ET and will remain open until 4:20 pm ET. You \n\
+          are expected to start close to the 12:20 start time and complete within the 90 minute \n\
+          test window. The additional time is to account for students with accommodations and to \n\
+          give some slack for technical difficulties. \n\
+        * Professor Turner will be hanging out in Nook \n\
+          https://app.nooks.in/goto/qS7SgQTAyogWfILY?pwd=4o647S \n\
+          until at least 3:20. \n\
+        * After clicking continue, the test will start and you will have 90 minutes to \n\
+          complete the test (135 minutes for 50% accommodations or 180 minutes for 100% \n\
+          accommodations).\n\
+        * Leaving the page does not stop the timer.\n\
+        * If you submit your answers more than 90 minutes (135 minutes for 50% accomodation \n\
+          or 180 minutes for 100% accommodation) after your first page access, you will \n\
+          lose 1 point per minute over the limit.\n\
+        * If you run over your allotted time please submit as soon as possible. Do not wait\n\
+          to contact us to get permission.  The later your submission, the greater the penalty.\n\
+          If you run into a technical issue that prevents you from submitting, immediately \n\
+          email Prof. Turner at turnew2@rpi.edu. Attach your exam to the \n\
+          email and briefly but thoroughly explain the issue. Depending on when you email us and\n\
+          the issue, we will decide whether or not to apply a penalty.\n\
+        * There are 6 questions on this test. The allocated points are specified with each \n\
+          problem. Each question should be submitted to the correct submission box in the \n\
+          Exam 1 gradeable on Submitty. These will not be auto-graded. \n\
+          Therefore, you will not see any points once you submit. \n\
+        * During the exam,  if you are doubtful/confused about a problem, simply state your assumptions \n\
+          and/or interpretation as comments right before your code and write your solution accordingly.\n\
+        * During exam time, you should NOT contact any of the TAs or mentors either via email or \n\
+          on the discussion forum.  In case of an extremely urgent situation please email \n\
+          Prof. Turner.\n\
+        * Students MUST make sure they have a steady internet connection before the exam \n\
+        * This is an open book, open notes and open reference material exam. You may NOT discuss\n\
+          any portion of this exam with any person during the exam period. DO NOT use Google, DO \n\
+          NOT consult any resources such as Stack Overflow. You may use class notes,\n\
+          or any of the local tools you installed for labs.\n\
+        * By submitting this test, you are certifying that you agree with and will abide by \n\
+          the honor code for the course below\n\
+&nbsp;  \n\
+**Honor pledge: On my honor I have neither given nor received aid on this exam ** ",
+
+        "first_time_only" : true
+    },
