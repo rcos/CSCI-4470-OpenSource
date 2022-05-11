@@ -1,8 +1,8 @@
-## This lab (Lab #2 on 1/21/2022) is about Git (local repository), Github and a few of the commands you need to know to effectively manage an open source project.
+## This lab (Lab #2) is about Git (local repository), Github and a few of the commands you need to know to effectively manage an open source project.
 
 ### Since we are already practicing git in class as part of our git lecture, you should not need the whole period. Accordingly, we will take the first few minutes to finish our discussion of git first.
 
-### You will be maintaining a repository on github for all your lab work. If you need help getting started, please check out the instructions for Lab 1. For this week you will need to create and commit a report `labs/lab-02/report.md` __IN THE SAME REPOSITORY__ you used last week. You must maintain this lab as an open repository or Submitty will not be able to access your submissions. When you submit your lab to [Submitty](https://submitty.cs.rpi.edu/courses/s22/csci4470) you will need to supply your github user name and the name of your fork. For me I would enter `wdturner` and `oss-repo-template`. Make sure that you commit your work and push it to your remote repository before you submit to Submitty!
+### You will be maintaining a repository on github for all your lab work. If you need help getting started, please check out the instructions for Lab 1. For this week you will need to create and commit a report `labs/lab-02/report.md` __IN THE SAME REPOSITORY__ you used last week. You must maintain this lab as an open repository or Submitty will not be able to access your submissions. When you submit your lab to [Submitty](https://submitty.cs.rpi.edu/courses/u22/csci4470) you will need to supply your github user name and the name of your fork. For me I would enter `wdturner` and `oss-repo-template`. Make sure that you commit your work and push it to your remote repository before you submit to Submitty!
 
 The commands used in this lab will include `git add`, `git commit`, `git pull`, `git checkout`, `git branch`, `git push`, `git log`, `git status`, `git diff` , `git tag`,  `git rebase` and `git merge`
 

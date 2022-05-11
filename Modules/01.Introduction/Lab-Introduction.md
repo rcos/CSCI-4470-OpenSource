@@ -1,8 +1,8 @@
-# Lab 01 - Friday January 14th, 2022 (in class lab)
+# Lab 01 - (in class lab)
 
 ## Github, Linux Command Line Instructions, Regular Expressions and Visual Programming
 
-You will be maintaining a repository on github for all your lab work. Step 0 will help you create the skeleton for that repository and give you a head start on the lab report for lab 01 (`labs/lab-01/report.md`). You must maintain this lab as an open repository or Submitty will not be able to access your submissions. When you submit your lab to [Submitty](https://submitty.cs.rpi.edu/courses/s22/csci4470) you will need to supply your github user name and the name of your fork. For me, after following the directions in Step 0, I would enter `wdturner` and `oss-repo-template`. This structure will be used for each of your labs this semester, so for instance when doing lab 2, you will need to create and commit a report `labs/lab-02/report.md` __IN THE SAME REPOSITORY__.
+You will be maintaining a repository on github for all your lab work. Step 0 will help you create the skeleton for that repository and give you a head start on the lab report for lab 01 (`labs/lab-01/report.md`). You must maintain this lab as an open repository or Submitty will not be able to access your submissions. When you submit your lab to [Submitty](https://submitty.cs.rpi.edu/courses/u22/csci4470) you will need to supply your github user name and the name of your fork. For me, after following the directions in Step 0, I would enter `wdturner` and `oss-repo-template`. This structure will be used for each of your labs this semester, so for instance when doing lab 2, you will need to create and commit a report `labs/lab-02/report.md` __IN THE SAME REPOSITORY__.
 
 > Markdown syntax is [here](https://help.github.com/articles/basic-writing-and-formatting-syntax/) and [here](https://guides.github.com/features/mastering-markdown/) 
 
