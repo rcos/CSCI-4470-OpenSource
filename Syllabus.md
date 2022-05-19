@@ -33,7 +33,7 @@ wdturner@gmail.com
 
 [https://rensselaer.webex.com/meet/turnew2](https://rensselaer.webex.com/meet/turnew2)
 
-Office Hours (subject to change): Tuesday 10:00-11:30 (in person), Thursday 10:00-11:30 in my WebEx (above), or by appointment
+Office Hours (subject to change): Tuesday 3:35-5:05pm (in person), Thursday 10:00-11:30 in my WebEx (above), or by appointment
 
 ---
 
@@ -68,10 +68,10 @@ Kate Vandermolen
 - Office Hours: TBD
 
 ---
-Alice Bibaud
+Ariana Lissak
 
-- Email: <bibaua@rpi.edu>
-- WebEx: [https://rensselaer.webex.com/meet/bibaua](https://rensselaer.webex.com/meet/bibaua)
+- Email: <Lissaa@rpi.edu>
+- WebEx: [https://rensselaer.webex.com/meet/bibaua](https://rensselaer.webex.com/meet/lissaa)
 - Office Hours: TBD
 
 ---
