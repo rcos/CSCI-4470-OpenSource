@@ -1,7 +1,7 @@
 CSCI-4470 Open Source Software
 ##############################
 
-Spring 2022 
+Summer 2022 
 
 Rensselaer Polytechnic Institute
 
@@ -30,7 +30,7 @@ And by Professor Mukkai Krishnamoorthy who succeeded them in teaching the course
 Thanks To
 ----------
 
-*We are extremely thankful to RedHat for their generous support. Thanks to Mr. Tom Callaway and Ms. Gina Likins for their valuable advice and suggestions.*
+*This  We are extremely thankful to RedHat for their generous support. Thanks to Mr. Tom Callaway and Ms. Gina Likins for their valuable advice and suggestions.*
 
 
 People
@@ -38,49 +38,48 @@ People
 
 Professor
 ---------
+**Wesley Turner:**
+    * Office: Amos Eaton 207
+    * Email: wdturner@gmail.com
+    * WebEx: https://rensselaer.webex.com/meet/turnew2
+    * Office Hours: (subject to change): Tuesday 3:35-5:05pm (in person), Thursday 10:00-11:30am in my WebEx (above), or by appointment
 
-Wesley Turner 
+TAs
+----
+**Mohammed Shahid Modi:**
+    * Email: modim2@rpi.eduu
+    * WebEx: https://rensselaer.webex.com/meet/modim2
+    * Office Hours: TBD
 
-- Office: Amos Eaton 207
-- Email: wdturner@gmail.com
-- WebEx: https://rensselaer.webex.com/meet/turnew2
-- Office Hours(subject to change): Tuesday 10:00-11:30 (in person), Thursday 10:00-11:30 in my WebEx (above), or by appointment
+-------- 
 
-TA
---
-
-Peter Ly
-
-- Email: lyp2@rpi.edu
-- WebEx: https://rensselaer.webex.com/meet/lyp2
-- Office Hours: TBD
-
+**Kelsey Rook:**
+    * Email: rookk@rpi.eduu
+    * WebEx: https://rensselaer.webex.com/meet/rookk
+    * Office Hours: TBD
 
 Mentors
--------
+--------
+**Kate Vandermolen:**
+    * Email: vandek5@rpi.edu
+    * WebEx: https://rensselaer.webex.com/meet/vandek5
+    * Office Hours: TBD
+
+-------- 
+
+**Ariana Lissak:**
+    * Email: Lissaa@rpi.edu
+    * WebEx: https://rensselaer.webex.com/meet/bibaua
+    * Office Hours: TBD
 
 .. rst-class:: build
-
-Jeremy Macks 
-
-- Email: macksj@rpi.edu
-- WebEx: https://rensselaer.webex.com/meet/macksj
-- Office Hours: TBD
-
-------
-
-Yichen Li
-
-- Email: liy55@rpi.edu
-- WebEx: https://rensselaer.webex.com/meet/liy55
-- Office Hours: (Tentative) Friday 2:00-4:00pm
 
 ------
 
 Meetings
 ---------
 
-The course will initially meet in Prof. Turner's WebEx `https://rensselaer.webex.com/meet/turnew2 <https://rensselaer.webex.com/meet/turnew2>`_ on Tuesdays and Fridays from 12:00pm - 1:50pm. We will transition to in-person instruction (Yay) as soon as we can. Class discussions are an important part of the lecture and the labs so synchronous attendance is required. If you are attending remotely with significant timezone differences, please let Prof. Turner know so he can make arrangements.
+The course will meet in **Sage 5510** on Tuesdays and Fridays from 10:30pm - 12:35pm. Class discussions are an important part of the lecture and the labs so attendance is required. If you are temporarily unable to attend because of quarantine or other health issues, please contact Prof. Turner and make alternate arrangements.
 
 
 Overview
@@ -93,12 +92,10 @@ Most lectures will have a reading section. You should be reading this as we go a
 
 * `CSCI-4470-OpenSource/Resources/Reading-Material.md <https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Resources/Reading-Material.md>`_,
 
-in this repository
-
 Online LMS and the use of Submitty
 ----------------------------------
 
-This course **will not** use the RPI Blackboard LMS. Instead, we will use **Submitty** a course management tool developed as an opensource project under **RCOS** and the creative and technical auspices of Prof. Barbara Cutler. If you are registered in the course, you may access it at https://submitty.cs.rpi.edu/courses/s22/csci4470. If you do not have access, please email the TA or the Professor.
+This course **will not** use the RPI Blackboard LMS. Instead, we will use **Submitty** a course management tool developed as an opensource project under **RCOS** and the creative and technical auspices of Prof. Barbara Cutler. If you are registered in the course, you may access it at https://submitty.cs.rpi.edu/courses/u22/csci4470. If you do not have access, please email the TA or the Professor.
 
 Goal of this Class:
 -------------------
@@ -179,19 +176,20 @@ Grading Criteria:
 
 - 2 Quizzes (10 points each) - 20%
 - Open Source Project Analysis Paper - 10%
-- 11 Labs (3 points each/drop lowest) - 30%
+- 9 Labs (3 points each/drop lowest) - 30%
 - Project - 40%
 
 Test Dates
 --------------
 
-- Quiz 1 25th February
-- Quiz 2 12th April
+
+- Quiz 1 1st July
+- Quiz 2 9th August
 
 Open Source Paper Due
 ---------------------
 
-- 11th February
+- 24th June
 
 Grade Distribution
 ------------------
@@ -210,7 +208,7 @@ Grade Distribution
 Community:
 ----------
 
-Please join our discord server **OSS-Spring2022** at https://discord.gg/8NnpgwJd
+Please join our discord server **OSS-Summer2022** at https://discord.gg/5WEv84aGDz.
 
 Policies
 ========

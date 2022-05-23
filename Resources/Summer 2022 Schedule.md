@@ -79,7 +79,5 @@ or -->
 
 	**Project Final Presentations**
  
-* Tuesday 8/19/2022 - Project Reports
-
-	**No Class**
+* Tuesday 8/19/2022 - **No Class**
  

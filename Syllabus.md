@@ -33,7 +33,7 @@ wdturner@gmail.com
 
 [https://rensselaer.webex.com/meet/turnew2](https://rensselaer.webex.com/meet/turnew2)
 
-Office Hours (subject to change): Tuesday 3:35-5:05pm (in person), Thursday 10:00-11:30 in my WebEx (above), or by appointment
+Office Hours (subject to change): Tuesday 3:35-5:05pm (in person), Thursday 10:00-11:30am in my WebEx (above), or by appointment
 
 ---
 
@@ -43,7 +43,7 @@ TAs
 ---
 Mohammed Shahid Modi
 
-- <modim2@rpi.eduu>
+- Email: <modim2@rpi.eduu>
 - WebEx: [https://rensselaer.webex.com/meet/modim2](https://rensselaer.webex.com/meet/modim2)
 - Office Hours: TBD
 
@@ -51,7 +51,7 @@ Mohammed Shahid Modi
 
 Kelsey Rook
 
-- <rookk@rpi.eduu>
+- Email: <rookk@rpi.eduu>
 - WebEx: [https://rensselaer.webex.com/meet/rookk](https://rensselaer.webex.com/meet/rookk)
 - Office Hours: TBD
 
@@ -75,7 +75,7 @@ Ariana Lissak
 - Office Hours: TBD
 
 ---
-The course will meet in **TDB** on Tuesdays and Fridays from 10:30pm - 12:35pm. Class discussions are an important part of the lecture and the labs so attendance is required. If you are temporrily unable to attend because of quarantine or other health issues, please contact Prof. Turner and make alternate arrangements.
+The course will meet in **Sage 5510** on Tuesdays and Fridays from 10:30pm - 12:35pm. Class discussions are an important part of the lecture and the labs so attendance is required. If you are temporarily unable to attend because of quarantine or other health issues, please contact Prof. Turner and make alternate arrangements.
 
 ## Online LMS and the use of Submitty
 This course __will not__ use the RPI Blackboard LMS. Instead, we will use __Submitty__ a course management tool developed as an opensource project under __RCOS__ and the creative and technical auspices of Prof. Barbara Cutler. If you are registered in the course, you may access it at [https://submitty.cs.rpi.edu/courses/u22/csci4470](https://submitty.cs.rpi.edu/courses/u22/csci4470). If you do not have access, please email the TA or the Professor.
