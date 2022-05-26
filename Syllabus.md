@@ -71,7 +71,7 @@ Kate Vandermolen
 Ariana Lissak
 
 - Email: <Lissaa@rpi.edu>
-- WebEx: [https://rensselaer.webex.com/meet/bibaua](https://rensselaer.webex.com/meet/lissaa)
+- WebEx: [https://rensselaer.webex.com/meet/lissaa](https://rensselaer.webex.com/meet/lissaa)
 - Office Hours: TBD
 
 ---
