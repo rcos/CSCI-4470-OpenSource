@@ -28,8 +28,13 @@
 
 2. Use latex [http://www.artofproblemsolving.com/texer](http://www.artofproblemsolving.com/texer) to generate the formulae depicted in [latex_formulae.png](https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Modules/03.DocumentationAndCommunity/latex_formulae.png)
 
-3. Use latex to display a [Hadamard Matrix of size 4](http://mathworld.wolfram.com/HadamardMatrix.html) (equation 5). You can use just 1 and -1; although, if you want to make a matrix using the white and black boxes you are welcome to.
-
+3. Use latex to display a [Matrix of size 4](http://mathworld.wolfram.com/HadamardMatrix.html) (equation 5). You can use just 1 and -1; although, if you want to make a matrix using the white and black boxes you are welcome to.
+4. Now let's try something fun. The course notes for this class were developed over multiple years using different (generally open) technologies. In particular, the notes for many of the modules including Module [01.Introduction](../01.Introduction) use a combination of Python (sphinx) and latex.
+ 	1. Start up your Linux installation from [Lab 1](../01.Introduction/Lab-Introduction.md) and clone the [class repository](https://github.com/rcos/CSCI-4470-OpenSource)
+ 	2. The build system for the notes uses the python module ``sphinx``. Use ``pip install sphinx`` to install it.
+ 	3. The output we are interested in also use ``latex``. Verify you have latex installed. If not, use ``apt texlive-latex-extra`` to install it. You will also want to install ``latexmk``.
+ 	2. Change to the History directory [01.Introduction/History](../01.Introduction/History)
+ 	3. Type ``make help``. You should see a list of targets that are available as the output of our build system. For the class presentation, I use ``make slides`` which generates an ``html`` file of slides that can be displayed in a browser such as ``firefox`` or ``chrome``. You should use ``make latexpdf`` instead. It will probably fail with missing packages. Install any missing packages using ``pip`` and try again. Repeat until you successfully generate a pdf of the course notes. Take a screenshot of the successful make run and include it in your lab report.
 
 ### Part 2 - Community
 1. Break up into "tables" of 4-5 students.

@@ -15,7 +15,7 @@ You will be maintaining a repository on github for all your lab work. Step 0 wil
   	 - Please add your Discord handle.
 
 ## 1. Join the Discord if you haven't already 
-  1. Join here: [https://discord.gg/8G6Hgmk8](https://discord.gg/8G6Hgmk8) 
+  1. Join here: [https://discord.gg/5WEv84aGDz](https://discord.gg/5WEv84aGDz) 
   2. Post a message into the "#general" channel
   3. Take a screenshot the post and paste it into your lab report .
 
