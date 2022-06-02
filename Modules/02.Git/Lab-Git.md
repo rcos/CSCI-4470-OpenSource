@@ -8,7 +8,7 @@ The commands used in this lab will include `git add`, `git commit`, `git pull`, 
 
 - Use the command line (or git shell) for this lab
 
-> The command line is preferred - your ubuntu installation or `gitbash` will help if you decide to experiment with the command line
+> The command line is ***required*** - your ubuntu installation or `gitbash` will help if you decide to experiment with the command line
 
 Useful pages:
 
@@ -28,16 +28,16 @@ In this lab you will practice the git commands we introduced. At the end of the 
     (make sure you select the correct operating system at the top)
 
 1. Setup git
-  * Follow the instructions from slides 7 - 27 of [https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Modules/02.Git/Git-Introduction-Part-I/index.html](https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Modules/02.Git/Git-Introduction-Part-I/index.html) by cloning the repository and opening index.html.
+  * Follow the instructions from slides 7 - 27 of [https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Modules/02.Git/Git-Introduction-Part-I/index.html](https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Modules/02.Git/Git-Introduction-Part-I/index.html) To view the instructions, you will need to clone the repository and open index.html in the correct local directory. This is a little bit of a "Catch 22" but you should be able to handle it.
     * Create a local repository `lab2part1` using the command line
   * Create a README.md file.
     * This file should include, as a bulleted list:
       * your name
-      * your photograph (Add it to your repository and use markdown to display it). If you are uncomfortable with a public photo, please find some picture to represent you.
+      * your photograph (Add it to your repository and use markdown to display it). If you are uncomfortable with a public photo, please find some meme or bitmoji to represent you.
       * your graduating year
       * your project sub-area (the type of project that you plan to work on). This does not need to be your final choice, just your current thought process.
 
-2. [Create a new repository on github](https://github.com/new) and push the README.md file you created.
+2. [Create a new repository on github](https://github.com/new) and push the local repository and README.md file you created.
   > *(hint: you should be doing something like this):* 
 
 
@@ -90,7 +90,7 @@ In this lab you will practice the git commands we introduced. At the end of the 
 1. Fork the repository [https://github.com/wdturner/PullReq](https://github.com/wdturner/PullReq)
 
   * Clone your fork using the command line.
-  * In the Spring2022 directory, add a file named &lt;firstName lastName&gt;.md, add today's date on the first line (1/21/2022), 
+  * In the Summer2022 directory, add a file named &lt;firstName lastName&gt;.md, add today's date on the first line. 
   * Add, commit, and push your file back to your forked version. Then use the `github` interface to make a pull request.
   * Ask one of the helpful instructional staff to merge your pull request.
   * You can update your repository to reflect changes in the upstream repository using:
@@ -102,7 +102,7 @@ In this lab you will practice the git commands we introduced. At the end of the 
 
   ***Provide a link to your fork of this repository in your lab report.***
 
-2. Make sure you understand the command `git diff` from [this example](https://www.safaribooksonline.com/library/view/version-control-with/9780596158187/ch08s02.html)
+2. Make sure you understand the command `git diff` from [this example](https://git-scm.com/book/en/v2/Git-Basics-Recording-Changes-to-the-Repository)
 
    * Examine the contents of the diff file from the previous question (your pull request) using
    `git diff HEAD~1`
@@ -131,7 +131,7 @@ In this lab you will practice the git commands we introduced. At the end of the 
 
 6. Each member should clone the **table's** repository
 
-  * Locally, in the `Spring2022` directory, each member should create a file called `ProjectIdeas<table number>.md`
+  * Locally, in the `Summer2022` directory, each member should create a file called `ProjectIdeas<table number>.md`
  
   * Each person writes their project ideas inside their own version of the file. **Your ideas are not binding; it is just to get you thinking and to start communicating with your colleagues**
   
@@ -140,6 +140,7 @@ In this lab you will practice the git commands we introduced. At the end of the 
   * Resolve any merge conflicts that occur along the way.
   
     * You can update your repository to reflect changes in the upstream repository using 
+   
 ```
     git remote add upstream https://github.com/wdturner/OSSProjectIdeas.git
     git pull upstream master
