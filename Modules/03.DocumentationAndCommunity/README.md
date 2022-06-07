@@ -1,4 +1,4 @@
 ### DocumentationsAndCommunity
 
-- index.html is about Documentation
-- index2.html is about Community
+- Documentation.html is about Documentation
+- Community.html is about Community
