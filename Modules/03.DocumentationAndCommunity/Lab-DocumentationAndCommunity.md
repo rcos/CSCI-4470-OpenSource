@@ -28,30 +28,28 @@
 
 2. Use latex [http://www.artofproblemsolving.com/texer](http://www.artofproblemsolving.com/texer) to generate the formulae depicted in [latex_formulae.png](https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Modules/03.DocumentationAndCommunity/latex_formulae.png)
 
-3. Use latex to display a [Matrix of size 4](http://mathworld.wolfram.com/HadamardMatrix.html) (equation 5). You can use just 1 and -1; although, if you want to make a matrix using the white and black boxes you are welcome to.
+3. Use latex to display a [Hadamard Matrix of size 4](http://mathworld.wolfram.com/HadamardMatrix.html) (equation 5). You can use just 1 and -1; although, if you want to make a matrix using the white and black boxes you are welcome to.
 4. Now let's try something fun. The course notes for this class were developed over multiple years using different (generally open) technologies. In particular, the notes for many of the modules including Module [01.Introduction](../01.Introduction) use a combination of Python (sphinx) and latex.
  	1. Start up your Linux installation from [Lab 1](../01.Introduction/Lab-Introduction.md) and clone the [class repository](https://github.com/rcos/CSCI-4470-OpenSource)
  	2. The build system for the notes uses the python module ``sphinx``. Use ``pip install sphinx`` to install it.
  	3. The output we are interested in also uses ``latex``. Verify you have latex installed. If not, use ``apt install texlive-latex-extra`` to install it. You will also want to install ``latexmk`` using the same procedure.
  	2. Change to the History directory [01.Introduction/History](../01.Introduction/History)
- 	3. Type ``make help``. You should see a list of targets that are available as the output of our build system. For the class presentation, I use ``make slides`` which generates an ``html`` file of slides that can be displayed in a browser such as ``firefox`` or ``chrome``. You should use ``make latexpdf`` instead. It will probably fail with missing packages. Install any missing packages using ``pip`` and try again. Repeat until you successfully generate a pdf of the course notes. Take a screenshot of the successful make run and include it in your lab report.
+ 	3. Type ``make help``. You should see a list of targets that are available as the output of our build system. For the class presentation, I use ``make slides`` which generates an ``html`` file of slides that can be displayed in a browser such as ``firefox`` or ``chrome``. You should use ``make latexpdf`` instead. It will probably fail with missing packages. Install any missing packages using ``pip`` and try again. Repeat until you successfully generate a pdf of the course notes. Take a screenshot of the successful make run and include it in your lab report. Can you find the file you generated? Where is it found on disk? Put the **full link** to the generated file in your lab report.
 
 ### Part 2 - Community
 1. Break up into "tables" of 4-5 students.
-1. Project selection
-  1. Take a look at your assigned projects from [https://observatory.rcos.io/projects/past](https://observatory.rcos.io/projects/past) and clone them locally. All people at the table need to record the information for all projects, but each person can do one project and share the results with the group.
+1. Randomly (or purposefully) choose some projects from [https://observatory.rcos.io/projects/past](https://observatory.rcos.io/projects/past) and clone them locally. All people at the table need to record the information for all projects, but each person can do one project and share the results with the group.
       
-      **Table 1 gets projects 1-5, table 2 takes 6-10, and so on... Adjust the numbers to the number of people at your table, but do at least 4.**
+      **Adjust the numbers to the number of people at your table, but choose at least 4 projects to review. If you can't clone a specific projiect simply choose another.**
 
   2. For each of your projects, look up by hand and record in your `lab report`:
         - the number of contributors
         - number of lines of code
-        
-      > To get the lines of a project, try something like `git ls-files -z | xargs -0 wc -l` in the cloned project directory
-
         - the first commit
         - the latest commit
         - the current branches
+        
+      > To get the lines of a project, try something like `git ls-files -z | xargs -0 wc -l` in the cloned project directory
    
       **Note: if the project you are assigned has no commits to its repository, pick a different project.**
     
