@@ -36,6 +36,11 @@
  	2. Change to the History directory [01.Introduction/History](../01.Introduction/History)
  	3. Type ``make help``. You should see a list of targets that are available as the output of our build system. For the class presentation, I use ``make slides`` which generates an ``html`` file of slides that can be displayed in a browser such as ``firefox`` or ``chrome``. You should use ``make latexpdf`` instead. It will probably fail with missing packages. Install any missing packages using ``pip`` and try again. Repeat until you successfully generate a pdf of the course notes. Take a screenshot of the successful make run and include it in your lab report. Can you find the file you generated? Where is it found on disk? Put the **full directory path** to the generated file in your lab report.
 
+    General notes for part 1 of the lab:
+    * If you get a warning stating that your installation is not part of the path, run: ``export PATH=$PATH:/home/[YOUR_USERNAME]/.local/bin``
+    * For the final step when running ``make latexpdf``, you may get an error that reads: ``LaTeX Error: File 'cmap.sty' not found``. To fix this, run ``sudo apt install texlive-latex-extra``. If you get an error after installing saying that it was unable to fetch some archives, follow the directions and run ``sudo apt-get update``.
+    * When in doubt, restart Ubuntu.
+
 ### Part 2 - Community
 1. Break up into "tables" of 4-5 students.
 1. Randomly (or purposefully) choose some projects from [https://observatory.rcos.io/projects/past](https://observatory.rcos.io/projects/past) and clone them locally. All people at the table need to record the information for all projects, but each person can do one project and share the results with the group.
