@@ -40,7 +40,7 @@
 1. Break up into "tables" of 4-5 students.
 1. Randomly (or purposefully) choose some projects from [https://observatory.rcos.io/projects/past](https://observatory.rcos.io/projects/past) and clone them locally. All people at the table need to record the information for all projects, but each person can do one project and share the results with the group.
       
-      **Adjust the numbers to the number of people at your table, but choose at least 4 projects to review. If you can't clone a specific projiect simply choose another.**
+      **Adjust the numbers to the number of people at your table, but choose at least 4 projects to review. If you can't clone a specific project simply choose another.**
 
   2. For each of your projects, look up by hand and record in your `lab report`:
         - the number of contributors
