@@ -16,9 +16,9 @@ This is a draft schedule for this course -
 
 * Friday 06/17/2022 - [Lab: Build Systems](../Modules/05.BuildSystems/Lab-BuildSystems.md)  **Moved from week 5 due to scheduling issue** 
 
-* Tuesday 06/14/2022 - [Lecture: Understanding Open Source](../Modules/04.Licensing/Licensing-S2017-RPI-PatrickMasson.pdf) **Moved from week 4 due to scheduling issue** 
+* Tuesday 06/21/2022 - [Lecture: Understanding Open Source](../Modules/04.Licensing/Licensing-S2017-RPI-PatrickMasson.pdf) **Moved from week 4 due to scheduling issue** 
 
-* Friday 06/17/2022 - [Lab: Licensing](../Modules/04.Licensing/Lab-Licensing.md) **Moved from week 4 due to scheduling issue** 
+* Friday 06/24/2022 - [Lab: Licensing](../Modules/04.Licensing/Lab-Licensing.md) **Moved from week 4 due to scheduling issue** 
 
 	**Analysis of an Open Source Project Due**
 
