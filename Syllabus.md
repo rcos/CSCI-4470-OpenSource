@@ -92,13 +92,12 @@ This course __will not__ use the RPI Blackboard LMS. Instead, we will use __Subm
 
 ## Learning Outcomes:
 
-The goal of this course is to provide a strong foundation in open source software development
-in preparation for jobs in industry or for more advanced courses.
+The goal of this course is to provide a strong foundation in open source software development in preparation for jobs in industry or for more advanced courses. After completing this course, the student will be able to:
 
-- Understanding of Open Source Software Tools and Community
-- Understanding of Open Source Licensing.
-- Understanding of Testing, Version Control.
-- Understanding of Common Open Source Software Stacks and common tools.
+- Articulate the importance of open-source tools in the technology sphere along with the importance of community in generating understanding of Open Source Software Tools and Community
+- Effectively use and communicate the different varieties of Open Source Licensing.
+- Effectively establish and use Testing and Version Control in an open source project.
+- Demonstrate competence with Common Open Source Software Stacks and common tools.
 
 ## Syllabus:
 
