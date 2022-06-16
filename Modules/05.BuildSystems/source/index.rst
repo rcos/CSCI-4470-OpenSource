@@ -1,7 +1,7 @@
 Build Systems
 #############
 
-RPI Open Source Software - Spring 2022
+RPI Open Source Software - Summer 2022
 
 Brad King, Kitware, Inc.
 
@@ -87,7 +87,7 @@ It runs the compiler and linker internally:
 
 .. code-block:: console
 
-  $ gcc hi.c -o hi -###
+  $ cc hi.c -o hi -###
   cc1 hi.c -o /tmp/tmp1.s
   as -o /tmp/tmp2.o /tmp/tmp1.s
   collect2 -o hi /tmp/tmp2.o -lgcc ...
@@ -138,7 +138,7 @@ The compiler driver runs the compiler and linker internally:
 
 .. code-block:: console
 
-  $ gcc hi1.c hello.c -o hi1 -###
+  $ cc hi1.c hello.c -o hi1 -###
   cc1 hi1.c -o /tmp/tmp1.s
   as -o /tmp/tmp2.o /tmp/tmp1.s
   cc1 hello.c -o /tmp/tmp3.s
@@ -198,13 +198,13 @@ The compiler driver runs the compiler and linker internally:
 
 .. code-block:: console
 
-  $ gcc hi1.c hello.c -o hi1 -###
+  $ cc hi1.c hello.c -o hi1 -###
   cc1 hi1.c -o /tmp/tmp1.s
   as -o /tmp/tmp2.o /tmp/tmp1.s
   cc1 hello.c -o /tmp/tmp3.s
   as -o /tmp/tmp4.o /tmp/tmp3.s
   collect2 -o hi1 /tmp/tmp2.o /tmp/tmp4.o -lgcc ...
-  $ gcc hi2.c hello.c -o hi2 -###
+  $ cc hi2.c hello.c -o hi2 -###
   cc1 hi2.c -o /tmp/tmp1.s
   as -o /tmp/tmp2.o /tmp/tmp1.s
   cc1 hello.c -o /tmp/tmp3.s
@@ -629,7 +629,6 @@ Underlies Visual Studio 2010+ builds.
 
   - Platform- and tool-specific.  Not portable.
   - Need manual rules for "install" operations.
-  - Difficult to merge version control branches.
 
 Example Build Systems
 ---------------------
