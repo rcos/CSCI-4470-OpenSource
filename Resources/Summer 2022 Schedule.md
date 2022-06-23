@@ -12,6 +12,11 @@ This is a draft schedule for this course -
 
 * Friday 06/10/2022 - [Lab: Community](../Modules/03.DocumentationAndCommunity/Lab-DocumentationAndCommunity.md)
 
+* Tuesday 06/21/2022 - [Lecture: Build Systems](../Modules/05.BuildSystems/BuildSystems.pdf)
+
+* Friday 06/24/2022 - [Lab: Build Systems](../Modules/05.BuildSystems/Lab-BuildSystems.md)
+
+<!-- Normal schedule, changed due to Prof. Turner not being available on 06/24
 * Tuesday 06/14/2022 - [Lecture: Understanding Open Source](../Modules/04.Licensing/Licensing-S2017-RPI-PatrickMasson.pdf)
 
 * Friday 06/17/2022 - [Lab: Licensing](../Modules/04.Licensing/Lab-Licensing.md)
@@ -19,6 +24,15 @@ This is a draft schedule for this course -
 * Tuesday 06/21/2022 - [Lecture: Build Systems](../Modules/05.BuildSystems/BuildSystems.pdf)
 
 * Friday 06/24/2022 - [Lab: Build Systems](../Modules/05.BuildSystems/Lab-BuildSystems.md)
+-->
+
+* Tuesday 06/14/2022 - [Lecture: Build Systems](../Modules/05.BuildSystems/BuildSystems.pdf)
+
+* Friday 06/17/2022 - [Lab: Build Systems](../Modules/05.BuildSystems/Lab-BuildSystems.md)
+
+* Tuesday 06/21/2022 - [Lecture: Understanding Open Source](../Modules/04.Licensing/Licensing-S2017-RPI-PatrickMasson.pdf)
+
+* Friday 06/24/2022 - [Lab: Licensing](../Modules/04.Licensing/Lab-Licensing.md)
 
 	**Analysis of an Open Source Project Due**
 
