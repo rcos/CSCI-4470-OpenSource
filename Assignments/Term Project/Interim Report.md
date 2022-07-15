@@ -12,20 +12,15 @@ We will have presentations on your projects during class beginning on 3/15 and r
 
 The goal will be to take 30 minutes out of next lecture (end) and next lab (beginning) to get through everybody. I picked the order teams show up in Submitty:
 
- * Blockchain Game
- *	Sensible Desktop Environment
- *	Submitty
- *	The Obfuscatorinator
- *	RoomMate 
- *	TackleBox	
- * 	NP_DataHub
- *	Fitbit Dashboard
- * Stress in Beams
- *	BetterShot 
- *	OrgManagement
- *	Wrathskeller
- * TrackBuddy
- * Aquamarine Toolkit
+* Legup
+* Submitty/Lichen
+* B-Ris
+* NeRF or Nothing
+* Dark Reader
+* Visual Novel Parser
+* OSS Poll Buddy
+* Linux Kernel
+* OpenCircuits
 
 After your presentation, you will need to upload a PDF of your presentation to Submitty for grading.
 
