@@ -65,7 +65,7 @@ Finally, we are going to use a simpler example to set up a CMake CI test on Gith
 ## Checkpoint 5: Project Updates
 For the rest of the semester you will be expected to do a short blog on your project progress each week, or really anything interesting you find in the the open source world. This will be written as wiki entries in your lab repository. Go to your lab repository on GitHub. If you don't see a **wiki** tab, you will need to enable it using the settings tab. Write your first blog as a paragraph description of the status of your project - What did you do last week on your project? You only have 5 more weeks to finish.
 
-##Example Illustrations
+## Example Illustrations
 ![Illustration of the pull request after running the action](PullRequest.png "PullRequest.png")
 
 ![Illustration of the actions workflow for the push and the pull request](Workflow.png "Workflow.png")
