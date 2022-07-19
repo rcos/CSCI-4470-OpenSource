@@ -75,7 +75,7 @@ Architecture
 .. image:: static/container-vm-whatcontainer_2.png 
   :scale: 50
 
-https://dockr.ly/2S0D5Fw
+https://www.docker.com/resources/what-container/#/virtual_machines
 
 Advantages
 ----------
@@ -234,6 +234,10 @@ Virtualbox is supported by Oracle and comes with a full suite of documentation a
 
   * https://www.virtualbox.org/wiki/Community
 
+* Issue Tracker
+
+  * https://www.virtualbox.org/ticket/20939 
+
 .. nextslide::
 
 * Runs on:
@@ -350,6 +354,8 @@ Architecture
 
 https://www.docker.com/what-container#/virtual_machines
 
+https://docs.microsoft.com/en-us/virtualization/windowscontainers/about/containers-vs-vm
+
 Docker
 ======
 
@@ -460,6 +466,14 @@ Example
 -------
 
 As a class exercise, we will run through steps 1-4 of the Docker Tutorial at: https://docs.docker.com/get-started/
+
+* Errata
+
+  * Where the Dockerfile says 12-alpine, use 14-alpine
+
+  * Where the Dockerfile says python2, use python3
+
+.. nextslide::
 
 For those of you running on WSL, there may be a few more steps:
 
