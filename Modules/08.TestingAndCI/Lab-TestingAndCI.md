@@ -30,15 +30,14 @@ Record all of your observations and a reasonably comprehensive set of screen sho
 6. If you are using WSL and get an error about missing **OpenGL** dependencies, install OpenGL using:
     -  sudo apt-get update
     -  sudo apt-get install libglu1-mesa-dev freeglut3-dev mesa-common-dev
-6. At this point, CMake is ready to test. We could execute the tests from this point, but just as a sanity check, build the system normally and verify everything works correctly. For OSX or Linux, this just means go into the build directory and execute make (*make -j4* will run on up to 4 separate threads to speed up build times *ninja -j 4* will do the same if you configured ninja). For Windows, open the project and build with the VS IDE.
-7. **Add a screenshot of the successful, build complete message to your lab report.**
+7. **Add a screenshot of the *cmake-gui* screen to your lab report.**
 
 ## Checkpoint 2: Executing the Tests
+1. Now we will use *ctest* to build and test the system. We will be doing an *Experimental* build to differentiate ourselves from *validated* systems; and in the interests of time, we will only run a subset of the normal CMake testing. In the Build directory, execute the command `ctest -D Experimental -I 11,26`. Experimental builds start from your current project state, execute a configure command to pull in any changes you may have made to the CMake Files, build the system to pull in any code changes and then execute a suite of tests and report back to the dashboard. The `-I` option allows us to specify a subset of tests (in this case tests 11 through 26) to be executed. Since we just did a configure, the configure phase should be relatively small, although, setting up the test configuration the first time does require a little build time. The build phase will take a little longer. After this time building all of *cmake*, most of the time will actually be spent running **CMake** tests. Ignore any errors with coverage. We may have to install a few more tools to get that completely operational on your systems.
 1. While the system is building, visit the CMake dashboard at [https://open.cdash.org/index.php?project=CMake](https://open.cdash.org/index.php?project=CMake). Explore the project. **Add answers to these questions in your lab Lab notebook.**
 	- Find the *Nightly* and *Experimental* sections and look at some of the submissions. How can you see what tests were run for a particular submission?
 	- Find a submission with errors. Can you see what the error condition was? How does this help you debug the failure?
 	- Find a system that is close to your specific configuration in the *Nightly*, *Nightly Expected* or one of the *Masters* sections. How _clean_ is the dashboard? Are there any errors that you need to be concerned with?
-2. Once the system is done building, it is time to verify the installation. We will be doing an *Experimental* build to differentiate ourselves from *validated* systems and in the interests of time, we will only run a subset of the normal CMake testing. In the Build directory, execute the command `ctest -D Experimental -I 11,30`. Experimental builds start from your current project state, execute a configure command to pull in any changes you may have made to the CMake Files, build the system to pull in any code changes and then execute a suite of tests and report back to the dashboard. The `-I` option allows us to specify a subset of tests (in this case tests 11 through 30) to be executed. Since we just did a build, the configure and build phases should be relatively small, although, setting up the test configuration the first time does require a little build time. Going forward, most of the time will actually be spent running **CMake** tests. Ignore any errors with coverage. We may have to install a few more tools to get that completely operational on your systems.
 3. Go back to the dashboard and find your submission. Are there any errors? If so, are they consistent with other projects using your architecture? If not, fix any significant errors in your system and resubmit to the dashboard until your system performs similarly to equivalent architectures. Note, that when the website is hit a lot there may be issues with your specific submission showing up.
 4. **Add a screenshot of your test submission in the Experimental Dashboard or from the command window to your lab report.**
 
@@ -46,25 +45,25 @@ Record all of your observations and a reasonably comprehensive set of screen sho
 ## Checkpoint 3: Failing/Passing a Test
 1. Take a look at the file [Kitware-modded-Copyright.txt](Kitware-modded-Copyright.txt). We will use this file to demonstrate the testing. It is a bit of a cheat because when it fails, you can use a simple file diff to figure out the error, but it should still be a good demonstration.
 2. Copy this file overtop of the existing ***Copyright.txt*** file in the CMake clone.
-3. Re-execute the testing. It will go faster if you just do a `make` followed by the command `ctest -I 11,30` or `ctest -I 11,30 -VV`. Explore and make sure that you can identify the error. What information does the failure provide? You can look at the test results or drill down on the dashboard.
+3. Re-execute the testing. You can use our original command, `ctest -D Experimental -I 11,26` or you can skip sending the results to the dashboard by entering `ctest -I 11,26` or `ctest -I 11,26 -VV`. These will run somewhat faster. Explore and make sure that you can identify the error. What information does the failure provide? What does `-VV` do? You can look at the test results or drill down on the dashboard if you submitted it there.
 4. **Add a screenshot of your test submission with errors in the Experimental Dashboard or from the command window to your lab report.**
 5. **Now use what you learned to fix the error. Grab a screenshot to document the fix and the successful run.**
 
 ## Checkpoint 4: CI/CD
 Finally, we are going to use a simpler example to set up a CMake CI test on Github.
 
-1. Copy the CMake Step 5 example you generated to a "clean" directory outside of the CMake repository and create a new git repository with just that tutorial code in it. Make sure that you add a README with the details of its origin.
+1. Copy the CMake Step 5 example you generated in the **Build Module** to a "clean" directory outside of the CMake repository and create a new git repository with just that tutorial code in it. Make sure that you add a README with the details of its origin.
 2. Verify that your tests still execute.
 2. Push this to a new repository on Github.
-3. Set up a github action to run your tests for pushes and for pull requests. **Note that there is a CMake template in the CI/CD section.** You do not need to write a lot of (any) code if you use the template. Verify that the action runs and you pass all the tests.
-4. Create a new branch on local and add a test for the square root of 4096. Push the new branch and create a pull request for it.
+3. Set up a github action to run your tests for pushes and for pull requests. **Note that there is a CMake template in the CI/CD section.** You can access it by going to the *Actions* tab and creating a new workflow. You do not need to write a lot of code if you use the template. You may want to check the specification of when the action is supposed to run. Verify that the action runs and you pass all the tests when you commit the action to the repository.
+4. Create a new branch on your local repository and add a test for the square root of 4096. Push the new branch and create a pull request for it.
 5. Verify that your tests run automatically on creating the pull request and give you no errors. Fix them if necessary.
 6. **Put a link to your repository on github in your Lab report along with screenshots of your pull request after the actions execute successfully, and at least one successful push execution. Screenshots from my run are at the bottom of this file for reference.**
 
 ***When you are finished, push your Lab 8 report to your Lab Folder in your repository and fill out your repository information on Submitty to submit.***
 
 ## Checkpoint 5: Project Updates
-Please write your blog entry, and work on your projects with any remaining time! This doesn't need to go into your **lab report**.
+For the rest of the semester you will be expected to do a short blog on your project progress each week, or really anything interesting you find in the the open source world. This will be written as wiki entries in your lab repository. Go to your lab repository on GitHub. If you don't see a **wiki** tab, you will need to enable it using the settings tab. Write your first blog as a paragraph description of the status of your project - What did you do last week on your project? You only have 5 more weeks to finish.
 
 ##Example Illustrations
 ![Illustration of the pull request after running the action](PullRequest.png "PullRequest.png")
