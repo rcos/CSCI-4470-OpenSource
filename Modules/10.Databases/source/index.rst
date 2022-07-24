@@ -31,8 +31,9 @@ Reading Material
 
 * MongoDB Manual
     * https://docs.mongodb.com/manual/
-    * Read up through *MongoDB CRUD Operations*, especially **Introdution** and **SQL to MongoDB Mapping Chart**
-    * Ignore or skim the sections on *Create an Atlas Free Tier Cluster* and *Databases and Collections.*
+    * Read up through *MongoDB CRUD Operations*, especially **Introduction** and **SQL to MongoDB Mapping Chart**
+    * You should be able to install MongoDB on your system, but you don't need to read those sections in detail.
+
 
 * Couch Manual
     * https://docs.couchdb.org/en/stable/intro/index.html
@@ -420,24 +421,18 @@ Normalization vs. Document Store
    :scale: 50 %
    :align: center
 
-Horizontal Scalability
-----------------------
+Comparison of Performance SQL vs NoSQL
+--------------------------------------
 
-.. image:: static/routing.png
-   :scale: 65 %
-   :align: center
+https://static.epcc.ed.ac.uk/dissertations/hpc-msc/2012-2013/RDBMS%20vs%20NoSQL%20-%20Performance%20and%20Scaling%20Comparison.pdf
 
-.. nextslide::
+* Take aways:
+  
+  * NoSQL Databases handle complex queries faster at the expense of data duplication.
 
-.. image:: static/performance.png
-   :scale: 65 %
-   :align: center
+  * SQL Databases perform similarly on simple queries (no joins), but perform worse on complex queries; however, the enforce data consistency and have far less data duplication.
 
 .. nextslide::
-
-.. image:: static/performance2.png
-   :scale: 65 %
-   :align: center
 
 Flexible Schema
 ---------------
@@ -936,7 +931,7 @@ Install CouchDB
 Verify the Database using cURL
 ------------------------------
 
-https://docs.couchdb.org/en/stable/intro/tour.html#
+https://docs.couchdb.org/en/stable/intro/tour.html
 
 .. code-block:: console
      
@@ -982,24 +977,24 @@ Create a new database
 
 .. code-block:: console
 
-   > curl -X PUT http://admin:password@127.0.0.1:5984/baseball
+   > curl -X PUT http://admin:admin@127.0.0.1:5984/baseball
 
    {"error":"file_exists","reason":"The database could not be created, 
    the file already exists."}
 
-   > curl -X PUT http://admin:password@127.0.0.1:5984/plankton
+   > curl -X PUT http://admin:admin@127.0.0.1:5984/plankton
 
    {"ok":true}
 
-   > curl -X GET http://admin:password@127.0.0.1:5984/_all_dbs
+   > curl -X GET http://admin:admin@127.0.0.1:5984/_all_dbs
 
    ["baseball", "plankton"]
 
-   > curl -X DELETE http://admin:password@127.0.0.1:5984/plankton
+   > curl -X DELETE http://admin:admin@127.0.0.1:5984/plankton
 
    {"ok":true}
 
-   > curl -X GET http://admin:password@127.0.0.1:5984/_all_dbs
+   > curl -X GET http://admin:admin@127.0.0.1:5984/_all_dbs
 
    ["baseball"]
 
