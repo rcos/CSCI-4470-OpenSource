@@ -3,7 +3,7 @@
 ## Checkpoint 0: Project Updates
 
 There are real complications of Open Source Software that arise from needing to manage community rather than just the technical details. Three (kind of recent?) well-publicized
-events highlight these complexities. We will discuss these during class on April 12. Below are some resources for you to review. Google around to find more. You should make one (or more) of these topics the subject of your blog this week. Put a link to your blog entry into your lab report and be ready to discuss what you write (in some format ... a debate, round table discussion, or maybe groups of single topics) during class on the twelfth.
+events highlight these complexities. We will discuss these during class on August 12. Below are some resources for you to review. Google around to find more. You should make one (or more) of these topics the subject of your blog this week. Put a link to your blog entry into your lab report and be ready to discuss what you write (in some format ... a debate, round table discussion, or maybe groups of single topics) during class on the twelfth.
 
 Consider different aspects of the cases ... Maybe what other members of the community might think about the actions? Were the actions justified? Do they ultimately help or hurt? What are the unintended consequences. There are no real right or wrong answers.
 
@@ -20,8 +20,13 @@ paragraph on any part of this and post it to your Blog. Put a link to your blog 
     - [Additional Details](https://snyk.io/blog/open-source-npm-packages-colors-faker/)
 - Node IPC
     -  [Summary](https://thehackernews.com/2022/03/popular-npm-package-updated-to-wipe.html)
+- GitHub Copilot
+    - [Software Freedom Conservancy](https://sfconservancy.org/blog/2022/feb/03/github-copilot-copyleft-gpl/)
+    - [OSI](https://docs.google.com/document/d/1_5CKLbzjXkHDpVLepOAmdAmDL9Gh6vbI_zAn6ihv_AU/edit?usp=sharing)
+    - [ZDNet](https://docs.google.com/document/d/1_5CKLbzjXkHDpVLepOAmdAmDL9Gh6vbI_zAn6ihv_AU/edit?usp=sharing)
+    - [Deep Dive AI](https://deepdive.opensource.org/)
 
-For those of you who are conspiracy minded, you might want to consider what steps you could take to undermine the legitimacy of the Open Source movement and to discredit it. Are those steps different from what is going on here?
+For those of you who are conspiracy minded, you might want to consider what steps you could take to undermine the legitimacy of the Open Source movement and to discredit it. Are those steps any different from the first three bullets? For Copilot, there are several questions. Is Copilot trained and used legally? Ethically? Does it violate copyright or licensing?
 
 ## Checkpoint 1: Install CouchDB
 
@@ -29,7 +34,7 @@ For the first checkpoint of this lab, we'll work on just getting a proper runnin
 
 [https://docs.couchdb.org/en/stable/install/index.html](https://docs.couchdb.org/en/stable/install/index.html)
 
-I have personally installed it in my WSL Ubuntu using the Linux instructions in Section 1.1.1 and using the instructions for Docker. I have not tried the rest. Going by what I found, I expect that the install instructions will *almost* work. You may need to play a little. 
+I have personally installed it in my WSL2 Ubuntu using the Linux instructions in Section 1.1.1 and using the instructions for Docker. I have not tried the rest. Going by what I found, I expect that the install instructions will *almost* work. You may need to play a little. 
 
 In particular,
 for **WSL Ubuntu**, the installation assumes that it is installed in the directory ```/home/couchdb/bin/couchdb``` when it actually installs it in
@@ -37,7 +42,7 @@ for **WSL Ubuntu**, the installation assumes that it is installed in the directo
 
 I expect similar minor issues are in most of the install instructions.
 
-Whichever, way you choose to install couchdb, I recommend you do it stand-alone for simplicity and enable replication. Make sure you complete the [setup](https://docs.couchdb.org/en/stable/setup/index.html#setup) and if you don't give an administrator name, it is probably *admin*.
+Whichever, way you choose to install couchdb, I recommend you do it stand-alone for simplicity and that you enable replication. Make sure you complete the [setup](https://docs.couchdb.org/en/stable/setup/index.html#setup) and if you don't give an administrator name, it is probably *admin*.
 
 Once you are running, open a browser and go to ```http://localhost:5984```
 
