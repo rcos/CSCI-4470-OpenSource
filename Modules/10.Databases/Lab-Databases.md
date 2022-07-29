@@ -92,9 +92,9 @@ curl -vX POST http://admin:password@127.0.0.1:5984/_replicate \
 With the new permissions structure, you will likely need to give an account name and password for each of the *source* and *target* repositories.
 
 ```
-curl -vX POST http://admin:admin@127.0.0.1:5984/_replicate \
-     -d '{"source":"http:admin:admin@//127.0.0.1:5984/albums",\
-          "target":"http:admin:admin@//127.0.0.1:5984/albums-replica"}' \
+curl -vX POST http://admin:password@127.0.0.1:5984/_replicate \
+     -d '{"source":"http:admin:password@//127.0.0.1:5984/albums",\
+          "target":"http:admin:password@//127.0.0.1:5984/albums-replica"}' \
      -H "Content-Type: application/json"
 ```
 
@@ -109,7 +109,7 @@ We covered most of the necessary database operations, but one thing we didn't co
 1. The following cURL command can be used to select movies from our **hello-world** database based on the given year:
 
     ```
-    curl -X POST admin:admin@localhost:5984/hello-world/_find -d '{
+    curl -X POST admin:password@localhost:5984/hello-world/_find -d '{
        "selector": {
           "year": {
              "$gt": 1987
@@ -125,7 +125,7 @@ We covered most of the necessary database operations, but one thing we didn't co
 3. The warning you got in 2 is telling you that this is an inefficient operation. Couchdb wants to optimize your queries so that it can do them fast. In order to do this, it needs to generate a B-Tree based on whichever fields we may want to search on. However, since documents can have arbitrarily large numbers of fields, and databases can be huge, this "indexing" can take a long time and eat up a lot of space. We need to tell couchdb which fields we are interested in. Below is the cURL call to create the "year-json-index" index you created in Fauxton.
 
     ```
-    curl -X POST admin:admin@localhost:5984/hello-world/_index -d '{
+    curl -X POST admin:password@localhost:5984/hello-world/_index -d '{
        "index": {
           "fields": [
              "year"
