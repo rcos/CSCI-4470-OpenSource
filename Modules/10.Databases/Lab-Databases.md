@@ -92,9 +92,9 @@ curl -vX POST http://admin:password@127.0.0.1:5984/_replicate \
 With the new permissions structure, you will likely need to give an account name and password for each of the *source* and *target* repositories.
 
 ```
-curl -vX POST http://admin:password@127.0.0.1:5984/_replicate \
-     -d '{"source":"admin:admin@http://127.0.0.1:5984/albums",\
-          "target":"admin:admin@http://127.0.0.1:5984/albums-replica"}' \
+curl -vX POST http://admin:admin@127.0.0.1:5984/_replicate \
+     -d '{"source":"http:admin:admin@//127.0.0.1:5984/albums",\
+          "target":"http:admin:admin@//127.0.0.1:5984/albums-replica"}' \
      -H "Content-Type: application/json"
 ```
 
