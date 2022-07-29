@@ -93,8 +93,8 @@ With the new permissions structure, you will likely need to give an account name
 
 ```
 curl -vX POST http://admin:password@127.0.0.1:5984/_replicate \
-     -d '{"source":"http:admin:password@//127.0.0.1:5984/albums",\
-          "target":"http:admin:password@//127.0.0.1:5984/albums-replica"}' \
+     -d '{"source":"http://admin:password@127.0.0.1:5984/albums",\
+          "target":"http://admin:password@127.0.0.1:5984/albums-replica"}' \
      -H "Content-Type: application/json"
 ```
 
