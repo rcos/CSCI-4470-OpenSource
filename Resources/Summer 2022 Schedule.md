@@ -84,6 +84,11 @@ or -->
         - [Additional Details](https://snyk.io/blog/open-source-npm-packages-colors-faker/)
     - Node IPC
         -  [Summary](https://thehackernews.com/2022/03/popular-npm-package-updated-to-wipe.html)
+     - GitHub Copilot
+        - [Software Freedom Conservancy](https://sfconservancy.org/blog/2022/feb/03/github-copilot-copyleft-gpl/)
+        - [OSI](https://docs.google.com/document/d/1_5CKLbzjXkHDpVLepOAmdAmDL9Gh6vbI_zAn6ihv_AU/edit?usp=sharing)
+        - [ZDNet](https://docs.google.com/document/d/1_5CKLbzjXkHDpVLepOAmdAmDL9Gh6vbI_zAn6ihv_AU/edit?usp=sharing)
+        - [Deep Dive AI](https://deepdive.opensource.org/)
 
 * Tuesday 8/16/2022 - Project Reports
 
