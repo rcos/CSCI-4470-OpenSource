@@ -95,24 +95,25 @@ How would you resolve the following merge conflict (pick whichever one you feel 
 
 Solutions are [here](testing_solution.cpp) - Look at comments at the bottom of the file.
 
-<!-- ## Quiz 2 - Friday 08/09/22
+## Quiz 2 - Tuesday 08/09/22
 
-Test two will focus on material from *Open Source in Scientific Computation* up through TensorFlow (Labs 6 through 9), although, you are expected to be able to apply the material from earlier in the semester as well. Note that there are only 10 labs and the
-module on Statistical Computing will not be on the test.
+Test two will focus on material from *Testing and CI* up through *TensorFlow* (Modules 8 through 11), although, you are expected to be able to apply the material from earlier in the semester as well. Note that there are only 9 labs and the
+modules on *Scientific Computing* and *Statistical Computing* will not be on the test.
 (See [Spring 2022 Schedule.md](https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Resources/Spring%202022%20Schedule.md) for more info).
 The format will be some short answer questions and some free response
 questions. You I do not yet have a sample test, so you will need to refer to Test 1 for the testing style. Review all lecture/guest lecture notes and all labs, particularly Labs 6-10.
 
 For this test I would recommend having the following software available in addition to any software used for Test 1.
 
-* [Networkx](https://networkx.github.io/)
+<!--* [Networkx](https://networkx.github.io/)
 * [pygame](https://www.pygame.org/) and [pymunk](http://www.pymunk.org/en/latest/)
 * [matplotlib](http://matplotlib.org/)
-* [R](https://www.r-project.org/) (Not necessary for Spring 2022)
+* [R](https://www.r-project.org/) (Not necessary for Spring 2022)-->
+* [GitHub Actions](http://github.org)
 * [ctest](http://cmake.org)
 * [mongo](https://docs.mongodb.org/manual/installation/)
 * [couchdb](https://docs.couchdb.org/en/stable/intro/index.html)
-* [TensorFlow, numpy, python-tk, pillow and keras](https://github.com/rcos/CSCI-49XX-OpenSource/blob/master/Modules/TensorFlow/Lab-TensorFlow.md)
+* [TensorFlow, numpy, python-tk, pillow and keras](https://github.com/rcos/CSCI-49XX-OpenSource/blob/master/Modules/11.TensorFlow/Lab-TensorFlow.md)
 * [Docker](http://tinyurl.com/docker19)
 
 If you have gone through the labs up to this point, you should have most of this already. 
@@ -125,15 +126,16 @@ find it helpful.
 	
 Any topic we covered or that was assigned as reading is fair game, but specific topics that I would review for the quiz are:
 
+<!-- * Be familiar with the topic of licensing as it pertains to Mongo DB.
+* Similarly, be familiar with the issues with *color.js* and *Node IPC* that we discussed. 
+* What tools are available for doing scientific and statistical programming using open source tools? Be able to use networkx, python and R (R is not needed for Spring 2022) to answer some simple questions.-->
+
 * Why is testing important, what is a dashboard, and how do you add tests to an existing project using CMake?
-* Be familiar with the topic of licensing as it pertains to Mongo DB.
-* Similarly, be familiar with the issues with *color.js* and *Node IPC* that we discussed.
 * How do you execute CRUD (Create, Read, Update, and Delete) operations in CouchDB? Make sure you revisit this from Lab. Some of you did not update records correctly and were unable to pull them back with a subsequent query.
-* What tools are available for doing scientific and statistical programming using open source tools? Be able to use networkx, python and R (R is not needed for Spring 2022) to answer some simple questions.
 * Be able to run and interact with a Docker container. Be able to use a Dockerfile and/or a YAML file to create a container with specific requirements.
 * Be able to create test data, test, and verify a TensorFlow. Know the various terms we used: Test, Training, loss, epoch, Neural Net, etc. and be able to describe them.
 
-If you have any more questions feel free to contact the TA, the Undergraduate Programming Mentors
+If you have any more questions feel free to contact the TAs, the Undergraduate Programming Mentors
 or Professor Turner (preferably on Discord) before the test!Nominally, you will have 90 minutes from within a 110 minute window, **Good luck everyone!** -->
 
 
