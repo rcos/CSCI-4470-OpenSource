@@ -37,7 +37,7 @@ For the first checkpoint of this lab, we'll work on just getting a proper runnin
 I have personally installed it in my WSL2 Ubuntu using the Linux instructions in Section 1.1.1 and using the instructions for Docker. I have not tried the rest. Going by what I found, I expect that the install instructions will *almost* work. You may need to play a little. 
 
 In particular,
-for **WSL Ubuntu**, the installation assumes that it is installed in the directory ```/home/couchdb/bin/couchdb``` when it actually installs it in
+for **WSL2 Ubuntu**, the installation assumes that it is installed in the directory ```/home/couchdb/bin/couchdb``` when it actually installs it in
 ```/opt/couchdb/bin/couchdb```. And for **Docker**, be sure to export the port 5984 using ```-p 5984:5984```. Note that by default any data you put into couchdb in a Docker container will go away when you kill the image. If you want it to persist, you will need to use ```-v /opt/couchdb/data:<mydatadirectory>``` to bind the docker database directory to actual storage on your machine.
 
 I expect similar minor issues are in most of the install instructions.
@@ -71,6 +71,35 @@ Now you are going to walk through the first part of the *couchdb* Tutorial at [h
 
 Walk through [https://docs.couchdb.org/en/stable/intro/api.html](https://docs.couchdb.org/en/stable/intro/api.html)
 
+You will run into an issue when working with the ``artwork.jpg`` example. It looks like the example was not updated when the security model of ***CouchDB*** was modified. 
+Regardless of the reason, the line 
+
+```
+http://127.0.0.1:5984/albums/6e1295ed6c29495e54cc05947f18c8af/artwork.jpg
+```
+
+will probably not work without some modifications to the instructions. To see the attached file you can either browse to the record in the database using ```fauxton``` or you can use ```fauxton``` to modify the permissions on the ***albums*** database to allow anyone to access it and then retry the above link. I expect there are other ways as well, so feel free to experiment.
+
+Similarly, you may have problems with the line 
+
+```
+curl -vX POST http://admin:password@127.0.0.1:5984/_replicate \
+     -d '{"source":"http://127.0.0.1:5984/albums",\
+          "target":"http://127.0.0.1:5984/albums-replica"}' \
+     -H "Content-Type: application/json"
+```
+
+With the new permissions structure, you will likely need to give an account name and password for each of the *source* and *target* repositories.
+
+```
+curl -vX POST http://admin:password@127.0.0.1:5984/_replicate \
+     -d '{"source":"admin:admin@http://127.0.0.1:5984/albums",\
+          "target":"admin:admin@http://127.0.0.1:5984/albums-replica"}' \
+     -H "Content-Type: application/json"
+```
+
+Finally, stop after you get local replication working. Don't worry about remote replication.
+
 **Grab screenshots and capture your output as you go and put them in your lab report.**
 
 ## Checkpoint 4: What Did We Miss?
@@ -80,7 +109,7 @@ We covered most of the necessary database operations, but one thing we didn't co
 1. The following cURL command can be used to select movies from our **hello-world** database based on the given year:
 
     ```
-    curl -X POST localhost:5984/hello-world/_find -d '{
+    curl -X POST admin:admin@localhost:5984/hello-world/_find -d '{
        "selector": {
           "year": {
              "$gt": 1987
