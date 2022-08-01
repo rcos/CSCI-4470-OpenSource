@@ -88,15 +88,15 @@ Github page: https://github.com/tensorflow
 
 Main repository: https://github.com/tensorflow/tensorflow
 
-* 53,075 commits (now 127,381)
+* 53,075 commits (now 132,807)
 
-* 27 branches (now 47)
+* 27 branches (now 68)
 
-* 1932 contributers (now 3099)
+* 1932 contributers (now 3155)
 
-* 79 releases (now 158)
+* 79 releases (now 169)
 
-* 2021 Issues (now 2288 - closed 32,098)
+* 2021 Issues (now 2118 - closed 33,110)
 
 * Permissively licensed under Apache-2.0
 
@@ -137,6 +137,12 @@ Active community
 
 .. nextslide::
 
+* User Models: https://github.com/tensorflow/models/tree/master/community
+
+.. image:: static/CommunityGarden.png
+
+.. nextslide::
+
 Others:
 
 * Twitter
@@ -167,7 +173,8 @@ For this class, we will use the Docker installation:
 
 .. code-block:: console
 
-  $ docker run -it -p 8888:8888 tensorflow/tensorflow
+  $ docker run -it -p 8888:8888 -e "DISPLAY"=host.docker.internal:0 \
+  tensorflow/tensorflow:latest
   Unable to find image 'tensorflow/tensorflow:latest-devel' locally
   latest-devel: Pulling from tensorflow/tensorflow
   8ee29e426c26: Pull complete 
@@ -196,6 +203,10 @@ Docker:
 
 * Starts up an interactive session
 
+* Allows us to bring up windows on our native OS
+
+  * Requires an X11 Server, but you should all have that from earlier
+
 Validate
 --------
 
@@ -203,9 +214,10 @@ From the Docker container:
 
 .. code-block:: console
 
+
   # python
-  Python 2.7.12 (default, Dec  4 2017, 14:50:18) 
-  [GCC 5.4.0 20160609] on linux2
+  Python 3.8.10 (default, Nov 26 2021, 20:14:08)
+  [GCC 9.3.0] on linux
   Type "help", "copyright", "credits" or "license" for more information.
 
 .. code-block:: python
@@ -260,6 +272,10 @@ Base usage involves making execution graph
 * Okay forget that ...
 * This was Tensorflow 1.0
 * In Tensorflow 2.0, the graph still exists but you can ignore it ...
+
+  * Unless of course, you want to develop your algorithm in one place, and then run it later 
+  
+  * Tensorflow allows you to save out the graph in a language independent file that can be migrated to another machine
 
 What is Deep Learning?
 ----------------------
@@ -346,7 +362,7 @@ Run a docker container and update it
   docker run -it -p 8888:8888 -e "DISPLAY"=host.docker.internal:0 \
     tensorflow/tensorflow:latest
   apt-get update
-  apt-get install python-tk xterm x11-apps qt5-default
+  apt-get install -y python-tk xterm x11-apps qt5-default
   xeyes & # Just a test to make sure our display is working
   pip install matplotlib PyQt5
 
@@ -450,8 +466,95 @@ Report:
 
 .. nextslide::
 
+
 Using TensorFlow
 ================
+
+Same Example in Keras
+---------------------
+
+.. code-block:: python
+
+  # MIT License
+  #
+  # This example is partially derived from the fashion example in Tensorflow. 
+  # New code is copywritten by Wesley Turner (c) 2022
+  #
+  # The original code is copywritten below.
+  #
+  # Copyright (c) 2017 François Chollet
+  #
+  
+  # TensorFlow and tf.keras
+  import tensorflow as tf
+  
+  # Helper libraries
+  import numpy as np
+  import matplotlib.pyplot as plt
+  
+.. nextslide::
+
+.. code-block:: python
+
+  def make_noisy_data(m=0.1, b=0.3, n=100):
+    x = 4*tf.random.uniform(shape=(n,1,1)) - 2
+    noise = tf.random.normal(shape=(len(x),1,1), stddev=0.01)
+    y = m * x + b + noise
+    return x, y
+
+  def predict(m, b, x):
+    y = m * x + b
+    return y
+
+  def squared_error(y_pred, y_true):
+    return tf.reduce_mean(tf.square(y_pred - y_true))
+
+  # Loading data
+  m = 0.1
+  b = 0.3
+  (train_x, train_y) = make_noisy_data(m=m, b=b, n=20000)
+  (test_x, test_y) = make_noisy_data(m=m, b=b, n=10000)
+
+.. nextslide::
+
+.. code-block:: python
+
+  # 1. Create a model with a single neuron in 1 dense layer and 'relu' activation
+  # 2. Your model should use 'RMSprop' optimization, and mean squared error for
+  #    both the loss function and the metric
+  # 3. Train your model on the 'train_x' and 'train_y' data from above.
+  model = tf.keras.Sequential([
+      tf.keras.layers.Dense(1, activation='relu'),
+  ])
+
+  model.compile(optimizer=tf.keras.optimizers.SGD(learning_rate=0.2),
+                loss=tf.keras.losses.mean_squared_error,
+                metrics=tf.keras.metrics.mean_squared_error)
+
+  model.fit(train_x, train_y, epochs=10)
+
+.. nextslide::
+
+.. code-block:: python
+
+  # 4. Then evaluate the model against the test_x and test_y
+  test_loss, test_acc = model.evaluate(test_x,  test_y, verbose=2)
+
+  #5 Finally, use your model to predict the correct output from the 'test_x'
+  predictions = model.predict(test_x)
+
+  # Calculate the actual values
+  actual = predict(m, b, test_x)
+
+  # Report
+  print('\nTest accuracy: ', test_acc, '\nTest Loss: ', test_loss)
+  print("Accuracy (MeanSquaredError): ", squared_error(predictions, actual).numpy())
+
+  # Plot
+  plt.plot(np.squeeze(train_x), np.squeeze(train_y), 'b.')
+  plt.plot(np.squeeze(test_x), np.squeeze(predictions), 'g*')
+  plt.plot(np.squeeze(test_x), np.squeeze(actual), 'r-')
+  plt.show()
 
 Tutorial
 --------
