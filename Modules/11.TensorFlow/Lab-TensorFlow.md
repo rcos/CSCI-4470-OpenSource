@@ -2,14 +2,30 @@
 
 ## Checkpoint 1: Verify Your TensorFlow
 
-For the first checkpoint of this lab, we'll work on just getting a proper installation of the tools we will need to use. Most of them can be installed using the python pip utility, with the possible exception of `python-tk`. 
+For the first checkpoint of this lab, we'll work on just getting a proper installation of the tools we will need to use.
 
-I am going to give you leeway to use whatever tools you want for this lab. Feel free to use the tensor flow container I used during lecture, or a native install to your local version of python. You can also use Google's colab; although, you will not be able to connect to it to check your work during the exam. Note that if you are using the docker container, it will help for checkpoint 3 if you map a local directory into your container.
+My recommendation is to use a docker container. Feel free to use the tensorflow container I used during lecture and follow the instructions in the lecture to provision it. Alternately, I have created a Dockerfile [here](https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Modules/11.TensorFlow/TensorFlow/Dockerfile) that you can use to create 
+a fully provisioned (for our purposes) docker image or you are welcome to run the image (wdturner/tensorflow_oss:latest) that I put on Docker Hub.
+
+If you use any of these docker images, I recommend that you run it by binding it to a local directory. That way your work will remain once you kill the container. You can do this by running the following commands:
+
+```
+mkdir lab11
+docker run -it -p 8888:8888 -v $PWD/lab11:/home/tensorflow -e "DISPLAY"=host.docker.internal:0 \
+   wdturner/tensorflow_oss:latest
+```
+
+When you exit the container, all of your work will remain in the lab11 directory.
+
+That said, tensorflow can be installed any number of ways and
+I am going to give you leeway to use whatever tools you want for this lab. If you are having problems with docker (or just want the experience), feel free to use a native install to your local version of python.
 
 Regardless, you will need access to the python packages **tensorflow, keras, matplotlib and numpy, and probably pillow**. Install them (you can probably use pip or conda depending on your `python` install). Once you are done, start `python` and run:
 
 Lastly, if none of these options work, feel free to use a google colab setup. This link [here](https://colab.research.google.com/drive/14zt6fD9o0nxx7W9dVe6P0NVzX9QPc-_8?usp=sharing) is to a Google Colab notebook. It's read only, so duplicate it, make a copy and run from there. You need to connect before running.
+***Note that if you use colab, you will not be able to connect to it to check your work during the exam.***
 
+Once you have your prefered setup provisioned and running, try running the following code using python.
 
 ```
 from __future__ import absolute_import, division, print_function
