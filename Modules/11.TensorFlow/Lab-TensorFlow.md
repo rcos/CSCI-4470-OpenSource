@@ -11,7 +11,7 @@ If you use any of these docker images, I recommend that you run it by binding it
 
 ```
 mkdir lab11
-docker run -it -p 8888:8888 -v $PWD/lab11:/home/tensorflow -e "DISPLAY"=host.docker.internal:0 \
+docker run -it -p 8888:8888 -v "$PWD"/lab11:/home/tensorflow -e "DISPLAY"=host.docker.internal:0 \
    wdturner/tensorflow_oss:latest
 ```
 
