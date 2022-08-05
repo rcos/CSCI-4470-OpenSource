@@ -9,7 +9,7 @@
 ### Lecture material
 
   - [https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Modules/02.Git/Git-Introduction-Part-I/index.html](https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Modules/02.Git/Git-Introduction-Part-I/index.html)
-  - [https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Modules/02.Git/Git-Introduction-Part-II-master/index.html](https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Modules/02.Git/Git-Introduction-Part-II-master/index.html)
+  - [https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Modules/02.Git/Git-Introduction-Part-II/index.html](https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Modules/02.Git/Git-Introduction-Part-II/index.html)
 
 If you have cloned this repository, navigate to [Modules/02.Git/Git-Introduction-Part-I-master](../02.Git/Git-Introduction-Part-I-master/index.html)
 or [Modules/02.Git/Git-Introduction-Part-II-master](../02.Git/Git-Introduction-Part-II-master/index.html) and open index.html.

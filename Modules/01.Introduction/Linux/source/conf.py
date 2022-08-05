@@ -24,7 +24,7 @@ slide_footer = '''
 </a>
  
 <span class="slide-footer-text">
-  RPI OSS - Spring 2022 - Linux
+  RPI OSS - Summer 2022 - Linux
 </span>
 '''
 

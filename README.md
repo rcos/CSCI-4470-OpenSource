@@ -32,32 +32,41 @@ Wesley Turner
 
 ---
 
-TA
+TAs
 --
----
-Peter Ly
 
-- <lyp2@rpi.edu>
-- WebEx: [https://rensselaer.webex.com/meet/lyp2](https://rensselaer.webex.com/meet/lyp2)
-- Office Hours: Thursday 4:30-5:30 in Amos Eaton 127
+---
+Mohammed Shahid Modi
+
+- Email: <modim2@rpi.eduu>
+- WebEx: [https://rensselaer.webex.com/meet/modim2](https://rensselaer.webex.com/meet/modim2)
+- Office Hours: TBD
+
+---
+
+Kelsey Rook
+
+- Email: <rookk@rpi.eduu>
+- WebEx: [https://rensselaer.webex.com/meet/rookk](https://rensselaer.webex.com/meet/rookk)
+- Office Hours: TBD
 
 ---
 
 Mentors
 -------
----
-Jeremy Macks 
-
-- Email: <macksj@rpi.edu>
-- WebEx: [https://rensselaer.webex.com/meet/macksj](https://rensselaer.webex.com/meet/macksj)
-- Office Hours: Wednesday 2:00-3:00pm (Room TBD)
 
 ---
-Yichen Li
+Kate Vandermolen 
 
-- Email: <liy55@rpi.edu>
-- WebEx: [https://rensselaer.webex.com/meet/liy55](https://rensselaer.webex.com/meet/liy55)
-- Office Hours: Friday 2:00-4:00pm (Room TBD)
+- Email: <vandek5@rpi.edu>
+- WebEx: [https://rensselaer.webex.com/meet/vandek5](https://rensselaer.webex.com/meet/vandek5)
+- Office Hours: TBD
 
 ---
+Ariana Lissak
 
+- Email: <Lissaa@rpi.edu>
+- WebEx: [https://rensselaer.webex.com/meet/bibaua](https://rensselaer.webex.com/meet/lissaa)
+- Office Hours: TBD
+
+---

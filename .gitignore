@@ -7,3 +7,4 @@ Tests/*
 *.synctex.gz
 *.swp
 .idea/
+RainbowData/*

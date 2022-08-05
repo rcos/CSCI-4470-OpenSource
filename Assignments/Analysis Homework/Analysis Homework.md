@@ -1,7 +1,7 @@
 # Analysis of an Open Source Project
-### Due date 2/11/2022
+### Due date 06/24/2022
 
-Reread your lab 4 report, particularly the end of the report where we asked you to look at the license for 5 repositories on the RCOS page. For this assignment, we are going to ask you to take a more in depth look at some open source projects.
+In writing this analysis you may want to look at lab 5 report, particularly the end of the lab where we asked you to look at the license for 5 repositories on the RCOS page. For this assignment, we are going to ask you to take a more in depth look at some open source projects.
 
 Pick three projects. You can use projects from [RCOS](https://observatory.rcos.io), [Google](https://opensource.google.com/projects/), [foss2serve](http://foss2serve.org/index.php/HFOSS_Projects), or they can be projects you find on your own. At least one of the projects must be outside of RCOS. You are going to write a report on the projects. The report should be in 2 parts. 
 

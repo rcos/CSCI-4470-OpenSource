@@ -33,19 +33,27 @@ wdturner@gmail.com
 
 [https://rensselaer.webex.com/meet/turnew2](https://rensselaer.webex.com/meet/turnew2)
 
-Office Hours (subject to change): Tuesday 10:00-11:30 (in person), Thursday 10:00-11:30 in my WebEx (above), or by appointment
+Office Hours (subject to change): Tuesday 3:35-5:05pm (in person), Thursday 10:00-11:30am in my WebEx (above), or by appointment
 
 ---
 
-TA
+TAs
 --
 
 ---
-Peter Ly
+Mohammed Shahid Modi
 
-- <lyp2@rpi.edu>
-- WebEx: [https://rensselaer.webex.com/meet/lyp2](https://rensselaer.webex.com/meet/lyp2)
-- Office Hours: Thursday 4:30-5:30 in Amos Eaton 127
+- Email: <modim2@rpi.eduu>
+- WebEx: [https://rensselaer.webex.com/meet/modim2](https://rensselaer.webex.com/meet/modim2)
+- Office Hours: TBD
+
+---
+
+Kelsey Rook
+
+- Email: <rookk@rpi.eduu>
+- WebEx: [https://rensselaer.webex.com/meet/rookk](https://rensselaer.webex.com/meet/rookk)
+- Office Hours: TBD
 
 ---
 
@@ -53,24 +61,24 @@ Mentors
 -------
 
 ---
-Jeremy Macks 
+Kate Vandermolen 
 
-- Email: <macksj@rpi.edu>
-- WebEx: [https://rensselaer.webex.com/meet/macksj](https://rensselaer.webex.com/meet/macksj)
-- Office Hours: Wednesday 2:00-3:00pm (Room TBD)
-
----
-Yichen Li
-
-- Email: <liy55@rpi.edu>
-- WebEx: [https://rensselaer.webex.com/meet/liy55](https://rensselaer.webex.com/meet/liy55)
-- Office Hours: Friday 2:00-4:00pm (Room TBD)
+- Email: <vandek5@rpi.edu>
+- WebEx: [https://rensselaer.webex.com/meet/vandek5](https://rensselaer.webex.com/meet/vandek5)
+- Office Hours: TBD
 
 ---
-The course will initially meet in Prof. Turner's WebEx [https://rensselaer.webex.com/meet/turnew2](https://rensselaer.webex.com/meet/turnew2) on Tuesdays and Fridays from 12:00pm - 1:50pm. We will transition to in-person instruction (Yay) as soon as we can. Class discussions are an important part of the lecture and the labs so synchronous attendance is required. If you are attending remotely with significant timezone differences, please let Prof. Turner know so he can make arrangements.
+Ariana Lissak
+
+- Email: <Lissaa@rpi.edu>
+- WebEx: [https://rensselaer.webex.com/meet/lissaa](https://rensselaer.webex.com/meet/lissaa)
+- Office Hours: TBD
+
+---
+The course will meet in **Sage 5510** on Tuesdays and Fridays from 10:30pm - 12:35pm. Class discussions are an important part of the lecture and the labs so attendance is required. If you are temporarily unable to attend because of quarantine or other health issues, please contact Prof. Turner and make alternate arrangements.
 
 ## Online LMS and the use of Submitty
-This course __will not__ use the RPI Blackboard LMS. Instead, we will use __Submitty__ a course management tool developed as an opensource project under __RCOS__ and the creative and technical auspices of Prof. Barbara Cutler. If you are registered in the course, you may access it at [https://submitty.cs.rpi.edu/courses/s22/csci4470](https://submitty.cs.rpi.edu/courses/s22/csci4470). If you do not have access, please email the TA or the Professor.
+This course __will not__ use the RPI Blackboard LMS. Instead, we will use __Submitty__ a course management tool developed as an opensource project under __RCOS__ and the creative and technical auspices of Prof. Barbara Cutler. If you are registered in the course, you may access it at [https://submitty.cs.rpi.edu/courses/u22/csci4470](https://submitty.cs.rpi.edu/courses/u22/csci4470). If you do not have access, please email the TA or the Professor.
 
 ## Goal of this Class:
 
@@ -84,13 +92,12 @@ This course __will not__ use the RPI Blackboard LMS. Instead, we will use __Subm
 
 ## Learning Outcomes:
 
-The goal of this course is to provide a strong foundation in open source software development
-in preparation for jobs in industry or for more advanced courses.
+The goal of this course is to provide a strong foundation in open source software development in preparation for jobs in industry or for more advanced courses. After completing this course, the student will be able to:
 
-- Understanding of Open Source Software Tools and Community
-- Understanding of Open Source Licensing.
-- Understanding of Testing, Version Control.
-- Understanding of Common Open Source Software Stacks and common tools.
+- Articulate the importance of open-source tools in the technology sphere along with the importance of community in generating understanding of Open Source Software Tools and Community
+- Effectively use and communicate the different varieties of Open Source Licensing.
+- Effectively establish and use Testing and Version Control in an open source project.
+- Demonstrate competence with Common Open Source Software Stacks and common tools.
 
 ## Syllabus:
 
@@ -123,16 +130,16 @@ in preparation for jobs in industry or for more advanced courses.
 
 - 2 Quizzes (10 points each) - 20%
 - Open Source Project Analysis Paper - 10%
-- 11 Labs (3 points each/drop lowest) - 30%
+- 9 Labs (3.75 points each/drop lowest) - 30%
 - Project - 40%
 
 ## Test Dates
 
-- Quiz 1 25th February
-- Quiz 2 12th April
+- Quiz 1 1st July
+- Quiz 2 9th August
 
 ## Open Source Paper Due
-- 11th February
+- 24th June
 
 ## Grade Distribution
 
@@ -149,7 +156,7 @@ in preparation for jobs in industry or for more advanced courses.
 
 ## Community:
 
-Please join our discord server **OSS-Spring2022** at [https://discord.gg/8NnpgwJd](https://discord.gg/8NnpgwJd).
+Please join our discord server **OSS-Summer2022** at [https://discord.gg/5WEv84aGDz](https://discord.gg/5WEv84aGDz).
 
 ## Policies
 
