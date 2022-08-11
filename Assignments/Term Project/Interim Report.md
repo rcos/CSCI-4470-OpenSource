@@ -1,6 +1,6 @@
 # Project Interim Report
 
-We will have presentations on your projects during class beginning on 3/15 and running until everyone has presented. I currently have 14 projects on the schedule. We will plan on 3-5 minutes per project. Please prepare 1-3 slides covering:
+We will have presentations on your projects during class beginning on 3/15 and running until everyone has presented. I currently have 9 projects on the schedule. We will plan on 3-5 minutes per project. Please prepare 1-3 slides covering:
 
 * Your project title
 * Team members
