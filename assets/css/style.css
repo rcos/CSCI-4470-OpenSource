@@ -1,0 +1,5 @@
+.active i.icon-folder-open{ display:inline-block; }
+.active i.icon-folder-close { display:none;}
+
+.inactive i.icon-folder-close{ display:inline-block; }
+.inactive i.icon-folder-open { display:none;}
