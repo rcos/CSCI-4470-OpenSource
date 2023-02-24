@@ -26,3 +26,24 @@ nav{
     color: white;
     transition: 0.3s ease-in-out;
 }
+
+#navbar li a:hover,
+#navbar li a:active{
+    color: #17cf97;
+}
+
+#navbar li a:hover::after,
+#navbar li a:active::after{
+    content: "";
+    height: 2px;
+    background: #17cf97;
+    position: absolute;
+    bottom: -4px;
+    left: 20px;
+
+}
+
+#mobile i{
+    color: white;
+    
+}
