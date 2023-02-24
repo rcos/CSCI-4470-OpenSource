@@ -43,7 +43,11 @@ nav{
 
 }
 
+#mobile{
+    display: none;
+}
+
 #mobile i{
     color: white;
-    
+    align-items: center;
 }

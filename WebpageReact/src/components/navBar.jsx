@@ -24,10 +24,6 @@ class NavBar extends Component {
                         <li><a href="index.html">Discussion forum</a></li>
                     </ul>
                 </div>
-
-                <div id="mobile" onClick={this.handleClick}>
-                    <i id="bar" className={this.state.clicked?"fas fa-times" : "fas fa-bars"}></i>
-                </div>
             </nav>
         </>
         )
