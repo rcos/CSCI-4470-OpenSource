@@ -9,14 +9,14 @@ function NavBar() {
             <img src={logo} width={100} height={100} />
             </a>
         
-        <div>
-            <ul id="navbar">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="index.html">Syllabus</a></li>
-                <li><a href="index.html">Modules</a></li>
-                <li><a href="index.html">Discussion forum</a></li>
-            </ul>
-        </div>
+            <div>
+                <ul id="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html">Syllabus</a></li>
+                    <li><a href="index.html">Modules</a></li>
+                    <li><a href="index.html">Discussion forum</a></li>
+                </ul>
+            </div>
         </nav>
        </>
     )
