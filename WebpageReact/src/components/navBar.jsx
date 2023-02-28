@@ -13,14 +13,17 @@ class NavBar extends Component {
         <>
             <nav>
                 <a href="index.html">
-                <img src={logo} width={100} height={100} />
+                <img src={logo} width={50} height={50}/>
                 </a>
+                <a>CSCI4470 Open Source Software</a>
             
                 <div>
                     <ul id="navbar">
                         <li><a className="active" href="index.html">Home</a></li>
                         <li><a href="index.html">Syllabus</a></li>
+                        <li><a href="index.html">Schedule</a></li>
                         <li><a href="index.html">Modules</a></li>
+                        <li><a href="index.html">Assignment</a></li>
                         <li><a href="index.html">Discussion forum</a></li>
                     </ul>
                 </div>
