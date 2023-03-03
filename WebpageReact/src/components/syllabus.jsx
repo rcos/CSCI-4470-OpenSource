@@ -1,14 +1,26 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
 import ReactMarkdown from 'react-markdown'
-//reading text in from syllabus.md and passing it into reactmarkdown
-var fs = require('fs');
-const syl = fs.readFile('syllabus_copy.md', 'utf8');
-ReactDOM.render(
-  <ReactMarkdown
-    components={{ h1: 'h2'}}
-    children={syl}
-  >
-  </ReactMarkdown>,
-  document.querySelector('#content')
-)
+
+class Syllabus extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = { syllabusText: '' };
+  }
+
+  //reading in syllabus.md once component is mounted
+  componentDidMount() {
+    fetch('syllabus.md')
+      .then(response => response.text())
+      .then(text => this.setState({ syllabusText: text }));
+  }
+
+  render() {
+    const { syllabusText } = this.state;
+    return (
+      <ReactMarkdown source={syllabusText} />
+    );
+  }
+}
+
+export default Syllabus;
