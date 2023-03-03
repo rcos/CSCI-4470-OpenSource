@@ -10,7 +10,7 @@ class Syllabus extends React.Component {
 
   //reading in syllabus.md once component is mounted
   componentDidMount() {
-    fetch('syllabus.md')
+    fetch('syllabus_copy.md')
       .then(response => response.text())
       .then(text => this.setState({ syllabusText: text }));
   }
