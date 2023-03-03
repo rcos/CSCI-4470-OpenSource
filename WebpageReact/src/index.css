@@ -12,7 +12,10 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
-  
+
+  display: flex;
+  position: fixed;
+
 }
 
 a {
@@ -28,7 +31,6 @@ body {
   margin: 0;
   display: flex;
   width: 100%;
-  place-items: center;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -59,7 +61,7 @@ button:focus-visible {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
+    color: rgb(0, 0, 0);
     background-color: #ffffff;
   }
   a:hover {

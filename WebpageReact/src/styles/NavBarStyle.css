@@ -1,11 +1,14 @@
+h1 {
+    font-size: 2em;
+    line-height: 1.1;
+}
+
 nav{
     display: flex;
-    top: 0;
-    left: 0;
     width: 100%;
     align-items: center;
     justify-content: space-between;
-    background-color: #1b2430;
+    background-color: #ffffff;
     padding: 10px 70px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
 }
@@ -14,7 +17,7 @@ nav a{
     text-decoration: none;
     font-size: 1.3rem;
     font-weight: 600;
-    color: white;
+    color: black;
     padding: 0 20px;
     transition: 0.3s ease-in-out;
 }
