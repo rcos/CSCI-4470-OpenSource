@@ -1,6 +1,8 @@
 import { Component } from 'react';
-import logo from '../images/logo.svg';
+import {Link} from "react-router-dom";
+import logo from '../images/lockup-red.png';
 import "../styles/NavBarStyle.css";
+import { MenuItems } from './Menuitems';
 
 class NavBar extends Component {
     state={clicked: false};
@@ -10,25 +12,24 @@ class NavBar extends Component {
 
     render() {
         return (
-        <>
-            <nav>
-                <a href="index.html">
-                <img src={logo} width={50} height={50}/>
-                </a>
-                <a>CSCI4470 Open Source Software</a>
-            
-                <div>
-                    <ul id="navbar">
-                        <li><a className="active" href="index.html">Home</a></li>
-                        <li><a href="index.html">Syllabus</a></li>
-                        <li><a href="index.html">Schedule</a></li>
-                        <li><a href="index.html">Modules</a></li>
-                        <li><a href="index.html">Assignment</a></li>
-                        <li><a href="index.html">Discussion forum</a></li>
-                    </ul>
-                </div>
+            <nav className="NavBarItems">
+                <img src={logo} width={100} height={60}/>
+                <h1 className="navbar-logo" style={{ fontSize: 35 }}>CSCI4470 OSS</h1>
+                  <ul className='nav-menu'>
+                    {
+                        MenuItems.map((item, index) => {
+                            return (
+                                <li key={index}>
+                                    <a href="/">
+                                        <i className={item.icon}></i>
+                                        {item.title}
+                                    </a>
+                                </li>
+                            );
+                        })
+                    }
+                  </ul>
             </nav>
-        </>
         )
     }
 }
