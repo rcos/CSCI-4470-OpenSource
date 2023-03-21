@@ -25,7 +25,7 @@ export const MenuItems = [
     },
     {
         title: 'Discussion Forum',
-        url: '/discussionforum',
+        url: '/discussion',
         cName: 'nav-links',
         icon: "fa-solid fa-comment-dots"
     }
