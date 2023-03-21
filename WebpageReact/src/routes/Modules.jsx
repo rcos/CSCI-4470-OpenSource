@@ -3,7 +3,7 @@ function Modules () {
       <>
       <h1>This is Modules</h1>
       </>
-    );
+    )
   }
   
-  export default Modules;
+export default Modules;

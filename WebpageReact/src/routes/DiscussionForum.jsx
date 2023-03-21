@@ -3,7 +3,7 @@ function DiscussionForum () {
       <>
       <h1>This is DiscussionForum</h1>
       </>
-    );
+    )
   }
   
   export default DiscussionForum;
