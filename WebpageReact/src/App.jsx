@@ -1,6 +1,5 @@
 import {Route, Routes, BrowserRouter} from 'react-router-dom';
 import './App.css';
-import NavBar from './components/NavBar';
 import Home from './routes/Home';
 import Syllabus from './routes/Syllabus';
 import Modules from './routes/Modules';
@@ -29,7 +28,6 @@ function App() {
   }, []);
   return (
     <>
-     
       {component}
     </>
 

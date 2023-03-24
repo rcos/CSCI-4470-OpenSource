@@ -1,6 +1,7 @@
-import NavBar from "../components/NavBar";
 import Page from "../components/Page";
-import Footer from "../components/Footer";
+import NavBar from '../components/NavBar';
+import Footer from '../components/Footer';
+import '../styles/Footer.css';
 
 function Home () {
   return (
@@ -11,6 +12,9 @@ function Home () {
         title="Open Source Software"
         text="Unlocking Innovation with Open Source"
       />
+      Professor: 
+      TAs:
+      Mentors:
       <Footer />
     </>
   )
