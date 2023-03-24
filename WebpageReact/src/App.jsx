@@ -29,7 +29,7 @@ function App() {
   }, []);
   return (
     <>
-      <NavBar />
+     
       {component}
     </>
 

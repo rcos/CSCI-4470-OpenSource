@@ -1,7 +1,17 @@
+import NavBar from "../components/NavBar";
+import Page from "../components/Page";
+import Footer from "../components/Footer";
+
 function Home () {
   return (
     <>
-    <h1>This is Home</h1>
+      <NavBar />
+      <Page 
+        cName="page"
+        title="Open Source Software"
+        text="Unlocking Innovation with Open Source"
+      />
+      <Footer />
     </>
   )
 }
