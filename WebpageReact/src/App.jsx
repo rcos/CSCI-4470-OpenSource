@@ -4,6 +4,7 @@ import Home from './routes/Home';
 import Syllabus from './routes/Syllabus';
 import Modules from './routes/Modules';
 import Assignments from './routes/Assignments';
+import Resources from './routes/Resources';
 import Discussion from './routes/DiscussionForum';
 import { useState, useEffect } from 'react';
 
@@ -13,6 +14,7 @@ function App() {
     "/syllabus": <Syllabus />,
     "/modules": <Modules />,
     "/assignments": <Assignments />,
+    "/resources": <Resources />,
     "/discussion": <Discussion />
   }
 

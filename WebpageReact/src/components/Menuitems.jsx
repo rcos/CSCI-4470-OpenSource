@@ -24,7 +24,13 @@ export const MenuItems = [
         icon: "fa-solid fa-book"
     },
     {
-        title: 'Discussion Forum',
+        title: 'Resources',
+        url: '/resources',
+        cName: 'nav-links',
+        icon: "fa-solid fa-folder"
+    },
+    {
+        title: 'Discussion',
         url: '/discussion',
         cName: 'nav-links',
         icon: "fa-solid fa-comment-dots"
