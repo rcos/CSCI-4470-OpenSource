@@ -1,3 +1,4 @@
+/* Style for the module page buttons & text blocks */
 .collapsible {
     background-color: #eee;
     color: #444;
@@ -32,4 +33,14 @@
     transition: max-height 0.2s ease-out;
     background-color: #f1f1f1;
   }
+  .collapsible:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: white;
+    float: right;
+    margin-left: 5px;
+  }
   
+  .active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+  }  
