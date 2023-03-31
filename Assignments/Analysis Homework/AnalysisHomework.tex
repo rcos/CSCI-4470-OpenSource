@@ -1,0 +1,109 @@
+\documentclass[12pt]{article}
+\usepackage{datetime}
+\usepackage{color,array,graphics}
+\usepackage{enumerate}
+\usepackage[pdftex, colorlinks, linkcolor=red,citecolor=red,urlcolor=blue]{hyperref}
+\usepackage{ulem}
+\usepackage{listings}
+\usepackage{pythonhighlight}
+\usepackage{hyperref}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{claim}{Claim}
+\newenvironment{solution}{\begin{proof}[Solution]}{\end{proof}}
+\newtheorem{problem}{Problem}
+\newtheorem{exercise}{Exercise}
+
+\setlength{\parindent}{0cm}
+
+\setlength{\parskip}{0.3cm plus4mm minus3mm}
+
+\textwidth  6.5in
+\oddsidemargin +0.0in
+\evensidemargin +0.0in
+\textheight 9.0in
+\topmargin -0.5in
+
+\usepackage{upquote,textcomp}
+\usepackage{amssymb,amsmath,amsfonts,amsthm}
+\usepackage{graphicx}
+\usepackage{multicol}
+\usepackage[T1]{fontenc}
+\usepackage{xcolor}
+ 
+\definecolor{codegreen}{rgb}{0,0.8,0.5}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{cmyk}{0, 0.7, 0.4, 0.3}
+\definecolor{backcolour}{gray}{0.98}
+\definecolor{textblue}{rgb}{.2,.2,.9}
+\definecolor{textgreen}{rgb}{0,0.43,0}
+ 
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{textgreen},
+    keywordstyle=\color{codepurple},
+    numberstyle=\tiny\color{codegray},
+    stringstyle=\color{codegreen},
+    basicstyle=\ttfamily\small,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbers=left,                    
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+ 
+\lstset{style=mystyle}
+\def\OR{\vee}
+\def\AND{\wedge}
+\def\imp{\rightarrow}
+
+\DeclareSymbolFont{AMSb}{U}{msb}{m}{n}
+\DeclareMathSymbol{\N}{\mathbin}{AMSb}{"4E}
+\DeclareMathSymbol{\Z}{\mathbin}{AMSb}{"5A}
+\DeclareMathSymbol{\R}{\mathbin}{AMSb}{"52}
+\DeclareMathSymbol{\Q}{\mathbin}{AMSb}{"51}
+\DeclareMathSymbol{\I}{\mathbin}{AMSb}{"49}
+\DeclareMathSymbol{\C}{\mathbin}{AMSb}{"43}
+
+\usepackage{mathtools}
+\DeclarePairedDelimiter\ceil{\lceil}{\rceil}
+\DeclarePairedDelimiter\floor{\lfloor}{\rfloor}
+
+\begin{document}
+\begin{center}
+\large
+\textbf{CSCI 4470 Open Source Software}\\
+\textbf{Analysis of an Open Source Project}\\
+\textbf{Due date: Month/Day/Year}\\
+\end{center}
+
+In writing this analysis you may want to look at \textit{lab 5} report, particularly the end of the lab 
+where we asked you to look at the license for 5 repositories on the RCOS page. For this assignment, 
+we are going to ask you to take a more in depth look at some open source projects. \\
+
+Pick three projects. You can use projects from \href{https://new.rcos.io}{RCOS}, 
+\href{https://opensource.google/projects/}{Google}, \href{http://foss2serve.org/index.php/HFOSS_Projects}{foss2serve}, 
+or they can be projects you find on your own. At least one of the projects must be outside of RCOS. 
+You are going to write a report on the projects. The report should be in 2 parts. \\
+
+For the first part, start by reading the \href{http://foss2serve.org/index.php/Project_Evaluation_(Activity)}{Project Analysis Activity}
+on the foss2serve website. It walks you through an analysis of an open source project designed 
+to characterize how suitable the project is for a specific class or area of interest. 
+The instructions are specific to the OpenMRS project, but the analysis can be applied to any 
+project. For each of the projects you choose, create a table based on the \href{http://foss2serve.org/index.php/Project_Evaluation_Rubric_(Activity)}{foss2serve rubric}. 
+You must rank each project on every criteria and you must provide supporting evaluation data, 
+but the data can be short. 1 sentence per criteria is fine. \\
+
+Once this initial analysis is complete, pick the project that appeals to you the most and do a 
+more in depth analysis. Expand on the table you generated: add more details to why you scored 
+the project the way you did, discuss what the goal of the project is, discuss the technology 
+used, and discuss the significance of the project. Why is this project appealing? What do you 
+think interacting with this community would be like given the analysis you did? There is no firm 
+length for this assignment, but I anticipate that a good report may be in the range of 3-5 pages. \\
+
+\end{document}
