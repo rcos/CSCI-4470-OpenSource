@@ -1,5 +1,6 @@
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
+import {useEffect} from 'react';
 /* react package that displays markdown text
  * NOTE - need to have react-markdown installed 
  * for this to work: do npm install react-markdown
@@ -14,7 +15,7 @@ function Syllabus () {
     fetch("../../../Syllabus.md")
       .then(response => response.text())
       .then(text => {syllabus = text});
-  }, []);
+  }, [syllabus]);
 
   return (
     <>
