@@ -13,7 +13,7 @@ export const MenuItems = [
     },
     {
         title: 'Modules',
-        url: '/modules',
+        url: '/test',
         cName: 'nav-links',
         icon: "fa-solid fa-file"
     },
@@ -31,7 +31,7 @@ export const MenuItems = [
     },
     {
         title: 'Discussion',
-        url: '/discussion',
+        url: 'https://new.rcos.io/auth/login/',
         cName: 'nav-links',
         icon: "fa-solid fa-comment-dots"
     }
