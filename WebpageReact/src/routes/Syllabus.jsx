@@ -10,9 +10,7 @@ import ReactMarkdown from 'react-markdown';
 function Syllabus () {
     return (
       <>
-        <NavBar />
         <h1>something</h1>
-        <Footer />
       </>
     )
   }
