@@ -5,20 +5,18 @@ import Footer from './components/Footer';
 import Home from './routes/Home';
 import Syllabus from './routes/Syllabus';
 import Modules from './routes/Modules';
-import test from './routes/test';
+import Test from './routes/test';
 import Assignments from './routes/Assignments';
 import Resources from './routes/Resources';
-import Discussion from './routes/DiscussionForum';
 import { useState, useEffect } from 'react';
 
 function App() {
   const paths = {
     "/": <Home />,
     "/syllabus": <Syllabus />,
-    "/test": <test />,
+    "/test": <Modules />,
     "/assignments": <Assignments />,
     "/resources": <Resources />,
-    "/discussion": <Discussion />
   }
 
   let [component, setComponent] = useState(<Home />);
