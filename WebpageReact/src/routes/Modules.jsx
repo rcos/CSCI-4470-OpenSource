@@ -1,5 +1,6 @@
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
+import '../styles/Footer.css';
 import '../styles/ModuleStyle.css'
 
 function Modules () {
@@ -16,7 +17,13 @@ function Modules () {
     return (
       <>
         <NavBar />
-        <h1>Modules</h1>
+        <Page 
+            cName="ModulePage"
+            title="Course Modules"
+            text="Below are the modules for the course.
+                  Each module contains important links and files
+                  for the different parts of the course. Check this page often!"
+        />
         <button class='collapsible'>01. Introduction</button>
         <div class = 'content'>
             <ul>
