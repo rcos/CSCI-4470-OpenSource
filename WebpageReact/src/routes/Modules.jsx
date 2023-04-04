@@ -1,6 +1,5 @@
 import NavBar from '../components/NavBar';
 import Footer from '../components/Footer';
-import '../styles/Footer.css';
 import '../styles/ModuleStyle.css'
 
 function Modules () {
@@ -41,7 +40,6 @@ function Modules () {
                     <li><a href='../../../Modules/03.DocumentationAndCommunity/Documentation.html'>Documentation</a></li>
                     <li><a href='../../../Modules/03.DocumentationAndCommunity/Community.html'>Community</a></li>
                     <li><a href='https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Modules/03.DocumentationAndCommunity/Lab-DocumentationAndCommunity.md'>Lab</a></li>
-
             </ul>
         </div>
         <button class='collapsible'>04. Licensing</button>
@@ -101,7 +99,6 @@ function Modules () {
           </div>
         <Footer />
       </>
-      
     )
   }
   

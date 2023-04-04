@@ -4,9 +4,7 @@ import Footer from '../components/Footer';
 function Syllabus () {
     return (
       <>
-        <NavBar />
-        <h1>something</h1>
-        <Footer />
+
       </>
     )
   }
