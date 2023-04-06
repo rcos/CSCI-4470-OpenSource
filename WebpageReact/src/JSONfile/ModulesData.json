@@ -1,71 +1,128 @@
 [
     {
         "title": "01. Introduction",
-        "link1": {
+        "links": [{
             "linkName": "History",
             "link": "https://github.com/rcos/CSCI-4470-OpenSource/tree/master/Modules/01.Introduction/History"
-        },
-        "link2": {
+        },{
             "linkName": "Linux",
             "link": "https://github.com/rcos/CSCI-4470-OpenSource/tree/master/Modules/01.Introduction/Linux"
-        },
-        "link3": {
-            "linkName": "Lab 01 (in class lab)"
-            // There should have a link to the Lab 01 hand out
-        }
+        },{
+            "linkName": "Lab 01 (in class lab)",
+            "link": "https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Modules/01.Introduction/Lab-Introduction.md"
+        }]
     },
     {
         "title": "02. Git",
-        "link1": {
-            "linkName": "Git Introduction Part 1",
-            "link": "../../../Modules/02.Git/Git-Introduction-Part-I/index.html"
-        },
-        "link2": {
+        "links": [{
             "linkName": "Git Introduction Part 2",
             "link": "../../../Modules/02.Git/Git-Introduction-Part-II/index.html"
-        },
-        "link3": {
+        },{
             "linkName": "Git Cheat Sheet",
             "link": "../../../Modules/02.Git/cheat_sheet_git_final.pdf"
-        }
+        }]
     },
     {
         "title": "03.Documentation And Community",
-        "link1": {
+        "links": [{
             "linkName": "Documentation",
             "link": "../../../Modules/03.DocumentationAndCommunity/Documentation.html"
-        },
-        "link2": {
+        },{
             "linkName": "Community",
             "link": "../../../Modules/03.DocumentationAndCommunity/Community.html"
-        },
-        "link3": {
+        },{
             "linkName": "Lab",
             "link": "https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Modules/03.DocumentationAndCommunity/Lab-DocumentationAndCommunity.md"
-        }
+        }]
     },
     {
-        "title": "04. Licensing" 
+        "title": "04. Licensing",
+        "links":[{
+            "linkName": "Licensing Lab",
+            "link": "https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Modules/04.Licensing/Lab-Licensing.md"
+        },{
+            "linkName": "Licensing Slides",
+            "link": "../../../Modules/04.Licensing/Licensing-S2021-RPI-PatrickMasson-Shortform-RCOS.pdf"
+        }]
     },
     {
-        "title": "05. Build System"
+        "title": "05. Build Systems",
+        "links": [{
+            "linkName": "Slides",
+            "link": "../../../Modules/05.BuildSystems/source/index.rst"
+        },{
+            "linkName": "conf.py",
+            "link": "../../../Modules/05.BuildSystems/source/conf.py"
+        }]
     },
     {
-        "title": "06. Scientific Computing" 
+        "title": "06. Scientific Computing" ,
+        "links": [{
+            "linkName": "Slides",
+            "link": "../../../Modules/06.ScientificComputing/index.html"
+        },{
+            "linkName": "Lab",
+            "link": "https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Modules/06.ScientificComputing/Lab-ScientificComputing.md"
+        }]
     },
     {
-        "title": "07. Statistical Computing" 
+        "title": "07. Statistical Computing",
+        "links": [{
+            "linkName": "Slides",
+            "link": "../../../Modules/07.StatisticalComputing/index.html"
+        },{
+            "linkName": "Lab",
+            "link": "https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Modules/07.StatisticalComputing/Lab-StatisticalComputing.md"
+        }]
     },
     {
-        "title": "08. Testing And CI" 
+        "title": "08. Testing And CI",
+        "links": [{
+            "linkName": "Integration Slides",
+            "link": "../../../Modules/08.TestingAndCI/Integration.html"
+        },{
+            "linkName": "Repo Link",
+            "link": "https://github.com/rcos/CSCI-4470-OpenSource/tree/master/Modules/08.TestingAndCI"
+        }]
     },
     {
-        "title": "09. Virtualization" 
+        "title": "09. Virtualization" ,
+        "links": [{
+            "linkName": "Virtualization Lab",
+            "link": "https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Modules/09.Virtualization/Lab-Virtualization.md"
+        },{
+            "linkName": "Slides",
+            "link": "../../../Modules/09.Virtualization/source/index.rst"
+        },{
+            "linkname": "conf.py",
+            "link": "../../../Modules/09.Virtualization/source/conf.py"
+        }]
+        
     },
     {
-        "title": "10. Databases" 
+        "title": "10. Databases" ,
+        "links": [{
+            "linkName": "Slides",
+            "link": "../../../Modules/10.Databases/source/index.rst"
+        },{
+            "linkName": "conf.py",
+            "link": "../../../Modules/10.Databases/source/conf.py"
+        },{
+            "linkName": "MongoDB Cheat Sheet",
+            "link": "../../../Modules/10.Databases/MongoDB_Shell_Cheat_Sheet.pdf"
+        }]
     },
     {
-        "title": "11. Tensorflow"
+        "title": "11. Tensorflow",
+        "links": [{
+            "linkName": "TensorFlow Lab",
+            "link": "https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Modules/11.TensorFlow/Lab-TensorFlow.md"
+        },{
+            "linkName": "Slides",
+            "link": "../../../Modules/11.TensorFlow/source/index.rst"
+        },{
+            "linkName": "conf.py",
+            "link": "../../../Modules/11.TensorFlow/source/conf.py"
+        }]
     }
 ]
