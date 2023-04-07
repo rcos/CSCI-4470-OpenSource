@@ -14,7 +14,7 @@ function App() {
   const paths = {
     "/": <Home />,
     "/syllabus": <Syllabus />,
-    "/test": <Modules />,
+    "/modules": <Modules />,
     "/assignments": <Assignments />,
     "/resources": <Resources />,
   }
