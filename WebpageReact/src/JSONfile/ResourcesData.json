@@ -1,0 +1,115 @@
+[
+    {
+        "title": "Past Projects",
+        "links": [
+            {
+                "title": "Fall 2015 Projects",
+                "link": "https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Resources/Backups/Fall2015Projects.md"
+            },
+            {
+                "title": "Fall 2016 Projects",
+                "link": "https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Resources/Backups/Fall2016Projects.md"
+            },
+            {
+                "title": "Spring 2016 Projects",
+                "link": "https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Resources/Backups/Spring2016Projects.md"
+            },
+            {
+                "title": "Spring 2017 Projects",
+                "link": "https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Resources/Backups/Spring2017Projects.md"
+            },
+            {
+                "title": "Summer 2018 Projects",
+                "link": "https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Resources/Backups/Summer2018Projects.md"
+            },
+            {
+                "title": "Spring 2022 Projects",
+                "link": "https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Resources/Spring2022Projects.md"
+            },
+            {
+                "title": "Summer 2022 Projects",
+                "link": "https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Resources/Summer2022Projects.md"
+            }
+        ]
+    },
+    {
+        "title": "Past Study Guides",
+        "links": [
+            {
+                "title": "Spring 2017",
+                "link": "https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Resources/Backups/Spring2017StudyGuide.md"
+            },
+            {
+                "title": "Spring 2019",
+                "link": "https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Resources/Backups/Spring2019StudyGuide.md"
+            }
+        ]
+    },
+    {
+        "title": "How-To Guides",
+        "links": [
+            {
+                "title": "Booting Ubuntu",
+                "link": "https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Resources/How-To/BootUbuntu.md"
+            },
+            {
+                "title": "Installing Bash on Windows",
+                "link": "https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Resources/How-To/InstallingBashonWindows.pdf"
+            },
+            {
+                "title": "Large Open Source Projects",
+                "link": "https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Resources/How-To/LargeOpenSourceProjects.md"
+            },
+            {
+                "title": "Package Managers",
+                "link": "https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Resources/How-To/PackageManagers.md"
+            },
+            {
+                "title": "Setting Up Ubuntu",
+                "link": "https://github.com/rcos/CSCI-4470-OpenSource/blob/master/Resources/How-To/UbuntuSetup.md"
+            }
+        ]
+    },
+    {
+        "title": "Sample Quizzes",
+        "links": [
+            {
+                "title": "Spring 2022 Test 1",
+                "link": "https://github.com/rcos/CSCI-4470-OpenSource/tree/master/Resources/SampleQuizzes/Spring2022/Test1"
+            },
+            {
+                "title": "Spring 2022 Test 2",
+                "link": "https://github.com/rcos/CSCI-4470-OpenSource/tree/master/Resources/SampleQuizzes/Spring2022/Test2"
+            },
+            {
+                "title": "Spring 2021 Test 1",
+                "link": "https://github.com/rcos/CSCI-4470-OpenSource/tree/master/Resources/SampleQuizzes/Spring2021/Test1"
+            },
+            {
+                "title": "Spring 2021 Test 2",
+                "link": "https://github.com/rcos/CSCI-4470-OpenSource/tree/master/Resources/SampleQuizzes/Spring2021/Test2"
+            },
+            {
+                "title": "Summer 2019 Test 1",
+                "link": "https://github.com/rcos/CSCI-4470-OpenSource/tree/master/Resources/SampleQuizzes/Summer2019/Test1"
+            },
+            {
+                "title": "Spring 2019 Test 1",
+                "link": "https://github.com/rcos/CSCI-4470-OpenSource/tree/master/Resources/SampleQuizzes/Spring2019/Test1"
+            },
+            {
+                "title": "Spring 2019 Test 2",
+                "link": "https://github.com/rcos/CSCI-4470-OpenSource/tree/master/Resources/SampleQuizzes/Spring2019/Test2"
+            },
+            {
+                "title": "Summer 2018 Test 1",
+                "link": "https://github.com/rcos/CSCI-4470-OpenSource/tree/master/Resources/SampleQuizzes/Summer2018/Test1"
+            },
+            {
+                "title": "Summer 2018 Test 2",
+                "link": "https://github.com/rcos/CSCI-4470-OpenSource/tree/master/Resources/SampleQuizzes/Summer2018/Test2"
+            }
+        ]
+    }
+
+]
