@@ -1,14 +1,22 @@
 /* Style for the module page buttons & text blocks */
+.modules{
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+}
+
+
 .collapsible {
-    background-color: #eee;
+    background-color: #eeeeee;
     color: #000;
     cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
+    padding: 20px;
+    width: 120%;
+    border-radius: 13px;
     text-align: left;
     outline: none;
-    font-size: 15px;
+    font-size: 20px;
+    margin-top: 5px;
+    
   }
   .active, .collapsible:hover {
     background-color: #5185c6;
@@ -17,7 +25,7 @@
   
   .collapsible:after {
     content: '\002B';
-    color: white;
+    color: rgb(255, 255, 255);
     font-weight: bold;
     float: right;
     margin-left: 5px;
@@ -28,12 +36,15 @@
   }
   
   .content {
-    padding: 0 18px;
+    padding: 0 18px 0 18px;
     max-height: 0;
     overflow: hidden;
-    transition: max-height 0.2s ease-out;
+    transition: max-height 0.1s ease-out;
     background-color: #f1f1f1;
+    font-size: 15px;
+    width: 115%;
   }
+
   .collapsible:after {
     content: '\02795'; /* Unicode character for "plus" sign (+) */
     font-size: 13px;

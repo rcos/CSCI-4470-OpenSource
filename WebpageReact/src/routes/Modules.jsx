@@ -16,19 +16,21 @@ function Modules () {
     // links/files for each module in moduleData using mapping
     return (
       <>
-      {moduleData.map((item, index) =>{
+      {moduleData.map((item) =>{
         return(
         <>
-            <button className='collapsible'onClick={collapse}>{item.title}</button>
-            <div className='content'>
-                <ul>
-                    {item.links.map(link => {
-                        return(
-                            <li><a href={link.link}>{link.linkName}</a></li>
-                        );
-                    })}
+            <div className='module'>
+                <button className='collapsible'onClick={collapse}>{item.title}</button>
+                <div className='content'>
+                    <ul>
+                        {item.links.map(link => {
+                            return(
+                                <li><a href={link.link}>{link.linkName}</a></li>
+                            );
+                        })}
 
-                </ul>
+                    </ul>
+                </div>
             </div>
         </>
         )
