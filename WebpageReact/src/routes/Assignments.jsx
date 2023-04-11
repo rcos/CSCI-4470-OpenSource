@@ -1,5 +1,6 @@
 import AnalysisHW from '../JSONfile/AnalysisHW.json';
 import TermProject from '../JSONfile/TermProject.json';
+import '../styles/Assignments.css';
 
 function Assignment () {
     /* when a button for the module is clicked, it should collapse

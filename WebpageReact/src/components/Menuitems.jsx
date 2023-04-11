@@ -34,5 +34,11 @@ export const MenuItems = [
         url: 'https://new.rcos.io/auth/login/',
         cName: 'nav-links',
         icon: "fa-solid fa-comment-dots"
-    }
+    },
+    // {
+    //     title: 'Test',
+    //     url: '/test',
+    //     cName: 'nav-links',
+    //     icon: "fa-solid fa-file"
+    // },
 ]

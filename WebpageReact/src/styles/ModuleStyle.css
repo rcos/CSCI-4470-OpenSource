@@ -15,8 +15,6 @@
     outline: none;
     font-size: 16px;
     margin-top: 5px;
-    
-    
   }
   .active, .collapsible:hover {
     background-color: #5185c6;
