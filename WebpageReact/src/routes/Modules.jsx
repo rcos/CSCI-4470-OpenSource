@@ -16,6 +16,10 @@ function Modules () {
     // links/files for each module in moduleData using mapping
     return (
       <>
+      <h3>Course Modules </h3>
+      <p>Here are the modules for the course. Click on a module for links to important stuff
+        like labs, slides, and exercises. 
+      </p>
         <div class="scroll-container">
             {moduleData.map((item) =>{
                 return(
