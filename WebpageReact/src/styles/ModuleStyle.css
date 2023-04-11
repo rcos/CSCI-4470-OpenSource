@@ -1,7 +1,6 @@
 /* Style for the module page buttons & text blocks */
-.modules{
-  overflow-y: scroll;
-  scroll-behavior: smooth;
+.scroll-container{
+  overflow: auto;
 }
 
 
@@ -9,13 +8,14 @@
     background-color: #eeeeee;
     color: #000;
     cursor: pointer;
-    padding: 20px;
-    width: 120%;
+    padding: 9px;
+    width: 100%;
     border-radius: 13px;
     text-align: left;
     outline: none;
-    font-size: 20px;
+    font-size: 16px;
     margin-top: 5px;
+    
     
   }
   .active, .collapsible:hover {
@@ -38,11 +38,11 @@
   .content {
     padding: 0 18px 0 18px;
     max-height: 0;
-    overflow: hidden;
+    overflow: auto;
     transition: max-height 0.1s ease-out;
     background-color: #f1f1f1;
     font-size: 15px;
-    width: 115%;
+    width: 95%;
   }
 
   .collapsible:after {

@@ -16,6 +16,9 @@
   display: flex;
   position: fixed;
 
+  /* overflow: scroll;
+  scroll-behavior: smooth; */
+  overflow: auto;
 }
 
 a {
@@ -33,6 +36,7 @@ body {
   width: 100%;
   min-width: 320px;
   min-height: 100vh;
+  
 }
 
 h1 {
@@ -63,6 +67,7 @@ button:focus-visible {
   :root {
     color: rgb(0, 0, 0);
     background-color: #ffffff;
+    
   }
   a:hover {
     color: #747bff;

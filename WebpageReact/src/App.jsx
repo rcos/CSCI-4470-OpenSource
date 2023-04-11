@@ -5,7 +5,6 @@ import Footer from './components/Footer';
 import Home from './routes/Home';
 import Syllabus from './routes/Syllabus';
 import Modules from './routes/Modules';
-import Test from './routes/test';
 import Assignments from './routes/Assignments';
 import Resources from './routes/Resources';
 import { useState, useEffect } from 'react';
