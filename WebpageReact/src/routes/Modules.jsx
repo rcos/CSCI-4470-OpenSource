@@ -16,7 +16,7 @@ function Modules () {
     // links/files for each module in moduleData using mapping
     return (
       <>
-      {moduleData.map(item =>{
+      {moduleData.map((item, index) =>{
         return(
         <>
             <button className='collapsible'onClick={collapse}>{item.title}</button>
@@ -27,6 +27,7 @@ function Modules () {
                             <li><a href={link.link}>{link.linkName}</a></li>
                         );
                     })}
+
                 </ul>
             </div>
         </>
