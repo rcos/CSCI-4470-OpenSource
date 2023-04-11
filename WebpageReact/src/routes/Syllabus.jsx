@@ -1,21 +1,25 @@
 import React, { useEffect, useState } from "react";
-import syllabus from "../../../Modules/01.Introduction/Syllabus/Syllabus.md";
+import { Component } from 'react';
+import ReactMarkdown from "react-markdown";
+// import syllabus from "../routes/Syllabus.md";
 
 
-const Syllabus = () => {
-  const [post, setPost] = useState("");
-  useEffect(() => {
-      fetch(syllabus)
-        .then((res) => res.text())
-        .then((response) => setPost(response))
-        .catch((err) => setPost(err));
-    });
+class Syllabus extends Component {
 
-  return (
-    <div className="container">
-      <Markdown>{post}</Markdown>
-    </div>
-  );
-};
+  // constructor() {
+  //   super();
+  //   this.state = { markdown: '' };
+  // }
+
+  // componentWillMount() {
+  //   // Get the contents from the Markdown file and put them in the React state, so we can reference it in render() below.
+  //   fetch(syllabus).then(res => res.text()).then(text => this.setState({ markdown: text }));
+  // }
+
+  // render() {
+  //   const { markdown } = this.state;
+  //   return <ReactMarkdown source={markdown} />;
+  // }
+}
 
 export default Syllabus;
