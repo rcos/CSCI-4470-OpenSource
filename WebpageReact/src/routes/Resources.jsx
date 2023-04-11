@@ -9,12 +9,16 @@ function Resources () {
   // renders collapsible list of course resources
     return (
       <>
-        <h1>Course Resources</h1>
+        <h3>Course Resources</h3>
+        <p>Below are some resources provided to help you succeed in this course.
+          Check this page if you need reference on past projects, a how-to guide,
+          or a practice test.
+        </p>
         {resourceData.map(item =>{
           return(
             <>
               <button className='collapsible'onClick={collapse}>{item.title}</button>
-              <div className='content'></div>
+              <div className='content'>
               <ul>
                 {item.links.map(link =>{
                   return(
@@ -22,6 +26,7 @@ function Resources () {
                   );
                 })}
               </ul>
+              </div>
             </>
           )
         })}
