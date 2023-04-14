@@ -4,7 +4,7 @@ import { StrictMode } from 'react';
 import App from './App';
 import './index.css';
 import NavBar from './components/NavBar';
-import { BrowserRouter } from 'react-router-dom';
+//import { BrowserRouter } from 'react-router-dom';
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
