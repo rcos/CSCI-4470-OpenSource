@@ -1,12 +1,10 @@
 import React, { useEffect, useState } from "react";
 import TAData from "../JSONfile/TAs.json";
-//import { Component } from 'react';
-//import ReactMarkdown from "react-markdown";
-// import syllabus from "../routes/Syllabus.md";
 
 
 function Syllabus() {
-
+  // contains basically everything from syllabus.md but converted to html
+  // because we couldn't find a way to (successfully) display a markdown file using react
   return(
     <>
       <h1>CSCI-4470-01</h1>
@@ -29,6 +27,7 @@ function Syllabus() {
       <h2>TAs</h2>
       <hr></hr>
       {
+        // mapping TAs separately from mentors (probably not the most efficient way to do this)
         TAData.map((TA) =>{
           if(TA.type == "TA"){
             return(
@@ -47,6 +46,7 @@ function Syllabus() {
       }
       <h2>Mentors</h2>
       {
+        // mapping mentors separately
         TAData.map((TA) =>{
           if(TA.type == "mentor"){
             return(
