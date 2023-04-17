@@ -1,4 +1,5 @@
 import React, { useEffect, useState } from "react";
+import TAData from "../JSONfile/TAs.json";
 //import { Component } from 'react';
 //import ReactMarkdown from "react-markdown";
 // import syllabus from "../routes/Syllabus.md";
@@ -25,6 +26,44 @@ function Syllabus() {
       <h1>People</h1>
       <h2>Professor</h2>
       <hr></hr>
+      <h2>TAs</h2>
+      <hr></hr>
+      {
+        TAData.map((TA) =>{
+          if(TA.type == "TA"){
+            return(
+              <>
+                <p>{TA.name}</p>
+                <ul>
+                  <li>Email: <a href={TA.email}>{TA.email}</a></li>
+                  <li>WebEx: <a href={TA.webex}>{TA.webex}</a></li>
+                  <li>Office Hours: {TA.officehours}</li>
+                </ul>
+                <hr></hr>
+              </>
+            )
+          }
+        })
+      }
+      <h2>Mentors</h2>
+      {
+        TAData.map((TA) =>{
+          if(TA.type == "mentor"){
+            return(
+              <>
+                <p>{TA.name}</p>
+                <ul>
+                  <li>Email: <a href={TA.email}>{TA.email}</a></li>
+                  <li>WebEx: <a href={TA.webex}>{TA.webex}</a></li>
+                  <li>Office Hours: {TA.officehours}</li>
+                </ul>
+                <hr></hr>
+              </>
+            )
+          }
+        })
+      }
+    
       <p>The course will meet in <strong>Sage 5510</strong> on Tuesdays and Fridays from 10:30pm - 12:35pm. Class discussions are an important part of the lecture and the labs so attendance is required. If you are temporarily unable to attend because of quarantine or other health issues, please contact Prof. Turner and make alternate arrangements.</p>
       <h2>Online LMS and the use of Submitty</h2>
       <p>This course <strong>will not</strong> use the RPI Blackboard LMS. Instead, we will use <strong>Submitty</strong> a course management tool developed as an opensource project under <strong>RCOS</strong> and the creative and technical auspices of Prof. Barbara Cutler. If you are registered in the course, you may access it at <a href="https://submitty.cs.rpi.edu/courses/u22/csci4470">https://submitty.cs.rpi.edu/courses/u22/csci4470</a>. If you do not have access, please email the TA or the Professor.</p>
