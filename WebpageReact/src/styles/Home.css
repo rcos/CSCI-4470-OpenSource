@@ -4,5 +4,10 @@
     border-radius: 4px;
     padding: 20px;
     margin-top: 150px;
+}
 
+.into-img{
+    width: 70%;
+    height: 50%;
+    position: relative;
 }

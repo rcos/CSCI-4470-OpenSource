@@ -1,4 +1,3 @@
-import '../styles/Footer.css';
 import '../styles/ModuleStyle.css';
 // json file containing links for each module
 import moduleData from '../JSONfile/ModulesData.json';

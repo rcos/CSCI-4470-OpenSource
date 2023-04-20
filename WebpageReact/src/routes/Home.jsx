@@ -1,6 +1,5 @@
 //import HeroImg from '../components/HeroImg';
 import '../styles/Home.css';
-import "../styles/HeroImgStyle.css";
 import RPI1 from "../assets/lab1_1.jpg";
 import React from "react";
 
