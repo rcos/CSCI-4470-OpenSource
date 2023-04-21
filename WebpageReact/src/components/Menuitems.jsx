@@ -35,10 +35,4 @@ export const MenuItems = [
         cName: 'nav-links',
         icon: "fa-solid fa-comment-dots"
     },
-    // {
-    //     title: 'Test',
-    //     url: '/test',
-    //     cName: 'nav-links',
-    //     icon: "fa-solid fa-file"
-    // },
 ]

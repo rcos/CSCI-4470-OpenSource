@@ -1,6 +1,5 @@
-//import {Route, Routes, BrowserRouter} from 'react-router-dom';
 import './App.css';
-import NavBar from './components/NavBar';
+import NavBar from './components/navBar';
 import Footer from './components/Footer';
 import Home from './routes/Home';
 import Syllabus from './routes/Syllabus';
@@ -8,7 +7,6 @@ import Modules from './routes/Modules';
 import Assignments from './routes/Assignments';
 import Resources from './routes/Resources';
 import { useState, useEffect } from 'react';
-import test from './routes/test';
 
 function App() {
   const paths = {
@@ -17,7 +15,6 @@ function App() {
     "/modules": <Modules />,
     "/assignments": <Assignments />,
     "/resources": <Resources />,
-    // "/test": <test />
   }
 
   let [component, setComponent] = useState(<Home />);

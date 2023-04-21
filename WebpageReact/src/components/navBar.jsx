@@ -1,5 +1,4 @@
 import { Component } from 'react';
-//import {Link} from "react-router-dom";
 import logo from '../assets/lockup-red.png';
 import "../styles/NavBarStyle.css";
 import { MenuItems } from './Menuitems';
