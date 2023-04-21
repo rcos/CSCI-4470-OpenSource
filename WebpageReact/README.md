@@ -39,3 +39,10 @@ Current issues:
 * No scroll bars on any of the webpages for some reason
 * Modules/resources/assignments page collapsible list buttons are a little wider than the content divs
 * We want to try and find a way to display the Syllabus.md file directly onto the syllabus page, but we tried a few react packages for displaying md files and none of them worked. Right now the syllabus page just has a bunch of html converted from the syllabus md file
+
+Future Plans/Things To Work On
+----------
+If you want something to work on for the website, you can:
+* Try to address/fix some of the issues with the site
+* Try to find a way to display the syllabus.md file directly onto the syllabus page
+* Find a way to use Github actions to compile and convert some of the modules' .rst files to pdf using the python Sphinx api (ask Professor Turner)
