@@ -13,7 +13,7 @@ export const MenuItems = [
     },
     {
         title: 'Modules',
-        url: '/modules',
+        url: '/test',
         cName: 'nav-links',
         icon: "fa-solid fa-file"
     },

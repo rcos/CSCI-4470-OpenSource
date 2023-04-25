@@ -6,13 +6,14 @@ import Syllabus from './routes/Syllabus';
 import Modules from './routes/Modules';
 import Assignments from './routes/Assignments';
 import Resources from './routes/Resources';
+import testRenderHTML from './routes/testRenderHTML';
 import { useState, useEffect } from 'react';
 
 function App() {
   const paths = {
     "/": <Home />,
     "/syllabus": <Syllabus />,
-    "/modules": <Modules />,
+    "/test": <testRenderHTML />,
     "/assignments": <Assignments />,
     "/resources": <Resources />,
   }
