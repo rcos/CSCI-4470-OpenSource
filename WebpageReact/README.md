@@ -1,4 +1,5 @@
 # CSCI-4470 Website
+### Guide written by Andre Lungu (lungua@rpi.edu)
 
 This folder contains files for the course website. The website is built using React and was scaffolded using vite.js. As of Spring 2023 (when the website was first created), this website is incomplete, and there are a few issues that need to be addressed before the site can fully go live.
 
@@ -46,3 +47,6 @@ If you want something to work on for the website, you can:
 * Try to address/fix some of the issues with the site
 * Try to find a way to display the syllabus.md file directly onto the syllabus page
 * Find a way to use Github actions to compile and convert some of the modules' .rst files to pdf using the python Sphinx api (ask Professor Turner)
+
+In general, if you are a React expert, feel free to try and improve upon the structure/organization of the site (since we originally created this site with little knowledge of/experience with React). We tried our best to learn how to use React and build the whole website in 1 semester, so if you're coming in to work on this project with prior React experience, you could just try to improve upon what we have.
+
