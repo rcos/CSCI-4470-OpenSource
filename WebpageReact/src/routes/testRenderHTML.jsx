@@ -18,4 +18,4 @@ function testRenderHTML() {
   );
 }
 
-export default App;
+export default testRenderHTML;
