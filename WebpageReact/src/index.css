@@ -14,11 +14,10 @@
   -webkit-text-size-adjust: 100%;
 
   display: flex;
-  position: fixed;
+  /*position: fixed;*/
 
-  /* overflow: scroll;
-  scroll-behavior: smooth; */
   overflow: auto;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -34,8 +33,9 @@ body {
   margin: 0;
   display: flex;
   width: 100%;
-  min-width: 320px;
-  min-height: 100vh;  
+  overflow: hidden;
+  /*min-width: 320px;
+  min-height: 100vh;*/
 }
 
 h1 {

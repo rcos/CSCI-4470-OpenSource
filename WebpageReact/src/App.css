@@ -43,8 +43,8 @@
 
 .App {
   text-align: center;
-  overflow: scroll;
-  scroll-behavior: smooth;
+  /*overflow: hidden;
+  scroll-behavior: smooth;*/
 }
 
 
