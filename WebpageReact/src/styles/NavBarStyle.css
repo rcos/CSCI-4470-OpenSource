@@ -10,7 +10,7 @@
     top: 20px;
     left: 50%;
     z-index: 9999;
-    overflow: auto;
+    overflow: hidden;
 }
 
 .navbar-logo{

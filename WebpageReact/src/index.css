@@ -34,13 +34,14 @@ body {
   display: flex;
   width: 100%;
   overflow: hidden;
-  /*min-width: 320px;
-  min-height: 100vh;*/
+  min-width: 320px;
+  min-height: 100vh;
 }
 
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  overflow: hidden;
 }
 
 button {
@@ -66,7 +67,6 @@ button:focus-visible {
   :root {
     color: rgb(0, 0, 0);
     background-color: #ffffff;
-    overflow: scroll;
   }
   a:hover {
     color: #747bff;
