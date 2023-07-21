@@ -108,3 +108,9 @@
         color: #222;
     }
 }
+
+@media screen and (prefers-color-scheme: dark) {
+    .nav-links {
+        color: #FFFFFF;
+    }
+}
