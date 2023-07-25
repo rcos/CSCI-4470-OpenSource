@@ -16,7 +16,7 @@ function Modules () {
     return (
       <>
       <h3>Course Modules </h3>
-      <p>Here are the modules for the course. Click on a module for links to important stuff
+      <p>Here are the modules for the course. Click on a module for links to important material
         like labs, slides, and exercises. 
       </p>
         <div class="scroll-container">

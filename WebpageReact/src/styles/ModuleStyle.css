@@ -17,6 +17,7 @@
     margin-top: 5px;
     overflow: auto;
   }
+
   .active, .collapsible:hover {
     background-color: #5185c6;
     color: white;
@@ -24,7 +25,8 @@
   }
   
   .collapsible:after {
-    content: '\002B';
+    content: '\02795';
+    font-size: 13px;
     color: rgb(255, 255, 255);
     font-weight: bold;
     float: right;
@@ -32,7 +34,7 @@
   }
   
   .active:after {
-    content: "\2212";
+    content: '\02796';
   }
   
   .content {
@@ -42,18 +44,5 @@
     transition: max-height 0.1s ease-out;
     background-color: #f1f1f1;
     font-size: 15px;
-    width: 95%;
-    
+    width: 95%; 
   }
-
-  .collapsible:after {
-    content: '\02795'; /* Unicode character for "plus" sign (+) */
-    font-size: 13px;
-    color: white;
-    float: right;
-    margin-left: 5px;
-  }
-  
-  .active:after {
-    content: "\2796"; /* Unicode character for "minus" sign (-) */
-  }  
