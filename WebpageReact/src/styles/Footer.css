@@ -26,3 +26,10 @@
     display: inline-block;
     text-align: center;   
 }
+
+@media (prefers-color-scheme: dark) {
+  .footer {
+    color: rgb(255, 255, 255);
+    background-color: #242424;
+  }
+}
