@@ -17,7 +17,6 @@
     margin-top: 5px;
     overflow: auto;
   }
-
   .active, .collapsible:hover {
     background-color: #5185c6;
     color: white;
@@ -25,7 +24,7 @@
   }
   
   .collapsible:after {
-    content: '\02795';
+    content: '\02796';
     font-size: 13px;
     color: rgb(255, 255, 255);
     font-weight: bold;
@@ -42,6 +41,7 @@
     max-height: 0;
     overflow: auto;
     transition: max-height 0.1s ease-out;
+    color: black;
     background-color: #f1f1f1;
     font-size: 15px;
     width: 95%; 

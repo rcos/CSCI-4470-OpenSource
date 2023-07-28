@@ -19,7 +19,7 @@ function Modules () {
       <p>Here are the modules for the course. Click on a module for links to important material
         like labs, slides, and exercises. 
       </p>
-        <div class="scroll-container">
+        <div class="container">
             {moduleData.map((item) =>{
                 return(
                 <>
