@@ -1,11 +1,7 @@
 /* Style for the module page buttons & text blocks */
-.scroll-container{
-  overflow: auto;
-}
 
-
-.collapsible {
-    background-color: #eeeeee;
+.Collapsible {
+    background-color: #72ACEF;
     color: #000;
     cursor: pointer;
     padding: 9px;
@@ -17,31 +13,27 @@
     margin-top: 5px;
     overflow: auto;
   }
-  .active, .collapsible:hover {
-    background-color: #5185c6;
+
+  .Collapsible:hover {
+    background-color: #01959a;
     color: white;
     overflow: auto;
   }
   
-  .collapsible:after {
-    content: '\02796';
+  .Collapsible__contentOuter {
     font-size: 13px;
     color: rgb(255, 255, 255);
     font-weight: bold;
-    float: right;
-    margin-left: 5px;
+    float: center;
+    text-align: center;
   }
   
-  .active:after {
-    content: '\02796';
-  }
-  
-  .content {
+  ..Collapsible__contentInner{
     padding: 0 18px 0 18px;
     max-height: 0;
     overflow: auto;
     transition: max-height 0.1s ease-out;
-    color: black;
+    color: white;
     background-color: #f1f1f1;
     font-size: 15px;
     width: 95%; 
