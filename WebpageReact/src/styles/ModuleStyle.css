@@ -38,3 +38,31 @@
     font-size: 15px;
     width: 95%; 
   }
+
+.Collapsible__trigger {
+  display: block;
+  font-weight: 0;
+  text-decoration: none;
+  color: #000000;
+  position: relative;
+  padding: 10px;
+  color: white;
+  overflow: hidden;
+}
+
+.Collapsible__trigger:after {
+  display: block;
+  font-weight: 400;
+  content: '\02795';
+  text-decoration: none;
+  color: #000000;
+  padding: 10px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: white;
+}
+
+.Collapsible__trigger.is-open:after {
+  content: '\02796';
+}
