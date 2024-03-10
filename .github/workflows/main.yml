@@ -1,4 +1,4 @@
-name: Convert Markdown to PDf
+name: Convert Markdown to PDF
 
 on: push
 
@@ -16,4 +16,4 @@ jobs:
 
       - uses: docker://pandoc/core:2.9
         with:
-          args: --output=${{ steps.files_list.outputs.files }}.pdf ${{ steps.files_list.outputs.files }}
+          args: --output=output/result.pdf ${{ steps.files_list.outputs.files }}
