@@ -1,7 +1,7 @@
 # CSCI-4470 Website
-### Guide written by Andre Lungu (lungua@rpi.edu)
+### Guide written by Andre Lungu (lungua@rpi.edu) edited by Dyami Watson Jr (watsod6@rpi.edu)
 
-This folder contains files for the course website. The website is built using React and was scaffolded using vite.js. As of Spring 2023 (when the website was first created), this website is incomplete, and there are a few issues that need to be addressed before the site can fully go live.
+This folder contains files for the course website. The website is built using React and was scaffolded using vite.js. As of Spring 2023 (when the website was first created), this website is incomplete, and there are a few issues that need to be addressed before the site can fully go live. As of Spring 2024, Site is ready to go live.
 
 This short guide is intended to outline how the site is organized, for anyone who plans on working on it in the future and who potentially doesn't have a lot of experience with react (like we did, when we initially wrote all this code)
 
@@ -33,20 +33,10 @@ Running the site on your end is very easy. Here's what you need to do:
 * Type "npm run dev"
 * Open the site using the localhost link on your terminal screen and view the site!
 
-Issues With the Website
-----------
-As of writing this guide in April 2023, the website has a few issues. These issues may be fixed in the future, so this guide may be outdated. For an accurate list of the current issues, check the Github issues page.
-Current issues:
-* No scroll bars on any of the webpages for some reason
-* Modules/resources/assignments page collapsible list buttons are a little wider than the content divs
-* We want to try and find a way to display the Syllabus.md file directly onto the syllabus page, but we tried a few react packages for displaying md files and none of them worked. Right now the syllabus page just has a bunch of html converted from the syllabus md file
-
 Future Plans/Things To Work On
 ----------
 If you want something to work on for the website, you can:
-* Try to address/fix some of the issues with the site
-* Try to find a way to display the syllabus.md file directly onto the syllabus page
-* Find a way to use Github actions to compile and convert some of the modules' .rst files to pdf using the python Sphinx api (ask Professor Turner)
+* Currently all pages are rendering a pdf manually created from the markdown or .rst files. (1) Find a better way to display these or (2) automatically create pdfs on push to repository (potentially using Git actions)
 
 In general, if you are a React expert, feel free to try and improve upon the structure/organization of the site (since we originally created this site with little knowledge of/experience with React). We tried our best to learn how to use React and build the whole website in 1 semester, so if you're coming in to work on this project with prior React experience, you could just try to improve upon what we have.
 
