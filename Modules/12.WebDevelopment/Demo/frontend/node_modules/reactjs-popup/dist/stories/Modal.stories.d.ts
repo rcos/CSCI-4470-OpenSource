@@ -1,0 +1,13 @@
+import { Story, Meta } from '@storybook/react/types-6-0';
+import { PopupProps } from '../src/types';
+import '../src/index.css';
+declare const _default: Meta<import("@storybook/addons").Args>;
+export default _default;
+export declare const SimpleModal: Story<PopupProps>;
+export declare const ContentAsFun: Story<PopupProps>;
+export declare const MultipleModal: Story<PopupProps>;
+export declare const MultipleModalAccessibility: Story<PopupProps>;
+export declare const NestedModal: Story<PopupProps>;
+export declare const ControlledModal: Story<PopupProps>;
+export declare const ModalEffects: Story<PopupProps>;
+export declare const GlobalModalWithRef: Story<PopupProps>;
