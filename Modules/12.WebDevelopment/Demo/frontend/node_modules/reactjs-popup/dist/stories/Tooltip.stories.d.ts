@@ -1,0 +1,13 @@
+import { Story, Meta } from '@storybook/react/types-6-0';
+import { PopupProps } from '../src/types';
+declare const _default: Meta<import("@storybook/addons").Args>;
+export default _default;
+export declare const SimpleTooltip: Story<PopupProps>;
+export declare const CenteredTextTooltip: Story<PopupProps>;
+export declare const PositionsTooltip: Story<PopupProps>;
+export declare const TriggerAsFun: Story<PopupProps>;
+export declare const MultipleTooltip: Story<PopupProps>;
+export declare const NestedTooltip: Story<PopupProps>;
+export declare const ControlledTooltip: Story<PopupProps>;
+export declare const BoundedTooltip: Story<PopupProps>;
+export declare const TooltipEffects: Story<PopupProps>;

@@ -12,6 +12,12 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+
+  display: flex;
+  /*position: fixed;*/
+
+  overflow: auto;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -26,7 +32,8 @@ a:hover {
 body {
   margin: 0;
   display: flex;
-  place-items: center;
+  width: 100%;
+  overflow: hidden;
   min-width: 320px;
   min-height: 100vh;
 }
@@ -34,6 +41,7 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  overflow: hidden;
 }
 
 button {
@@ -57,7 +65,7 @@ button:focus-visible {
 
 @media (prefers-color-scheme: light) {
   :root {
-    color: #213547;
+    color: rgb(0, 0, 0);
     background-color: #ffffff;
   }
   a:hover {

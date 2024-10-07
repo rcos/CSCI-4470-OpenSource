@@ -1,0 +1,35 @@
+.footer{
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #ffffff;
+    height: 30px;
+    font-size: 20px;
+    font-family: 'Muli', sans-serif;
+    font-weight: 300;
+    color: rgba(0, 0, 0, 0.87);
+    position: fixed;
+    bottom: 5px;
+    width: 95%;
+    border-radius: 13px;
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);   
+}
+
+.footLeft{
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+    margin-right: 50%; 
+}
+
+.footRight{
+    display: inline-block;
+    text-align: center;   
+}
+
+@media (prefers-color-scheme: dark) {
+  .footer {
+    color: rgb(255, 255, 255);
+    background-color: #242424;
+  }
+}

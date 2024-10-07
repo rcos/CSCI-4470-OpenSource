@@ -1,0 +1,69 @@
+body{
+  background: #0e153a;
+
+}
+.wrapper{
+  margin: 50px;
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(auto-fill, 265px);
+}
+.note-item{
+  height: 250px;
+  list-style: none;
+  background: #e2f3f5 ;
+  border-radius: 5px;
+  padding: 15px 20px 20px;
+  position: relative;
+  
+}
+.note-item p{
+  font-size: 22px;
+  font-weight: 500;
+  color: #0e153a;
+  margin: 0;
+}
+.note-item span{
+  display: block;
+  margin-top: 5px;
+  color: #3d5af1;
+  font-size: 16px;
+}
+.bottom-content span{
+  color: #3d5af1;
+  font-size: 14px;
+}
+.bottom-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: absolute;
+  bottom: 15px;
+}
+.icon{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  top: 50%;
+  height: 250px;
+  left: 50%;
+}
+.button{
+  background: #e2f3f5 ;
+  border-radius: 5px;
+  border-width: 0px;
+  width: auto;
+}
+.popup{
+  background: #e2f3f5 ;
+}
+.title-box{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.containerT{
+  flex: 1;
+  align-items: 'center';
+  justify-content: 'center';
+}
