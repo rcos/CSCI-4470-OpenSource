@@ -1,0 +1,33 @@
+[
+    {
+        "name" : "Mohammed Shahid Modi",
+        "email" : "modim2@rpi.edu",
+        "webex" : "https://rensselaer.webex.com/meet/modim2",
+        "officehours" : "TBD",
+        "type" : "TA"
+    },
+    {
+        "name" : "Kelsey Rook",
+        "email" : "rookk@rpi.edu",
+        "webex" : "https://rensselaer.webex.com/meet/rookk",
+        "officehours" : "TBD",
+        "type" : "TA"
+    },
+
+
+
+    {
+        "name" : "Kate Vandermolen",
+        "email" : "vandek5@rpi.edu",
+        "webex" : "https://rensselaer.webex.com/meet/vandek5",
+        "officehours" : "TBD",
+        "type" : "mentor"
+    },
+    {
+        "name" : "Ariana Lissak",
+        "email" : "lissaa@rpi.edu",
+        "webex" : "https://rensselaer.webex.com/meet/lissaa",
+        "officehours" : "TBD",
+        "type" : "mentor"
+    }
+]

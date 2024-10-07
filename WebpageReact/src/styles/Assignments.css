@@ -1,0 +1,57 @@
+/* Style for the module page buttons & text blocks */
+.scroll-container{
+    overflow: auto;
+  }
+  
+  
+.collapsible {
+    background-color: #eeeeee;
+    color: #000;
+    cursor: pointer;
+    padding: 15px;
+    width: 100%;
+    border-radius: 13px;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.active, .collapsible:hover {
+    background-color: #5185c6;
+    color: white;
+}
+
+.collapsible:after {
+    content: '\002B';
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.content {
+    padding: 0 18px 0 18px;
+    max-height: 0;
+    overflow: auto;
+    transition: max-height 0.1s ease-out;
+    background-color: #f1f1f1;
+    font-size: 15px;
+    width: 95%;
+}
+
+.collapsible:after {
+    content: '\02795'; /* Unicode character for "plus" sign (+) */
+    font-size: 13px;
+    color: white;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2796"; /* Unicode character for "minus" sign (-) */
+}  

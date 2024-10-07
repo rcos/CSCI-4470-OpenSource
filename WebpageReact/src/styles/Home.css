@@ -1,0 +1,17 @@
+.course{
+    background-color: rgb(241, 226, 226);
+    border-color: white;
+    border-radius: 4px;
+    padding: 20px;
+    margin-top: 150px;
+}
+
+.into-img{
+    flex: 50%;
+    padding: 5px;
+    width: 50%;
+    height: 50%;
+}
+.imgs{
+    display: flex;
+}

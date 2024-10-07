@@ -1,0 +1,68 @@
+/* Style for the module page buttons & text blocks */
+
+.Collapsible {
+    background-color: #72ACEF;
+    color: #000;
+    cursor: pointer;
+    padding: 9px;
+    width: 100%;
+    border-radius: 13px;
+    text-align: left;
+    outline: none;
+    font-size: 16px;
+    margin-top: 5px;
+    overflow: auto;
+  }
+
+  .Collapsible:hover {
+    background-color: #01959a;
+    color: white;
+    overflow: auto;
+  }
+  
+  .Collapsible__contentOuter {
+    font-size: 13px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    float: center;
+    text-align: center;
+  }
+  
+  ..Collapsible__contentInner{
+    padding: 0 18px 0 18px;
+    max-height: 0;
+    overflow: auto;
+    transition: max-height 0.1s ease-out;
+    color: white;
+    background-color: #f1f1f1;
+    font-size: 15px;
+    width: 95%; 
+  }
+
+.Collapsible__trigger {
+  display: block;
+  font-weight: 0;
+  text-decoration: none;
+  color: #000000;
+  position: relative;
+  padding: 10px;
+  color: white;
+  overflow: hidden;
+}
+
+.Collapsible__trigger:after {
+  display: block;
+  font-weight: 400;
+  content: '\02795';
+  text-decoration: none;
+  color: #000000;
+  padding: 10px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  color: white;
+}
+
+.Collapsible__trigger.is-open:after {
+  content: '\02796';
+}
